@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>正在返回应用</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #101214;
+      --panel: #191d21;
+      --text: #f4ead7;
+      --muted: #a8a095;
+      --gold: #d6a84f;
+      --line: #3a3021;
+      --danger: #d46a5f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background:
+        radial-gradient(circle at 20% 15%, rgba(214, 168, 79, .16), transparent 26rem),
+        linear-gradient(135deg, #101214 0%, #181510 100%);
+      color: var(--text);
+      font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    }
+    main {
+      width: min(520px, 100%);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(25, 29, 33, .92);
+      padding: 28px;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, .34);
+    }
+    h1 {
+      margin: 0 0 12px;
+      color: var(--gold);
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+    p {
+      margin: 8px 0;
+      color: var(--muted);
+      line-height: 1.7;
+      font-size: 14px;
+    }
+    a, button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      margin-top: 18px;
+      padding: 0 18px;
+      border: 1px solid var(--gold);
+      border-radius: 6px;
+      background: transparent;
+      color: var(--gold);
+      text-decoration: none;
+      font: inherit;
+      cursor: pointer;
+    }
+    code {
+      color: var(--text);
+      word-break: break-all;
+    }
+    .error { color: var(--danger); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>正在返回应用</h1>
+    <p id="status">正在唤起三国杀传奇续命...</p>
+    <p>如果没有自动返回，请点击下面的按钮。</p>
+    <a id="open" href="#">返回应用</a>
+    <p id="targetText"></p>
+  </main>
+  <script>
+    const schemeMap = {
+      afdian: "sgscq://afdian/oauth",
+      bilibili: "sgscq://bilibili/oauth",
+      bili: "sgscq://bilibili/oauth"
+    };
+
+    function providerFromPath() {
+      const path = location.pathname.toLowerCase();
+      if (path.includes("bilibili") || path.includes("bili")) return "bilibili";
+      if (path.includes("afdian")) return "afdian";
+      return "";
+    }
+
+    function providerFromQuery() {
+      const params = new URLSearchParams(location.search);
+      return (params.get("target") || params.get("provider") || "").toLowerCase();
+    }
+
+    const provider = providerFromQuery() || providerFromPath() || "afdian";
+    const base = schemeMap[provider];
+    const status = document.getElementById("status");
+    const open = document.getElementById("open");
+    const targetText = document.getElementById("targetText");
+
+    if (!base) {
+      status.textContent = "未知登录来源，无法返回应用。";
+      status.className = "error";
+    } else {
+      const params = new URLSearchParams(location.search);
+      params.delete("target");
+      params.delete("provider");
+      const query = params.toString();
+      const target = base + (query ? "?" + query : "") + (location.hash || "");
+      open.href = target;
+      targetText.innerHTML = "目标：<code>" + target.replace(/&/g, "&amp;").replace(/</g, "&lt;") + "</code>";
+      window.setTimeout(() => {
+        location.replace(target);
+      }, 350);
+    }
+  </script>
+</body>
+</html>
