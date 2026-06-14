@@ -1,6 +1,8 @@
 <!doctype html>
 <meta charset="utf-8">
 <script>
-  location.replace("../index.html?target=afdian&" + location.search.replace(/^\?/, "") + location.hash);
+  // 爱发电 OAuth 回调 — 直接跳转 app scheme，不经过 index.html
+  var q = location.search.replace(/^\?/, "");
+  location.replace("sgscq://afdian/oauth?" + q + location.hash);
 </script>
 <p>正在返回应用...</p>
