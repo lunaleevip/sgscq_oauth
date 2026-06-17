@@ -1,0 +1,52 @@
+name: Update follower snapshot
+
+# 每 12 小时自动 dump 一次粉丝列表，commit 并 push 回主分支。
+# 手动触发：Actions → Update follower snapshot → Run workflow。
+on:
+  schedule:
+    # 北京时间 04:13 / 16:13（UTC 20:13 / 08:13），错开整点降低公共拥塞
+    - cron: '13 8,20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 允许 push 回当前仓库
+
+concurrency:
+  group: bili-dump
+  cancel-in-progress: false
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run dump
+        env:
+          BILI_COOKIE: ${{ secrets.BILI_COOKIE }}
+          BILI_UP_MID: '173883695'
+        run: |
+          if [ -z "$BILI_COOKIE" ]; then
+            echo "::error::secret BILI_COOKIE is not set; please add it under repo Settings → Secrets and variables → Actions"
+            exit 1
+          fi
+          python scripts/bili_followers_dump.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add bilibili/followers.json bilibili/followers.compact.txt
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "chore: follower snapshot $(date -u +'%Y-%m-%d %H:%MZ')"
+          git push
