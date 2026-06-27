@@ -35,6 +35,16 @@ reaching an order recorded in `afdian/order_checkpoint.json`. Manual workflow
 runs use the same incremental mode by default; set `full_sync=true` to rebuild
 the full snapshot and ranking files.
 
+GitHub's own `schedule` trigger can be delayed or skipped. For reliable
+five-minute polling, run `tools/oauth_sync_dispatch_cron.php` from an external
+cron-capable host every five minutes. It sends these repository dispatch events:
+
+- `afdian_incremental`: run recent Afdian order sync.
+- `bili_followers`: run Bilibili follower snapshot sync.
+
+The external host only needs `GITHUB_DISPATCH_TOKEN` in its environment. The
+token must be able to call repository dispatch on `lunaleevip/sgscq_oauth`.
+
 Configure these GitHub Actions secrets in `lunaleevip/sgscq_oauth`:
 
 - `AFDIAN_USER_ID`: Afdian OpenAPI user id.
