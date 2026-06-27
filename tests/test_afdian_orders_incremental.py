@@ -73,6 +73,46 @@ class AfdianOrdersIncrementalTest(unittest.TestCase):
             self.assertEqual(1, changed)
             self.assertEqual([1, 2], calls)
 
+    def test_sync_does_not_merge_order_already_recorded_in_user_file(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo = Path(tmp)
+            user_dir = repo / "afdian" / "users"
+            user_dir.mkdir(parents=True)
+            (user_dir / "u1.json").write_text(
+                json.dumps(
+                    {
+                        "version": 1,
+                        "updated_at": 100,
+                        "user_id": "u1",
+                        "amount": 5.0,
+                        "level": 1,
+                        "sponsor": True,
+                        "orders": [{"out_trade_no": "order1", "amount": 5.0}],
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            def fetch_page(page):
+                if page == 1:
+                    return [
+                        {
+                            "out_trade_no": "order1",
+                            "user_id": "u1",
+                            "show_amount": "5.00",
+                            "status": 2,
+                        }
+                    ]
+                return []
+
+            changed = sync_incremental_orders(repo, fetch_page, max_pages=2, generated_at=123)
+
+            self.assertEqual(0, changed)
+            user = json.loads((user_dir / "u1.json").read_text(encoding="utf-8"))
+            self.assertEqual(5.0, user["amount"])
+            self.assertEqual([{"out_trade_no": "order1", "amount": 5.0}], user["orders"])
+
 
 if __name__ == "__main__":
     unittest.main()

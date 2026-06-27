@@ -82,6 +82,23 @@ def order_id(order: dict[str, Any]) -> str:
     return first_non_empty(order, "out_trade_no", "trade_no", "order_id", "id")
 
 
+def order_rows(value: Any) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    if not isinstance(value, list):
+        return rows
+    seen = set()
+    for row in value:
+        if not isinstance(row, dict):
+            continue
+        oid = first_non_empty(row, "out_trade_no", "trade_no", "order_id", "id")
+        amount = order_amount(row)
+        if not oid or oid in seen or amount <= 0:
+            continue
+        rows.append({"out_trade_no": oid, "amount": amount})
+        seen.add(oid)
+    return rows
+
+
 def checkpoint_path(repo_path: Path) -> Path:
     return repo_path / "afdian" / "order_checkpoint.json"
 
@@ -133,16 +150,11 @@ def merge_order_payload(repo_path: Path, payload: dict[str, Any], generated_at: 
     order = payload["data"]["order"]
     user_id = first_non_empty(order, "user_id", "uid", "id", "user_private_id")
     amount = order_amount(order)
-    if not user_id or amount <= 0:
+    current_order_id = order_id(order)
+    if not user_id or not current_order_id or amount <= 0:
         return False
 
     updated_at = int(generated_at if generated_at is not None else time.time())
-    current_order_id = order_id(order)
-    checkpoint = load_checkpoint(repo_path)
-    processed = checkpoint.get("processed_order_ids") or []
-    if current_order_id and current_order_id in processed:
-        print(f"[INFO] Afdian order already processed: {current_order_id}")
-        return False
 
     users_dir = repo_path / "afdian" / "users"
     users_dir.mkdir(parents=True, exist_ok=True)
@@ -154,6 +166,12 @@ def merge_order_payload(repo_path: Path, payload: dict[str, Any], generated_at: 
             current = json.loads(user_path.read_text(encoding="utf-8"))
         except Exception:
             current = {}
+
+    orders = order_rows(current.get("orders"))
+    if current_order_id in {row["out_trade_no"] for row in orders}:
+        print(f"[INFO] Afdian order already exists in user cache: {current_order_id}")
+        return False
+    orders.append({"out_trade_no": current_order_id, "amount": amount})
 
     new_amount = money(parse_amount(current.get("amount")) + amount)
     plan_name = first_non_empty(current, "plan_name")
@@ -170,14 +188,16 @@ def merge_order_payload(repo_path: Path, payload: dict[str, Any], generated_at: 
         "level": level_for_amount(new_amount),
         "plan_name": plan_name,
         "sponsor": True,
+        "orders": orders,
     }
 
     tmp = user_path.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     tmp.replace(user_path)
-    if current_order_id:
-        checkpoint["processed_order_ids"] = [current_order_id] + processed
-        save_checkpoint(repo_path, checkpoint, updated_at)
+    checkpoint = load_checkpoint(repo_path)
+    processed = checkpoint.get("processed_order_ids") or []
+    checkpoint["processed_order_ids"] = [current_order_id] + processed
+    save_checkpoint(repo_path, checkpoint, updated_at)
     print(f"[OK] merged Afdian order into {user_path}")
     return True
 

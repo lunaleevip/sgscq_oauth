@@ -235,8 +235,13 @@ def ensure_user(users: dict[str, dict[str, Any]], user_id: str) -> dict[str, Any
             "level": 0,
             "plan_name": "",
             "sponsor": False,
+            "orders": [],
         }
     return users[user_id]
+
+
+def extract_order_id(order: dict[str, Any]) -> str:
+    return first_non_empty(order, "out_trade_no", "trade_no", "order_id", "id")
 
 
 def build_snapshot(
@@ -250,12 +255,21 @@ def build_snapshot(
         if not is_completed_order(order):
             continue
         user_id = extract_user_id(order)
+        order_id = extract_order_id(order)
         amount = extract_order_amount(order)
-        if not user_id or amount <= 0:
+        if not user_id or not order_id or amount <= 0:
             continue
         out = ensure_user(users, user_id)
+        order_ids = {
+            str(row.get("out_trade_no", ""))
+            for row in out.get("orders", [])
+            if isinstance(row, dict)
+        }
+        if order_id in order_ids:
+            continue
         out["amount"] = money(float(out["amount"]) + amount)
         out["sponsor"] = True
+        out["orders"].append({"out_trade_no": order_id, "amount": money(amount)})
         name = extract_name(order)
         plan_name = extract_plan_name(order)
         if name and not out["name"]:
@@ -292,7 +306,15 @@ def build_snapshot(
 
     top = sorted(
         (
-            {"user_id": user_id, **out}
+            {
+                "user_id": user_id,
+                "name": out.get("name", ""),
+                "avatar": out.get("avatar", ""),
+                "amount": out.get("amount", 0.0),
+                "level": out.get("level", 0),
+                "plan_name": out.get("plan_name", ""),
+                "sponsor": out.get("sponsor", False),
+            }
             for user_id, out in users.items()
             if float(out["amount"]) > 0
         ),
@@ -352,6 +374,30 @@ def user_payload(snapshot: dict[str, Any], user_id: str, user: dict[str, Any]) -
         "level": user.get("level", 0),
         "plan_name": user.get("plan_name", ""),
         "sponsor": user.get("sponsor", False),
+        "orders": user.get("orders", []),
+    }
+
+
+def checkpoint_payload(snapshot: dict[str, Any]) -> dict[str, Any]:
+    processed: list[str] = []
+    seen = set()
+    for user in (snapshot.get("users") or {}).values():
+        if not isinstance(user, dict):
+            continue
+        orders = user.get("orders") or []
+        if not isinstance(orders, list):
+            continue
+        for order in orders:
+            if not isinstance(order, dict):
+                continue
+            order_id = first_non_empty(order, "out_trade_no")
+            if order_id and order_id not in seen:
+                processed.append(order_id)
+                seen.add(order_id)
+    return {
+        "version": snapshot.get("version", 1),
+        "updated_at": snapshot.get("updated_at", 0),
+        "processed_order_ids": processed,
     }
 
 
@@ -368,6 +414,7 @@ def write_outputs(out_dir: Path, snapshot: dict[str, Any]) -> None:
     json_path = out_dir / "entitlements.json"
     top100_path = out_dir / "top100.json"
     compact_path = out_dir / "sponsors.compact.txt"
+    checkpoint_path = out_dir / "order_checkpoint.json"
     users_dir = out_dir / "users"
 
     old_count = 0
@@ -390,11 +437,17 @@ def write_outputs(out_dir: Path, snapshot: dict[str, Any]) -> None:
     tmp_json = json_path.with_suffix(".json.tmp")
     tmp_top100 = top100_path.with_suffix(".json.tmp")
     tmp_compact = compact_path.with_suffix(".txt.tmp")
+    tmp_checkpoint = checkpoint_path.with_suffix(".json.tmp")
     tmp_json.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     tmp_top100.write_text(json.dumps(top100_payload(snapshot), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     tmp_compact.write_text("\n".join(compact_lines(snapshot)) + "\n", encoding="utf-8")
+    tmp_checkpoint.write_text(
+        json.dumps(checkpoint_payload(snapshot), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     tmp_json.replace(json_path)
     tmp_top100.replace(top100_path)
+    tmp_checkpoint.replace(checkpoint_path)
 
     for user_id, user in snapshot.get("users", {}).items():
         user_path = users_dir / user_file_name(str(user_id))
