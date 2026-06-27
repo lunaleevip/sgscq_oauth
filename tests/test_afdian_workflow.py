@@ -27,6 +27,8 @@ class AfdianWorkflowTest(unittest.TestCase):
         self.assertIn("types: [bili_followers]", bili)
         self.assertIn("full_sync:", bili)
         self.assertIn("BILI_SYNC_MODE:", bili)
+        self.assertIn("fetch-depth: 0", bili)
+        self.assertIn("python scripts/bili_followers_history_union.py", bili)
         self.assertIn("for attempt in 1 2 3", bili)
 
     def test_external_cron_dispatches_both_sync_events(self):
