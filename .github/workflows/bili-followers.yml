@@ -1,11 +1,10 @@
 name: Update follower snapshot
 
-# 每 12 小时自动 dump 一次粉丝列表，commit 并 push 回主分支。
+# 每 5 分钟自动 dump 一次粉丝列表，commit 并 push 回主分支。
 # 手动触发：Actions → Update follower snapshot → Run workflow。
 on:
   schedule:
-    # 北京时间 04:13 / 16:13（UTC 20:13 / 08:13），错开整点降低公共拥塞
-    - cron: '13 8,20 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -40,13 +39,41 @@ jobs:
           python scripts/bili_followers_dump.py
 
       - name: Commit & push if changed
+        shell: bash
         run: |
+          set -euo pipefail
+
+          target_branch="${GITHUB_REF_NAME:-master}"
+          paths=(bilibili/followers.json bilibili/followers.compact.txt)
+
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add bilibili/followers.json bilibili/followers.compact.txt
+
+          git add -A -- "${paths[@]}"
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
           fi
+
+          git stash push --include-untracked --message bili-followers -- "${paths[@]}"
+          git pull --rebase origin "${target_branch}"
+          git stash pop
+
+          git add -A -- "${paths[@]}"
+          if git diff --cached --quiet; then
+            echo "No changes after rebase."
+            exit 0
+          fi
+
           git commit -m "chore: follower snapshot $(date -u +'%Y-%m-%d %H:%MZ')"
-          git push
+
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${target_branch}"; then
+              exit 0
+            fi
+            if [ "${attempt}" = "3" ]; then
+              echo "Push failed after ${attempt} attempts."
+              exit 1
+            fi
+            git pull --rebase origin "${target_branch}"
+          done

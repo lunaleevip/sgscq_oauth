@@ -16,6 +16,14 @@ class AfdianWorkflowTest(unittest.TestCase):
         self.assertIn("afdian/order_checkpoint.json", workflow)
         self.assertIn("git ls-files --others --exclude-standard -- afdian/users", workflow)
 
+    def test_scheduled_workflows_run_every_five_minutes(self):
+        afdian = Path(".github/workflows/afdian-sponsors.yml").read_text(encoding="utf-8")
+        bili = Path(".github/workflows/bili-followers.yml").read_text(encoding="utf-8")
+
+        self.assertIn('cron: "*/5 * * * *"', afdian)
+        self.assertIn("cron: '*/5 * * * *'", bili)
+        self.assertIn("for attempt in 1 2 3", bili)
+
 
 if __name__ == "__main__":
     unittest.main()
