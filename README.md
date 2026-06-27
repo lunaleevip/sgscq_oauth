@@ -24,3 +24,39 @@ https://<your-gitee-pages-domain>/<project>/afdian/oauth.html
 
 Use the exact same redirect URI in the OAuth authorization request and token
 exchange request.
+
+## Afdian Webhook Auto Sync
+
+The static Afdian snapshot is refreshed by `.github/workflows/afdian-sponsors.yml`.
+It supports manual runs, a scheduled fallback, and `repository_dispatch` events
+with type `afdian_order`.
+
+Configure these GitHub Actions secrets in `lunaleevip/sgscq_oauth`:
+
+- `AFDIAN_USER_ID`: Afdian OpenAPI user id.
+- `AFDIAN_TOKEN`: Afdian OpenAPI token.
+
+Deploy `tools/afdian_webhook_dispatch_worker.mjs` to EdgeOne Pages Functions,
+Cloudflare Workers, or another Worker-compatible runtime. Configure these
+Worker environment variables:
+
+- `AFDIAN_WEBHOOK_SECRET`: random webhook secret, only shared with Afdian.
+- `GITHUB_DISPATCH_TOKEN`: GitHub PAT that can call repository dispatch on
+  `lunaleevip/sgscq_oauth`.
+- `GITHUB_REPO`: optional, defaults to `lunaleevip/sgscq_oauth`.
+
+Set the Afdian webhook URL to:
+
+```text
+https://<worker-domain>/afdian/webhook?secret=<AFDIAN_WEBHOOK_SECRET>
+```
+
+The Worker accepts only paid order payloads (`ec=200`, `data.type=order`,
+`order.status=2`) and dispatches the GitHub Action. Other order statuses return
+`202 ignored`.
+
+Local verification:
+
+```powershell
+node --test tests\afdian_webhook_dispatch_worker.test.mjs
+```
