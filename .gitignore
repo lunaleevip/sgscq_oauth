@@ -1,1 +1,4 @@
 .vercel
+tmp/
+__pycache__/
+*.pyc

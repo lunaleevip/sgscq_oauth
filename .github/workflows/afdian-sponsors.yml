@@ -1,0 +1,38 @@
+name: Sync Afdian Sponsors
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [afdian_order]
+  schedule:
+    - cron: "17 */2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout OAuth static repo
+        uses: actions/checkout@v4
+
+      - name: Sync Afdian snapshot
+        env:
+          AFDIAN_USER_ID: ${{ secrets.AFDIAN_USER_ID }}
+          AFDIAN_TOKEN: ${{ secrets.AFDIAN_TOKEN }}
+          AFDIAN_API_BASE: https://ifdian.net
+          OAUTH_REPO_PATH: ${{ github.workspace }}
+        run: python tools/afdian_sponsors_dump.py
+
+      - name: Commit and push snapshot
+        run: |
+          if git diff --quiet -- afdian/entitlements.json afdian/sponsors.compact.txt; then
+            echo "No Afdian snapshot changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add afdian/entitlements.json afdian/sponsors.compact.txt
+          git commit -m "chore: sync afdian sponsors"
+          git push
