@@ -30,6 +30,7 @@ async function dispatchGithub(order, env) {
       out_trade_no: String(order.out_trade_no || ""),
       user_id: String(order.user_id || ""),
       total_amount: String(order.total_amount || order.show_amount || ""),
+      order,
     },
   };
 

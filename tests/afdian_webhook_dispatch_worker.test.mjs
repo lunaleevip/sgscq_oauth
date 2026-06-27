@@ -47,6 +47,7 @@ test("dispatches paid afdian orders to the oauth snapshot repo", async () => {
       out_trade_no: "202106232138371083454010626",
       user_id: "adf397fe8374811eaacee52540025c377",
       total_amount: "5.00",
+      order: paidOrderPayload.data.order,
     },
   });
 });

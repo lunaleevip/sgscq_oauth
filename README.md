@@ -28,8 +28,10 @@ exchange request.
 ## Afdian Webhook Auto Sync
 
 The static Afdian snapshot is refreshed by `.github/workflows/afdian-sponsors.yml`.
-It supports manual runs, a scheduled fallback, and `repository_dispatch` events
-with type `afdian_order`.
+Manual runs and scheduled runs perform a full Afdian sync. The Afdian webhook
+uses `repository_dispatch` with type `afdian_order` and only merges the paid
+order into `afdian/users/<user_id>.json`; ranking files are left for scheduled
+full syncs.
 
 Configure these GitHub Actions secrets in `lunaleevip/sgscq_oauth`:
 
@@ -59,4 +61,5 @@ Local verification:
 
 ```powershell
 node --test tests\afdian_webhook_dispatch_worker.test.mjs
+python tests\test_afdian_webhook_merge.py
 ```

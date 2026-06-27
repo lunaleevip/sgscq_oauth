@@ -17,7 +17,14 @@ jobs:
       - name: Checkout OAuth static repo
         uses: actions/checkout@v4
 
+      - name: Merge Afdian webhook user cache
+        if: github.event_name == 'repository_dispatch'
+        env:
+          OAUTH_REPO_PATH: ${{ github.workspace }}
+        run: python tools/afdian_webhook_merge.py
+
       - name: Sync Afdian snapshot
+        if: github.event_name != 'repository_dispatch'
         env:
           AFDIAN_USER_ID: ${{ secrets.AFDIAN_USER_ID }}
           AFDIAN_TOKEN: ${{ secrets.AFDIAN_TOKEN }}
