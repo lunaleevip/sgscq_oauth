@@ -1,4 +1,4 @@
-name: Sync Afdian Sponsors
+name: Fast Afdian Sponsor Sync
 
 on:
   workflow_dispatch:

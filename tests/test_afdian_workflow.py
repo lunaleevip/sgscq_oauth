@@ -4,7 +4,7 @@ from pathlib import Path
 
 class AfdianWorkflowTest(unittest.TestCase):
     def test_snapshot_commit_step_rebases_before_commit_and_retries_push(self):
-        workflow = Path(".github/workflows/afdian-sponsors.yml").read_text(encoding="utf-8")
+        workflow = Path(".github/workflows/afdian-sync-fast.yml").read_text(encoding="utf-8")
 
         self.assertIn("concurrency:", workflow)
         self.assertIn("full_sync:", workflow)
@@ -19,8 +19,8 @@ class AfdianWorkflowTest(unittest.TestCase):
         self.assertIn("git ls-files --others --exclude-standard -- afdian/users", workflow)
 
     def test_scheduled_workflows_run_every_five_minutes(self):
-        afdian = Path(".github/workflows/afdian-sponsors.yml").read_text(encoding="utf-8")
-        bili = Path(".github/workflows/bili-followers.yml").read_text(encoding="utf-8")
+        afdian = Path(".github/workflows/afdian-sync-fast.yml").read_text(encoding="utf-8")
+        bili = Path(".github/workflows/bili-followers-fast.yml").read_text(encoding="utf-8")
 
         self.assertIn('cron: "1,6,11,16,21,26,31,36,41,46,51,56 * * * *"', afdian)
         self.assertIn("cron: '1,6,11,16,21,26,31,36,41,46,51,56 * * * *'", bili)
