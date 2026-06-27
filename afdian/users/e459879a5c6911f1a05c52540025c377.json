@@ -1,11 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1782565493,
+  "updated_at": 1782571295,
   "user_id": "e459879a5c6911f1a05c52540025c377",
   "name": "雨絮纷飞",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/83b3975db4c61e771221c1124be1e037_w100_h100_s3.jpeg",
   "amount": 10.0,
   "level": 1,
   "plan_name": "自选方案",
-  "sponsor": true
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606071303431024956530637",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "20260531051712565051998875",
+      "amount": 5.0
+    }
+  ]
 }

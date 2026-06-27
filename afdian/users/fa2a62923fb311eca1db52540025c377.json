@@ -1,11 +1,17 @@
 {
   "version": 1,
-  "updated_at": 1782565493,
+  "updated_at": 1782571295,
   "user_id": "fa2a62923fb311eca1db52540025c377",
   "name": "红尘醉仙",
   "avatar": "https://pic1.afdiancdn.com/user/fa2a62923fb311eca1db52540025c377/avatar/f637f41233948ce3a5643d8e13564754_w1080_h1080_s156.jpeg",
   "amount": 20.0,
   "level": 1,
   "plan_name": "自选方案",
-  "sponsor": true
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202605300829235156575421607",
+      "amount": 20.0
+    }
+  ]
 }

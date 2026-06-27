@@ -1,11 +1,17 @@
 {
   "version": 1,
-  "updated_at": 1782565493,
+  "updated_at": 1782571295,
   "user_id": "f53075cc61bb11f19c885254001e7c00",
   "name": "晚宁",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 6.66,
   "level": 1,
   "plan_name": "大佬加油",
-  "sponsor": true
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260606232532999952555741",
+      "amount": 6.66
+    }
+  ]
 }

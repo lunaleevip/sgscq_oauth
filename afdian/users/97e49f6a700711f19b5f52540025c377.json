@@ -1,11 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1782566223,
+  "updated_at": 1782571295,
   "user_id": "97e49f6a700711f19b5f52540025c377",
   "name": "青橘大王",
   "avatar": "https://pic1.afdiancdn.com/user/97e49f6a700711f19b5f52540025c377/avatar/0df52313f4a6cb4912a21902e328bb9c_w1300_h1282_s267.jpeg",
-  "amount": 195.0,
+  "amount": 100.0,
   "level": 2,
   "plan_name": "自选方案",
-  "sponsor": true
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606271754531001011011782",
+      "amount": 95.0
+    },
+    {
+      "out_trade_no": "202606250402145452531038782",
+      "amount": 5.0
+    }
+  ]
 }

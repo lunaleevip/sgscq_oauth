@@ -1,11 +1,17 @@
 {
   "version": 1,
-  "updated_at": 1782565493,
+  "updated_at": 1782571295,
   "user_id": "3058d2985dbb11f1a5ff52540025c377",
   "name": "阿瑞混日子",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
   "amount": 50.0,
   "level": 1,
   "plan_name": "加油啊，希望早日可以玩到",
-  "sponsor": true
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260601210957531011019079",
+      "amount": 50.0
+    }
+  ]
 }

@@ -1,11 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1782566223,
+  "updated_at": 1782571295,
   "user_id": "b0c98e406e5511f1a9585254001e7c00",
   "name": "桃子不吃橘子",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-  "amount": 195.0,
+  "amount": 100.0,
   "level": 2,
   "plan_name": "自选方案",
-  "sponsor": true
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606271857054910053514727",
+      "amount": 95.0
+    },
+    {
+      "out_trade_no": "202606231215305053579833301",
+      "amount": 5.0
+    }
+  ]
 }

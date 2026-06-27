@@ -1,11 +1,17 @@
 {
   "version": 1,
-  "updated_at": 1782565493,
+  "updated_at": 1782571295,
   "user_id": "329cb3665cbd11f1bae052540025c377",
   "name": "约格莫夫",
   "avatar": "https://pic1.afdiancdn.com/user/329cb3665cbd11f1bae052540025c377/avatar/701f7a12dc8ede675aa85fdda0379c7e_w1080_h1080_s417.jpeg",
   "amount": 5.0,
   "level": 1,
   "plan_name": "自选方案",
-  "sponsor": true
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202605311455055757999837517",
+      "amount": 5.0
+    }
+  ]
 }

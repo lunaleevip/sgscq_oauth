@@ -1,11 +1,17 @@
 {
   "version": 1,
-  "updated_at": 1782565493,
+  "updated_at": 1782571295,
   "user_id": "e333c7a86d8b11f182d652540025c377",
   "name": "雪落不知盛夏",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5247829046beb57c12f2b2aca0b6e41b_w100_h100_s2.jpeg",
   "amount": 5.0,
   "level": 1,
   "plan_name": "自选方案",
-  "sponsor": true
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260623214618971001026187",
+      "amount": 5.0
+    }
+  ]
 }

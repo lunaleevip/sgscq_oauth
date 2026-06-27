@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1782565493,
+  "updated_at": 1782571295,
   "count": 100,
   "top100": [
     {
@@ -94,6 +94,15 @@
       "sponsor": true
     },
     {
+      "user_id": "fe94f2086bae11f1b90152540025c377",
+      "name": "故旧",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d7ad2c65c970bba7266d5da7bb556fa9_w100_h100_s3.jpeg",
+      "amount": 505.0,
+      "level": 3,
+      "plan_name": "还望将军，使大汉幽而复明",
+      "sponsor": true
+    },
+    {
       "user_id": "329bda726ff511f19f1952540025c377",
       "name": "空白",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/59c8abab0368aa394d57e960ef268d2f_w100_h100_s2.jpeg",
@@ -169,6 +178,15 @@
       "user_id": "62244e58634011f19c8c5254001e7c00",
       "name": "复活吧！我的爱人！！",
       "avatar": "https://pic1.afdiancdn.com/user/62244e58634011f19c8c5254001e7c00/avatar/30ac269bbf0231e3fffca9f19231a199_w450_h450_s4390.jpg.gif",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "460ab086692111f1bede52540025c377",
+      "name": "天下第一",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
@@ -643,6 +661,15 @@
       "sponsor": true
     },
     {
+      "user_id": "121cd2ec3cab11f1a28e52540025c377",
+      "name": "爱发电用户_F5sK",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 105.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "4f3f2e2e6cb011f190ff5254001e7c00",
       "name": "爱发电用户_g8qP",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -871,33 +898,6 @@
       "user_id": "daf9038295ec11efa10952540025c377",
       "name": "爱发电用户_JfKb",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 101.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "34358a306e2f11f1919152540025c377",
-      "name": "爱发电用户_xN5W",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 101.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "448ed2886fec11f18c6052540025c377",
-      "name": "电视游戏我的青春",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/007f5d87c9440859762806b91acea891_w100_h100_s2.jpeg",
-      "amount": 101.0,
-      "level": 2,
-      "plan_name": "期待完整版早日上线。",
-      "sponsor": true
-    },
-    {
-      "user_id": "6fb28e406bd311f1b6cf52540025c377",
-      "name": "皮皮燕",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
       "amount": 101.0,
       "level": 2,
       "plan_name": "自选方案",
