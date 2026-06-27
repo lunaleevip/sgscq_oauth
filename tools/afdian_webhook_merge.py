@@ -11,6 +11,8 @@ import urllib.parse
 from pathlib import Path
 from typing import Any
 
+MAX_CHECKPOINT_ORDER_IDS = 2000
+
 
 def first_non_empty(obj: dict[str, Any] | None, *keys: str) -> str:
     if not obj:
@@ -76,6 +78,54 @@ def order_amount(order: dict[str, Any]) -> float:
     return 0.0
 
 
+def order_id(order: dict[str, Any]) -> str:
+    return first_non_empty(order, "out_trade_no", "trade_no", "order_id", "id")
+
+
+def checkpoint_path(repo_path: Path) -> Path:
+    return repo_path / "afdian" / "order_checkpoint.json"
+
+
+def load_checkpoint(repo_path: Path) -> dict[str, Any]:
+    path = checkpoint_path(repo_path)
+    if not path.exists():
+        return {"version": 1, "processed_order_ids": []}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {"version": 1, "processed_order_ids": []}
+    ids = data.get("processed_order_ids")
+    if not isinstance(ids, list):
+        ids = []
+    return {
+        "version": int(data.get("version") or 1),
+        "updated_at": int(data.get("updated_at") or 0),
+        "processed_order_ids": [str(x) for x in ids if str(x).strip()],
+    }
+
+
+def save_checkpoint(repo_path: Path, checkpoint: dict[str, Any], updated_at: int) -> None:
+    path = checkpoint_path(repo_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    ids = []
+    seen = set()
+    for value in checkpoint.get("processed_order_ids") or []:
+        text = str(value).strip()
+        if text and text not in seen:
+            ids.append(text)
+            seen.add(text)
+        if len(ids) >= MAX_CHECKPOINT_ORDER_IDS:
+            break
+    data = {
+        "version": int(checkpoint.get("version") or 1),
+        "updated_at": updated_at,
+        "processed_order_ids": ids,
+    }
+    tmp = path.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp.replace(path)
+
+
 def merge_order_payload(repo_path: Path, payload: dict[str, Any], generated_at: int | None = None) -> bool:
     if not is_paid_order(payload):
         return False
@@ -87,6 +137,13 @@ def merge_order_payload(repo_path: Path, payload: dict[str, Any], generated_at: 
         return False
 
     updated_at = int(generated_at if generated_at is not None else time.time())
+    current_order_id = order_id(order)
+    checkpoint = load_checkpoint(repo_path)
+    processed = checkpoint.get("processed_order_ids") or []
+    if current_order_id and current_order_id in processed:
+        print(f"[INFO] Afdian order already processed: {current_order_id}")
+        return False
+
     users_dir = repo_path / "afdian" / "users"
     users_dir.mkdir(parents=True, exist_ok=True)
     user_path = users_dir / user_file_name(user_id)
@@ -118,6 +175,9 @@ def merge_order_payload(repo_path: Path, payload: dict[str, Any], generated_at: 
     tmp = user_path.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     tmp.replace(user_path)
+    if current_order_id:
+        checkpoint["processed_order_ids"] = [current_order_id] + processed
+        save_checkpoint(repo_path, checkpoint, updated_at)
     print(f"[OK] merged Afdian order into {user_path}")
     return True
 

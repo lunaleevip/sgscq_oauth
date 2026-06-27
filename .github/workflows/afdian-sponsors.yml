@@ -2,6 +2,11 @@ name: Sync Afdian Sponsors
 
 on:
   workflow_dispatch:
+    inputs:
+      full_sync:
+        description: "Run full Afdian crawl instead of recent order incremental sync"
+        required: false
+        default: "false"
   repository_dispatch:
     types: [afdian_order]
   schedule:
@@ -27,8 +32,18 @@ jobs:
           OAUTH_REPO_PATH: ${{ github.workspace }}
         run: python tools/afdian_webhook_merge.py
 
-      - name: Sync Afdian snapshot
-        if: github.event_name != 'repository_dispatch'
+      - name: Sync recent Afdian orders
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync != 'true')
+        env:
+          AFDIAN_USER_ID: ${{ secrets.AFDIAN_USER_ID }}
+          AFDIAN_TOKEN: ${{ secrets.AFDIAN_TOKEN }}
+          AFDIAN_API_BASE: https://ifdian.net
+          AFDIAN_INCREMENTAL_MAX_PAGES: 5
+          OAUTH_REPO_PATH: ${{ github.workspace }}
+        run: python tools/afdian_orders_incremental.py
+
+      - name: Sync full Afdian snapshot
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true'
         env:
           AFDIAN_USER_ID: ${{ secrets.AFDIAN_USER_ID }}
           AFDIAN_TOKEN: ${{ secrets.AFDIAN_TOKEN }}
@@ -42,7 +57,7 @@ jobs:
           set -euo pipefail
 
           target_branch="${GITHUB_REF_NAME:-master}"
-          paths=(afdian/entitlements.json afdian/top100.json afdian/users afdian/sponsors.compact.txt)
+          paths=(afdian/entitlements.json afdian/top100.json afdian/users afdian/sponsors.compact.txt afdian/order_checkpoint.json)
 
           has_changes() {
             ! git diff --quiet -- "${paths[@]}" || \

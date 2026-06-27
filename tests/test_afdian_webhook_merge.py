@@ -19,6 +19,7 @@ class AfdianWebhookMergeTest(unittest.TestCase):
                     "type": "order",
                     "order": {
                         "user_id": "u1",
+                        "out_trade_no": "order1",
                         "total_amount": "5.00",
                         "show_amount": "5.00",
                         "status": 2,
@@ -36,6 +37,8 @@ class AfdianWebhookMergeTest(unittest.TestCase):
             self.assertEqual(1, data["level"])
             self.assertEqual(True, data["sponsor"])
             self.assertEqual(123, data["updated_at"])
+            checkpoint = json.loads((repo / "afdian" / "order_checkpoint.json").read_text(encoding="utf-8"))
+            self.assertIn("order1", checkpoint["processed_order_ids"])
 
     def test_paid_order_merges_into_existing_user_cache(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -65,6 +68,7 @@ class AfdianWebhookMergeTest(unittest.TestCase):
                     "type": "order",
                     "order": {
                         "user_id": "u1",
+                        "out_trade_no": "order2",
                         "show_amount": "10.00",
                         "status": "paid",
                     },
@@ -81,6 +85,29 @@ class AfdianWebhookMergeTest(unittest.TestCase):
             self.assertEqual(2, data["level"])
             self.assertEqual("旧方案", data["plan_name"])
             self.assertEqual(200, data["updated_at"])
+
+    def test_duplicate_order_id_does_not_increment_amount_again(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo = Path(tmp)
+            payload = {
+                "ec": 200,
+                "data": {
+                    "type": "order",
+                    "order": {
+                        "user_id": "u1",
+                        "out_trade_no": "order1",
+                        "show_amount": "5.00",
+                        "status": 2,
+                    },
+                },
+            }
+
+            self.assertTrue(merge_order_payload(repo, payload, generated_at=123))
+            self.assertFalse(merge_order_payload(repo, payload, generated_at=124))
+
+            data = json.loads((repo / "afdian" / "users" / "u1.json").read_text(encoding="utf-8"))
+            self.assertEqual(5.0, data["amount"])
+            self.assertEqual(123, data["updated_at"])
 
     def test_unpaid_order_does_not_write_user_cache(self):
         with tempfile.TemporaryDirectory() as tmp:
