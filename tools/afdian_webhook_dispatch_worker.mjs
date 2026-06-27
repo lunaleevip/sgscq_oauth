@@ -56,7 +56,7 @@ export async function handleRequest(request, env) {
   if (request.method !== "POST") {
     return text("method not allowed", 405);
   }
-  if (!env.AFDIAN_WEBHOOK_SECRET || getSecret(request) !== env.AFDIAN_WEBHOOK_SECRET) {
+  if (env.AFDIAN_WEBHOOK_SECRET && getSecret(request) !== env.AFDIAN_WEBHOOK_SECRET) {
     return text("unauthorized", 401);
   }
   if (!env.GITHUB_DISPATCH_TOKEN) {

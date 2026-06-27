@@ -18,7 +18,6 @@ const paidOrderPayload = {
 
 function env(fetchCalls) {
   return {
-    AFDIAN_WEBHOOK_SECRET: "secret123",
     GITHUB_DISPATCH_TOKEN: "ghp_test",
     fetch: async (url, init) => {
       fetchCalls.push({ url, init });
@@ -29,7 +28,7 @@ function env(fetchCalls) {
 
 test("dispatches paid afdian orders to the oauth snapshot repo", async () => {
   const calls = [];
-  const request = new Request("https://example.com/afdian/webhook?secret=secret123", {
+  const request = new Request("https://example.com/afdian/webhook", {
     method: "POST",
     body: JSON.stringify(paidOrderPayload),
   });
@@ -59,21 +58,25 @@ test("accepts webhook secret from request header", async () => {
     headers: { "x-webhook-secret": "secret123" },
     body: JSON.stringify(paidOrderPayload),
   });
+  const secureEnv = env(calls);
+  secureEnv.AFDIAN_WEBHOOK_SECRET = "secret123";
 
-  const response = await handleRequest(request, env(calls));
+  const response = await handleRequest(request, secureEnv);
 
   assert.equal(response.status, 200);
   assert.equal(calls.length, 1);
 });
 
-test("rejects requests with missing or wrong secret", async () => {
+test("rejects requests with missing or wrong secret when configured", async () => {
   const calls = [];
   const request = new Request("https://example.com/afdian/webhook", {
     method: "POST",
     body: JSON.stringify(paidOrderPayload),
   });
+  const secureEnv = env(calls);
+  secureEnv.AFDIAN_WEBHOOK_SECRET = "secret123";
 
-  const response = await handleRequest(request, env(calls));
+  const response = await handleRequest(request, secureEnv);
 
   assert.equal(response.status, 401);
   assert.equal(calls.length, 0);
@@ -83,7 +86,7 @@ test("ignores unpaid orders without dispatching", async () => {
   const calls = [];
   const payload = structuredClone(paidOrderPayload);
   payload.data.order.status = 1;
-  const request = new Request("https://example.com/afdian/webhook?secret=secret123", {
+  const request = new Request("https://example.com/afdian/webhook", {
     method: "POST",
     body: JSON.stringify(payload),
   });
@@ -97,7 +100,7 @@ test("ignores unpaid orders without dispatching", async () => {
 
 test("returns an error when GitHub token is not configured", async () => {
   const calls = [];
-  const request = new Request("https://example.com/afdian/webhook?secret=secret123", {
+  const request = new Request("https://example.com/afdian/webhook", {
     method: "POST",
     body: JSON.stringify(paidOrderPayload),
   });

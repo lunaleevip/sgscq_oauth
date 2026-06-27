@@ -42,12 +42,22 @@ Deploy `tools/afdian_webhook_dispatch_worker.mjs` to EdgeOne Pages Functions,
 Cloudflare Workers, or another Worker-compatible runtime. Configure these
 Worker environment variables:
 
-- `AFDIAN_WEBHOOK_SECRET`: random webhook secret, only shared with Afdian.
+- `AFDIAN_WEBHOOK_SECRET`: optional random webhook secret. If it is configured,
+  the webhook URL must pass the same value through `?secret=` or the
+  `x-webhook-secret` header. Leave it unset when the webhook provider cannot
+  append a secret.
 - `GITHUB_DISPATCH_TOKEN`: GitHub PAT that can call repository dispatch on
   `lunaleevip/sgscq_oauth`.
 - `GITHUB_REPO`: optional, defaults to `lunaleevip/sgscq_oauth`.
 
 Set the Afdian webhook URL to:
+
+```text
+https://<worker-domain>/afdian/webhook
+```
+
+If `AFDIAN_WEBHOOK_SECRET` is configured and the provider supports query
+parameters, use:
 
 ```text
 https://<worker-domain>/afdian/webhook?secret=<AFDIAN_WEBHOOK_SECRET>
