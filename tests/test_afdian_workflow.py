@@ -20,8 +20,8 @@ class AfdianWorkflowTest(unittest.TestCase):
         afdian = Path(".github/workflows/afdian-sponsors.yml").read_text(encoding="utf-8")
         bili = Path(".github/workflows/bili-followers.yml").read_text(encoding="utf-8")
 
-        self.assertIn('cron: "*/5 * * * *"', afdian)
-        self.assertIn("cron: '*/5 * * * *'", bili)
+        self.assertIn('cron: "1,6,11,16,21,26,31,36,41,46,51,56 * * * *"', afdian)
+        self.assertIn("cron: '1,6,11,16,21,26,31,36,41,46,51,56 * * * *'", bili)
         self.assertIn("for attempt in 1 2 3", bili)
 
 
