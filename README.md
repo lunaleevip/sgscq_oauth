@@ -9,6 +9,7 @@ OAuth callback and redirects the browser back into the Android app.
 
 - `/index.html?target=afdian&code=...&state=...`
 - `/afdian/oauth.html?code=...&state=...`
+- `/afdian/webhook`
 - `/bilibili/oauth.html?code=...&state=...`
 
 ## App Schemes
