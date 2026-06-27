@@ -9,6 +9,8 @@ Usage:
 
 Outputs, only after a successful crawl:
     <OAUTH_REPO_PATH>/afdian/entitlements.json
+    <OAUTH_REPO_PATH>/afdian/top100.json
+    <OAUTH_REPO_PATH>/afdian/users/<user_id>.json
     <OAUTH_REPO_PATH>/afdian/sponsors.compact.txt
 """
 
@@ -19,6 +21,7 @@ import json
 import os
 import sys
 import time
+import urllib.parse
 import urllib.request
 from pathlib import Path
 from typing import Any
@@ -322,10 +325,50 @@ def compact_lines(snapshot: dict[str, Any]) -> list[str]:
     return lines
 
 
+def user_file_name(user_id: str) -> str:
+    safe = urllib.parse.quote(user_id, safe="")
+    if not safe:
+        raise ValueError("empty user_id")
+    return f"{safe}.json"
+
+
+def top100_payload(snapshot: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "version": snapshot.get("version", 1),
+        "updated_at": snapshot.get("updated_at", 0),
+        "count": len(snapshot.get("top100") or []),
+        "top100": snapshot.get("top100") or [],
+    }
+
+
+def user_payload(snapshot: dict[str, Any], user_id: str, user: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "version": snapshot.get("version", 1),
+        "updated_at": snapshot.get("updated_at", 0),
+        "user_id": user_id,
+        "name": user.get("name", ""),
+        "avatar": user.get("avatar", ""),
+        "amount": user.get("amount", 0.0),
+        "level": user.get("level", 0),
+        "plan_name": user.get("plan_name", ""),
+        "sponsor": user.get("sponsor", False),
+    }
+
+
+def clear_generated_user_files(users_dir: Path) -> None:
+    if not users_dir.exists():
+        return
+    for path in users_dir.glob("*.json"):
+        if path.is_file():
+            path.unlink()
+
+
 def write_outputs(out_dir: Path, snapshot: dict[str, Any]) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     json_path = out_dir / "entitlements.json"
+    top100_path = out_dir / "top100.json"
     compact_path = out_dir / "sponsors.compact.txt"
+    users_dir = out_dir / "users"
 
     old_count = 0
     if json_path.exists():
@@ -341,14 +384,32 @@ def write_outputs(out_dir: Path, snapshot: dict[str, Any]) -> None:
             f"[ERROR] new count {new_count} is < 50% of old count {old_count}; refusing to overwrite"
         )
 
+    users_dir.mkdir(parents=True, exist_ok=True)
+    clear_generated_user_files(users_dir)
+
     tmp_json = json_path.with_suffix(".json.tmp")
+    tmp_top100 = top100_path.with_suffix(".json.tmp")
     tmp_compact = compact_path.with_suffix(".txt.tmp")
     tmp_json.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp_top100.write_text(json.dumps(top100_payload(snapshot), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     tmp_compact.write_text("\n".join(compact_lines(snapshot)) + "\n", encoding="utf-8")
     tmp_json.replace(json_path)
+    tmp_top100.replace(top100_path)
+
+    for user_id, user in snapshot.get("users", {}).items():
+        user_path = users_dir / user_file_name(str(user_id))
+        tmp_user = user_path.with_suffix(".json.tmp")
+        tmp_user.write_text(
+            json.dumps(user_payload(snapshot, str(user_id), user), ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        tmp_user.replace(user_path)
+
     tmp_compact.replace(compact_path)
 
     print(f"[OK] wrote {json_path} ({json_path.stat().st_size} bytes)")
+    print(f"[OK] wrote {top100_path} ({top100_path.stat().st_size} bytes)")
+    print(f"[OK] wrote {len(snapshot.get('users', {}))} user files under {users_dir}")
     print(f"[OK] wrote {compact_path} ({compact_path.stat().st_size} bytes)")
 
 
