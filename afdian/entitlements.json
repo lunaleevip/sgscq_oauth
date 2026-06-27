@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1782562889,
-  "count": 978,
+  "updated_at": 1782565493,
+  "count": 982,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -1622,8 +1622,8 @@
     "37ef81e0711211f19c2552540025c377": {
       "name": "老song",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "加油",
       "sponsor": true
     },
@@ -2899,6 +2899,14 @@
       "plan_name": "自选方案",
       "sponsor": true
     },
+    "620dc8dc722611f1b4255254001e7c00": {
+      "name": "爱发电用户_PaAr",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
     "62244e58634011f19c8c5254001e7c00": {
       "name": "复活吧！我的爱人！！",
       "avatar": "https://pic1.afdiancdn.com/user/62244e58634011f19c8c5254001e7c00/avatar/30ac269bbf0231e3fffca9f19231a199_w450_h450_s4390.jpg.gif",
@@ -2918,6 +2926,14 @@
     "62ab6a28686811f1861952540025c377": {
       "name": "爱发电用户_4Rk5",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    "62c8ca50722211f19f995254001e7c00": {
+      "name": "听纸眠",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c7a4e64e35166de9f862ed12ec27884f_w100_h100_s2.jpeg",
       "amount": 5.0,
       "level": 1,
       "plan_name": "自选方案",
@@ -3110,8 +3126,8 @@
     "67cfa59670ab11f1abd05254001e7c00": {
       "name": "萌萌哒煎饼卷",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/79e0834813049e211e488797ec6a3eab_w100_h100_s2.jpeg",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "自选方案",
       "sponsor": true
     },
@@ -4419,6 +4435,14 @@
       "plan_name": "自选方案",
       "sponsor": true
     },
+    "96327780722511f1a4765254001e7c00": {
+      "name": "清和序",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f04b8d92e67ee47b9bf447067918979d_w100_h100_s3.jpeg",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
     "96440ff2eb6811f093d75254001e7c00": {
       "name": "爱发电用户_fh9R",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -5366,9 +5390,9 @@
     "b29d98565f5f11f19dfe5254001e7c00": {
       "name": "爱发电用户_b29d9",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 120.0,
-      "level": 2,
-      "plan_name": "加油up，看好你哦",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "大大加油👏",
       "sponsor": true
     },
     "b2d4016c5ffe11f1aea152540025c377": {
@@ -6518,8 +6542,8 @@
     "d4aae88e70af11f183ae52540025c377": {
       "name": "我他喵卡了",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a5155da5e4f6757d2027e58e3396b368_w100_h100_s2.jpeg",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true
     },
@@ -6830,8 +6854,8 @@
     "df8562826f2111f1a8ca52540025c377": {
       "name": "爱发电用户_x8Qc",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true
     },
@@ -7041,6 +7065,14 @@
       "amount": 5.0,
       "level": 1,
       "plan_name": "自选方案",
+      "sponsor": true
+    },
+    "e3baa224722611f1a82052540025c377": {
+      "name": "爱发电用户_e3baa",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "大佬加油，希望黑市早点出",
       "sponsor": true
     },
     "e459879a5c6911f1a05c52540025c377": {
@@ -7884,6 +7916,15 @@
       "sponsor": true
     },
     {
+      "user_id": "67cfa59670ab11f1abd05254001e7c00",
+      "name": "萌萌哒煎饼卷",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/79e0834813049e211e488797ec6a3eab_w100_h100_s2.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "eda98ab26f8211f1a75f52540025c377",
       "name": "爱发电用户_d3sx",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -8082,6 +8123,15 @@
       "sponsor": true
     },
     {
+      "user_id": "b29d98565f5f11f19dfe5254001e7c00",
+      "name": "爱发电用户_b29d9",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "大大加油👏",
+      "sponsor": true
+    },
+    {
       "user_id": "8795542a62f511f1a7d652540025c377",
       "name": "皇",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -8097,15 +8147,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "加油，不忘初心",
-      "sponsor": true
-    },
-    {
-      "user_id": "67cfa59670ab11f1abd05254001e7c00",
-      "name": "萌萌哒煎饼卷",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/79e0834813049e211e488797ec6a3eab_w100_h100_s2.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -8214,15 +8255,6 @@
       "amount": 120.0,
       "level": 2,
       "plan_name": "大佬牛AC",
-      "sponsor": true
-    },
-    {
-      "user_id": "b29d98565f5f11f19dfe5254001e7c00",
-      "name": "爱发电用户_b29d9",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 120.0,
-      "level": 2,
-      "plan_name": "加油up，看好你哦",
       "sponsor": true
     },
     {
@@ -8496,6 +8528,15 @@
       "sponsor": true
     },
     {
+      "user_id": "df8562826f2111f1a8ca52540025c377",
+      "name": "爱发电用户_x8Qc",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 105.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "20fcdfa8656611f1906b52540025c377",
       "name": "甫澄",
       "avatar": "https://pic1.afdiancdn.com/user/20fcdfa8656611f1906b52540025c377/avatar/150aad2de79989a71d5a119936e74606_w1920_h1080_s68.jpeg",
@@ -8718,15 +8759,6 @@
       "amount": 101.0,
       "level": 2,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "9452960c6ffa11f19df75254001e7c00",
-      "name": "超级陈政宇",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ee8d053cb8614822d8908ff39eec861c_w100_h100_s2.jpeg",
-      "amount": 101.0,
-      "level": 2,
-      "plan_name": "加油啊大佬，光复汉室",
       "sponsor": true
     }
   ]

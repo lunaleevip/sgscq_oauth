@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1782562889,
+  "updated_at": 1782565493,
   "user_id": "d4aae88e70af11f183ae52540025c377",
   "name": "我他喵卡了",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a5155da5e4f6757d2027e58e3396b368_w100_h100_s2.jpeg",
-  "amount": 10.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true
 }
