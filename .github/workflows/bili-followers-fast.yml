@@ -1,10 +1,10 @@
 name: Fast follower snapshot
 
-# 每 5 分钟自动 dump 一次粉丝列表，commit 并 push 回主分支。
+# 每 10 分钟自动 dump 一次粉丝列表，commit 并 push 回主分支。
 # 手动触发：Actions → Update follower snapshot → Run workflow。
 on:
   schedule:
-    - cron: '1,6,11,16,21,26,31,36,41,46,51,56 * * * *'
+    - cron: '2,12,22,32,42,52 * * * *'
   repository_dispatch:
     types: [bili_followers]
   workflow_dispatch:

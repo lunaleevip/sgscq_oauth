@@ -10,7 +10,7 @@ on:
   repository_dispatch:
     types: [afdian_order, afdian_incremental]
   schedule:
-    - cron: "1,6,11,16,21,26,31,36,41,46,51,56 * * * *"
+    - cron: "2,12,22,32,42,52 * * * *"
 
 concurrency:
   group: afdian-sponsors-sync

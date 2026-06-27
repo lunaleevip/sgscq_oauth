@@ -18,12 +18,12 @@ class AfdianWorkflowTest(unittest.TestCase):
         self.assertIn("afdian/order_checkpoint.json", workflow)
         self.assertIn("git ls-files --others --exclude-standard -- afdian/users", workflow)
 
-    def test_scheduled_workflows_run_every_five_minutes(self):
+    def test_scheduled_workflows_run_every_ten_minutes(self):
         afdian = Path(".github/workflows/afdian-sync-fast.yml").read_text(encoding="utf-8")
         bili = Path(".github/workflows/bili-followers-fast.yml").read_text(encoding="utf-8")
 
-        self.assertIn('cron: "1,6,11,16,21,26,31,36,41,46,51,56 * * * *"', afdian)
-        self.assertIn("cron: '1,6,11,16,21,26,31,36,41,46,51,56 * * * *'", bili)
+        self.assertIn('cron: "2,12,22,32,42,52 * * * *"', afdian)
+        self.assertIn("cron: '2,12,22,32,42,52 * * * *'", bili)
         self.assertIn("types: [bili_followers]", bili)
         self.assertIn("full_sync:", bili)
         self.assertIn("BILI_SYNC_MODE:", bili)
