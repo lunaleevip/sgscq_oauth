@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1782565493,
+  "updated_at": 1782566223,
   "user_id": "714430da712611f1a7c95254001e7c00",
   "name": "哈哈",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-  "amount": 5.0,
+  "amount": 10.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true
