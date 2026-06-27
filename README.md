@@ -45,6 +45,12 @@ cron-capable host every five minutes. It sends these repository dispatch events:
 The external host only needs `GITHUB_DISPATCH_TOKEN` in its environment. The
 token must be able to call repository dispatch on `lunaleevip/sgscq_oauth`.
 
+Bilibili follower sync also runs in incremental mode by default. It reads the
+existing `bilibili/followers.compact.txt`, crawls the newest follower pages, and
+prepends new mids without dropping old mids that no longer fit in Bilibili's
+latest-page API window. Manual `Fast follower snapshot` runs can set
+`full_sync=true` to rebuild from the Bilibili API limit.
+
 Configure these GitHub Actions secrets in `lunaleevip/sgscq_oauth`:
 
 - `AFDIAN_USER_ID`: Afdian OpenAPI user id.

@@ -37,6 +37,8 @@ OAUTH_REPO_PATH = Path(os.environ.get("OAUTH_REPO_PATH", str(_default_repo)))
 PAGE_SIZE = 50               # B 站官方上限
 PAGE_SLEEP_SEC = 1.5         # 每页之间的间隔，避免 412
 MAX_PAGES = 1000             # 兜底：5 万粉丝
+INCREMENTAL_MAX_PAGES = int(os.environ.get("BILI_INCREMENTAL_MAX_PAGES", "5"))
+SYNC_MODE = os.environ.get("BILI_SYNC_MODE", "incremental").strip().lower()
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
@@ -55,12 +57,12 @@ def http_get_json(url: str, cookie: str) -> dict:
     return json.loads(body)
 
 
-def fetch_followers(cookie: str, up_mid: str) -> list[str]:
+def fetch_followers(cookie: str, up_mid: str, max_pages: int = MAX_PAGES, stop_at_seen: set[str] | None = None) -> list[str]:
     """Crawl all pages of /x/relation/followers, return list of mid as str."""
     seen: set[str] = set()
     ordered: list[str] = []
 
-    for page in range(1, MAX_PAGES + 1):
+    for page in range(1, max_pages + 1):
         params = {
             "vmid": up_mid,
             "pn": page,
@@ -92,6 +94,9 @@ def fetch_followers(cookie: str, up_mid: str) -> list[str]:
             if mid_raw is None:
                 continue
             mid = str(mid_raw)
+            if stop_at_seen and mid in stop_at_seen:
+                print(f"[INFO] page {page}: reached existing follower {mid}, stop incremental crawl.")
+                return ordered
             if mid in seen:
                 continue
             seen.add(mid)
@@ -110,7 +115,39 @@ def fetch_followers(cookie: str, up_mid: str) -> list[str]:
     return ordered
 
 
-def write_outputs(out_dir: Path, up_mid: str, followers: list[str]) -> None:
+def read_existing_followers(out_dir: Path) -> list[str]:
+    compact_path = out_dir / "followers.compact.txt"
+    if compact_path.exists():
+        return [
+            line.strip()
+            for line in compact_path.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        ]
+
+    json_path = out_dir / "followers.json"
+    if json_path.exists():
+        try:
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+            followers = payload.get("followers") or []
+            return [str(mid) for mid in followers if str(mid).strip()]
+        except Exception as exc:
+            print(f"[WARN] could not parse existing followers.json: {exc}")
+    return []
+
+
+def merge_followers(existing: list[str], recent: list[str]) -> list[str]:
+    merged: list[str] = []
+    seen = set()
+    for mid in recent + existing:
+        text = str(mid).strip()
+        if not text or text in seen:
+            continue
+        merged.append(text)
+        seen.add(text)
+    return merged
+
+
+def write_outputs(out_dir: Path, up_mid: str, followers: list[str], generated_at: int | None = None) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # followers.json: numeric sort — stable diff between snapshots, human review.
@@ -119,7 +156,7 @@ def write_outputs(out_dir: Path, up_mid: str, followers: list[str]) -> None:
     payload = {
         "version": 1,
         "up_mid": up_mid,
-        "generated_at": int(time.time()),
+        "generated_at": int(generated_at if generated_at is not None else time.time()),
         "count": len(sorted_mids),
         "followers": sorted_mids,
     }
@@ -150,7 +187,20 @@ def main() -> None:
     out_dir = OAUTH_REPO_PATH / "bilibili"
     print(f"[INFO] dumping followers of vmid={BILI_UP_MID} → {out_dir}")
 
-    followers = fetch_followers(BILI_COOKIE, BILI_UP_MID)
+    existing_followers = read_existing_followers(out_dir)
+    if SYNC_MODE == "full":
+        followers = fetch_followers(BILI_COOKIE, BILI_UP_MID)
+    else:
+        followers = merge_followers(
+            existing_followers,
+            fetch_followers(
+                BILI_COOKIE,
+                BILI_UP_MID,
+                max_pages=INCREMENTAL_MAX_PAGES,
+                stop_at_seen=set(existing_followers),
+            ),
+        )
+
     if not followers:
         print("[ERROR] zero followers crawled — refusing to overwrite snapshot.")
         sys.exit(1)
@@ -162,7 +212,7 @@ def main() -> None:
         try:
             old = json.loads(existing_json.read_text(encoding="utf-8"))
             old_count = int(old.get("count", 0))
-            if old_count >= 50 and len(followers) < old_count // 2:
+            if SYNC_MODE == "full" and old_count >= 50 and len(followers) < old_count // 2:
                 print(
                     f"[ERROR] new count {len(followers)} is < 50% of old count {old_count}. "
                     "Refusing to overwrite. If this is intentional, delete the existing file first."

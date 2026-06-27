@@ -8,6 +8,11 @@ on:
   repository_dispatch:
     types: [bili_followers]
   workflow_dispatch:
+    inputs:
+      full_sync:
+        description: "Run full Bilibili crawl instead of recent follower incremental sync"
+        required: false
+        default: "false"
 
 permissions:
   contents: write   # 允许 push 回当前仓库
@@ -33,6 +38,8 @@ jobs:
         env:
           BILI_COOKIE: ${{ secrets.BILI_COOKIE }}
           BILI_UP_MID: '173883695'
+          BILI_SYNC_MODE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true' && 'full' || 'incremental' }}
+          BILI_INCREMENTAL_MAX_PAGES: 5
         run: |
           if [ -z "$BILI_COOKIE" ]; then
             echo "::error::secret BILI_COOKIE is not set; please add it under repo Settings → Secrets and variables → Actions"
