@@ -26,6 +26,15 @@ jobs:
       - name: Checkout OAuth static repo
         uses: actions/checkout@v4
 
+      - name: Use latest target branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          target_branch="${GITHUB_REF_NAME:-master}"
+          git fetch origin "${target_branch}"
+          git checkout "${target_branch}"
+          git reset --hard "origin/${target_branch}"
+
       - name: Merge Afdian webhook user cache
         if: github.event.action == 'afdian_order'
         env:
