@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "264b7d88cbca11f0905b52540025c377",
+  "name": "infantility",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/080ee3e2ce8d0237fa8546500ecaf1f0_w100_h100_s1.jpeg",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "老大我要上二级",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606191339215757985647559",
+      "amount": 60.0
+    },
+    {
+      "out_trade_no": "202606072257385057102544281",
+      "amount": 20.0
+    },
+    {
+      "out_trade_no": "202605311452405610056114079",
+      "amount": 20.0
+    }
+  ]
+}

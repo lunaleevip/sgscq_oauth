@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "3aacb7bc724e11f1ad8452540025c377",
+  "name": "铜雀锁二乔",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606280135101015454514864",
+      "amount": 5.0
+    }
+  ]
+}

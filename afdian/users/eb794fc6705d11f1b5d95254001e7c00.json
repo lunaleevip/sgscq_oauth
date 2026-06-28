@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "eb794fc6705d11f1b5d95254001e7c00",
+  "name": "玄乎",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/98b4acbea29bf25dd6ced5e2866f0f81_w100_h100_s2.jpeg",
+  "amount": 6.0,
+  "level": 1,
+  "plan_name": "奖励给作者早睡后一顿早餐",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606251422254948579714668",
+      "amount": 6.0
+    }
+  ]
+}

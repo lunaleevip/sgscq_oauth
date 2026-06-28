@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "4c461f56a11c11ed943152540025c377",
+  "name": "误以稀为贵",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f5a45ae5d7dabdea56675ac0f7d236bf_w132_h132_s4.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "纯属对个人创作热情的无偿支持，不涉及任何商品或服务。",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606241422155551545529325",
+      "amount": 5.0
+    }
+  ]
+}

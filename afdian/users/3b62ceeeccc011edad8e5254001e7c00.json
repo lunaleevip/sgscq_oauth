@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "3b62ceeeccc011edad8e5254001e7c00",
+  "name": "枫林初雪",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b21e4a880415b18ed573efb58004ba18_w132_h132_s4.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606281220484850569914758",
+      "amount": 5.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "3fc571406feb11f1b52252540025c377",
+  "name": "仪响",
+  "avatar": "https://pic1.afdiancdn.com/user/3fc571406feb11f1b52252540025c377/avatar/922bea89a8b76472d53b78e9956b828f_w826_h1102_s163.jpeg",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "众人一条心，黄土变成金！俺支持你！",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606250039205656994814373",
+      "amount": 100.0
+    }
+  ]
+}

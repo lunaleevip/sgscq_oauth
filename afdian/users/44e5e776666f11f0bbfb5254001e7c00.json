@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "44e5e776666f11f0bbfb5254001e7c00",
+  "name": "用户",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "三传永生。即使是单机",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606062302495799101529458",
+      "amount": 10.0
+    }
+  ]
+}

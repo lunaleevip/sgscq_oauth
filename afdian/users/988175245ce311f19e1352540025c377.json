@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "988175245ce311f19e1352540025c377",
+  "name": "呵呵",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 50.0,
+  "level": 1,
+  "plan_name": "加油哦，努力",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202605311933275551531034770",
+      "amount": 50.0
+    }
+  ]
+}

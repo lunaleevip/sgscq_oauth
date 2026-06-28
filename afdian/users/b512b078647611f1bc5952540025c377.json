@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "b512b078647611f1bc5952540025c377",
+  "name": "泉中水",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/08d081cc113ae4a12278d9f43febda90_w100_h100_s3.jpeg",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "加油加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "2026061416195699101535469",
+      "amount": 10.0
+    },
+    {
+      "out_trade_no": "202606141618231025755511338",
+      "amount": 50.0
+    },
+    {
+      "out_trade_no": "202606141540131009953911606",
+      "amount": 20.0
+    },
+    {
+      "out_trade_no": "202606101048385453515217459",
+      "amount": 20.0
+    }
+  ]
+}

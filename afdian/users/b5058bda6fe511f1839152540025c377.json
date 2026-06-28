@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "b5058bda6fe511f1839152540025c377",
+  "name": "冷若霜",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606281022564855549814875",
+      "amount": 70.0
+    },
+    {
+      "out_trade_no": "20260625225341539852543093",
+      "amount": 30.0
+    }
+  ]
+}

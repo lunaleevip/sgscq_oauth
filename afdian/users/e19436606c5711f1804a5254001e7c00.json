@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "e19436606c5711f1804a5254001e7c00",
+  "name": "平稳气场",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/af7725c3b869f884ff97a5e506e29b5e_w100_h100_s3.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606201126529910110112267",
+      "amount": 5.0
+    }
+  ]
+}

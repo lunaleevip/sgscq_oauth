@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "7bd081d6671511f1a7a452540025c377",
+  "name": "第七暮",
+  "avatar": "https://pic1.afdiancdn.com/user/7bd081d6671511f1a7a452540025c377/avatar/2b9274788f247bfb9cac8d9f6f326d2d_w1080_h1080_s58.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606211228279852555023642",
+      "amount": 5.0
+    }
+  ]
+}

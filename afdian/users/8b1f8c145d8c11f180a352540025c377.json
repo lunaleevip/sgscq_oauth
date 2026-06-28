@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "8b1f8c145d8c11f180a352540025c377",
+  "name": "岁楂",
+  "avatar": "https://pic1.afdiancdn.com/user/8b1f8c145d8c11f180a352540025c377/avatar/427005dc7d85d8d74c1ed0ac361bb572_w3072_h4096_s2073.jpeg",
+  "amount": 6.0,
+  "level": 1,
+  "plan_name": "先来个首冲大礼包哈哈",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606011536035110050413936",
+      "amount": 6.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "a81301986ab111f1b9515254001e7c00",
+  "name": "爱发电用户_37aN",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 20.0,
+  "level": 1,
+  "plan_name": "加油，争取早日做好（和停服前那样就行，要是单机版可以自己创公会让小号进入打打公会战奖励啥的就更好了）",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606180907399856505329382",
+      "amount": 20.0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "e9aee7ae605011f1873752540025c377",
+  "name": "公瑾",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "真的很怀念，三传已经坚守好几年了，终于看到希望了",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606261415375710151931778",
+      "amount": 75.0
+    },
+    {
+      "out_trade_no": "202606241124255754505527974",
+      "amount": 20.0
+    },
+    {
+      "out_trade_no": "202606050408289952515633775",
+      "amount": 5.0
+    }
+  ]
+}

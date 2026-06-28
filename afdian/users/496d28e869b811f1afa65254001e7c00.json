@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "496d28e869b811f1afa65254001e7c00",
+  "name": "为民除害专打各路精神小伙",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3e2a7752dc24a6e667789b216c2019c4_w100_h100_s2.jpeg",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "2026061703240654101575716",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "20260617032252994952101797",
+      "amount": 5.0
+    }
+  ]
+}

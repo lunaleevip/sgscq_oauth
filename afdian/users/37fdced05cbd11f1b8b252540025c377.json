@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "37fdced05cbd11f1b8b252540025c377",
+  "name": "不蒸馒头",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/92862a95686e4abff9864b97ecc97998_w132_h132_s4.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202605311454425054102938949",
+      "amount": 5.0
+    }
+  ]
+}

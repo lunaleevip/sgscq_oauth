@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "13c9e10663d511f18d3b52540025c377",
+  "name": "爱发电用户_DGSA",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260627081924991001027110",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202606091530231021004822223",
+      "amount": 5.0
+    }
+  ]
+}

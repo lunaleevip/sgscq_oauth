@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "16a1c1605cbd11f1b06c52540025c377",
+  "name": "三好夏凛",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3971286013055e1cb2e772e23d1fb4a8_w100_h100_s2.jpeg",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606202210574999549712452",
+      "amount": 80.0
+    },
+    {
+      "out_trade_no": "202605311503345451495333888",
+      "amount": 20.0
+    }
+  ]
+}

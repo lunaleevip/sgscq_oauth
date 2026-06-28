@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "05f5b7106ef911f1b67552540025c377",
+  "name": "牢大",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0af1fd2bf4b6bdf27239bfe3654ee8a1_w100_h100_s2.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606270219444898535013400",
+      "amount": 5.0
+    }
+  ]
+}

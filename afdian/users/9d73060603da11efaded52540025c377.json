@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "9d73060603da11efaded52540025c377",
+  "name": "油炸🍿",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6048d0d7d84067dcf8a51444ca6e87c4_w132_h132_s4.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606281912289953102911876",
+      "amount": 5.0
+    }
+  ]
+}

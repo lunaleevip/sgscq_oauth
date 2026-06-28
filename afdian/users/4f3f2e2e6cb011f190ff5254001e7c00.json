@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "4f3f2e2e6cb011f190ff5254001e7c00",
+  "name": "爱发电用户_g8qP",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+  "amount": 105.0,
+  "level": 2,
+  "plan_name": "能不能先给点元宝，刚玩，想抽神将玩",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606252039409954102418361",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202606202250061015297145843",
+      "amount": 100.0
+    }
+  ]
+}

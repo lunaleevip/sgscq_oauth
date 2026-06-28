@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "7042c2e86f2111f195685254001e7c00",
+  "name": "云衣",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606240058165648975413253",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202606240036429755101443743",
+      "amount": 5.0
+    }
+  ]
+}

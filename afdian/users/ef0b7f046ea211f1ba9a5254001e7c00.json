@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "ef0b7f046ea211f1ba9a5254001e7c00",
+  "name": "Enjoy now",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/adb7503f3aa1dc2b32a97e114fe41a4f_w100_h100_s1.jpeg",
+  "amount": 101.0,
+  "level": 2,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606281730015753991011880",
+      "amount": 96.0
+    },
+    {
+      "out_trade_no": "202606240851165210056527974",
+      "amount": 5.0
+    }
+  ]
+}

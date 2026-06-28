@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "64dc40d6634711f194d052540025c377",
+  "name": "屿城",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a2114f10b9a43d81f0ac4229a0f05b49_w100_h100_s2.jpeg",
+  "amount": 20.0,
+  "level": 1,
+  "plan_name": "加油！谢谢你圆了我小时候的梦",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606082236119853541013849",
+      "amount": 20.0
+    }
+  ]
+}

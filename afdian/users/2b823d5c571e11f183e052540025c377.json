@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "2b823d5c571e11f183e052540025c377",
+  "name": "无免",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/93c4ada01b6ef5f615860f974b0c9818_w100_h100_s3.jpeg",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "加油up",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606202321125655564919398",
+      "amount": 50.0
+    },
+    {
+      "out_trade_no": "20260615091021100521006938",
+      "amount": 10.0
+    },
+    {
+      "out_trade_no": "20260615090931989899562303",
+      "amount": 20.0
+    },
+    {
+      "out_trade_no": "20260527162906501015015506",
+      "amount": 20.0
+    }
+  ]
+}

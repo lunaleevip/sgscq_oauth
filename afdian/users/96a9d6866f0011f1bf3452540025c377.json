@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "96a9d6866f0011f1bf3452540025c377",
+  "name": "庸医",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bb9f9aa8ddb4fc45b421e6781029c55d_w100_h100_s3.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606232040525210052121581",
+      "amount": 5.0
+    }
+  ]
+}

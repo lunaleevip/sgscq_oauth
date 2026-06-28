@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "7b372914635011f19c3b52540025c377",
+  "name": "uik",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6c9bab4a9f11bb5300183d48842ad9fd_w100_h100_s3.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "大大我要爱发电订单号",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606092233255399561031678",
+      "amount": 5.0
+    }
+  ]
+}

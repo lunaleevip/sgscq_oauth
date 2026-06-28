@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "9452960c6ffa11f19df75254001e7c00",
+  "name": "超级陈政宇",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ee8d053cb8614822d8908ff39eec861c_w100_h100_s2.jpeg",
+  "amount": 101.0,
+  "level": 2,
+  "plan_name": "加油啊大佬，光复汉室",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606251257565255985013975",
+      "amount": 96.0
+    },
+    {
+      "out_trade_no": "202606250230145455565010480",
+      "amount": 5.0
+    }
+  ]
+}

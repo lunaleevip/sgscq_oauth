@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "e0cce61c592111f1870952540025c377",
+  "name": "wlj",
+  "avatar": "https://pic1.afdiancdn.com/user/e0cce61c592111f1870952540025c377/avatar/0c0f653f67166213a5b3a2861a7a7c18_w1080_h1080_s105.jpeg",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "群主大大加油我相信你",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606220757169955525523865",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202606220756545450515411702",
+      "amount": 50.0
+    },
+    {
+      "out_trade_no": "202606191601351024957533242",
+      "amount": 10.0
+    },
+    {
+      "out_trade_no": "20260614132741100975753196",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202606112033245250100922406",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "20260601140914971019842425",
+      "amount": 20.0
+    },
+    {
+      "out_trade_no": "202605270042265098101511120",
+      "amount": 5.0
+    }
+  ]
+}

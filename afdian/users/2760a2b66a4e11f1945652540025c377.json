@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated_at": 1782659712,
+  "user_id": "2760a2b66a4e11f1945652540025c377",
+  "name": "暮雨",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+  "amount": 500.0,
+  "level": 3,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606241049455756975027907",
+      "amount": 400.0
+    },
+    {
+      "out_trade_no": "202606211507205610198415141",
+      "amount": 95.0
+    },
+    {
+      "out_trade_no": "202606172112129999541028459",
+      "amount": 5.0
+    }
+  ]
+}
