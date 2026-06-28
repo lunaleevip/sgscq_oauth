@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "a6015a3a0bbcc8c720740ecdbb816c04d26dbf9d",
+  "name": "光明",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7927958d7a92fa4f0de2072a14199b1c_w132_h132_s2.jpeg",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202605282257245251485733325",
+      "amount": 100.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "f32a60f0184af87e84933ea7135775c81e73d4b6",
+  "name": "自信的柠檬糖",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606072021021015749148755",
+      "amount": 5.0
+    }
+  ]
+}

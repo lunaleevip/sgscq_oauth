@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "74855444e76b0123bf8c762eef0011c52680f02c",
+  "name": "集智的月月",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "感谢up主的付出让我重新看到了游戏，真的很怀恋",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606252032129956545421155",
+      "amount": 5.0
+    }
+  ]
+}

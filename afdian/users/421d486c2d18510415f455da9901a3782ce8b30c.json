@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "421d486c2d18510415f455da9901a3782ce8b30c",
+  "name": "不  靠  谱  的  我    T^T",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/181a295c571ebd6c732c224f6f58aa25_w100_h100_s3.jpeg",
+  "amount": 105.0,
+  "level": 2,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606281848419748495011881",
+      "amount": 100.0
+    },
+    {
+      "out_trade_no": "202606280427485299551016208",
+      "amount": 5.0
+    }
+  ]
+}

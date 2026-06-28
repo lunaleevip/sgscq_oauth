@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "27abd75f163a91f793fd721fec737dc4b00ab550",
+  "name": "青依寒",
+  "avatar": "https://pic1.afdiancdn.com/user/0fa6b586087a11ee817c52540025c377/avatar/1a533ab77de9f44e4b994b79fb3d6ed1_w1258_h1153_s85.jpeg",
+  "amount": 200.0,
+  "level": 2,
+  "plan_name": "依旧为爱发电",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606071212494950995620482",
+      "amount": 100.0
+    },
+    {
+      "out_trade_no": "202605282149245257100512020",
+      "amount": 100.0
+    }
+  ]
+}

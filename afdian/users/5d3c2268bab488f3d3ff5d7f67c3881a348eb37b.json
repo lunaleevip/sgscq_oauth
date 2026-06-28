@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "5d3c2268bab488f3d3ff5d7f67c3881a348eb37b",
+  "name": "电视游戏我的青春",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/007f5d87c9440859762806b91acea891_w100_h100_s2.jpeg",
+  "amount": 101.0,
+  "level": 2,
+  "plan_name": "期待完整版早日上线。",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606261332494956575020458",
+      "amount": 71.0
+    },
+    {
+      "out_trade_no": "202606250123515555971040848",
+      "amount": 20.0
+    },
+    {
+      "out_trade_no": "202606250105534951525610304",
+      "amount": 10.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "5b0a6ba4d0e270002d1ba9966ce7d751be7643a9",
+  "name": "爱发情用户",
+  "avatar": "https://pic1.afdiancdn.com/user/9e04fe6c61ca11f19a3b52540025c377/avatar/af5af426a589c0a67f5cd31971a771d6_w1080_h2400_s834.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606070110445257525011252",
+      "amount": 5.0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "7ca1160c3f3e1c9ff451edf01f30da8534450d11",
+  "name": "cdkk",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/2405e1e3393b27b364ca3d69e6fb39fb_w100_h100_s3.jpeg",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606281420535354100411916",
+      "amount": 90.0
+    },
+    {
+      "out_trade_no": "202606272134165649564914777",
+      "amount": 10.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "06504419e22281305d93cf34692bfa03d5ed7631",
+  "name": "光着赤脚到处跑",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ff900f15bb031b6752319d3892815b75_w132_h132_s5.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606271902391025299514818",
+      "amount": 5.0
+    }
+  ]
+}

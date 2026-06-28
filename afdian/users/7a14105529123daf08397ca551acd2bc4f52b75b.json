@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "7a14105529123daf08397ca551acd2bc4f52b75b",
+  "name": "爱发电用户_rtud",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606260247444897555227280",
+      "amount": 5.0
+    }
+  ]
+}

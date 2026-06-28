@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "c524dc0354917cfb912aab87a85e514d7d9c07ce",
+  "name": "爱发电用户_e2e3d",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油！希望早日能玩到完整版的三国杀传奇，重温我们的童年",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606112334125252571014333",
+      "amount": 5.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "6f13688193f6b6bce91eeb3ff8af39e67fa92d14",
+  "name": "梦中的呓语",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4d93291f140bd633fdabae44e83bb4d7_w100_h100_s2.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606241319569948544931262",
+      "amount": 5.0
+    }
+  ]
+}

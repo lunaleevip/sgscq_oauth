@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "a03f0afd54edf80981765723f6de52edb92c1c4b",
+  "name": "STILLCC",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d0b0b768807e76f038d696b61c1a23b5_w132_h132_s3.jpeg",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "加油老大 你是最棒的",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "2026061522393656535349766",
+      "amount": 10.0
+    }
+  ]
+}

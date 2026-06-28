@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "85119b2be76d89474ed61e8c3a5e2469cb6c52eb",
+  "name": "是个好秘密",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油呀做游戏的大哥哥",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606150357329948495640667",
+      "amount": 5.0
+    }
+  ]
+}

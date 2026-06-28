@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "1e5569c54f13d639993f04803d82590de29c25e4",
+  "name": "月落无题江南",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/eb0c048814a83714cedb3ebcfecd34e0_w100_h100_s2.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606240601395199504844361",
+      "amount": 5.0
+    }
+  ]
+}

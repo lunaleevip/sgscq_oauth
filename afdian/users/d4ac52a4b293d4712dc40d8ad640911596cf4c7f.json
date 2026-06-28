@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "d4ac52a4b293d4712dc40d8ad640911596cf4c7f",
+  "name": "吹绉一池春水",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 105.0,
+  "level": 2,
+  "plan_name": "加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606271124355110049520654",
+      "amount": 100.0
+    },
+    {
+      "out_trade_no": "202606052029479848101512334",
+      "amount": 5.0
+    }
+  ]
+}

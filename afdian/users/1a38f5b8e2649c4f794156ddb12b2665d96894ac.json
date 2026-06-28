@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "1a38f5b8e2649c4f794156ddb12b2665d96894ac",
+  "name": "wwwwwww",
+  "avatar": "https://pic1.afdiancdn.com/user/f37ac2ccafdd11f0b1c852540025c377/avatar/599e459165c9f88d73dc5bf35e0c8ad0_w1259_h1679_s113.jpeg",
+  "amount": 55.0,
+  "level": 1,
+  "plan_name": "老大加油！！！！！",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606071138509710148120964",
+      "amount": 50.0
+    },
+    {
+      "out_trade_no": "202605311509245299984930438",
+      "amount": 5.0
+    }
+  ]
+}

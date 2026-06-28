@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "38bd85cf597fd78ebb93700ed6af683889d883f8",
+  "name": "阿狗家的旺财",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0177e7d00a04fc7a7b9e6cf7953dd774_w132_h132_s3.jpeg",
+  "amount": 20.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606150305275510149542455",
+      "amount": 10.0
+    },
+    {
+      "out_trade_no": "202606081057524810010231416",
+      "amount": 10.0
+    }
+  ]
+}

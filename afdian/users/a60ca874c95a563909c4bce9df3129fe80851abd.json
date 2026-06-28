@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "a60ca874c95a563909c4bce9df3129fe80851abd",
+  "name": "坏在一直可爱",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a99d3dc519a86f307cd7b8c9767b7027_w100_h100_s2.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606211524215310049522652",
+      "amount": 5.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "1768996576e1d916b09e0d43000604388ba595eb",
+  "name": "少年自负凌云笔",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9fbfe9f3035210ac3916918a1ea7514c_w132_h132_s6.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606261943134910156912842",
+      "amount": 5.0
+    }
+  ]
+}

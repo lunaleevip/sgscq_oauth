@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "cd590beb21d1ea19067f5e76ee937ff766d521c8",
+  "name": "ルフイ",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7e718aff12934d5bf2ebe57e2d9357ab_w100_h100_s4.jpeg",
+  "amount": 500.0,
+  "level": 3,
+  "plan_name": "加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606270410029751529927954",
+      "amount": 390.0
+    },
+    {
+      "out_trade_no": "20260626033946505150974834",
+      "amount": 100.0
+    },
+    {
+      "out_trade_no": "202606251243251004951512631",
+      "amount": 10.0
+    }
+  ]
+}

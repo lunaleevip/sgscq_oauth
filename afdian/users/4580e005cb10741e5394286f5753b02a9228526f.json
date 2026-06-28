@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "4580e005cb10741e5394286f5753b02a9228526f",
+  "name": "萌萌哒煎饼卷",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/79e0834813049e211e488797ec6a3eab_w100_h100_s2.jpeg",
+  "amount": 1000.0,
+  "level": 4,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606272020395548515511844",
+      "amount": 500.0
+    },
+    {
+      "out_trade_no": "202606260022049957499939335",
+      "amount": 400.0
+    },
+    {
+      "out_trade_no": "202606260004545448525136967",
+      "amount": 100.0
+    }
+  ]
+}

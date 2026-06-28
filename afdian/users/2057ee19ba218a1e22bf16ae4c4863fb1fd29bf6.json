@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "2057ee19ba218a1e22bf16ae4c4863fb1fd29bf6",
+  "name": "李信",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "好好做，bug好好修一下",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606120009149710056911584",
+      "amount": 5.0
+    }
+  ]
+}

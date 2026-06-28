@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "4e67c335f971ce8440a5f5b6783d4c79f593f38b",
+  "name": "爱发电用户_40fc1",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+  "amount": 101.0,
+  "level": 2,
+  "plan_name": "感谢大佬，复刻童年的游戏。圆了我的梦想！！！",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260624085029535754501773",
+      "amount": 81.0
+    },
+    {
+      "out_trade_no": "202605311243495357535748629",
+      "amount": 20.0
+    }
+  ]
+}

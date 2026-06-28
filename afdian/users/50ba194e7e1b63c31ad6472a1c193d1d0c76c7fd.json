@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "50ba194e7e1b63c31ad6472a1c193d1d0c76c7fd",
+  "name": "ber力海苔",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4522ac9458a32f3954be78bde3e98619_w100_h100_s2.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "越来越好",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606271512449910010211950",
+      "amount": 5.0
+    }
+  ]
+}

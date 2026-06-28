@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "5e48cee0b0cb3be415609502aafb400c7ec97806",
+  "name": "神巨班",
+  "avatar": "https://pic1.afdiancdn.com/user/fa1f18c0689311f1bd7d5254001e7c00/avatar/17275782c61703ee536a66d1c255391b_w1280_h1632_s113.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "多久出魔武将？",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260622193938979857989224",
+      "amount": 5.0
+    }
+  ]
+}

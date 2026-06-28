@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "900c77254b014c9a53f15a124a6180644c34172a",
+  "name": "爱发电用户_RuT9",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油，微薄之力",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606190138135310010239024",
+      "amount": 5.0
+    }
+  ]
+}

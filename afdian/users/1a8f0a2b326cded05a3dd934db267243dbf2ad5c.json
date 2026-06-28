@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "1a8f0a2b326cded05a3dd934db267243dbf2ad5c",
+  "name": "侍女队长",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油！",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606281206414957101511782",
+      "amount": 5.0
+    }
+  ]
+}

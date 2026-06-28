@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "7e688d0b52e4b91eec5c118d1076109dbd1ae78b",
+  "name": "冷腐",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+  "amount": 500.0,
+  "level": 3,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606242344269749571013814",
+      "amount": 200.0
+    },
+    {
+      "out_trade_no": "202606242141255355984948142",
+      "amount": 200.0
+    },
+    {
+      "out_trade_no": "202606241253545099101119808",
+      "amount": 70.0
+    },
+    {
+      "out_trade_no": "2026060814311652984853436",
+      "amount": 30.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "c6c5ed9ce7c549d42c25fed2388df216394a9357",
+  "name": "木偶也有心^O^",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/109a15093f2214709eb6c3928418a810_w100_h100_s3.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606120712225410252439503",
+      "amount": 5.0
+    }
+  ]
+}

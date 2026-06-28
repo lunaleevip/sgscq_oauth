@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "914b341ce54d6d599b2b79b0bc2a849aff5f79c2",
+  "name": "陈北玄",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260627131229100975358594",
+      "amount": 5.0
+    }
+  ]
+}

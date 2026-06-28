@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "bb24a2ef6793bb187a5ac03da43fd27ca1310aeb",
+  "name": "爱发电用户_GaUC",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606271748095751975714691",
+      "amount": 5.0
+    }
+  ]
+}

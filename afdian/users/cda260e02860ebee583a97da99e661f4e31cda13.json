@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "cda260e02860ebee583a97da99e661f4e31cda13",
+  "name": "玛卡巴卡",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c7d74a16fff9ef51825cfca0222392cd_w100_h100_s2.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606231207089948535615499",
+      "amount": 5.0
+    }
+  ]
+}

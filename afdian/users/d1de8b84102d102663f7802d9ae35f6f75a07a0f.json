@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "d1de8b84102d102663f7802d9ae35f6f75a07a0f",
+  "name": "梦南柯",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/814cab73b1621e6d4470ac3a30f1a854_w132_h132_s5.jpeg",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "加油大佬",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606011521524851535535322",
+      "amount": 10.0
+    }
+  ]
+}

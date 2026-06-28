@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "2ea237ea22c65530c5684b0b0897c7a3cf5578c8",
+  "name": "早睡.",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4bb57f5d46f51b47cb532794091cbe09_w132_h132_s8.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606211417204852975030077",
+      "amount": 5.0
+    }
+  ]
+}

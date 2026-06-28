@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "02cc82436a7c54df3b254474044aebf31b6b766a",
+  "name": "king",
+  "avatar": "https://pic1.afdiancdn.com/user/846f02fa72a411f195495254001e7c00/avatar/7c04391711dedcbc4a0ba24a9fa8c63c_w184_h184_s8.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606281151111025256514881",
+      "amount": 5.0
+    }
+  ]
+}

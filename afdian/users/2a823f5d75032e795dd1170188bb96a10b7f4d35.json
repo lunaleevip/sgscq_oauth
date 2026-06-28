@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "2a823f5d75032e795dd1170188bb96a10b7f4d35",
+  "name": "孙笑川",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+  "amount": 105.0,
+  "level": 2,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606242044545450575311982",
+      "amount": 100.0
+    },
+    {
+      "out_trade_no": "202606202327249998504819887",
+      "amount": 5.0
+    }
+  ]
+}

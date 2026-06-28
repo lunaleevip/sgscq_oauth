@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "dc4aaf7f5e1adf3b2f60e2a513fba47de9a92a5a",
+  "name": "北辰-明轩",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/97d12cb86f722ae3be0298205f25ef3c_w100_h100_s5.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606221815365698551029552",
+      "amount": 5.0
+    }
+  ]
+}

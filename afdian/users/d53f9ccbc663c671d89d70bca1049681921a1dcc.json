@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "d53f9ccbc663c671d89d70bca1049681921a1dcc",
+  "name": "爱哭鬼",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/eb322bcedf8acdcbd6d857566ae4b28b_w100_h100_s2.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606271822295398575714739",
+      "amount": 5.0
+    }
+  ]
+}

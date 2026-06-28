@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "db75db9a67e9bd2a0bde8aad7f12ad213da93af0",
+  "name": "葱香安妮",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606081006015749525145950",
+      "amount": 5.0
+    }
+  ]
+}

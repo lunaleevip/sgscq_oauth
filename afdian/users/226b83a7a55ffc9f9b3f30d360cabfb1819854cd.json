@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "226b83a7a55ffc9f9b3f30d360cabfb1819854cd",
+  "name": "爱聊的默",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8f74e7d7be101e6c7902b827a91f6724_w100_h100_s1.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606252110189755100539710",
+      "amount": 5.0
+    }
+  ]
+}

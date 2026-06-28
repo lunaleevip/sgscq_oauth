@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "658a7caa3939f105fab314149a7522b499e5fe2c",
+  "name": "张献忠",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 105.0,
+  "level": 2,
+  "plan_name": "加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606281725491005110211920",
+      "amount": 100.0
+    },
+    {
+      "out_trade_no": "202606192335239898100523256",
+      "amount": 5.0
+    }
+  ]
+}

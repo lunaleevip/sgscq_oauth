@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "8da7064b8b0067857a5c86f063f304833465a6e2",
+  "name": "老song",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606272028525299515114784",
+      "amount": 95.0
+    },
+    {
+      "out_trade_no": "202606261150564851564923790",
+      "amount": 5.0
+    }
+  ]
+}

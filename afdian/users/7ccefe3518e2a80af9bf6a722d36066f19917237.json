@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "7ccefe3518e2a80af9bf6a722d36066f19917237",
+  "name": "爱发电用户_e3baa",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "大佬加油，希望黑市早点出",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606272051185453561014879",
+      "amount": 5.0
+    }
+  ]
+}

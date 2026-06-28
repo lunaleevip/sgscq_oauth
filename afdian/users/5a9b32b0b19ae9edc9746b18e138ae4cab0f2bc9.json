@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "5a9b32b0b19ae9edc9746b18e138ae4cab0f2bc9",
+  "name": "迷惘の兔子🐇",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6e1de390378644b4502db37d840e11aa_w100_h100_s2.jpeg",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606240200355197985210598",
+      "amount": 100.0
+    }
+  ]
+}

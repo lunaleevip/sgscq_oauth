@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "5569d38195aa7cdd2f9d014343e055a5b865b6ee",
+  "name": "听纸眠",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c7a4e64e35166de9f862ed12ec27884f_w100_h100_s2.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606272026305453102514854",
+      "amount": 5.0
+    }
+  ]
+}

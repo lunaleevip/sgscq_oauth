@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "fba7fea0cddb57592c901dd2f9fcfd04e72331c1",
+  "name": "执清光踏彼岸",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606280235375710199511820",
+      "amount": 5.0
+    }
+  ]
+}

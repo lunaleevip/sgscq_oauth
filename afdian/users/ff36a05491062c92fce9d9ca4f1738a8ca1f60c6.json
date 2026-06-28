@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "ff36a05491062c92fce9d9ca4f1738a8ca1f60c6",
+  "name": "早晨从中午开始",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606221433489954565329967",
+      "amount": 100.0
+    }
+  ]
+}

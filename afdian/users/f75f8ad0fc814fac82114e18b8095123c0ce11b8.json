@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "f75f8ad0fc814fac82114e18b8095123c0ce11b8",
+  "name": "流光不坠",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/163e46119603d5a5fad31b4103210fe7_w100_h100_s2.jpeg",
+  "amount": 110.0,
+  "level": 2,
+  "plan_name": "爱你😘",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606282229255397555514822",
+      "amount": 100.0
+    },
+    {
+      "out_trade_no": "202606272358071025548514693",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202606272351091005699514758",
+      "amount": 5.0
+    }
+  ]
+}

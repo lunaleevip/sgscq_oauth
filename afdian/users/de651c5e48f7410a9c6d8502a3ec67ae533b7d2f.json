@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "de651c5e48f7410a9c6d8502a3ec67ae533b7d2f",
+  "name": "爱发电用户_6ypt",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+  "amount": 15.0,
+  "level": 1,
+  "plan_name": "加油做啊，别停，最好能多扩展几个服务区",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606240135124810054418889",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202606042156599853559715186",
+      "amount": 10.0
+    }
+  ]
+}

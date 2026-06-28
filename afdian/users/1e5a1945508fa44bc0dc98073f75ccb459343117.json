@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "1e5a1945508fa44bc0dc98073f75ccb459343117",
+  "name": "零近海",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c2bba14517038cb2de231f742cd6e83f_w100_h100_s2.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606171851409948549934366",
+      "amount": 5.0
+    }
+  ]
+}

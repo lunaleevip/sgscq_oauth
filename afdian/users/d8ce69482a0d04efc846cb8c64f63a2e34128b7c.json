@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "d8ce69482a0d04efc846cb8c64f63a2e34128b7c",
+  "name": "小新",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/198dbcd9784fc25c41e35940d880bef9_w100_h100_s3.jpeg",
+  "amount": 40.0,
+  "level": 1,
+  "plan_name": "希望可以把每日签到任务还有许愿开发出来",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606271722455310154528907",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "20260627164831102525542283",
+      "amount": 35.0
+    }
+  ]
+}

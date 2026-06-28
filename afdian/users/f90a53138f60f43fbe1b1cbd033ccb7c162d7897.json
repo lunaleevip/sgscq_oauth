@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "f90a53138f60f43fbe1b1cbd033ccb7c162d7897",
+  "name": "墨千烯",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "大佬加油，能不能玩到童年回忆就看你了",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260531183004991004814882",
+      "amount": 5.0
+    }
+  ]
+}

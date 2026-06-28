@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "7cd159412a039b74e47afcb768ba2d72ef218098",
+  "name": "查无此人",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9efbaf39a6a410b62f3d7fe1cf0450b1_w132_h132_s6.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油作者",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260621175629100481019908",
+      "amount": 5.0
+    }
+  ]
+}

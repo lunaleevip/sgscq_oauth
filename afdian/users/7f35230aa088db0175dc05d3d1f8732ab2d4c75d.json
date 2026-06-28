@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "7f35230aa088db0175dc05d3d1f8732ab2d4c75d",
+  "name": "7f35230aa088db0175dc05d3d1f8732ab2d4c75d",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ea051f6b550e0c3d521966b964883830_w100_h100_s2.jpeg",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "我终于回到我的童年了！！！",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260623214526549898505120",
+      "amount": 10.0
+    }
+  ]
+}

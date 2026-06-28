@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "7323baf55a20319157a43e583aabdda55f5baa52",
+  "name": "星月夜星月",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/17c8e00c2077a65542bea1a5fdf9b7cc_w100_h100_s3.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606081504164810250532811",
+      "amount": 5.0
+    }
+  ]
+}

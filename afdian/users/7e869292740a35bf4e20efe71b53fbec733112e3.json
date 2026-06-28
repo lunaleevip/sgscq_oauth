@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": 1782659053,
+  "user_id": "7e869292740a35bf4e20efe71b53fbec733112e3",
+  "name": "小天",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+  "amount": 101.0,
+  "level": 2,
+  "plan_name": "up加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606281305135710148114749",
+      "amount": 51.0
+    },
+    {
+      "out_trade_no": "20260603142751555051985235",
+      "amount": 50.0
+    }
+  ]
+}
