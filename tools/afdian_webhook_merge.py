@@ -82,6 +82,10 @@ def order_id(order: dict[str, Any]) -> str:
     return first_non_empty(order, "out_trade_no", "trade_no", "order_id", "id")
 
 
+def order_user_id(order: dict[str, Any]) -> str:
+    return first_non_empty(order, "user_private_id", "user_id", "uid", "id")
+
+
 def order_rows(value: Any) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
     if not isinstance(value, list):
@@ -148,7 +152,7 @@ def merge_order_payload(repo_path: Path, payload: dict[str, Any], generated_at: 
         return False
 
     order = payload["data"]["order"]
-    user_id = first_non_empty(order, "user_id", "uid", "id", "user_private_id")
+    user_id = order_user_id(order)
     amount = order_amount(order)
     current_order_id = order_id(order)
     if not user_id or not current_order_id or amount <= 0:

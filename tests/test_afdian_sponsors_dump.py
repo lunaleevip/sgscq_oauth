@@ -50,6 +50,27 @@ class AfdianSponsorsDumpTest(unittest.TestCase):
             self.assertIn("order1", checkpoint["processed_order_ids"])
             self.assertIn("order2", checkpoint["processed_order_ids"])
 
+    def test_full_snapshot_uses_private_user_id_for_login_cache(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp) / "afdian"
+            orders = [
+                {
+                    "out_trade_no": "order1",
+                    "user_id": "openapi-user",
+                    "user_private_id": "oauth-user",
+                    "show_amount": "5.00",
+                    "status": 2,
+                },
+            ]
+
+            snapshot = build_snapshot(orders, [], generated_at=123)
+            write_outputs(out_dir, snapshot)
+
+            self.assertFalse((out_dir / "users" / "openapi-user.json").exists())
+            user = json.loads((out_dir / "users" / "oauth-user.json").read_text(encoding="utf-8"))
+            self.assertEqual("oauth-user", user["user_id"])
+            self.assertEqual([{"out_trade_no": "order1", "amount": 5.0}], user["orders"])
+
     def test_full_snapshot_clears_stale_user_files(self):
         with tempfile.TemporaryDirectory() as tmp:
             out_dir = Path(tmp) / "afdian"
