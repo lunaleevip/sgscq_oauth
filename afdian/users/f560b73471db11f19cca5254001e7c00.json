@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1782659712,
+  "updated_at": 1782664808,
   "user_id": "f560b73471db11f19cca5254001e7c00",
   "name": "爱吃欧润吉",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e6ebd1c34e323d6e8edd5841d5e5e487_w132_h132_s5.jpeg",
-  "amount": 5.0,
+  "amount": 30.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
@@ -12,6 +12,10 @@
     {
       "out_trade_no": "202606272229445655515211815",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202606290037364852515414766",
+      "amount": 25.0
     }
   ]
 }
