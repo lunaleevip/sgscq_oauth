@@ -83,7 +83,7 @@ def order_id(order: dict[str, Any]) -> str:
 
 
 def order_user_id(order: dict[str, Any]) -> str:
-    return first_non_empty(order, "user_private_id", "user_id", "uid", "id")
+    return first_non_empty(order, "user_id", "uid", "id", "user_private_id")
 
 
 def order_rows(value: Any) -> list[dict[str, Any]]:

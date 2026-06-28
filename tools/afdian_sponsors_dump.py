@@ -161,19 +161,19 @@ def is_completed_order(order: dict[str, Any]) -> bool:
 
 
 def extract_user_id(obj: dict[str, Any]) -> str:
-    direct = first_non_empty(obj, "user_private_id", "user_id", "uid", "id")
+    direct = first_non_empty(obj, "user_id", "uid", "id", "user_private_id")
     if direct:
         return direct
     user = as_dict(obj.get("user"))
-    nested = first_non_empty(user, "user_private_id", "user_id", "uid", "id")
+    nested = first_non_empty(user, "user_id", "uid", "id", "user_private_id")
     if nested:
         return nested
     sponsor = as_dict(obj.get("sponsor"))
-    nested = first_non_empty(sponsor, "user_private_id", "user_id", "uid", "id")
+    nested = first_non_empty(sponsor, "user_id", "uid", "id", "user_private_id")
     if nested:
         return nested
     sponsor_user = as_dict(sponsor.get("user"))
-    return first_non_empty(sponsor_user, "user_private_id", "user_id", "uid", "id")
+    return first_non_empty(sponsor_user, "user_id", "uid", "id", "user_private_id")
 
 
 def extract_name(obj: dict[str, Any]) -> str:

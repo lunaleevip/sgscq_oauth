@@ -41,7 +41,7 @@ class AfdianWebhookMergeTest(unittest.TestCase):
             checkpoint = json.loads((repo / "afdian" / "order_checkpoint.json").read_text(encoding="utf-8"))
             self.assertIn("order1", checkpoint["processed_order_ids"])
 
-    def test_paid_order_uses_private_user_id_for_login_cache(self):
+    def test_paid_order_uses_public_user_id_for_login_cache(self):
         with tempfile.TemporaryDirectory() as tmp:
             repo = Path(tmp)
             payload = {
@@ -61,9 +61,9 @@ class AfdianWebhookMergeTest(unittest.TestCase):
             changed = merge_order_payload(repo, payload, generated_at=123)
 
             self.assertTrue(changed)
-            self.assertFalse((repo / "afdian" / "users" / "openapi-user.json").exists())
-            data = json.loads((repo / "afdian" / "users" / "oauth-user.json").read_text(encoding="utf-8"))
-            self.assertEqual("oauth-user", data["user_id"])
+            self.assertFalse((repo / "afdian" / "users" / "oauth-user.json").exists())
+            data = json.loads((repo / "afdian" / "users" / "openapi-user.json").read_text(encoding="utf-8"))
+            self.assertEqual("openapi-user", data["user_id"])
             self.assertEqual([{"out_trade_no": "order1", "amount": 5.0}], data["orders"])
 
     def test_paid_order_merges_into_existing_user_cache(self):
