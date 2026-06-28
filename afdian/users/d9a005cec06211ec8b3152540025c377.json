@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1782616210,
+  "updated_at": 1782618010,
   "user_id": "d9a005cec06211ec8b3152540025c377",
   "name": "の天妒%",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b01dc1ba08862cf2e2df7291b3b18e78_w132_h132_s5.jpeg",
-  "amount": 70.0,
-  "level": 1,
+  "amount": 130.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "202606281107069753571011797",
       "amount": 50.0
+    },
+    {
+      "out_trade_no": "202606281135421014898514778",
+      "amount": 60.0
     }
   ]
 }
