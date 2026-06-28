@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1782609609,
+  "updated_at": 1782630915,
   "user_id": "9d569a08725411f1806952540025c377",
   "name": "9d569a08725411f1806952540025c377",
   "avatar": "",
-  "amount": 20.0,
+  "amount": 70.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "继续努力，加油",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202606280918455353100514876",
       "amount": 20.0
+    },
+    {
+      "out_trade_no": "202606281513445651561014805",
+      "amount": 50.0
     }
   ]
 }
