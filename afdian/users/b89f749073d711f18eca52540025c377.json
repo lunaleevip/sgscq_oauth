@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782750910,
+  "user_id": "b89f749073d711f18eca52540025c377",
+  "name": "b89f749073d711f18eca52540025c377",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油 小学的时候特别希望玩这个游戏 希望能一直坚持下去 我们永远支持你 加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202606300030349752495114692",
+      "amount": 5.0
+    }
+  ]
+}
