@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782894910,
+  "user_id": "d8d15540750711f18d675254001e7c00",
+  "name": "d8d15540750711f18d675254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "开开心心",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607011632589750995314740",
+      "amount": 5.0
+    }
+  ]
+}
