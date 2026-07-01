@@ -8,9 +8,10 @@ class AfdianWorkflowTest(unittest.TestCase):
 
         self.assertIn("concurrency:", workflow)
         self.assertIn("full_sync:", workflow)
-        self.assertIn("types: [afdian_order, afdian_incremental]", workflow)
+        self.assertIn("types: [afdian_order, afdian_incremental, afdian_full]", workflow)
         self.assertIn("python tools/afdian_orders_incremental.py", workflow)
         self.assertIn("github.event.action == 'afdian_incremental'", workflow)
+        self.assertIn("github.event.action == 'afdian_full'", workflow)
         self.assertIn("git stash push --include-untracked", workflow)
         self.assertIn("git pull --rebase origin", workflow)
         self.assertIn("git push origin \"HEAD:${target_branch}\"", workflow)
@@ -23,6 +24,8 @@ class AfdianWorkflowTest(unittest.TestCase):
         bili = Path(".github/workflows/bili-followers-fast.yml").read_text(encoding="utf-8")
 
         self.assertIn('cron: "2,12,22,32,42,52 * * * *"', afdian)
+        self.assertIn('cron: "7 * * * *"', afdian)
+        self.assertIn("github.event.schedule == '7 * * * *'", afdian)
         self.assertIn("cron: '2,12,22,32,42,52 * * * *'", bili)
         self.assertIn("types: [bili_followers]", bili)
         self.assertIn("full_sync:", bili)
@@ -35,6 +38,8 @@ class AfdianWorkflowTest(unittest.TestCase):
         script = Path("tools/oauth_sync_dispatch_cron.php").read_text(encoding="utf-8")
 
         self.assertIn("'afdian_incremental'", script)
+        self.assertIn("'afdian_full'", script)
+        self.assertIn("sgscq_afdian_full_hour", script)
         self.assertIn("'bili_followers'", script)
         self.assertIn("GITHUB_DISPATCH_TOKEN", script)
         self.assertIn("https://api.github.com/repos/{$repo}/dispatches", script)

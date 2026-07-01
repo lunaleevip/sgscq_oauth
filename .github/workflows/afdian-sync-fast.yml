@@ -8,9 +8,10 @@ on:
         required: false
         default: "false"
   repository_dispatch:
-    types: [afdian_order, afdian_incremental]
+    types: [afdian_order, afdian_incremental, afdian_full]
   schedule:
     - cron: "2,12,22,32,42,52 * * * *"
+    - cron: "7 * * * *"
 
 concurrency:
   group: afdian-sponsors-sync
@@ -42,7 +43,7 @@ jobs:
         run: python tools/afdian_webhook_merge.py
 
       - name: Sync recent Afdian orders
-        if: github.event_name == 'schedule' || github.event.action == 'afdian_incremental' || (github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync != 'true')
+        if: (github.event_name == 'schedule' && github.event.schedule == '2,12,22,32,42,52 * * * *') || github.event.action == 'afdian_incremental' || (github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync != 'true')
         env:
           AFDIAN_USER_ID: ${{ secrets.AFDIAN_USER_ID }}
           AFDIAN_TOKEN: ${{ secrets.AFDIAN_TOKEN }}
@@ -52,7 +53,7 @@ jobs:
         run: python tools/afdian_orders_incremental.py
 
       - name: Sync full Afdian snapshot
-        if: github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true'
+        if: (github.event_name == 'schedule' && github.event.schedule == '7 * * * *') || github.event.action == 'afdian_full' || (github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true')
         env:
           AFDIAN_USER_ID: ${{ secrets.AFDIAN_USER_ID }}
           AFDIAN_TOKEN: ${{ secrets.AFDIAN_TOKEN }}

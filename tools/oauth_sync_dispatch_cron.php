@@ -10,7 +10,11 @@ if (!$token) {
 }
 
 $repo = getenv('GITHUB_REPO') ?: 'lunaleevip/sgscq_oauth';
-$events = ['afdian_incremental', 'bili_followers'];
+$stateFile = getenv('AFDIAN_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_afdian_full_hour';
+$currentHour = gmdate('YmdH');
+$lastFullHour = is_readable($stateFile) ? trim(file_get_contents($stateFile)) : '';
+$runFull = $lastFullHour !== $currentHour;
+$events = $runFull ? ['afdian_full', 'bili_followers'] : ['afdian_incremental', 'bili_followers'];
 $ok = true;
 
 foreach ($events as $eventType) {
@@ -47,6 +51,13 @@ foreach ($events as $eventType) {
         echo "{$eventType}: failed HTTP {$code} {$error} {$response}\n";
     } else {
         echo "{$eventType}: dispatched\n";
+        if ($eventType === 'afdian_full') {
+            $written = file_put_contents($stateFile, $currentHour . PHP_EOL, LOCK_EX);
+            if ($written === false) {
+                $ok = false;
+                echo "{$eventType}: failed to update state file {$stateFile}\n";
+            }
+        }
     }
 }
 
