@@ -5,8 +5,9 @@ name: Fast follower snapshot
 on:
   schedule:
     - cron: '2,12,22,32,42,52 * * * *'
+    - cron: '17 */6 * * *'
   repository_dispatch:
-    types: [bili_followers]
+    types: [bili_followers, bili_followers_full]
   workflow_dispatch:
     inputs:
       full_sync:
@@ -47,7 +48,7 @@ jobs:
         env:
           BILI_COOKIE: ${{ secrets.BILI_COOKIE }}
           BILI_UP_MID: '173883695'
-          BILI_SYNC_MODE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true' && 'full' || 'incremental' }}
+          BILI_SYNC_MODE: ${{ ((github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true') || github.event.action == 'bili_followers_full' || (github.event_name == 'schedule' && github.event.schedule == '17 */6 * * *')) && 'full' || 'incremental' }}
           BILI_INCREMENTAL_MAX_PAGES: 5
         run: |
           if [ -z "$BILI_COOKIE" ]; then

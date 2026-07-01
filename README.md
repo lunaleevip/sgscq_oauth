@@ -40,7 +40,10 @@ five-minute polling, run `tools/oauth_sync_dispatch_cron.php` from an external
 cron-capable host every five minutes. It sends these repository dispatch events:
 
 - `afdian_incremental`: run recent Afdian order sync.
+- `afdian_full`: run full Afdian order and sponsor snapshot sync once per hour.
 - `bili_followers`: run Bilibili follower snapshot sync.
+- `bili_followers_full`: run full Bilibili follower snapshot sync once per
+  six-hour UTC slot.
 
 The external host only needs `GITHUB_DISPATCH_TOKEN` in its environment. The
 token must be able to call repository dispatch on `lunaleevip/sgscq_oauth`.
@@ -48,7 +51,8 @@ token must be able to call repository dispatch on `lunaleevip/sgscq_oauth`.
 Bilibili follower sync also runs in incremental mode by default. It reads the
 existing `bilibili/followers.compact.txt`, crawls the newest follower pages, and
 prepends new mids without dropping old mids that no longer fit in Bilibili's
-latest-page API window. Manual `Fast follower snapshot` runs can set
+latest-page API window. Scheduled and external cron runs force a full Bilibili
+sync once every six hours. Manual `Fast follower snapshot` runs can set
 `full_sync=true` to rebuild from the Bilibili API limit.
 
 Configure these GitHub Actions secrets in `lunaleevip/sgscq_oauth`:

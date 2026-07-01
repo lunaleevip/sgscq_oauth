@@ -10,11 +10,18 @@ if (!$token) {
 }
 
 $repo = getenv('GITHUB_REPO') ?: 'lunaleevip/sgscq_oauth';
-$stateFile = getenv('AFDIAN_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_afdian_full_hour';
+$afdianStateFile = getenv('AFDIAN_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_afdian_full_hour';
+$biliStateFile = getenv('BILI_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_bili_full_slot';
 $currentHour = gmdate('YmdH');
-$lastFullHour = is_readable($stateFile) ? trim(file_get_contents($stateFile)) : '';
-$runFull = $lastFullHour !== $currentHour;
-$events = $runFull ? ['afdian_full', 'bili_followers'] : ['afdian_incremental', 'bili_followers'];
+$currentBiliSlot = gmdate('Ymd') . '-' . intdiv((int) gmdate('G'), 6);
+$lastAfdianFullHour = is_readable($afdianStateFile) ? trim(file_get_contents($afdianStateFile)) : '';
+$lastBiliFullSlot = is_readable($biliStateFile) ? trim(file_get_contents($biliStateFile)) : '';
+$runAfdianFull = $lastAfdianFullHour !== $currentHour;
+$runBiliFull = $lastBiliFullSlot !== $currentBiliSlot;
+$events = [
+    $runAfdianFull ? 'afdian_full' : 'afdian_incremental',
+    $runBiliFull ? 'bili_followers_full' : 'bili_followers',
+];
 $ok = true;
 
 foreach ($events as $eventType) {
@@ -52,10 +59,17 @@ foreach ($events as $eventType) {
     } else {
         echo "{$eventType}: dispatched\n";
         if ($eventType === 'afdian_full') {
-            $written = file_put_contents($stateFile, $currentHour . PHP_EOL, LOCK_EX);
+            $written = file_put_contents($afdianStateFile, $currentHour . PHP_EOL, LOCK_EX);
             if ($written === false) {
                 $ok = false;
-                echo "{$eventType}: failed to update state file {$stateFile}\n";
+                echo "{$eventType}: failed to update state file {$afdianStateFile}\n";
+            }
+        }
+        if ($eventType === 'bili_followers_full') {
+            $written = file_put_contents($biliStateFile, $currentBiliSlot . PHP_EOL, LOCK_EX);
+            if ($written === false) {
+                $ok = false;
+                echo "{$eventType}: failed to update state file {$biliStateFile}\n";
             }
         }
     }
