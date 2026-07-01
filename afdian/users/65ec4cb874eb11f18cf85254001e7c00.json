@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782870009,
+  "user_id": "65ec4cb874eb11f18cf85254001e7c00",
+  "name": "65ec4cb874eb11f18cf85254001e7c00",
+  "avatar": "",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "加油，把觉醒系统以及后面的新角色搞出来大大有赏",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607010936131005798511747",
+      "amount": 10.0
+    }
+  ]
+}
