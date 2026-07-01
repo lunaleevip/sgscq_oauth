@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1782925315,
+  "updated_at": 1782926610,
   "count": 100,
   "top100": [
     {
@@ -310,6 +310,15 @@
       "sponsor": true
     },
     {
+      "user_id": "65716f3a627011f1b66352540025c377",
+      "name": "何必",
+      "avatar": "https://pic1.afdiancdn.com/user/65716f3a627011f1b66352540025c377/avatar/cfbe6820dc3a4dea4c2897d7200dc757_w4096_h3072_s3010.jpeg",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "加油啊，做三国杀传奇的大哥哥",
+      "sponsor": true
+    },
+    {
       "user_id": "0d8c67106d7011f1b03a52540025c377",
       "name": "卡卡",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -559,15 +568,6 @@
       "amount": 215.0,
       "level": 2,
       "plan_name": "加油加油",
-      "sponsor": true
-    },
-    {
-      "user_id": "65716f3a627011f1b66352540025c377",
-      "name": "何必",
-      "avatar": "https://pic1.afdiancdn.com/user/65716f3a627011f1b66352540025c377/avatar/cfbe6820dc3a4dea4c2897d7200dc757_w4096_h3072_s3010.jpeg",
-      "amount": 200.0,
-      "level": 2,
-      "plan_name": "加油啊，做三国杀传奇的大哥哥",
       "sponsor": true
     },
     {
