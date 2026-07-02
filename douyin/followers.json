@@ -2,9 +2,9 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1783006800,
-  "count": 150,
-  "follower_object_count": 150,
+  "generated_at": 1783010523,
+  "count": 1,
+  "follower_object_count": 1,
   "identifier_count": 515,
   "followers": [
     "64517885",
@@ -522,5 +522,16 @@
     "ZCCL001",
     "zhuiyiba5346",
     "zlhnzl"
-  ]
+  ],
+  "profiles": {
+    "1188006853": {
+      "name": "果核下的月光"
+    },
+    "2990783698": {
+      "name": "果核下的月光"
+    },
+    "MS4wLjABAAAA1s8LobM0og7vkxpbwYT0d1TBkleR2FuJYc2RfpUTiQU": {
+      "name": "果核下的月光"
+    }
+  }
 }
