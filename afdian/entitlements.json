@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783027296,
-  "count": 1344,
+  "updated_at": 1783029694,
+  "count": 1346,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -3269,6 +3269,20 @@
         },
         {
           "out_trade_no": "202606240201511025057111196",
+          "amount": 5.0
+        }
+      ]
+    },
+    "288c1ea2764411f1806d52540025c377": {
+      "name": "星雨",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5db5c4f7c4024831d9cf179ac4417815_w100_h100_s4.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607030554564810148530075",
           "amount": 5.0
         }
       ]
@@ -7637,6 +7651,20 @@
         },
         {
           "out_trade_no": "20260615225623554952992036",
+          "amount": 5.0
+        }
+      ]
+    },
+    "5e06ef32766011f192765254001e7c00": {
+      "name": "星画冰",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b64109e236d48822ed88d446423fd5e6_w132_h132_s4.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "加油！十年老玩家必须支持",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607030554359856102443552",
           "amount": 5.0
         }
       ]
