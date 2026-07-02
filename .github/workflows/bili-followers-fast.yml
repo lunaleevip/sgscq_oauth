@@ -1,11 +1,11 @@
 name: Fast follower snapshot
 
-# 每 10 分钟自动 dump 一次粉丝列表，commit 并 push 回主分支。
+# 每 2 小时自动增量 dump 一次粉丝列表，12 小时做一次全量。
 # 手动触发：Actions → Update follower snapshot → Run workflow。
 on:
   schedule:
-    - cron: '2,12,22,32,42,52 * * * *'
-    - cron: '17 */6 * * *'
+    - cron: '2 */2 * * *'
+    - cron: '17 */12 * * *'
   repository_dispatch:
     types: [bili_followers, bili_followers_full]
   workflow_dispatch:
@@ -48,7 +48,7 @@ jobs:
         env:
           BILI_COOKIE: ${{ secrets.BILI_COOKIE }}
           BILI_UP_MID: '173883695'
-          BILI_SYNC_MODE: ${{ ((github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true') || github.event.action == 'bili_followers_full' || (github.event_name == 'schedule' && github.event.schedule == '17 */6 * * *')) && 'full' || 'incremental' }}
+          BILI_SYNC_MODE: ${{ ((github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true') || github.event.action == 'bili_followers_full' || (github.event_name == 'schedule' && github.event.schedule == '17 */12 * * *')) && 'full' || 'incremental' }}
           BILI_INCREMENTAL_MAX_PAGES: 5
           BILI_ALLOW_EXISTING_ON_INCREMENTAL_ERROR: true
         run: |

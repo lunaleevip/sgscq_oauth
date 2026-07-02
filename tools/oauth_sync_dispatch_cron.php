@@ -11,17 +11,36 @@ if (!$token) {
 
 $repo = getenv('GITHUB_REPO') ?: 'lunaleevip/sgscq_oauth';
 $afdianStateFile = getenv('AFDIAN_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_afdian_full_hour';
-$biliStateFile = getenv('BILI_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_bili_full_slot';
+$biliIncrementalStateFile = getenv('BILI_INCREMENTAL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_bili_incremental_slot';
+$biliFullStateFile = getenv('BILI_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_bili_full_slot';
+$douyinIncrementalStateFile = getenv('DOUYIN_INCREMENTAL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_douyin_incremental_slot';
+$douyinFullStateFile = getenv('DOUYIN_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_douyin_full_slot';
 $currentHour = gmdate('YmdH');
-$currentBiliSlot = gmdate('Ymd') . '-' . intdiv((int) gmdate('G'), 6);
+$currentSocialIncrementalSlot = gmdate('Ymd') . '-' . intdiv((int) gmdate('G'), 2);
+$currentSocialFullSlot = gmdate('Ymd') . '-' . intdiv((int) gmdate('G'), 12);
 $lastAfdianFullHour = is_readable($afdianStateFile) ? trim(file_get_contents($afdianStateFile)) : '';
-$lastBiliFullSlot = is_readable($biliStateFile) ? trim(file_get_contents($biliStateFile)) : '';
+$lastBiliIncrementalSlot = is_readable($biliIncrementalStateFile) ? trim(file_get_contents($biliIncrementalStateFile)) : '';
+$lastBiliFullSlot = is_readable($biliFullStateFile) ? trim(file_get_contents($biliFullStateFile)) : '';
+$lastDouyinIncrementalSlot = is_readable($douyinIncrementalStateFile) ? trim(file_get_contents($douyinIncrementalStateFile)) : '';
+$lastDouyinFullSlot = is_readable($douyinFullStateFile) ? trim(file_get_contents($douyinFullStateFile)) : '';
 $runAfdianFull = $lastAfdianFullHour !== $currentHour;
-$runBiliFull = $lastBiliFullSlot !== $currentBiliSlot;
+$runBiliFull = $lastBiliFullSlot !== $currentSocialFullSlot;
+$runBiliIncremental = !$runBiliFull && $lastBiliIncrementalSlot !== $currentSocialIncrementalSlot;
+$runDouyinFull = $lastDouyinFullSlot !== $currentSocialFullSlot;
+$runDouyinIncremental = !$runDouyinFull && $lastDouyinIncrementalSlot !== $currentSocialIncrementalSlot;
 $events = [
     $runAfdianFull ? 'afdian_full' : 'afdian_incremental',
-    $runBiliFull ? 'bili_followers_full' : 'bili_followers',
 ];
+if ($runBiliFull) {
+    $events[] = 'bili_followers_full';
+} elseif ($runBiliIncremental) {
+    $events[] = 'bili_followers';
+}
+if ($runDouyinFull) {
+    $events[] = 'douyin_followers_full';
+} elseif ($runDouyinIncremental) {
+    $events[] = 'douyin_followers';
+}
 $ok = true;
 
 foreach ($events as $eventType) {
@@ -66,10 +85,37 @@ foreach ($events as $eventType) {
             }
         }
         if ($eventType === 'bili_followers_full') {
-            $written = file_put_contents($biliStateFile, $currentBiliSlot . PHP_EOL, LOCK_EX);
+            $written = file_put_contents($biliFullStateFile, $currentSocialFullSlot . PHP_EOL, LOCK_EX);
+            if ($written !== false) {
+                $written = file_put_contents($biliIncrementalStateFile, $currentSocialIncrementalSlot . PHP_EOL, LOCK_EX);
+            }
             if ($written === false) {
                 $ok = false;
-                echo "{$eventType}: failed to update state file {$biliStateFile}\n";
+                echo "{$eventType}: failed to update state files {$biliFullStateFile} / {$biliIncrementalStateFile}\n";
+            }
+        }
+        if ($eventType === 'bili_followers') {
+            $written = file_put_contents($biliIncrementalStateFile, $currentSocialIncrementalSlot . PHP_EOL, LOCK_EX);
+            if ($written === false) {
+                $ok = false;
+                echo "{$eventType}: failed to update state file {$biliIncrementalStateFile}\n";
+            }
+        }
+        if ($eventType === 'douyin_followers_full') {
+            $written = file_put_contents($douyinFullStateFile, $currentSocialFullSlot . PHP_EOL, LOCK_EX);
+            if ($written !== false) {
+                $written = file_put_contents($douyinIncrementalStateFile, $currentSocialIncrementalSlot . PHP_EOL, LOCK_EX);
+            }
+            if ($written === false) {
+                $ok = false;
+                echo "{$eventType}: failed to update state files {$douyinFullStateFile} / {$douyinIncrementalStateFile}\n";
+            }
+        }
+        if ($eventType === 'douyin_followers') {
+            $written = file_put_contents($douyinIncrementalStateFile, $currentSocialIncrementalSlot . PHP_EOL, LOCK_EX);
+            if ($written === false) {
+                $ok = false;
+                echo "{$eventType}: failed to update state file {$douyinIncrementalStateFile}\n";
             }
         }
     }
