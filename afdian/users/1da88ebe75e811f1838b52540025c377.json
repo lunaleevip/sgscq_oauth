@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782994855,
+  "user_id": "1da88ebe75e811f1838b52540025c377",
+  "name": "爱发电用户_1da88",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "大佬辛苦了QWQ",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607022018135399999911892",
+      "amount": 5.0
+    }
+  ]
+}
