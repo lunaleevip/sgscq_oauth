@@ -192,6 +192,24 @@ class DouyinFollowersDumpTest(unittest.TestCase):
             compact = (out_dir / "followers.compact.txt").read_text(encoding="utf-8").splitlines()
             self.assertEqual(["5", "4", "3", "2", "1"], compact)
 
+    def test_write_outputs_reports_follower_object_count_separately_from_identifier_count(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp) / "douyin"
+
+            write_outputs(
+                out_dir,
+                "target-sec-id",
+                ["uid-1", "unique-1", "sec-1", "uid-2", "sec-2"],
+                generated_at=123,
+                follower_object_count=2,
+            )
+
+            payload = json.loads((out_dir / "followers.json").read_text(encoding="utf-8"))
+            self.assertEqual(2, payload["count"])
+            self.assertEqual(2, payload["follower_object_count"])
+            self.assertEqual(5, payload["identifier_count"])
+            self.assertEqual(["sec-1", "sec-2", "uid-1", "uid-2", "unique-1"], payload["followers"])
+
 
 if __name__ == "__main__":
     unittest.main()

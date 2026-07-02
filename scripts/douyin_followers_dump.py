@@ -331,16 +331,26 @@ def sort_key(value: str) -> tuple[int, Any]:
     return (1, text.lower())
 
 
-def write_outputs(out_dir: Path, target_id: str, followers: list[str], generated_at: int | None = None) -> None:
+def write_outputs(
+    out_dir: Path,
+    target_id: str,
+    followers: list[str],
+    generated_at: int | None = None,
+    follower_object_count: int | None = None,
+) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     sorted_ids = sorted(followers, key=sort_key)
+    identifier_count = len(sorted_ids)
+    count = int(follower_object_count) if follower_object_count is not None else identifier_count
 
     payload = {
         "version": 1,
         "platform": "douyin",
         "target_id": target_id,
         "generated_at": int(generated_at if generated_at is not None else time.time()),
-        "count": len(sorted_ids),
+        "count": count,
+        "follower_object_count": count,
+        "identifier_count": identifier_count,
         "followers": sorted_ids,
     }
 
