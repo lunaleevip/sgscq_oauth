@@ -41,6 +41,8 @@ jobs:
           DOUYIN_COOKIE: ${{ secrets.DOUYIN_COOKIE }}
           DOUYIN_TARGET_ID: ${{ secrets.DOUYIN_TARGET_ID }}
           DOUYIN_FOLLOWERS_URL_TEMPLATE: ${{ secrets.DOUYIN_FOLLOWERS_URL_TEMPLATE }}
+          DOUYIN_REFERER_URL: ${{ secrets.DOUYIN_REFERER_URL }}
+          DOUYIN_EXTRA_HEADERS: ${{ secrets.DOUYIN_EXTRA_HEADERS }}
           DOUYIN_SYNC_MODE: ${{ ((github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true') || github.event.action == 'douyin_followers_full' || (github.event_name == 'schedule' && github.event.schedule == '19 */6 * * *')) && 'full' || 'incremental' }}
           DOUYIN_INCREMENTAL_MAX_PAGES: 5
           OAUTH_REPO_PATH: ${{ github.workspace }}

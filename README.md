@@ -75,6 +75,11 @@ Configure these GitHub Actions secrets in `lunaleevip/sgscq_oauth`:
   usually the account `sec_user_id`.
 - `DOUYIN_FOLLOWERS_URL_TEMPLATE`: optional override for the Douyin followers
   endpoint. The template can use `{target_id}`, `{cursor}`, and `{count}`.
+- `DOUYIN_REFERER_URL`: optional Douyin page URL used as the request `Referer`;
+  defaults to `https://www.douyin.com/jingxuan`.
+- `DOUYIN_EXTRA_HEADERS`: optional JSON object for extra Douyin request
+  headers, for example `{"sec-ch-ua-platform":"\"Windows\""}`. Do not put the
+  Cookie here; use `DOUYIN_COOKIE` instead.
 - `DOUYIN_ENABLED`: set to `true` only after the Cookie and endpoint template
   have been verified. Other values make the workflow skip successfully.
 

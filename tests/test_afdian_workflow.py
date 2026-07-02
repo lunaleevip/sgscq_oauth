@@ -43,6 +43,8 @@ class AfdianWorkflowTest(unittest.TestCase):
         self.assertIn("github.event.action == 'douyin_followers_full'", douyin)
         self.assertIn("github.event.schedule == '19 */6 * * *'", douyin)
         self.assertIn("DOUYIN_ENABLED:", douyin)
+        self.assertIn("DOUYIN_REFERER_URL:", douyin)
+        self.assertIn("DOUYIN_EXTRA_HEADERS:", douyin)
         self.assertIn("secret DOUYIN_ENABLED is not true", douyin)
         self.assertIn("DOUYIN_SYNC_MODE:", douyin)
         self.assertIn("python scripts/douyin_followers_dump.py", douyin)
