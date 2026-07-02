@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1783029308,
+  "user_id": "5e06ef32766011f192765254001e7c00",
+  "name": "5e06ef32766011f192765254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油！十年老玩家必须支持",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607030554359856102443552",
+      "amount": 5.0
+    }
+  ]
+}
