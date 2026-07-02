@@ -22,7 +22,9 @@ from typing import Any
 DOUYIN_COOKIE = os.environ.get("DOUYIN_COOKIE", "").strip()
 DOUYIN_TARGET_ID = os.environ.get("DOUYIN_TARGET_ID", "").strip()
 DOUYIN_REFERER_ID = os.environ.get("DOUYIN_REFERER_ID", DOUYIN_TARGET_ID).strip()
+DOUYIN_REFERER_URL = os.environ.get("DOUYIN_REFERER_URL", "").strip()
 DOUYIN_FOLLOWERS_URL_TEMPLATE = os.environ.get("DOUYIN_FOLLOWERS_URL_TEMPLATE", "").strip()
+DOUYIN_EXTRA_HEADERS = os.environ.get("DOUYIN_EXTRA_HEADERS", "").strip()
 DOUYIN_ID_FIELDS = [
     field.strip()
     for field in os.environ.get(
@@ -68,15 +70,39 @@ def build_page_url(target_id: str, cursor: str, count: int) -> str:
     )
 
 
+def extra_headers_from_env() -> dict[str, str]:
+    if not DOUYIN_EXTRA_HEADERS:
+        return {}
+    try:
+        payload = json.loads(DOUYIN_EXTRA_HEADERS)
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"DOUYIN_EXTRA_HEADERS must be a JSON object: {exc}") from exc
+    if not isinstance(payload, dict):
+        raise ValueError("DOUYIN_EXTRA_HEADERS must be a JSON object.")
+    return {str(key): str(value) for key, value in payload.items() if str(key).strip()}
+
+
+def build_request_headers(url: str, cookie: str) -> dict[str, str]:
+    referer = DOUYIN_REFERER_URL or "https://www.douyin.com/jingxuan"
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Cookie": cookie,
+        "Referer": referer,
+        "Accept": "application/json, text/plain, */*",
+    }
+    parsed = urllib.parse.urlparse(url)
+    query = urllib.parse.parse_qs(parsed.query)
+    uifid = first_non_empty({"uifid": query.get("uifid", [""])[0]}, "uifid")
+    if uifid:
+        headers["uifid"] = uifid
+    headers.update(extra_headers_from_env())
+    return headers
+
+
 def http_get_json(url: str, cookie: str) -> dict[str, Any]:
     req = urllib.request.Request(
         url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Cookie": cookie,
-            "Referer": f"https://www.douyin.com/user/{DOUYIN_REFERER_ID or DOUYIN_TARGET_ID}",
-            "Accept": "application/json, text/plain, */*",
-        },
+        headers=build_request_headers(url, cookie),
     )
     with urllib.request.urlopen(req, timeout=20) as resp:
         body = resp.read().decode("utf-8", errors="replace")

@@ -7,6 +7,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from scripts.douyin_followers_dump import (
+    build_request_headers,
     build_page_url,
     extract_follower_ids,
     merge_followers,
@@ -63,6 +64,38 @@ class DouyinFollowersDumpTest(unittest.TestCase):
             self.assertIn("browser_language=zh-CN", url)
         finally:
             douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
+
+    def test_build_request_headers_uses_browser_referer_and_url_uifid(self):
+        old_referer = douyin_dump.DOUYIN_REFERER_URL
+        old_extra = douyin_dump.DOUYIN_EXTRA_HEADERS
+        try:
+            douyin_dump.DOUYIN_REFERER_URL = ""
+            douyin_dump.DOUYIN_EXTRA_HEADERS = ""
+
+            headers = build_request_headers(
+                "https://www.douyin.com/aweme/v1/web/user/follower/list/?uifid=uifid-123",
+                "cookie=abc",
+            )
+
+            self.assertEqual("https://www.douyin.com/jingxuan", headers["Referer"])
+            self.assertEqual("uifid-123", headers["uifid"])
+            self.assertEqual("cookie=abc", headers["Cookie"])
+        finally:
+            douyin_dump.DOUYIN_REFERER_URL = old_referer
+            douyin_dump.DOUYIN_EXTRA_HEADERS = old_extra
+
+    def test_build_request_headers_allows_json_extra_header_overrides(self):
+        old_extra = douyin_dump.DOUYIN_EXTRA_HEADERS
+        try:
+            douyin_dump.DOUYIN_EXTRA_HEADERS = '{"Referer":"https://www.douyin.com/custom","x-test":"ok"}'
+
+            headers = build_request_headers("https://www.douyin.com/api?uifid=from-url", "cookie=abc")
+
+            self.assertEqual("https://www.douyin.com/custom", headers["Referer"])
+            self.assertEqual("ok", headers["x-test"])
+            self.assertEqual("from-url", headers["uifid"])
+        finally:
+            douyin_dump.DOUYIN_EXTRA_HEADERS = old_extra
 
     def test_incremental_merge_preserves_existing_followers(self):
         merged = merge_followers(["3", "2", "1"], ["5", "4", "3"])
