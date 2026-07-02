@@ -11,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.douyin_followers_dump import (
     build_request_headers,
     build_page_url,
+    clean_windows_curl_escapes,
     describe_http_error,
     extract_follower_ids,
     has_pagination_placeholder,
@@ -69,6 +70,26 @@ class DouyinFollowersDumpTest(unittest.TestCase):
         finally:
             douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
 
+    def test_clean_windows_curl_escapes_removes_powershell_carets(self):
+        self.assertEqual(
+            "a%3Db&c=%22x%22",
+            clean_windows_curl_escapes("a^%^3Db^&c=^%^22x^%^22"),
+        )
+
+    def test_build_page_url_removes_windows_curl_escapes_from_template(self):
+        old_template = douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE
+        try:
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = (
+                "https://www.douyin.com/api?sec_user_id={target_id}^&msToken=abc^%^3D^&count={count}"
+            )
+
+            url = build_page_url("target", "0", 20)
+
+            self.assertNotIn("^", url)
+            self.assertIn("&msToken=abc%3D", url)
+        finally:
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
+
     def test_build_page_url_supports_offset_placeholder(self):
         old_template = douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE
         try:
@@ -97,12 +118,12 @@ class DouyinFollowersDumpTest(unittest.TestCase):
 
             headers = build_request_headers(
                 "https://www.douyin.com/aweme/v1/web/user/follower/list/?uifid=uifid-123",
-                "cookie=abc",
+                "cookie=abc^%^22",
             )
 
             self.assertEqual("https://www.douyin.com/jingxuan", headers["Referer"])
             self.assertEqual("uifid-123", headers["uifid"])
-            self.assertEqual("cookie=abc", headers["Cookie"])
+            self.assertEqual("cookie=abc%22", headers["Cookie"])
         finally:
             douyin_dump.DOUYIN_REFERER_URL = old_referer
             douyin_dump.DOUYIN_EXTRA_HEADERS = old_extra

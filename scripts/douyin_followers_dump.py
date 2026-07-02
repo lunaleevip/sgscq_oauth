@@ -57,8 +57,12 @@ def default_url_template() -> str:
     )
 
 
+def clean_windows_curl_escapes(value: str) -> str:
+    return str(value).replace("^", "")
+
+
 def clean_url_template(template: str) -> str:
-    return "".join(str(template).split())
+    return "".join(clean_windows_curl_escapes(template).split())
 
 
 def has_pagination_placeholder(template: str) -> bool:
@@ -80,7 +84,7 @@ def extra_headers_from_env() -> dict[str, str]:
     if not DOUYIN_EXTRA_HEADERS:
         return {}
     try:
-        payload = json.loads(DOUYIN_EXTRA_HEADERS)
+        payload = json.loads(clean_windows_curl_escapes(DOUYIN_EXTRA_HEADERS))
     except json.JSONDecodeError as exc:
         raise ValueError(f"DOUYIN_EXTRA_HEADERS must be a JSON object: {exc}") from exc
     if not isinstance(payload, dict):
@@ -92,7 +96,7 @@ def build_request_headers(url: str, cookie: str) -> dict[str, str]:
     referer = DOUYIN_REFERER_URL or "https://www.douyin.com/jingxuan"
     headers = {
         "User-Agent": USER_AGENT,
-        "Cookie": cookie,
+        "Cookie": clean_windows_curl_escapes(cookie),
         "Referer": referer,
         "Accept": "application/json, text/plain, */*",
     }
