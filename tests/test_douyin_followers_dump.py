@@ -39,6 +39,7 @@ class DouyinFollowersDumpTest(unittest.TestCase):
 
     def test_cursor_and_has_more_support_common_fields(self):
         self.assertEqual("99", next_cursor({"data": {"max_time": 99}}))
+        self.assertEqual("100", next_cursor({"data": {"max_cursor": 100}}))
         self.assertEqual("101", next_cursor({"cursor": 101}))
         self.assertEqual(True, should_continue({"data": {"has_more": 1}}))
         self.assertEqual(False, should_continue({"has_more": 0}))

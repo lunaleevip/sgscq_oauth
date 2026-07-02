@@ -75,8 +75,15 @@ def http_get_json(url: str, cookie: str) -> dict[str, Any]:
         },
     )
     with urllib.request.urlopen(req, timeout=20) as resp:
-        body = resp.read().decode("utf-8")
-    return json.loads(body)
+        body = resp.read().decode("utf-8", errors="replace")
+        try:
+            return json.loads(body)
+        except json.JSONDecodeError as exc:
+            preview = body[:200].replace("\r", " ").replace("\n", " ")
+            raise ValueError(
+                f"non-JSON response HTTP {resp.status} content-type={resp.headers.get('Content-Type', '')} "
+                f"preview={preview!r}"
+            ) from exc
 
 
 def as_dict(value: Any) -> dict[str, Any]:
@@ -156,7 +163,7 @@ def first_cursor(data: dict[str, Any], *keys: str) -> str:
 
 
 def next_cursor(data: dict[str, Any]) -> str:
-    return first_cursor(data, "max_time", "min_time", "cursor", "next_cursor")
+    return first_cursor(data, "max_time", "max_cursor", "min_time", "cursor", "next_cursor")
 
 
 def should_continue(data: dict[str, Any]) -> bool:
