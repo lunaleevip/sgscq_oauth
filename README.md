@@ -75,6 +75,8 @@ Configure these GitHub Actions secrets in `lunaleevip/sgscq_oauth`:
   usually the account `sec_user_id`.
 - `DOUYIN_FOLLOWERS_URL_TEMPLATE`: optional override for the Douyin followers
   endpoint. The template can use `{target_id}`, `{cursor}`, and `{count}`.
+- `DOUYIN_ENABLED`: set to `true` only after the Cookie and endpoint template
+  have been verified. Other values make the workflow skip successfully.
 
 Deploy `tools/afdian_webhook_dispatch_worker.mjs` to EdgeOne Pages Functions,
 Cloudflare Workers, or another Worker-compatible runtime. Configure these

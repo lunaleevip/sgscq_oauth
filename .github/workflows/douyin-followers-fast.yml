@@ -37,6 +37,7 @@ jobs:
 
       - name: Run dump
         env:
+          DOUYIN_ENABLED: ${{ secrets.DOUYIN_ENABLED }}
           DOUYIN_COOKIE: ${{ secrets.DOUYIN_COOKIE }}
           DOUYIN_TARGET_ID: ${{ secrets.DOUYIN_TARGET_ID }}
           DOUYIN_FOLLOWERS_URL_TEMPLATE: ${{ secrets.DOUYIN_FOLLOWERS_URL_TEMPLATE }}
@@ -44,6 +45,10 @@ jobs:
           DOUYIN_INCREMENTAL_MAX_PAGES: 5
           OAUTH_REPO_PATH: ${{ github.workspace }}
         run: |
+          if [ "$DOUYIN_ENABLED" != "true" ]; then
+            echo "::warning::secret DOUYIN_ENABLED is not true; skip Douyin follower sync."
+            exit 0
+          fi
           if [ -z "$DOUYIN_COOKIE" ]; then
             echo "::warning::secret DOUYIN_COOKIE is not set; skip Douyin follower sync."
             exit 0

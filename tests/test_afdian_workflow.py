@@ -42,6 +42,8 @@ class AfdianWorkflowTest(unittest.TestCase):
         self.assertIn("types: [douyin_followers, douyin_followers_full]", douyin)
         self.assertIn("github.event.action == 'douyin_followers_full'", douyin)
         self.assertIn("github.event.schedule == '19 */6 * * *'", douyin)
+        self.assertIn("DOUYIN_ENABLED:", douyin)
+        self.assertIn("secret DOUYIN_ENABLED is not true", douyin)
         self.assertIn("DOUYIN_SYNC_MODE:", douyin)
         self.assertIn("python scripts/douyin_followers_dump.py", douyin)
         self.assertIn("No Douyin snapshot files.", douyin)
