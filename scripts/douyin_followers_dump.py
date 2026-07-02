@@ -54,8 +54,12 @@ def default_url_template() -> str:
     )
 
 
+def clean_url_template(template: str) -> str:
+    return "".join(str(template).split())
+
+
 def build_page_url(target_id: str, cursor: str, count: int) -> str:
-    template = DOUYIN_FOLLOWERS_URL_TEMPLATE or default_url_template()
+    template = clean_url_template(DOUYIN_FOLLOWERS_URL_TEMPLATE or default_url_template())
     quoted_target = urllib.parse.quote(target_id, safe="")
     return template.format(
         target_id=quoted_target,

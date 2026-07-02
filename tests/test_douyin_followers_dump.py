@@ -7,6 +7,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from scripts.douyin_followers_dump import (
+    build_page_url,
     extract_follower_ids,
     merge_followers,
     next_cursor,
@@ -14,6 +15,7 @@ from scripts.douyin_followers_dump import (
     should_continue,
     write_outputs,
 )
+from scripts import douyin_followers_dump as douyin_dump
 
 
 class DouyinFollowersDumpTest(unittest.TestCase):
@@ -43,6 +45,24 @@ class DouyinFollowersDumpTest(unittest.TestCase):
         self.assertEqual("101", next_cursor({"cursor": 101}))
         self.assertEqual(True, should_continue({"data": {"has_more": 1}}))
         self.assertEqual(False, should_continue({"has_more": 0}))
+
+    def test_build_page_url_removes_whitespace_from_secret_template(self):
+        old_template = douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE
+        try:
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = (
+                "https://www.douyin.com/aweme/v1/web/user/follower/list/?\n"
+                "  device_platform=webapp&sec_user_id={target_id}  \n"
+                "  &screen_width  =1707&browser_language=zh-  CN&max_time={cursor}&count={count}"
+            )
+
+            url = build_page_url("sec id", "0", 20)
+
+            self.assertNotRegex(url, r"\s")
+            self.assertIn("sec_user_id=sec%20id", url)
+            self.assertIn("screen_width=1707", url)
+            self.assertIn("browser_language=zh-CN", url)
+        finally:
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
 
     def test_incremental_merge_preserves_existing_followers(self):
         merged = merge_followers(["3", "2", "1"], ["5", "4", "3"])
