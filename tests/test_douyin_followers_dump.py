@@ -104,6 +104,22 @@ class DouyinFollowersDumpTest(unittest.TestCase):
         finally:
             douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
 
+    def test_build_page_url_prefers_signed_url_without_formatting(self):
+        old_signed_url = douyin_dump.DOUYIN_SIGNED_URL
+        try:
+            douyin_dump.DOUYIN_SIGNED_URL = (
+                "https://www.douyin.com/api?offset=13^&msToken=abc^%^3D^&a_bogus=signed"
+            )
+
+            url = build_page_url("target", "123", 20, offset=40)
+
+            self.assertEqual(
+                "https://www.douyin.com/api?offset=13&msToken=abc%3D&a_bogus=signed",
+                url,
+            )
+        finally:
+            douyin_dump.DOUYIN_SIGNED_URL = old_signed_url
+
     def test_has_pagination_placeholder_detects_signed_single_page_template(self):
         self.assertFalse(has_pagination_placeholder("https://www.douyin.com/api?offset=13&max_time=123"))
         self.assertTrue(has_pagination_placeholder("https://www.douyin.com/api?offset={offset}&max_time=123"))

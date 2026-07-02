@@ -25,6 +25,7 @@ DOUYIN_TARGET_ID = os.environ.get("DOUYIN_TARGET_ID", "").strip()
 DOUYIN_REFERER_ID = os.environ.get("DOUYIN_REFERER_ID", DOUYIN_TARGET_ID).strip()
 DOUYIN_REFERER_URL = os.environ.get("DOUYIN_REFERER_URL", "").strip()
 DOUYIN_FOLLOWERS_URL_TEMPLATE = os.environ.get("DOUYIN_FOLLOWERS_URL_TEMPLATE", "").strip()
+DOUYIN_SIGNED_URL = os.environ.get("DOUYIN_SIGNED_URL", "").strip()
 DOUYIN_EXTRA_HEADERS = os.environ.get("DOUYIN_EXTRA_HEADERS", "").strip()
 DOUYIN_ID_FIELDS = [
     field.strip()
@@ -70,6 +71,8 @@ def has_pagination_placeholder(template: str) -> bool:
 
 
 def build_page_url(target_id: str, cursor: str, count: int, offset: int = 0) -> str:
+    if DOUYIN_SIGNED_URL:
+        return clean_url_template(DOUYIN_SIGNED_URL)
     template = clean_url_template(DOUYIN_FOLLOWERS_URL_TEMPLATE or default_url_template())
     quoted_target = urllib.parse.quote(target_id, safe="")
     return template.format(
@@ -239,7 +242,7 @@ def fetch_followers(
     seen: set[str] = set()
     ordered: list[str] = []
     cursor = os.environ.get("DOUYIN_INITIAL_CURSOR", "0")
-    template = clean_url_template(DOUYIN_FOLLOWERS_URL_TEMPLATE or default_url_template())
+    template = clean_url_template(DOUYIN_SIGNED_URL or DOUYIN_FOLLOWERS_URL_TEMPLATE or default_url_template())
     supports_pagination = has_pagination_placeholder(template)
 
     for page in range(1, max_pages + 1):

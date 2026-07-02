@@ -40,6 +40,7 @@ jobs:
           DOUYIN_ENABLED: ${{ secrets.DOUYIN_ENABLED }}
           DOUYIN_COOKIE: ${{ secrets.DOUYIN_COOKIE }}
           DOUYIN_TARGET_ID: ${{ secrets.DOUYIN_TARGET_ID }}
+          DOUYIN_SIGNED_URL: ${{ secrets.DOUYIN_SIGNED_URL }}
           DOUYIN_FOLLOWERS_URL_TEMPLATE: ${{ secrets.DOUYIN_FOLLOWERS_URL_TEMPLATE }}
           DOUYIN_REFERER_URL: ${{ secrets.DOUYIN_REFERER_URL }}
           DOUYIN_EXTRA_HEADERS: ${{ secrets.DOUYIN_EXTRA_HEADERS }}
