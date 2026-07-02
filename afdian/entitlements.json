@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1782964902,
-  "count": 1286,
+  "updated_at": 1782968504,
+  "count": 1289,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -16825,6 +16825,20 @@
         }
       ]
     },
+    "d042b970a7a411ed83b052540025c377": {
+      "name": "爱发电用户_NKyC",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607021210404855491014861",
+          "amount": 5.0
+        }
+      ]
+    },
     "d05352fe3e7d11f0a1c152540025c377": {
       "name": "爱发电用户_rgKH",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -18379,6 +18393,20 @@
       "orders": [
         {
           "out_trade_no": "202606231103355554559928290",
+          "amount": 5.0
+        }
+      ]
+    },
+    "e176785475cc11f1837b5254001e7c00": {
+      "name": "爱发电用户_e1767",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "多修复几章节精英关卡吧",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607021220505056984914819",
           "amount": 5.0
         }
       ]
@@ -20720,6 +20748,20 @@
         {
           "out_trade_no": "202606191526211005157530574",
           "amount": 50.0
+        }
+      ]
+    },
+    "fedadd4c75cf11f1bf4c5254001e7c00": {
+      "name": "爱发电用户_dGRC",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607021241511021011014882",
+          "amount": 5.0
         }
       ]
     },
