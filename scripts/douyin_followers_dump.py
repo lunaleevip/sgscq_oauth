@@ -17,6 +17,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError
 
 
 DOUYIN_COOKIE = os.environ.get("DOUYIN_COOKIE", "").strip()
@@ -99,20 +100,35 @@ def build_request_headers(url: str, cookie: str) -> dict[str, str]:
     return headers
 
 
+def response_preview(body: str) -> str:
+    return body[:200].replace("\r", " ").replace("\n", " ")
+
+
+def describe_http_error(exc: HTTPError) -> str:
+    body = exc.read().decode("utf-8", errors="replace")
+    return (
+        f"HTTP {exc.code} {exc.reason} content-type={exc.headers.get('Content-Type', '')} "
+        f"preview={response_preview(body)!r}"
+    )
+
+
 def http_get_json(url: str, cookie: str) -> dict[str, Any]:
     req = urllib.request.Request(
         url,
         headers=build_request_headers(url, cookie),
     )
-    with urllib.request.urlopen(req, timeout=20) as resp:
+    try:
+        resp = urllib.request.urlopen(req, timeout=20)
+    except HTTPError as exc:
+        raise ValueError(describe_http_error(exc)) from exc
+    with resp:
         body = resp.read().decode("utf-8", errors="replace")
         try:
             return json.loads(body)
         except json.JSONDecodeError as exc:
-            preview = body[:200].replace("\r", " ").replace("\n", " ")
             raise ValueError(
                 f"non-JSON response HTTP {resp.status} content-type={resp.headers.get('Content-Type', '')} "
-                f"preview={preview!r}"
+                f"preview={response_preview(body)!r}"
             ) from exc
 
 

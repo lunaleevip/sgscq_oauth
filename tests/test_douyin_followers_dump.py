@@ -2,13 +2,16 @@ import json
 import sys
 import tempfile
 import unittest
+from io import BytesIO
 from pathlib import Path
+from urllib.error import HTTPError
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from scripts.douyin_followers_dump import (
     build_request_headers,
     build_page_url,
+    describe_http_error,
     extract_follower_ids,
     merge_followers,
     next_cursor,
@@ -96,6 +99,22 @@ class DouyinFollowersDumpTest(unittest.TestCase):
             self.assertEqual("from-url", headers["uifid"])
         finally:
             douyin_dump.DOUYIN_EXTRA_HEADERS = old_extra
+
+    def test_describe_http_error_includes_response_preview(self):
+        error = HTTPError(
+            "https://www.douyin.com/api",
+            400,
+            "Bad Request",
+            {"Content-Type": "application/json"},
+            BytesIO(b'{"status_code":400,"status_msg":"bad signature"}'),
+        )
+
+        message = describe_http_error(error)
+        error.close()
+
+        self.assertIn("HTTP 400 Bad Request", message)
+        self.assertIn("content-type=application/json", message)
+        self.assertIn("bad signature", message)
 
     def test_incremental_merge_preserves_existing_followers(self):
         merged = merge_followers(["3", "2", "1"], ["5", "4", "3"])
