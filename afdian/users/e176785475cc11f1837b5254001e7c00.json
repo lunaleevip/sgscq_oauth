@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1782966308,
+  "user_id": "e176785475cc11f1837b5254001e7c00",
+  "name": "e176785475cc11f1837b5254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "多修复几章节精英关卡吧",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607021220505056984914819",
+      "amount": 5.0
+    }
+  ]
+}
