@@ -1,0 +1,95 @@
+name: Fast Douyin follower snapshot
+
+on:
+  schedule:
+    - cron: '4,14,24,34,44,54 * * * *'
+    - cron: '19 */6 * * *'
+  repository_dispatch:
+    types: [douyin_followers, douyin_followers_full]
+  workflow_dispatch:
+    inputs:
+      full_sync:
+        description: "Run full Douyin crawl instead of recent follower incremental sync"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: douyin-dump
+  cancel-in-progress: false
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run dump
+        env:
+          DOUYIN_COOKIE: ${{ secrets.DOUYIN_COOKIE }}
+          DOUYIN_TARGET_ID: ${{ secrets.DOUYIN_TARGET_ID }}
+          DOUYIN_FOLLOWERS_URL_TEMPLATE: ${{ secrets.DOUYIN_FOLLOWERS_URL_TEMPLATE }}
+          DOUYIN_SYNC_MODE: ${{ ((github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true') || github.event.action == 'douyin_followers_full' || (github.event_name == 'schedule' && github.event.schedule == '19 */6 * * *')) && 'full' || 'incremental' }}
+          DOUYIN_INCREMENTAL_MAX_PAGES: 5
+          OAUTH_REPO_PATH: ${{ github.workspace }}
+        run: |
+          if [ -z "$DOUYIN_COOKIE" ]; then
+            echo "::warning::secret DOUYIN_COOKIE is not set; skip Douyin follower sync."
+            exit 0
+          fi
+          if [ -z "$DOUYIN_TARGET_ID" ]; then
+            echo "::warning::secret DOUYIN_TARGET_ID is not set; skip Douyin follower sync."
+            exit 0
+          fi
+          python scripts/douyin_followers_dump.py
+
+      - name: Commit & push if changed
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          target_branch="${GITHUB_REF_NAME:-master}"
+          paths=(douyin/followers.json douyin/followers.compact.txt)
+
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+          git add -A -- "${paths[@]}"
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git stash push --include-untracked --message douyin-followers -- "${paths[@]}"
+          git pull --rebase origin "${target_branch}"
+          git stash pop
+
+          git add -A -- "${paths[@]}"
+          if git diff --cached --quiet; then
+            echo "No changes after rebase."
+            exit 0
+          fi
+
+          git commit -m "chore: douyin follower snapshot $(date -u +'%Y-%m-%d %H:%MZ')"
+
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${target_branch}"; then
+              exit 0
+            fi
+            if [ "${attempt}" = "3" ]; then
+              echo "Push failed after ${attempt} attempts."
+              exit 1
+            fi
+            git pull --rebase origin "${target_branch}"
+          done
