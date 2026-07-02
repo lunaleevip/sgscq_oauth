@@ -12,20 +12,15 @@ if (!$token) {
 $repo = getenv('GITHUB_REPO') ?: 'lunaleevip/sgscq_oauth';
 $afdianStateFile = getenv('AFDIAN_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_afdian_full_hour';
 $biliStateFile = getenv('BILI_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_bili_full_slot';
-$douyinStateFile = getenv('DOUYIN_FULL_SYNC_STATE') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'sgscq_douyin_full_slot';
 $currentHour = gmdate('YmdH');
 $currentBiliSlot = gmdate('Ymd') . '-' . intdiv((int) gmdate('G'), 6);
-$currentDouyinSlot = gmdate('Ymd') . '-' . intdiv((int) gmdate('G'), 6);
 $lastAfdianFullHour = is_readable($afdianStateFile) ? trim(file_get_contents($afdianStateFile)) : '';
 $lastBiliFullSlot = is_readable($biliStateFile) ? trim(file_get_contents($biliStateFile)) : '';
-$lastDouyinFullSlot = is_readable($douyinStateFile) ? trim(file_get_contents($douyinStateFile)) : '';
 $runAfdianFull = $lastAfdianFullHour !== $currentHour;
 $runBiliFull = $lastBiliFullSlot !== $currentBiliSlot;
-$runDouyinFull = $lastDouyinFullSlot !== $currentDouyinSlot;
 $events = [
     $runAfdianFull ? 'afdian_full' : 'afdian_incremental',
     $runBiliFull ? 'bili_followers_full' : 'bili_followers',
-    $runDouyinFull ? 'douyin_followers_full' : 'douyin_followers',
 ];
 $ok = true;
 
@@ -75,13 +70,6 @@ foreach ($events as $eventType) {
             if ($written === false) {
                 $ok = false;
                 echo "{$eventType}: failed to update state file {$biliStateFile}\n";
-            }
-        }
-        if ($eventType === 'douyin_followers_full') {
-            $written = file_put_contents($douyinStateFile, $currentDouyinSlot . PHP_EOL, LOCK_EX);
-            if ($written === false) {
-                $ok = false;
-                echo "{$eventType}: failed to update state file {$douyinStateFile}\n";
             }
         }
     }

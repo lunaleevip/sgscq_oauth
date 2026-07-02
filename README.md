@@ -44,9 +44,6 @@ cron-capable host every five minutes. It sends these repository dispatch events:
 - `bili_followers`: run Bilibili follower snapshot sync.
 - `bili_followers_full`: run full Bilibili follower snapshot sync once per
   six-hour UTC slot.
-- `douyin_followers`: run Douyin follower snapshot sync.
-- `douyin_followers_full`: run full Douyin follower snapshot sync once per
-  six-hour UTC slot.
 
 The external host only needs `GITHUB_DISPATCH_TOKEN` in its environment. The
 token must be able to call repository dispatch on `lunaleevip/sgscq_oauth`.
@@ -58,19 +55,18 @@ latest-page API window. Scheduled and external cron runs force a full Bilibili
 sync once every six hours. Manual `Fast follower snapshot` runs can set
 `full_sync=true` to rebuild from the Bilibili API limit.
 
-Douyin follower sync uses a logged-in web Cookie, like the Bilibili Cookie-based
-sync. Incremental runs merge the newest follower identifiers with the existing
-snapshot; full runs rebuild `douyin/followers.json` and
-`douyin/followers.compact.txt`. Because Douyin web API response fields can vary,
-the script records common identifier fields such as `uid`, `unique_id`,
-`short_id`, `sec_uid`, and `sec_user_id`. Override `DOUYIN_ID_FIELDS` if the
-real response needs a stricter field list.
+Douyin follower sync is not scheduled through GitHub Actions. The web follower
+endpoint requires a fresh browser-style `a_bogus` signature for every page, so
+the scheduled job runs on the VPS instead. The VPS job signs each page locally,
+commits `douyin/followers.json` and `douyin/followers.compact.txt`, and mirrors
+the result to Gitee. The GitHub workflow remains available only for manual or
+repository-dispatch fallback runs.
 
 Configure these GitHub Actions secrets in `lunaleevip/sgscq_oauth`:
 
 - `AFDIAN_USER_ID`: Afdian OpenAPI user id.
 - `AFDIAN_TOKEN`: Afdian OpenAPI token.
-- `DOUYIN_COOKIE`: Douyin logged-in web Cookie.
+- `DOUYIN_COOKIE`: Douyin logged-in web Cookie for manual fallback runs.
 - `DOUYIN_TARGET_ID`: target Douyin account id used by the followers endpoint,
   usually the account `sec_user_id`.
 - `DOUYIN_FOLLOWERS_URL_TEMPLATE`: optional override for the Douyin followers

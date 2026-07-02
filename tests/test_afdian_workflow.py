@@ -37,11 +37,10 @@ class AfdianWorkflowTest(unittest.TestCase):
         self.assertIn("fetch-depth: 0", bili)
         self.assertIn("python scripts/bili_followers_history_union.py", bili)
         self.assertIn("for attempt in 1 2 3", bili)
-        self.assertIn("cron: '4,14,24,34,44,54 * * * *'", douyin)
-        self.assertIn("cron: '19 */6 * * *'", douyin)
+        self.assertNotIn("schedule:", douyin)
         self.assertIn("types: [douyin_followers, douyin_followers_full]", douyin)
         self.assertIn("github.event.action == 'douyin_followers_full'", douyin)
-        self.assertIn("github.event.schedule == '19 */6 * * *'", douyin)
+        self.assertNotIn("github.event.schedule", douyin)
         self.assertIn("DOUYIN_ENABLED:", douyin)
         self.assertIn("DOUYIN_REFERER_URL:", douyin)
         self.assertIn("DOUYIN_EXTRA_HEADERS:", douyin)
@@ -51,7 +50,7 @@ class AfdianWorkflowTest(unittest.TestCase):
         self.assertIn("No Douyin snapshot files.", douyin)
         self.assertIn("for attempt in 1 2 3", douyin)
 
-    def test_external_cron_dispatches_both_sync_events(self):
+    def test_external_cron_dispatches_afdian_and_bili_events(self):
         script = Path("tools/oauth_sync_dispatch_cron.php").read_text(encoding="utf-8")
 
         self.assertIn("'afdian_incremental'", script)
@@ -60,9 +59,9 @@ class AfdianWorkflowTest(unittest.TestCase):
         self.assertIn("'bili_followers'", script)
         self.assertIn("'bili_followers_full'", script)
         self.assertIn("sgscq_bili_full_slot", script)
-        self.assertIn("'douyin_followers'", script)
-        self.assertIn("'douyin_followers_full'", script)
-        self.assertIn("sgscq_douyin_full_slot", script)
+        self.assertNotIn("'douyin_followers'", script)
+        self.assertNotIn("'douyin_followers_full'", script)
+        self.assertNotIn("sgscq_douyin_full_slot", script)
         self.assertIn("GITHUB_DISPATCH_TOKEN", script)
         self.assertIn("https://api.github.com/repos/{$repo}/dispatches", script)
 
