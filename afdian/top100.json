@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1782957698,
+  "updated_at": 1782961294,
   "count": 100,
   "top100": [
     {
@@ -859,6 +859,15 @@
       "sponsor": true
     },
     {
+      "user_id": "9304b262755e11f1af755254001e7c00",
+      "name": "下坠",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4a06a0e6cb6590eb6d6e3c10deef2aa4_w100_h100_s1.jpeg",
+      "amount": 105.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "5f2fc1d4726611f180d752540025c377",
       "name": "不  靠  谱  的  我    T^T",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/181a295c571ebd6c732c224f6f58aa25_w100_h100_s3.jpeg",
@@ -886,18 +895,9 @@
       "sponsor": true
     },
     {
-      "user_id": "3b697fe6aa7611f09dce52540025c377",
-      "name": "刘宇",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 105.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "a9ece548016811eebc955254001e7c00",
-      "name": "博",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e2306e57ac785bdd43f2b095d12ab2db_w132_h132_s7.jpeg",
+      "user_id": "a02a2674726711f1a40552540025c377",
+      "name": "冷心的暧昧",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0faa70b025d4e1f53110bd7a8f7ca400_w100_h100_s3.jpeg",
       "amount": 105.0,
       "level": 2,
       "plan_name": "自选方案",

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1782957698,
-  "count": 1281,
+  "updated_at": 1782961294,
+  "count": 1285,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -2943,6 +2943,20 @@
         }
       ]
     },
+    "27240aee75bc11f1a4d752540025c377": {
+      "name": "爱发电用户_27240",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607021017225054534914788",
+          "amount": 5.0
+        }
+      ]
+    },
     "2732557e6cb411f1a6b95254001e7c00": {
       "name": "33",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -4080,11 +4094,15 @@
     "3662285e72c611f1ab6552540025c377": {
       "name": "^-",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/72084b7077f0f14be4379b192d67d015_w100_h100_s2.jpeg",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607021015465097501014795",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202606282030115157559814758",
           "amount": 5.0
@@ -5881,6 +5899,20 @@
         }
       ]
     },
+    "4daf5c8275bb11f1973f52540025c377": {
+      "name": "忘了",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607021025341011005414752",
+          "amount": 5.0
+        }
+      ]
+    },
     "4db1404c6fc611f194b35254001e7c00": {
       "name": "爱发电用户_4db14",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -6200,6 +6232,20 @@
         {
           "out_trade_no": "202606192159005254995729584",
           "amount": 10.0
+        }
+      ]
+    },
+    "51dcac0475bd11f19d4c52540025c377": {
+      "name": "王先生",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607021055365656519711763",
+          "amount": 5.0
         }
       ]
     },
@@ -11294,11 +11340,15 @@
     "9304b262755e11f1af755254001e7c00": {
       "name": "下坠",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4a06a0e6cb6590eb6d6e3c10deef2aa4_w100_h100_s1.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607021058371005399914779",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607012307284849974914738",
           "amount": 5.0
@@ -12330,11 +12380,15 @@
     "a02a2674726711f1a40552540025c377": {
       "name": "冷心的暧昧",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0faa70b025d4e1f53110bd7a8f7ca400_w100_h100_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607021059444857994911831",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607011202039856485611777",
           "amount": 5.0
@@ -14457,6 +14511,20 @@
       "orders": [
         {
           "out_trade_no": "202606251838564849565247294",
+          "amount": 5.0
+        }
+      ]
+    },
+    "b4f98d7875ba11f196cb52540025c377": {
+      "name": "isumi",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607021006585098995714709",
           "amount": 5.0
         }
       ]
@@ -21543,6 +21611,15 @@
       "sponsor": true
     },
     {
+      "user_id": "9304b262755e11f1af755254001e7c00",
+      "name": "下坠",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4a06a0e6cb6590eb6d6e3c10deef2aa4_w100_h100_s1.jpeg",
+      "amount": 105.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "5f2fc1d4726611f180d752540025c377",
       "name": "不  靠  谱  的  我    T^T",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/181a295c571ebd6c732c224f6f58aa25_w100_h100_s3.jpeg",
@@ -21570,18 +21647,9 @@
       "sponsor": true
     },
     {
-      "user_id": "3b697fe6aa7611f09dce52540025c377",
-      "name": "刘宇",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 105.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "a9ece548016811eebc955254001e7c00",
-      "name": "博",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e2306e57ac785bdd43f2b095d12ab2db_w132_h132_s7.jpeg",
+      "user_id": "a02a2674726711f1a40552540025c377",
+      "name": "冷心的暧昧",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0faa70b025d4e1f53110bd7a8f7ca400_w100_h100_s3.jpeg",
       "amount": 105.0,
       "level": 2,
       "plan_name": "自选方案",
