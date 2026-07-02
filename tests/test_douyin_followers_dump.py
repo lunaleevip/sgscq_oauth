@@ -14,10 +14,12 @@ from scripts.douyin_followers_dump import (
     clean_windows_curl_escapes,
     describe_http_error,
     extract_follower_ids,
+    extract_profile_names,
     has_pagination_placeholder,
     merge_followers,
     next_cursor,
     page_items,
+    read_existing_follower_object_count,
     should_continue,
     write_outputs,
 )
@@ -37,6 +39,25 @@ class DouyinFollowersDumpTest(unittest.TestCase):
         self.assertEqual(
             ["uid-1", "unique-1", "short-1", "sec-1", "sec-user-1"],
             extract_follower_ids(item),
+        )
+
+    def test_extract_profile_names_maps_all_identifiers_to_nickname(self):
+        item = {
+            "uid": "uid-1",
+            "sec_user_id": "sec-user-1",
+            "user": {
+                "unique_id": "unique-1",
+                "nickname": "测试昵称",
+            },
+        }
+
+        self.assertEqual(
+            {
+                "uid-1": "测试昵称",
+                "sec-user-1": "测试昵称",
+                "unique-1": "测试昵称",
+            },
+            extract_profile_names(item),
         )
 
     def test_page_items_supports_common_response_shapes(self):
@@ -178,6 +199,28 @@ class DouyinFollowersDumpTest(unittest.TestCase):
 
         self.assertEqual(["5", "4", "3", "2", "1"], merged)
 
+    def test_read_existing_follower_object_count_prefers_snapshot_metadata(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp) / "douyin"
+            out_dir.mkdir(parents=True)
+            (out_dir / "followers.json").write_text(
+                json.dumps({"count": 150, "identifier_count": 515}),
+                encoding="utf-8",
+            )
+
+            self.assertEqual(150, read_existing_follower_object_count(out_dir))
+
+    def test_read_existing_follower_object_count_accepts_utf8_bom(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp) / "douyin"
+            out_dir.mkdir(parents=True)
+            (out_dir / "followers.json").write_text(
+                json.dumps({"count": 150, "identifier_count": 515}),
+                encoding="utf-8-sig",
+            )
+
+            self.assertEqual(150, read_existing_follower_object_count(out_dir))
+
     def test_write_outputs_keeps_json_sorted_and_compact_newest_first(self):
         with tempfile.TemporaryDirectory() as tmp:
             out_dir = Path(tmp) / "douyin"
@@ -209,6 +252,24 @@ class DouyinFollowersDumpTest(unittest.TestCase):
             self.assertEqual(2, payload["follower_object_count"])
             self.assertEqual(5, payload["identifier_count"])
             self.assertEqual(["sec-1", "sec-2", "uid-1", "uid-2", "unique-1"], payload["followers"])
+
+    def test_write_outputs_can_include_profile_names_without_changing_compact(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp) / "douyin"
+
+            write_outputs(
+                out_dir,
+                "target-sec-id",
+                ["uid-1", "sec-1"],
+                generated_at=123,
+                profiles={"uid-1": "测试昵称", "sec-1": "测试昵称"},
+            )
+
+            payload = json.loads((out_dir / "followers.json").read_text(encoding="utf-8"))
+            self.assertEqual({"name": "测试昵称"}, payload["profiles"]["uid-1"])
+            self.assertEqual({"name": "测试昵称"}, payload["profiles"]["sec-1"])
+            compact = (out_dir / "followers.compact.txt").read_text(encoding="utf-8").splitlines()
+            self.assertEqual(["uid-1", "sec-1"], compact)
 
 
 if __name__ == "__main__":

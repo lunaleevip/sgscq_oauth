@@ -35,6 +35,14 @@ DOUYIN_ID_FIELDS = [
     ).split(",")
     if field.strip()
 ]
+DOUYIN_NAME_FIELDS = [
+    field.strip()
+    for field in os.environ.get(
+        "DOUYIN_NAME_FIELDS",
+        "nickname,nick_name,name,display_name",
+    ).split(",")
+    if field.strip()
+]
 
 _default_repo = Path(__file__).resolve().parent.parent
 OAUTH_REPO_PATH = Path(os.environ.get("OAUTH_REPO_PATH", str(_default_repo)))
@@ -48,6 +56,8 @@ USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 )
+DISCOVERED_PROFILE_NAMES: dict[str, str] = {}
+DISCOVERED_OBJECT_KEYS: set[str] = set()
 
 
 def default_url_template() -> str:
@@ -207,6 +217,19 @@ def extract_follower_ids(item: dict[str, Any]) -> list[str]:
     return ids
 
 
+def extract_profile_names(item: dict[str, Any]) -> dict[str, str]:
+    user = as_dict(item.get("user"))
+    name = first_non_empty(user, *DOUYIN_NAME_FIELDS) or first_non_empty(item, *DOUYIN_NAME_FIELDS)
+    if not name:
+        return {}
+    return {identifier: name for identifier in extract_follower_ids(item)}
+
+
+def extract_object_key(item: dict[str, Any]) -> str:
+    ids = extract_follower_ids(item)
+    return ids[0] if ids else ""
+
+
 def first_cursor(data: dict[str, Any], *keys: str) -> str:
     for key in keys:
         value = data.get(key)
@@ -269,6 +292,10 @@ def fetch_followers(
             if stop_at_seen and any(value in stop_at_seen for value in ids):
                 print(f"[INFO] page {page}: reached existing follower, stop incremental crawl.")
                 return ordered
+            object_key = extract_object_key(item)
+            if object_key:
+                DISCOVERED_OBJECT_KEYS.add(object_key)
+            DISCOVERED_PROFILE_NAMES.update(extract_profile_names(item))
             for value in ids:
                 if value in seen:
                     continue
@@ -304,12 +331,55 @@ def read_existing_followers(out_dir: Path) -> list[str]:
     json_path = out_dir / "followers.json"
     if json_path.exists():
         try:
-            payload = json.loads(json_path.read_text(encoding="utf-8"))
+            payload = json.loads(json_path.read_text(encoding="utf-8-sig"))
             followers = payload.get("followers") or []
             return [str(value).strip() for value in followers if str(value).strip()]
         except Exception as exc:
             print(f"[WARN] could not parse existing followers.json: {exc}")
     return []
+
+
+def read_existing_profiles(out_dir: Path) -> dict[str, str]:
+    json_path = out_dir / "followers.json"
+    if not json_path.exists():
+        return {}
+    try:
+        payload = json.loads(json_path.read_text(encoding="utf-8-sig"))
+    except Exception as exc:
+        print(f"[WARN] could not parse existing profile names: {exc}")
+        return {}
+    profiles = payload.get("profiles") or payload.get("profile_names") or {}
+    if not isinstance(profiles, dict):
+        return {}
+    out: dict[str, str] = {}
+    for identifier, value in profiles.items():
+        name = ""
+        if isinstance(value, dict):
+            name = first_non_empty(value, *DOUYIN_NAME_FIELDS)
+        else:
+            name = str(value).strip()
+        if str(identifier).strip() and name:
+            out[str(identifier).strip()] = name
+    return out
+
+
+def read_existing_follower_object_count(out_dir: Path) -> int:
+    json_path = out_dir / "followers.json"
+    if not json_path.exists():
+        return 0
+    try:
+        payload = json.loads(json_path.read_text(encoding="utf-8-sig"))
+    except Exception as exc:
+        print(f"[WARN] could not parse existing follower count: {exc}")
+        return 0
+    for key in ("follower_object_count", "count"):
+        try:
+            value = int(payload.get(key, 0))
+            if value > 0:
+                return value
+        except Exception:
+            continue
+    return 0
 
 
 def merge_followers(existing: list[str], recent: list[str]) -> list[str]:
@@ -337,11 +407,17 @@ def write_outputs(
     followers: list[str],
     generated_at: int | None = None,
     follower_object_count: int | None = None,
+    profiles: dict[str, str] | None = None,
 ) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     sorted_ids = sorted(followers, key=sort_key)
     identifier_count = len(sorted_ids)
     count = int(follower_object_count) if follower_object_count is not None else identifier_count
+    profile_payload = {
+        identifier: {"name": name}
+        for identifier, name in sorted((profiles or {}).items(), key=lambda x: sort_key(x[0]))
+        if identifier in set(sorted_ids) and str(name).strip()
+    }
 
     payload = {
         "version": 1,
@@ -353,6 +429,8 @@ def write_outputs(
         "identifier_count": identifier_count,
         "followers": sorted_ids,
     }
+    if profile_payload:
+        payload["profiles"] = profile_payload
 
     json_path = out_dir / "followers.json"
     compact_path = out_dir / "followers.compact.txt"
@@ -380,6 +458,8 @@ def main() -> None:
     print(f"[INFO] dumping Douyin followers of target={DOUYIN_TARGET_ID} -> {out_dir}")
 
     existing_followers = read_existing_followers(out_dir)
+    existing_profiles = read_existing_profiles(out_dir)
+    existing_object_count = read_existing_follower_object_count(out_dir)
     if SYNC_MODE == "full":
         followers = fetch_followers(DOUYIN_COOKIE, DOUYIN_TARGET_ID)
     else:
@@ -392,6 +472,13 @@ def main() -> None:
                 stop_at_seen=set(existing_followers),
             ),
         )
+    profiles = existing_profiles if SYNC_MODE != "full" else {}
+    profiles.update(DISCOVERED_PROFILE_NAMES)
+    follower_object_count = (
+        len(DISCOVERED_OBJECT_KEYS)
+        if SYNC_MODE == "full" and DISCOVERED_OBJECT_KEYS
+        else (existing_object_count + len(DISCOVERED_OBJECT_KEYS) if SYNC_MODE != "full" else None)
+    )
 
     if not followers:
         print("[ERROR] zero Douyin follower identifiers crawled; refusing to overwrite snapshot.")
@@ -400,7 +487,7 @@ def main() -> None:
     existing_json = out_dir / "followers.json"
     if existing_json.exists():
         try:
-            old = json.loads(existing_json.read_text(encoding="utf-8"))
+            old = json.loads(existing_json.read_text(encoding="utf-8-sig"))
             old_count = int(old.get("count", 0))
             if SYNC_MODE == "full" and old_count >= 50 and len(followers) < old_count // 2:
                 print(
@@ -411,7 +498,13 @@ def main() -> None:
         except Exception as exc:
             print(f"[WARN] could not parse existing followers.json: {exc}")
 
-    write_outputs(out_dir, DOUYIN_TARGET_ID, followers)
+    write_outputs(
+        out_dir,
+        DOUYIN_TARGET_ID,
+        followers,
+        follower_object_count=follower_object_count,
+        profiles=profiles,
+    )
     print(f"[DONE] {len(followers)} Douyin follower identifiers crawled.")
 
 
