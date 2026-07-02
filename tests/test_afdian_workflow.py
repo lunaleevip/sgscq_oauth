@@ -44,6 +44,7 @@ class AfdianWorkflowTest(unittest.TestCase):
         self.assertIn("github.event.schedule == '19 */6 * * *'", douyin)
         self.assertIn("DOUYIN_SYNC_MODE:", douyin)
         self.assertIn("python scripts/douyin_followers_dump.py", douyin)
+        self.assertIn("No Douyin snapshot files.", douyin)
         self.assertIn("for attempt in 1 2 3", douyin)
 
     def test_external_cron_dispatches_both_sync_events(self):

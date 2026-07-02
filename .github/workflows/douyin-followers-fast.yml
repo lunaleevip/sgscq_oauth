@@ -62,6 +62,11 @@ jobs:
           target_branch="${GITHUB_REF_NAME:-master}"
           paths=(douyin/followers.json douyin/followers.compact.txt)
 
+          if [ ! -e douyin/followers.json ] && [ ! -e douyin/followers.compact.txt ]; then
+            echo "No Douyin snapshot files."
+            exit 0
+          fi
+
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
 
