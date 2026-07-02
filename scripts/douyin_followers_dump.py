@@ -61,13 +61,18 @@ def clean_url_template(template: str) -> str:
     return "".join(str(template).split())
 
 
-def build_page_url(target_id: str, cursor: str, count: int) -> str:
+def has_pagination_placeholder(template: str) -> bool:
+    return "{cursor}" in template or "{offset}" in template
+
+
+def build_page_url(target_id: str, cursor: str, count: int, offset: int = 0) -> str:
     template = clean_url_template(DOUYIN_FOLLOWERS_URL_TEMPLATE or default_url_template())
     quoted_target = urllib.parse.quote(target_id, safe="")
     return template.format(
         target_id=quoted_target,
         cursor=urllib.parse.quote(str(cursor), safe=""),
         count=int(count),
+        offset=int(offset),
     )
 
 
@@ -230,9 +235,11 @@ def fetch_followers(
     seen: set[str] = set()
     ordered: list[str] = []
     cursor = os.environ.get("DOUYIN_INITIAL_CURSOR", "0")
+    template = clean_url_template(DOUYIN_FOLLOWERS_URL_TEMPLATE or default_url_template())
+    supports_pagination = has_pagination_placeholder(template)
 
     for page in range(1, max_pages + 1):
-        url = build_page_url(target_id, cursor, PAGE_SIZE)
+        url = build_page_url(target_id, cursor, PAGE_SIZE, offset=(page - 1) * PAGE_SIZE)
         try:
             data = http_get_json(url, cookie)
         except Exception as exc:
@@ -263,6 +270,10 @@ def fetch_followers(
                 new_count += 1
 
         print(f"[INFO] page {page}: +{new_count} identifiers, total seen {len(ordered)}")
+
+        if not supports_pagination:
+            print(f"[INFO] page {page}: signed URL has no pagination placeholder, stop.")
+            break
 
         next_value = next_cursor(data)
         if not should_continue(data) or not next_value or next_value == cursor:

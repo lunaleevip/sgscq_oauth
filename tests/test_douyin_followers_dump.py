@@ -13,6 +13,7 @@ from scripts.douyin_followers_dump import (
     build_page_url,
     describe_http_error,
     extract_follower_ids,
+    has_pagination_placeholder,
     merge_followers,
     next_cursor,
     page_items,
@@ -67,6 +68,25 @@ class DouyinFollowersDumpTest(unittest.TestCase):
             self.assertIn("browser_language=zh-CN", url)
         finally:
             douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
+
+    def test_build_page_url_supports_offset_placeholder(self):
+        old_template = douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE
+        try:
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = (
+                "https://www.douyin.com/api?sec_user_id={target_id}&offset={offset}&max_time={cursor}&count={count}"
+            )
+
+            url = build_page_url("target", "123", 20, offset=40)
+
+            self.assertIn("offset=40", url)
+            self.assertIn("max_time=123", url)
+        finally:
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
+
+    def test_has_pagination_placeholder_detects_signed_single_page_template(self):
+        self.assertFalse(has_pagination_placeholder("https://www.douyin.com/api?offset=13&max_time=123"))
+        self.assertTrue(has_pagination_placeholder("https://www.douyin.com/api?offset={offset}&max_time=123"))
+        self.assertTrue(has_pagination_placeholder("https://www.douyin.com/api?offset=0&max_time={cursor}"))
 
     def test_build_request_headers_uses_browser_referer_and_url_uifid(self):
         old_referer = douyin_dump.DOUYIN_REFERER_URL
