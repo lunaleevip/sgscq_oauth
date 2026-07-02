@@ -39,6 +39,10 @@ PAGE_SLEEP_SEC = 1.5         # 每页之间的间隔，避免 412
 MAX_PAGES = 1000             # 兜底：5 万粉丝
 INCREMENTAL_MAX_PAGES = int(os.environ.get("BILI_INCREMENTAL_MAX_PAGES", "5"))
 SYNC_MODE = os.environ.get("BILI_SYNC_MODE", "incremental").strip().lower()
+ALLOW_EXISTING_ON_INCREMENTAL_ERROR = (
+    os.environ.get("BILI_ALLOW_EXISTING_ON_INCREMENTAL_ERROR", "false").strip().lower()
+    in {"1", "true", "yes", "on"}
+)
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
@@ -147,6 +151,23 @@ def merge_followers(existing: list[str], recent: list[str]) -> list[str]:
     return merged
 
 
+def followers_for_sync(
+    existing_followers: list[str],
+    sync_mode: str,
+    fetch_recent,
+    allow_existing_on_incremental_error: bool = False,
+) -> list[str]:
+    if sync_mode == "full":
+        return fetch_recent()
+    try:
+        return merge_followers(existing_followers, fetch_recent())
+    except SystemExit as exc:
+        if allow_existing_on_incremental_error and existing_followers:
+            print(f"[WARN] incremental follower fetch failed; keeping existing snapshot: {exc}")
+            return existing_followers
+        raise
+
+
 def write_outputs(out_dir: Path, up_mid: str, followers: list[str], generated_at: int | None = None) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -188,18 +209,21 @@ def main() -> None:
     print(f"[INFO] dumping followers of vmid={BILI_UP_MID} → {out_dir}")
 
     existing_followers = read_existing_followers(out_dir)
-    if SYNC_MODE == "full":
-        followers = fetch_followers(BILI_COOKIE, BILI_UP_MID)
-    else:
-        followers = merge_followers(
-            existing_followers,
-            fetch_followers(
+    followers = followers_for_sync(
+        existing_followers=existing_followers,
+        sync_mode=SYNC_MODE,
+        fetch_recent=(
+            lambda: fetch_followers(BILI_COOKIE, BILI_UP_MID)
+            if SYNC_MODE == "full"
+            else fetch_followers(
                 BILI_COOKIE,
                 BILI_UP_MID,
                 max_pages=INCREMENTAL_MAX_PAGES,
                 stop_at_seen=set(existing_followers),
-            ),
-        )
+            )
+        ),
+        allow_existing_on_incremental_error=ALLOW_EXISTING_ON_INCREMENTAL_ERROR,
+    )
 
     if not followers:
         print("[ERROR] zero followers crawled — refusing to overwrite snapshot.")

@@ -6,7 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from scripts.bili_followers_dump import merge_followers, write_outputs
+from scripts.bili_followers_dump import followers_for_sync, merge_followers, write_outputs
 
 
 class BiliFollowersDumpTest(unittest.TestCase):
@@ -14,6 +14,19 @@ class BiliFollowersDumpTest(unittest.TestCase):
         merged = merge_followers(["3", "2", "1"], ["5", "4", "3"])
 
         self.assertEqual(["5", "4", "3", "2", "1"], merged)
+
+    def test_incremental_fetch_failure_keeps_existing_snapshot_when_allowed(self):
+        def failing_fetch():
+            raise SystemExit("[ERROR] page 1 returned code=-352 message=-352")
+
+        followers = followers_for_sync(
+            existing_followers=["3", "2", "1"],
+            sync_mode="incremental",
+            fetch_recent=failing_fetch,
+            allow_existing_on_incremental_error=True,
+        )
+
+        self.assertEqual(["3", "2", "1"], followers)
 
     def test_write_outputs_keeps_json_sorted_and_compact_newest_first(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -50,6 +50,7 @@ jobs:
           BILI_UP_MID: '173883695'
           BILI_SYNC_MODE: ${{ ((github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true') || github.event.action == 'bili_followers_full' || (github.event_name == 'schedule' && github.event.schedule == '17 */6 * * *')) && 'full' || 'incremental' }}
           BILI_INCREMENTAL_MAX_PAGES: 5
+          BILI_ALLOW_EXISTING_ON_INCREMENTAL_ERROR: true
         run: |
           if [ -z "$BILI_COOKIE" ]; then
             echo "::error::secret BILI_COOKIE is not set; please add it under repo Settings → Secrets and variables → Actions"
