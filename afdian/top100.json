@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1782997311,
+  "updated_at": 1783000910,
   "count": 100,
   "top100": [
     {
@@ -44,6 +44,15 @@
       "name": "老贺",
       "avatar": "https://pic1.afdiancdn.com/user/8f5fe1aa564011f1bccd52540025c377/avatar/742a6ff407ef16f29f025453eb9be526_w581_h580_s86.jpeg",
       "amount": 1010.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "bab4a0a4297c11eab1ce52540025c377",
+      "name": "Dv",
+      "avatar": "https://pic1.afdiancdn.com/user/bab4a0a4297c11eab1ce52540025c377/avatar/f15feb394248bddca0de6d9920873cf9_w960_h825_s65.jpeg",
+      "amount": 1005.0,
       "level": 4,
       "plan_name": "自选方案",
       "sponsor": true
@@ -187,15 +196,6 @@
       "user_id": "9658cb246c5311f1950e52540025c377",
       "name": "109052005",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3bff7aa711fd714820534ad08d9fc081_w100_h100_s5.png",
-      "amount": 505.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "bab4a0a4297c11eab1ce52540025c377",
-      "name": "Dv",
-      "avatar": "https://pic1.afdiancdn.com/user/bab4a0a4297c11eab1ce52540025c377/avatar/f15feb394248bddca0de6d9920873cf9_w960_h825_s65.jpeg",
       "amount": 505.0,
       "level": 3,
       "plan_name": "自选方案",
@@ -652,6 +652,15 @@
       "sponsor": true
     },
     {
+      "user_id": "0b1ed236761911f1b48e52540025c377",
+      "name": "皮蛋solo周",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6d1b96bcc478ce8c12761de9708f3646_w100_h100_s3.jpeg",
+      "amount": 120.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "aadc8e14056211ef9f0052540025c377",
       "name": "爱发电用户_brNs",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -889,15 +898,6 @@
       "user_id": "75165c2472d411f185e65254001e7c00",
       "name": "以一当千潘凤",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c16fe51992aeb8096e286af8c343e5f3_w100_h100_s3.jpeg",
-      "amount": 105.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "a02a2674726711f1a40552540025c377",
-      "name": "冷心的暧昧",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0faa70b025d4e1f53110bd7a8f7ca400_w100_h100_s3.jpeg",
       "amount": 105.0,
       "level": 2,
       "plan_name": "自选方案",
