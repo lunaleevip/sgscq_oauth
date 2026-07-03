@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1783098126,
+  "updated_at": 1783098908,
   "user_id": "ab56dff276c111f1b3a45254001e7c00",
   "name": "Gemini",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "up加油",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "20260703173243985699572579",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607040111294954511035556",
+      "amount": 95.0
     }
   ]
 }
