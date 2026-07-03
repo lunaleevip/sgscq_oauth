@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1783059310,
+  "user_id": "25a03de0763a11f1b5715254001e7c00",
+  "name": "25a03de0763a11f1b5715254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "求求永久",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607031414179748489910815",
+      "amount": 5.0
+    }
+  ]
+}
