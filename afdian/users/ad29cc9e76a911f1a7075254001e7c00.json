@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1783062124,
+  "user_id": "ad29cc9e76a911f1a7075254001e7c00",
+  "name": "Saber",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/90e63317318b96c09aaad0633b770a7e_w100_h100_s4.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油，小时候觉得好玩，现在又回来了",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607031455251005052516457",
+      "amount": 5.0
+    }
+  ]
+}
