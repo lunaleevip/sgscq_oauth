@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783034417,
+  "updated_at": 1783036916,
   "count": 100,
   "top100": [
     {
@@ -106,6 +106,15 @@
       "user_id": "cad9c590d2c511eda5575254001e7c00",
       "name": "我爱喝百事",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "476c8fb66dc811f192c052540025c377",
+      "name": "战山为王",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b03eee33c99bb2026096d033b85e3c4e_w100_h100_s2.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
@@ -403,15 +412,6 @@
       "user_id": "20b5389c6fcf11f1b05a52540025c377",
       "name": "小路.",
       "avatar": "https://pic1.afdiancdn.com/user/20b5389c6fcf11f1b05a52540025c377/avatar/1bb481c3aa125bffaa6c01c00edeeb3e_w940_h940_s61.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "476c8fb66dc811f192c052540025c377",
-      "name": "战山为王",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b03eee33c99bb2026096d033b85e3c4e_w100_h100_s2.jpeg",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
