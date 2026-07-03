@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783087330,
-  "count": 1380,
+  "updated_at": 1783090935,
+  "count": 1383,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -991,6 +991,20 @@
       "orders": [
         {
           "out_trade_no": "202607010012415748535216222",
+          "amount": 5.0
+        }
+      ]
+    },
+    "0c9bc9fa76e811f1835e52540025c377": {
+      "name": "爱发电用户_eCbY",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607032204045254535542549",
           "amount": 5.0
         }
       ]
@@ -6048,11 +6062,15 @@
     "4965631476de11f1bed15254001e7c00": {
       "name": "爱发电用户_49656",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "作者牛逼",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607032221031025056515160",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607032055261019755114539",
           "amount": 5.0
@@ -8554,11 +8572,15 @@
     "64c24db6eddb11f0b1fa52540025c377": {
       "name": "话唠唠死者",
       "avatar": "https://pic1.afdiancdn.com/user/64c24db6eddb11f0b1fa52540025c377/avatar/b42bb04a083415e5f4a674421bf9b199_w722_h722_s58.jpeg",
-      "amount": 130.0,
+      "amount": 230.0,
       "level": 2,
       "plan_name": "希望能注意好自己身体，别太累了",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607032238435199989825197",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202606240945469799555319437",
           "amount": 100.0
@@ -9612,11 +9634,15 @@
     "71883b58755a11f1b2f352540025c377": {
       "name": "小雨哗哗",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3a5b9a83f41f7cc1123ab3cf40aaace6_w100_h100_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607032224129957485015681",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607032057115550535013186",
           "amount": 5.0
@@ -17301,6 +17327,20 @@
         }
       ]
     },
+    "c663887076eb11f1be995254001e7c00": {
+      "name": "苏沐橙",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607032231515554101514662",
+          "amount": 5.0
+        }
+      ]
+    },
     "c6707cec6ff711f1833452540025c377": {
       "name": "江渡",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -21883,6 +21923,20 @@
         }
       ]
     },
+    "fa3a6ce276ee11f180925254001e7c00": {
+      "name": "爱发电用户_nuAQ",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607032253469749519921103",
+          "amount": 5.0
+        }
+      ]
+    },
     "fa3de39a6d9311f1aa7452540025c377": {
       "name": "丶铘铭",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -22907,6 +22961,15 @@
       "sponsor": true
     },
     {
+      "user_id": "64c24db6eddb11f0b1fa52540025c377",
+      "name": "话唠唠死者",
+      "avatar": "https://pic1.afdiancdn.com/user/64c24db6eddb11f0b1fa52540025c377/avatar/b42bb04a083415e5f4a674421bf9b199_w722_h722_s58.jpeg",
+      "amount": 230.0,
+      "level": 2,
+      "plan_name": "希望能注意好自己身体，别太累了",
+      "sponsor": true
+    },
+    {
       "user_id": "1a2c6bca568a11f1b46f52540025c377",
       "name": "枕江听风",
       "avatar": "https://pic1.afdiancdn.com/user/1a2c6bca568a11f1b46f52540025c377/avatar/e08878c92b4733c54ba59f78c7408521_w1080_h1092_s53.jpeg",
@@ -22949,15 +23012,6 @@
       "amount": 130.0,
       "level": 2,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "64c24db6eddb11f0b1fa52540025c377",
-      "name": "话唠唠死者",
-      "avatar": "https://pic1.afdiancdn.com/user/64c24db6eddb11f0b1fa52540025c377/avatar/b42bb04a083415e5f4a674421bf9b199_w722_h722_s58.jpeg",
-      "amount": 130.0,
-      "level": 2,
-      "plan_name": "希望能注意好自己身体，别太累了",
       "sponsor": true
     },
     {
