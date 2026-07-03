@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783054902,
+  "updated_at": 1783058521,
   "count": 100,
   "top100": [
     {
@@ -751,6 +751,15 @@
       "sponsor": true
     },
     {
+      "user_id": "76b8d386737e11f1839252540025c377",
+      "name": "怯",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 110.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "a6f82d361f3711f087ea52540025c377",
       "name": "星宫浠",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -889,15 +898,6 @@
       "user_id": "5dca37f073e911f1b8025254001e7c00",
       "name": "一一",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/91a13056aabe633abf05ec2bb69a79a5_w100_h100_s3.jpeg",
-      "amount": 105.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "5f2fc1d4726611f180d752540025c377",
-      "name": "不  靠  谱  的  我    T^T",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/181a295c571ebd6c732c224f6f58aa25_w100_h100_s3.jpeg",
       "amount": 105.0,
       "level": 2,
       "plan_name": "自选方案",
