@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783069323,
+  "updated_at": 1783072917,
   "count": 100,
   "top100": [
     {
@@ -235,6 +235,15 @@
       "amount": 505.0,
       "level": 3,
       "plan_name": "还望将军，使大汉幽而复明",
+      "sponsor": true
+    },
+    {
+      "user_id": "c43a262c18d211efa3dd52540025c377",
+      "name": "爱发电用户_c43a2",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 505.0,
+      "level": 3,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -889,15 +898,6 @@
       "user_id": "7431f70e728a11f1939e52540025c377",
       "name": "n",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 105.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "5dca37f073e911f1b8025254001e7c00",
-      "name": "一一",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/91a13056aabe633abf05ec2bb69a79a5_w100_h100_s3.jpeg",
       "amount": 105.0,
       "level": 2,
       "plan_name": "自选方案",
