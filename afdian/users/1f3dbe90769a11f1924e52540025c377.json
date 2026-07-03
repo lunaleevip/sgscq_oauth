@@ -1,14 +1,18 @@
 {
   "version": 1,
-  "updated_at": 1783090935,
+  "updated_at": 1783092279,
   "user_id": "1f3dbe90769a11f1924e52540025c377",
-  "name": "爱发电用户_Pmjn",
-  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-  "amount": 10.0,
-  "level": 1,
+  "name": "纳兰、剑歌",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8bce7d1b2a7f5308971cbb8b407e180c_w100_h100_s3.jpeg",
+  "amount": 110.0,
+  "level": 2,
   "plan_name": "大大加油！",
   "sponsor": true,
   "orders": [
+    {
+      "out_trade_no": "20260703232048485310194408",
+      "amount": 100.0
+    },
     {
       "out_trade_no": "202607031246145410054514649",
       "amount": 10.0
