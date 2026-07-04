@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783181714,
-  "count": 1434,
+  "updated_at": 1783184528,
+  "count": 1439,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -3860,11 +3860,15 @@
     "2beec0aa719d11f19c2752540025c377": {
       "name": "爱发电用户_Ycsv",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607050039345455531014253",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202606270505235153551010484",
           "amount": 5.0
@@ -12993,6 +12997,20 @@
         }
       ]
     },
+    "9462008e77c911f1a55052540025c377": {
+      "name": "爱发电用户_Ppgb",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607050058285210052522831",
+          "amount": 5.0
+        }
+      ]
+    },
     "94c10742640e11f1acdb52540025c377": {
       "name": "爱发电用户_94c10",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -15571,6 +15589,20 @@
         }
       ]
     },
+    "aee6582877c511f1a36952540025c377": {
+      "name": "爱发电用户_8bvT",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260705003716995151557914",
+          "amount": 5.0
+        }
+      ]
+    },
     "aef91048ce1811ee888052540025c377": {
       "name": "爱发电用户_8qkg",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -16303,6 +16335,20 @@
       "orders": [
         {
           "out_trade_no": "202607030345149748491015610",
+          "amount": 5.0
+        }
+      ]
+    },
+    "b483731e77c611f1a1c75254001e7c00": {
+      "name": "184602",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607050038105049995612446",
           "amount": 5.0
         }
       ]
@@ -18496,11 +18542,15 @@
     "cbdde972769a11f190d75254001e7c00": {
       "name": "念神落",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260705003401574949107735",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607031322465499555025889",
           "amount": 5.0
@@ -22719,6 +22769,20 @@
         }
       ]
     },
+    "f9c08fb077c211f19bbf52540025c377": {
+      "name": "爱发电用户_A58v",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607050015091004850431688",
+          "amount": 5.0
+        }
+      ]
+    },
     "f9c3ee1cec3f11eb832552540025c377": {
       "name": "爱发电用户_FbCV",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -23229,6 +23293,20 @@
       "orders": [
         {
           "out_trade_no": "202606270154349749999942310",
+          "amount": 5.0
+        }
+      ]
+    },
+    "ffc0b8b272be11f180f65254001e7c00": {
+      "name": "·Youth·",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9fc1067dab5002bd83c333e039b2a119_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260705003902541014957835",
           "amount": 5.0
         }
       ]
