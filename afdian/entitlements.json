@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783159306,
-  "count": 1411,
+  "updated_at": 1783160618,
+  "count": 1413,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -1219,6 +1219,20 @@
       "orders": [
         {
           "out_trade_no": "202606210740205299995619007",
+          "amount": 5.0
+        }
+      ]
+    },
+    "0e6e8b88779111f186d752540025c377": {
+      "name": "爱发电用户_Cpe3",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607041815355557569837255",
           "amount": 5.0
         }
       ]
@@ -7740,6 +7754,20 @@
         {
           "out_trade_no": "202606250354325654101445138",
           "amount": 20.0
+        }
+      ]
+    },
+    "5972b160777b11f1a5445254001e7c00": {
+      "name": "爱发电用户_5972b",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "我小学的时候想玩游戏没有手机没有电脑，全靠电视游戏，我那时起开始接触到了三国杀传奇，Q版的画风让我非常喜欢。但是在我高中的时候这游戏突然宣告关服了，这游戏见证了我的青春，我实在不愿意放下他，感谢你让我重新回味我的童年。",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607041809595554524821283",
+          "amount": 10.0
         }
       ]
     },
