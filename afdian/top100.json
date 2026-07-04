@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783123297,
+  "updated_at": 1783126905,
   "count": 100,
   "top100": [
     {
@@ -823,6 +823,15 @@
       "sponsor": true
     },
     {
+      "user_id": "980f6586753611f1b08e52540025c377",
+      "name": "爱发电用户_DBJ7",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 110.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "f1bb3b5a5cbd11f1929452540025c377",
       "name": "爱发电用户_f1bb3",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -889,15 +898,6 @@
       "user_id": "8b6d54486fdf11f1a49c5254001e7c00",
       "name": "8b6d54486fdf11f1a49c5254001e7c00",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a48f4ae951c559f7e89e1b042aa7042a_w100_h100_s2.jpeg",
-      "amount": 105.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "c24b8e1c62d311f193ad5254001e7c00",
-      "name": "Being washed ashore",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/daf821aeeaf68a69d236092ba77e8af2_w132_h132_s3.jpeg",
       "amount": 105.0,
       "level": 2,
       "plan_name": "自选方案",
