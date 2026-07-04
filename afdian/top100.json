@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783134106,
+  "updated_at": 1783137503,
   "count": 100,
   "top100": [
     {
@@ -562,6 +562,15 @@
       "sponsor": true
     },
     {
+      "user_id": "33f2747a566511f1944e52540025c377",
+      "name": "荀彧",
+      "avatar": "https://pic1.afdiancdn.com/user/33f2747a566511f1944e52540025c377/avatar/b8d650a9b95090fd95fccdad8ec71fb3_w1024_h1024_s1142.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "一步到位😁",
+      "sponsor": true
+    },
+    {
       "user_id": "59dfe59c335311ee88555254001e7c00",
       "name": "路人",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -889,15 +898,6 @@
       "user_id": "2732557e6cb411f1a6b95254001e7c00",
       "name": "33",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 105.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "8b6d54486fdf11f1a49c5254001e7c00",
-      "name": "8b6d54486fdf11f1a49c5254001e7c00",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a48f4ae951c559f7e89e1b042aa7042a_w100_h100_s2.jpeg",
       "amount": 105.0,
       "level": 2,
       "plan_name": "自选方案",
