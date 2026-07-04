@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783141310,
+  "updated_at": 1783144931,
   "count": 100,
   "top100": [
     {
@@ -370,6 +370,15 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "加油",
+      "sponsor": true
+    },
+    {
+      "user_id": "638fcc5a769a11f183115254001e7c00",
+      "name": "一只老汪八",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -889,15 +898,6 @@
       "user_id": "4f64a87e608611f182e552540025c377",
       "name": "..",
       "avatar": "https://pic1.afdiancdn.com/user/4f64a87e608611f182e552540025c377/avatar/7fc80d493ffb580990ef234f68d65ef9_w1179_h1145_s172.jpeg",
-      "amount": 105.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "2732557e6cb411f1a6b95254001e7c00",
-      "name": "33",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
       "amount": 105.0,
       "level": 2,
       "plan_name": "自选方案",
