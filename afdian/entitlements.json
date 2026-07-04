@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783130506,
-  "count": 1396,
+  "updated_at": 1783134106,
+  "count": 1399,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -5935,6 +5935,20 @@
       "orders": [
         {
           "out_trade_no": "202606290627101011015214710",
+          "amount": 5.0
+        }
+      ]
+    },
+    "4695ba5c774311f19b5852540025c377": {
+      "name": "爱发电用户_KRQX",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607041016014910110123237",
           "amount": 5.0
         }
       ]
@@ -13471,6 +13485,20 @@
         }
       ]
     },
+    "9dc65eca775311f1ad6e52540025c377": {
+      "name": "爱发电用户_XnPq",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607041054135353100520949",
+          "amount": 5.0
+        }
+      ]
+    },
     "9e015980746511f1a0c952540025c377": {
       "name": "K",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/2503f4eb44b93ed05f797d9a348c181d_w100_h100_s2.jpeg",
@@ -20388,6 +20416,20 @@
         {
           "out_trade_no": "202606062229435549531026862",
           "amount": 20.0
+        }
+      ]
+    },
+    "e64e8760774b11f193a55254001e7c00": {
+      "name": "北初",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607041002135398505022540",
+          "amount": 5.0
         }
       ]
     },
