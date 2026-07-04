@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1783136410,
+  "user_id": "3d0138be775611f196a45254001e7c00",
+  "name": "3d0138be775611f196a45254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "谢谢老大拯救三传",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607041139411005051520699",
+      "amount": 5.0
+    }
+  ]
+}
