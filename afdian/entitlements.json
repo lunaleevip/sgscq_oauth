@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783206107,
+  "updated_at": 1783209716,
   "count": 1447,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -10738,11 +10738,15 @@
     "792a179c775711f1a14552540025c377": {
       "name": "爱发电用户_grvR",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 10.0,
+      "amount": 15.0,
       "level": 1,
       "plan_name": "加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260705070104485453549575",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202607041128311029710212259",
           "amount": 10.0
