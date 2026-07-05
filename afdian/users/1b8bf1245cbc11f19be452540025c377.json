@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1783220510,
+  "updated_at": 1783223708,
   "user_id": "1b8bf1245cbc11f19be452540025c377",
   "name": "╰︶有一种沉默叫无言以对",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5a8980cd9571a308f46c77a94576ebb4_w100_h100_s4.jpeg",
-  "amount": 10.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202606221119431029849413383",
       "amount": 10.0
+    },
+    {
+      "out_trade_no": "202607051154315554975418559",
+      "amount": 90.0
     }
   ]
 }
