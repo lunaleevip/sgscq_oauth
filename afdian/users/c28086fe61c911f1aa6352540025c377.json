@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1783267351,
+  "updated_at": 1783270209,
   "user_id": "c28086fe61c911f1aa6352540025c377",
   "name": "启明星辰",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-  "amount": 10.0,
+  "amount": 15.0,
   "level": 1,
   "plan_name": "真的不容易，太感谢你们的付出了",
   "sponsor": true,
@@ -12,6 +12,10 @@
     {
       "out_trade_no": "202606070104555553515416938",
       "amount": 10.0
+    },
+    {
+      "out_trade_no": "20260706004504485098532223",
+      "amount": 5.0
     }
   ]
 }
