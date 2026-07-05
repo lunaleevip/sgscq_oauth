@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783272320,
-  "count": 1501,
+  "updated_at": 1783274529,
+  "count": 1502,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -6012,8 +6012,8 @@
       ]
     },
     "41cb054260cb11f1b4045254001e7c00": {
-      "name": "爱发电用户_KebE",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "name": "青春永驻",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d24db88ff57ce3172bec835df9e567bf_w100_h100_s5.png",
       "amount": 20.0,
       "level": 1,
       "plan_name": "我2群里的青春永驻。我癌症病人能力有限没有就业能力，游戏目前制作还没那个时候。但差不多了我也愿意买单的。因为我相信只有利益才能长久。这是我的绵薄之力",
@@ -19114,6 +19114,20 @@
         {
           "out_trade_no": "202606232152365251101113268",
           "amount": 5.0
+        }
+      ]
+    },
+    "c7e55d60789711f1a9f752540025c377": {
+      "name": "爱发电用户_9xBq",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607060157545098984925887",
+          "amount": 100.0
         }
       ]
     },
