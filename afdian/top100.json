@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783220510,
+  "updated_at": 1783224120,
   "count": 100,
   "top100": [
     {
@@ -751,6 +751,15 @@
       "sponsor": true
     },
     {
+      "user_id": "1cf1e52677ad11f1a3135254001e7c00",
+      "name": "D4C Love Train",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e3437cca10f0805cdb72e8e69228c9d9_w100_h100_s2.jpeg",
+      "amount": 110.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "31bbfd726fae11f1997d5254001e7c00",
       "name": "mzn",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -892,15 +901,6 @@
       "amount": 110.0,
       "level": 2,
       "plan_name": "太强了",
-      "sponsor": true
-    },
-    {
-      "user_id": "1f3dbe90769a11f1924e52540025c377",
-      "name": "纳兰、剑歌",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8bce7d1b2a7f5308971cbb8b407e180c_w100_h100_s3.jpeg",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "大大加油！",
       "sponsor": true
     }
   ]

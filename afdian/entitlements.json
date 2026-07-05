@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783220510,
-  "count": 1453,
+  "updated_at": 1783224120,
+  "count": 1454,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -2454,11 +2454,15 @@
     "1b8bf1245cbc11f19be452540025c377": {
       "name": "╰︶有一种沉默叫无言以对",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5a8980cd9571a308f46c77a94576ebb4_w100_h100_s4.jpeg",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607051154315554975418559",
+          "amount": 90.0
+        },
         {
           "out_trade_no": "202606221119431029849413383",
           "amount": 10.0
@@ -2578,11 +2582,15 @@
     "1cf1e52677ad11f1a3135254001e7c00": {
       "name": "D4C Love Train",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e3437cca10f0805cdb72e8e69228c9d9_w100_h100_s2.jpeg",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 110.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607051105479897485733536",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607042148461015448535928",
           "amount": 10.0
@@ -6100,11 +6108,15 @@
     "45d56e5276b511f1abca52540025c377": {
       "name": "爱发电用户_45d56",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607051128545450102427334",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202607031607195553485121599",
           "amount": 5.0
@@ -17097,6 +17109,20 @@
         }
       ]
     },
+    "b9bc2810750c11f189045254001e7c00": {
+      "name": "天干物燥，天下乱套",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8674eb79812898f72a26b3d87487b1aa_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607051103569955505635875",
+          "amount": 5.0
+        }
+      ]
+    },
     "b9ca447264a411f1be2152540025c377": {
       "name": "b9ca447264a411f1be2152540025c377",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/54f9f8aa92995c3e9e0148c6e08fec98_w132_h132_s5.jpeg",
@@ -24319,6 +24345,15 @@
       "sponsor": true
     },
     {
+      "user_id": "1cf1e52677ad11f1a3135254001e7c00",
+      "name": "D4C Love Train",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e3437cca10f0805cdb72e8e69228c9d9_w100_h100_s2.jpeg",
+      "amount": 110.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "31bbfd726fae11f1997d5254001e7c00",
       "name": "mzn",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -24460,15 +24495,6 @@
       "amount": 110.0,
       "level": 2,
       "plan_name": "太强了",
-      "sponsor": true
-    },
-    {
-      "user_id": "1f3dbe90769a11f1924e52540025c377",
-      "name": "纳兰、剑歌",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8bce7d1b2a7f5308971cbb8b407e180c_w100_h100_s3.jpeg",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "大大加油！",
       "sponsor": true
     }
   ]
