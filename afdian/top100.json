@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783267351,
+  "updated_at": 1783270929,
   "count": 100,
   "top100": [
     {
@@ -589,6 +589,15 @@
       "sponsor": true
     },
     {
+      "user_id": "e0faf5c077a311f182255254001e7c00",
+      "name": "爱发电用户_fcPJ",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "加油",
+      "sponsor": true
+    },
+    {
       "user_id": "af56b3dc6eda11f1aa3b5254001e7c00",
       "name": "爱发电用户_sfpy",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -892,15 +901,6 @@
       "amount": 110.0,
       "level": 2,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "6dbd0a7674dd11f1af135254001e7c00",
-      "name": "枯草指环",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "加油",
       "sponsor": true
     }
   ]
