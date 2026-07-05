@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783249886,
+  "updated_at": 1783252916,
   "count": 100,
   "top100": [
     {
@@ -832,6 +832,15 @@
       "sponsor": true
     },
     {
+      "user_id": "bd04ffe45cc811f19b0452540025c377",
+      "name": "司鲸",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 110.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "d398a1a464dc11f1bc0452540025c377",
       "name": "复合吧我的爱人",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -892,15 +901,6 @@
       "amount": 110.0,
       "level": 2,
       "plan_name": "还没毕业，微薄资助一下",
-      "sponsor": true
-    },
-    {
-      "user_id": "c4866dc66d6111f1952552540025c377",
-      "name": "爱发电用户_c4866",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "自选方案",
       "sponsor": true
     }
   ]
