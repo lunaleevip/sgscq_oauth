@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1783286408,
+  "user_id": "04474e1a22b211ee991752540025c377",
+  "name": "04474e1a22b211ee991752540025c377",
+  "avatar": "",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "等发工资了再支持一下",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607060516405651102532319",
+      "amount": 10.0
+    }
+  ]
+}
