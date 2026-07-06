@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783310512,
+  "updated_at": 1783311946,
   "count": 1517,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -3300,11 +3300,15 @@
     "2481ffc6d2b511f0a49c52540025c377": {
       "name": "夜白",
       "avatar": "https://pic1.afdiancdn.com/user/2481ffc6d2b511f0a49c52540025c377/avatar/f6d172678c4a446a32f2949416563d99_w1080_h1080_s99.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607061213385148489711747",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202606280054585010110211734",
           "amount": 5.0
@@ -20990,7 +20994,7 @@
       ]
     },
     "d92ca65a74b411f1a4115254001e7c00": {
-      "name": "爱发电用户_aWvt",
+      "name": "三国杀传奇",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
       "amount": 100.0,
       "level": 2,
