@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783321325,
-  "count": 1519,
+  "updated_at": 1783324935,
+  "count": 1523,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -15603,6 +15603,20 @@
         }
       ]
     },
+    "a5c6ec4a790e11f18d9e5254001e7c00": {
+      "name": "徐",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260706155917539951527325",
+          "amount": 5.0
+        }
+      ]
+    },
     "a5cf52826e5911f1ba1052540025c377": {
       "name": "创作者",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0791b23288e667c3a6a01026ce7351d5_w100_h100_s2.jpeg",
@@ -19119,6 +19133,20 @@
         }
       ]
     },
+    "c52a1bdc78f211f1a29852540025c377": {
+      "name": "坤坤炖粉条",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607061529445657989943701",
+          "amount": 5.0
+        }
+      ]
+    },
     "c547e6d262de11f1b6ee5254001e7c00": {
       "name": "Miosuly",
       "avatar": "https://pic1.afdiancdn.com/user/c547e6d262de11f1b6ee5254001e7c00/avatar/53ec98efa1d2b8b0079aa82763331f6c_w832_h1216_s825.png",
@@ -19168,11 +19196,15 @@
     "c591faba56a911f1bcbd52540025c377": {
       "name": "精华",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/50a47466907e08c2aa70b2dfd0114d9f_w100_h100_s3.jpeg",
-      "amount": 1000.0,
+      "amount": 1010.0,
       "level": 4,
       "plan_name": "希望可以能活吧！",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607061506285257545031089",
+          "amount": 10.0
+        },
         {
           "out_trade_no": "202606221507591029910239378",
           "amount": 500.0
@@ -19390,6 +19422,20 @@
         {
           "out_trade_no": "202606061140035199101935489",
           "amount": 20.0
+        }
+      ]
+    },
+    "c7ef050c20da11ef9a8452540025c377": {
+      "name": "不拽",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8d8d50ef07c63d53ebbf1ee2f284fd70_w132_h132_s4.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260706154437544848518560",
+          "amount": 5.0
         }
       ]
     },
@@ -23073,6 +23119,20 @@
         }
       ]
     },
+    "ee280d9c790a11f1bf395254001e7c00": {
+      "name": "爱发电用户_f5SG",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "加油",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607061518475510110229297",
+          "amount": 5.0
+        }
+      ]
+    },
     "eec452586f8f11f195405254001e7c00": {
       "name": "听风",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d2a17cff088bdd49f6be5b6b4271dfb7_w100_h100_s2.jpeg",
@@ -24812,6 +24872,15 @@
       "sponsor": true
     },
     {
+      "user_id": "c591faba56a911f1bcbd52540025c377",
+      "name": "精华",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/50a47466907e08c2aa70b2dfd0114d9f_w100_h100_s3.jpeg",
+      "amount": 1010.0,
+      "level": 4,
+      "plan_name": "希望可以能活吧！",
+      "sponsor": true
+    },
+    {
       "user_id": "8f5fe1aa564011f1bccd52540025c377",
       "name": "老贺",
       "avatar": "https://pic1.afdiancdn.com/user/8f5fe1aa564011f1bccd52540025c377/avatar/742a6ff407ef16f29f025453eb9be526_w581_h580_s86.jpeg",
@@ -24908,15 +24977,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "c591faba56a911f1bcbd52540025c377",
-      "name": "精华",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/50a47466907e08c2aa70b2dfd0114d9f_w100_h100_s3.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "希望可以能活吧！",
       "sponsor": true
     },
     {
