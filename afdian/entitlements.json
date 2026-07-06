@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783368737,
+  "updated_at": 1783371731,
   "count": 1541,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -2188,11 +2188,15 @@
     "16d7ede46eb011f1a8f35254001e7c00": {
       "name": "吟迷诗途",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e5170c79d11de13cdbe9533010c303c5_w100_h100_s3.jpeg",
-      "amount": 10.0,
+      "amount": 15.0,
       "level": 1,
       "plan_name": "加油大大",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260707042450501015056391",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "20260623110524521005153110",
           "amount": 10.0
