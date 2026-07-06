@@ -31,7 +31,7 @@ DOUYIN_ID_FIELDS = [
     field.strip()
     for field in os.environ.get(
         "DOUYIN_ID_FIELDS",
-        "uid,unique_id,short_id,sec_uid,sec_user_id",
+        "unique_id,short_id",
     ).split(",")
     if field.strip()
 ]
@@ -201,20 +201,12 @@ def first_non_empty(obj: dict[str, Any], *keys: str) -> str:
 
 
 def extract_follower_ids(item: dict[str, Any]) -> list[str]:
-    ids: list[str] = []
-    seen = set()
-    for field in DOUYIN_ID_FIELDS:
-        value = first_non_empty(item, field)
-        if value and value not in seen:
-            ids.append(value)
-            seen.add(value)
     user = as_dict(item.get("user"))
     for field in DOUYIN_ID_FIELDS:
-        value = first_non_empty(user, field)
-        if value and value not in seen:
-            ids.append(value)
-            seen.add(value)
-    return ids
+        value = first_non_empty(user, field) or first_non_empty(item, field)
+        if value:
+            return [value]
+    return []
 
 
 def extract_profile_names(item: dict[str, Any]) -> dict[str, str]:

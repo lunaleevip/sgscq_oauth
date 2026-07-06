@@ -27,7 +27,7 @@ from scripts import douyin_followers_dump as douyin_dump
 
 
 class DouyinFollowersDumpTest(unittest.TestCase):
-    def test_extract_follower_ids_accepts_common_douyin_identity_fields(self):
+    def test_extract_follower_ids_keeps_only_douyin_account_ids(self):
         item = {
             "uid": "uid-1",
             "unique_id": "unique-1",
@@ -36,10 +36,16 @@ class DouyinFollowersDumpTest(unittest.TestCase):
             "sec_user_id": "sec-user-1",
         }
 
-        self.assertEqual(
-            ["uid-1", "unique-1", "short-1", "sec-1", "sec-user-1"],
-            extract_follower_ids(item),
-        )
+        self.assertEqual(["unique-1"], extract_follower_ids(item))
+
+    def test_extract_follower_ids_falls_back_to_short_id(self):
+        item = {
+            "uid": "uid-1",
+            "short_id": "short-1",
+            "sec_user_id": "sec-user-1",
+        }
+
+        self.assertEqual(["short-1"], extract_follower_ids(item))
 
     def test_extract_profile_names_maps_all_identifiers_to_nickname(self):
         item = {
@@ -51,14 +57,7 @@ class DouyinFollowersDumpTest(unittest.TestCase):
             },
         }
 
-        self.assertEqual(
-            {
-                "uid-1": "测试昵称",
-                "sec-user-1": "测试昵称",
-                "unique-1": "测试昵称",
-            },
-            extract_profile_names(item),
-        )
+        self.assertEqual({"unique-1": "测试昵称"}, extract_profile_names(item))
 
     def test_page_items_supports_common_response_shapes(self):
         self.assertEqual([{"uid": "1"}], page_items({"followers": [{"uid": "1"}]}))
