@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783364534,
+  "updated_at": 1783368108,
   "count": 1541,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -1280,11 +1280,15 @@
     "0e4eb69e781511f19e435254001e7c00": {
       "name": "含光",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/61aefe3b2543c39e4891af4e451f02fa_w100_h100_s2.jpeg",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "加油大大",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607070306211005251126405",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202607052246531009855120546",
           "amount": 90.0
@@ -25659,6 +25663,15 @@
       "sponsor": true
     },
     {
+      "user_id": "0e4eb69e781511f19e435254001e7c00",
+      "name": "含光",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/61aefe3b2543c39e4891af4e451f02fa_w100_h100_s2.jpeg",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "加油大大",
+      "sponsor": true
+    },
+    {
       "user_id": "62244e58634011f19c8c5254001e7c00",
       "name": "复活吧！我的爱人！！",
       "avatar": "https://pic1.afdiancdn.com/user/62244e58634011f19c8c5254001e7c00/avatar/30ac269bbf0231e3fffca9f19231a199_w450_h450_s4390.jpg.gif",
@@ -26049,15 +26062,6 @@
       "user_id": "fa3de39a6d9311f1aa7452540025c377",
       "name": "丶铘铭",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "b631d218697b11f1857b52540025c377",
-      "name": "倪感麻矮油",
-      "avatar": "https://pic1.afdiancdn.com/user/b631d218697b11f1857b52540025c377/avatar/4ee61bace49a0444ac1e1dca4908d2b3_w1240_h2772_s1021.jpeg",
       "amount": 110.0,
       "level": 2,
       "plan_name": "自选方案",
