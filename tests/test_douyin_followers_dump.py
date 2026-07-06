@@ -23,6 +23,7 @@ from scripts.douyin_followers_dump import (
     protected_snapshot_followers,
     read_existing_follower_object_count,
     should_continue,
+    should_reject_incomplete_full_snapshot,
     write_outputs,
 )
 from scripts import douyin_followers_dump as douyin_dump
@@ -204,6 +205,82 @@ class DouyinFollowersDumpTest(unittest.TestCase):
         followers = protected_snapshot_followers(["old-3", "old-2", "old-1"], ["new-1", "old-2"])
 
         self.assertEqual(["new-1", "old-2", "old-3", "old-1"], followers)
+
+    def test_incomplete_full_snapshot_is_rejected_before_merge(self):
+        self.assertTrue(should_reject_incomplete_full_snapshot(existing_count=1000, recent_count=400))
+        self.assertFalse(should_reject_incomplete_full_snapshot(existing_count=1000, recent_count=950))
+        self.assertFalse(should_reject_incomplete_full_snapshot(existing_count=0, recent_count=0))
+
+    def test_fetch_followers_retries_transient_page_errors(self):
+        old_http_get_json = douyin_dump.http_get_json
+        old_template = douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE
+        old_sleep = douyin_dump.time.sleep
+        try:
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = (
+                "https://www.douyin.com/api?sec_user_id={target_id}&max_time={cursor}&count={count}"
+            )
+            calls = []
+            sleeps = []
+
+            def fake_http_get_json(url, cookie):
+                calls.append(url)
+                if len(calls) < 3:
+                    raise ValueError("temporary 429")
+                return {"status_code": 0, "followers": [{"unique_id": "1"}], "has_more": 0}
+
+            douyin_dump.http_get_json = fake_http_get_json
+            douyin_dump.time.sleep = lambda seconds: sleeps.append(seconds)
+
+            followers = fetch_followers(
+                "cookie",
+                "target",
+                max_pages=1,
+                http_retries=3,
+                retry_sleep_sec=7,
+            )
+
+            self.assertEqual(["1"], followers)
+            self.assertEqual(3, len(calls))
+            self.assertEqual([7, 7], sleeps)
+        finally:
+            douyin_dump.http_get_json = old_http_get_json
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
+            douyin_dump.time.sleep = old_sleep
+
+    def test_fetch_followers_retries_empty_pages_before_stopping(self):
+        old_http_get_json = douyin_dump.http_get_json
+        old_template = douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE
+        old_sleep = douyin_dump.time.sleep
+        try:
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = (
+                "https://www.douyin.com/api?sec_user_id={target_id}&max_time={cursor}&count={count}"
+            )
+            responses = [
+                {"status_code": 0, "followers": [], "has_more": 1, "max_time": "a"},
+                {"status_code": 0, "followers": [{"unique_id": "1"}], "has_more": 0, "max_time": "b"},
+            ]
+            sleeps = []
+
+            def fake_http_get_json(url, cookie):
+                return responses.pop(0)
+
+            douyin_dump.http_get_json = fake_http_get_json
+            douyin_dump.time.sleep = lambda seconds: sleeps.append(seconds)
+
+            followers = fetch_followers(
+                "cookie",
+                "target",
+                max_pages=1,
+                empty_page_retries=1,
+                retry_sleep_sec=9,
+            )
+
+            self.assertEqual(["1"], followers)
+            self.assertEqual([9], sleeps)
+        finally:
+            douyin_dump.http_get_json = old_http_get_json
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
+            douyin_dump.time.sleep = old_sleep
 
     def test_fetch_followers_zero_max_pages_runs_until_no_more_pages(self):
         old_http_get_json = douyin_dump.http_get_json

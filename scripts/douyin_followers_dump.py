@@ -53,6 +53,13 @@ MAX_PAGES = int(os.environ.get("DOUYIN_MAX_PAGES", "1000"))
 INCREMENTAL_MAX_PAGES = int(os.environ.get("DOUYIN_INCREMENTAL_MAX_PAGES", "5"))
 INCREMENTAL_SEEN_STOP_PAGES = int(os.environ.get("DOUYIN_INCREMENTAL_SEEN_STOP_PAGES", "2"))
 SYNC_MODE = os.environ.get("DOUYIN_SYNC_MODE", "incremental").strip().lower()
+HTTP_RETRIES = int(os.environ.get("DOUYIN_HTTP_RETRIES", "2"))
+RETRY_SLEEP_SEC = float(os.environ.get("DOUYIN_RETRY_SLEEP_SEC", "8"))
+FULL_PAGE_SLEEP_SEC = float(os.environ.get("DOUYIN_FULL_PAGE_SLEEP_SEC", "3"))
+FULL_HTTP_RETRIES = int(os.environ.get("DOUYIN_FULL_HTTP_RETRIES", "6"))
+FULL_RETRY_SLEEP_SEC = float(os.environ.get("DOUYIN_FULL_RETRY_SLEEP_SEC", "20"))
+FULL_EMPTY_PAGE_RETRIES = int(os.environ.get("DOUYIN_FULL_EMPTY_PAGE_RETRIES", "2"))
+FULL_MIN_RATIO = float(os.environ.get("DOUYIN_FULL_MIN_RATIO", "0.8"))
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
@@ -155,6 +162,30 @@ def http_get_json(url: str, cookie: str) -> dict[str, Any]:
             ) from exc
 
 
+def fetch_page_json(
+    url: str,
+    cookie: str,
+    page: int,
+    http_retries: int = HTTP_RETRIES,
+    retry_sleep_sec: float = RETRY_SLEEP_SEC,
+) -> dict[str, Any]:
+    attempts = max(1, int(http_retries))
+    last_error = ""
+    for attempt in range(1, attempts + 1):
+        try:
+            data = http_get_json(url, cookie)
+            code = data.get("status_code", data.get("code", 0))
+            if str(code) in {"0", "200"}:
+                return data
+            last_error = f"returned code={code} message={data.get('status_msg') or data.get('message')}"
+        except Exception as exc:
+            last_error = f"HTTP failed: {exc}"
+        if attempt < attempts:
+            print(f"[WARN] page {page} attempt {attempt}/{attempts} failed: {last_error}; retrying.")
+            time.sleep(retry_sleep_sec)
+    raise SystemExit(f"[ERROR] page {page} {last_error}")
+
+
 def as_dict(value: Any) -> dict[str, Any]:
     return value if isinstance(value, dict) else {}
 
@@ -255,6 +286,10 @@ def fetch_followers(
     max_pages: int = MAX_PAGES,
     stop_at_seen: set[str] | None = None,
     seen_stop_pages: int = INCREMENTAL_SEEN_STOP_PAGES,
+    page_sleep_sec: float = PAGE_SLEEP_SEC,
+    http_retries: int = HTTP_RETRIES,
+    retry_sleep_sec: float = RETRY_SLEEP_SEC,
+    empty_page_retries: int = 0,
 ) -> list[str]:
     seen: set[str] = set()
     ordered: list[str] = []
@@ -266,18 +301,24 @@ def fetch_followers(
     consecutive_seen_pages = 0
     while max_pages <= 0 or page <= max_pages:
         url = build_page_url(target_id, cursor, PAGE_SIZE, offset=(page - 1) * PAGE_SIZE)
-        try:
-            data = http_get_json(url, cookie)
-        except Exception as exc:
-            raise SystemExit(f"[ERROR] page {page} HTTP failed: {exc}")
-
-        code = data.get("status_code", data.get("code", 0))
-        if str(code) not in {"0", "200"}:
-            raise SystemExit(
-                f"[ERROR] page {page} returned code={code} message={data.get('status_msg') or data.get('message')}"
+        empty_attempt = 0
+        while True:
+            data = fetch_page_json(
+                url,
+                cookie,
+                page,
+                http_retries=http_retries,
+                retry_sleep_sec=retry_sleep_sec,
             )
-
-        items = page_items(data)
+            items = page_items(data)
+            if items or empty_attempt >= empty_page_retries:
+                break
+            empty_attempt += 1
+            print(
+                f"[WARN] page {page}: empty follower page attempt "
+                f"{empty_attempt}/{empty_page_retries}; retrying."
+            )
+            time.sleep(retry_sleep_sec)
         if not items:
             print(f"[INFO] page {page}: no more followers, stop.")
             break
@@ -322,7 +363,7 @@ def fetch_followers(
             break
         cursor = next_value
         page += 1
-        time.sleep(PAGE_SLEEP_SEC)
+        time.sleep(page_sleep_sec)
 
     return ordered
 
@@ -406,6 +447,16 @@ def protected_snapshot_followers(existing: list[str], recent: list[str]) -> list
     return merge_followers(existing, recent)
 
 
+def should_reject_incomplete_full_snapshot(
+    existing_count: int,
+    recent_count: int,
+    min_ratio: float = FULL_MIN_RATIO,
+) -> bool:
+    if existing_count < 50:
+        return False
+    return recent_count < existing_count * min_ratio
+
+
 def sort_key(value: str) -> tuple[int, Any]:
     text = str(value)
     if text.isdigit():
@@ -473,9 +524,25 @@ def main() -> None:
     existing_profiles = read_existing_profiles(out_dir)
     existing_object_count = read_existing_follower_object_count(out_dir)
     if SYNC_MODE == "full":
+        recent_followers = fetch_followers(
+            DOUYIN_COOKIE,
+            DOUYIN_TARGET_ID,
+            max_pages=MAX_PAGES,
+            page_sleep_sec=FULL_PAGE_SLEEP_SEC,
+            http_retries=FULL_HTTP_RETRIES,
+            retry_sleep_sec=FULL_RETRY_SLEEP_SEC,
+            empty_page_retries=FULL_EMPTY_PAGE_RETRIES,
+        )
+        existing_count = max(len(existing_followers), existing_object_count)
+        if should_reject_incomplete_full_snapshot(existing_count, len(recent_followers)):
+            print(
+                f"[WARN] full sync only crawled {len(recent_followers)} identifiers; "
+                f"existing snapshot has {existing_count}. Refusing to overwrite existing Douyin snapshot."
+            )
+            sys.exit(0)
         followers = protected_snapshot_followers(
             existing_followers,
-            fetch_followers(DOUYIN_COOKIE, DOUYIN_TARGET_ID),
+            recent_followers,
         )
     else:
         followers = protected_snapshot_followers(

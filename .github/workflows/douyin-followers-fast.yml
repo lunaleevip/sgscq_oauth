@@ -23,7 +23,7 @@ concurrency:
 jobs:
   dump:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -46,6 +46,11 @@ jobs:
           DOUYIN_EXTRA_HEADERS: ${{ secrets.DOUYIN_EXTRA_HEADERS }}
           DOUYIN_SYNC_MODE: ${{ ((github.event_name == 'workflow_dispatch' && github.event.inputs.full_sync == 'true') || github.event.action == 'douyin_followers_full' || (github.event_name == 'schedule' && github.event.schedule == '37 */12 * * *')) && 'full' || 'incremental' }}
           DOUYIN_INCREMENTAL_MAX_PAGES: 5
+          DOUYIN_FULL_PAGE_SLEEP_SEC: 3
+          DOUYIN_FULL_HTTP_RETRIES: 6
+          DOUYIN_FULL_RETRY_SLEEP_SEC: 20
+          DOUYIN_FULL_EMPTY_PAGE_RETRIES: 2
+          DOUYIN_FULL_MIN_RATIO: 0.8
           OAUTH_REPO_PATH: ${{ github.workspace }}
         run: |
           if [ "$DOUYIN_ENABLED" != "true" ]; then
