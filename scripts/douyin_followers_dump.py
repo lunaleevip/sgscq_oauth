@@ -412,7 +412,7 @@ def write_outputs(
     out_dir.mkdir(parents=True, exist_ok=True)
     sorted_ids = sorted(followers, key=sort_key)
     identifier_count = len(sorted_ids)
-    count = int(follower_object_count) if follower_object_count is not None else identifier_count
+    object_count = int(follower_object_count) if follower_object_count is not None else identifier_count
     profile_payload = {
         identifier: {"name": name}
         for identifier, name in sorted((profiles or {}).items(), key=lambda x: sort_key(x[0]))
@@ -424,8 +424,8 @@ def write_outputs(
         "platform": "douyin",
         "target_id": target_id,
         "generated_at": int(generated_at if generated_at is not None else time.time()),
-        "count": count,
-        "follower_object_count": count,
+        "count": identifier_count,
+        "follower_object_count": object_count,
         "identifier_count": identifier_count,
         "followers": sorted_ids,
     }

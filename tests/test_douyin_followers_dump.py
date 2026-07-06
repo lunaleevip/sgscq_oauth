@@ -248,7 +248,7 @@ class DouyinFollowersDumpTest(unittest.TestCase):
             )
 
             payload = json.loads((out_dir / "followers.json").read_text(encoding="utf-8"))
-            self.assertEqual(2, payload["count"])
+            self.assertEqual(5, payload["count"])
             self.assertEqual(2, payload["follower_object_count"])
             self.assertEqual(5, payload["identifier_count"])
             self.assertEqual(["sec-1", "sec-2", "uid-1", "uid-2", "unique-1"], payload["followers"])
