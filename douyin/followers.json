@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1783297731,
-  "count": 289,
-  "follower_object_count": 289,
-  "identifier_count": 971,
+  "generated_at": 1783298137,
+  "count": 974,
+  "follower_object_count": 290,
+  "identifier_count": 974,
   "followers": [
     "30103496",
     "43431384",
@@ -175,6 +175,7 @@
     "38731154573",
     "39342213314",
     "39509556619",
+    "39763404466",
     "39863244362",
     "40499768656",
     "41018207183",
@@ -328,6 +329,7 @@
     "98554205105",
     "98577400490",
     "98606179704",
+    "98725752303",
     "98933365812",
     "98988643259",
     "99076149613",
@@ -733,6 +735,7 @@
     "MS4wLjABAAAABDjqWwwjTobuNp43VtRSDIv0ndL12-9lwJxQbOFyvckjOQPjWfxs7O2ZB9NJtsjA",
     "MS4wLjABAAAAbDwjA9OlLgG29KMoiykgkqpcf3vk_OILl-gIaQ3wUXG3bPDqBamylaNJ1k7UfZPJ",
     "MS4wLjABAAAAbH_odGzEVzyzompicLBF1n0JOxt7WtNao9Ns2HVt0V07crI0kQBCgeWzct-8-K7c",
+    "MS4wLjABAAAAbMMwCxPLpbeDXeG3BaDjgW3D-a3B1Av6-gR1r6LESGw",
     "MS4wLjABAAAAboXGPSZsNWxPTkwNhwRmIhyxEKrEKd8bZGKWoadv2w0",
     "MS4wLjABAAAABs7EJo0OmKrlIInY6iBazz2xC9kw8ZtgadAeulvrbzB-2atuZeUzzZ-y8kNhPZEg",
     "MS4wLjABAAAAbsFN-Gz7f2xTH6ttGntQT9qdIsRr_jEFDPEMVvZAyeJwYx9zUXLsbUSFhRyBqHuO",
@@ -1484,6 +1487,9 @@
     "39509556619": {
       "name": ".七月上"
     },
+    "39763404466": {
+      "name": "咕咕蛙"
+    },
     "39863244362": {
       "name": "广西电力小铭学长（有问必答版）"
     },
@@ -1942,6 +1948,9 @@
     },
     "98606179704": {
       "name": "逸"
+    },
+    "98725752303": {
+      "name": "咕咕蛙"
     },
     "98933365812": {
       "name": "l.亮"
@@ -3157,6 +3166,9 @@
     },
     "MS4wLjABAAAAbH_odGzEVzyzompicLBF1n0JOxt7WtNao9Ns2HVt0V07crI0kQBCgeWzct-8-K7c": {
       "name": "用户6752411491832"
+    },
+    "MS4wLjABAAAAbMMwCxPLpbeDXeG3BaDjgW3D-a3B1Av6-gR1r6LESGw": {
+      "name": "咕咕蛙"
     },
     "MS4wLjABAAAAboXGPSZsNWxPTkwNhwRmIhyxEKrEKd8bZGKWoadv2w0": {
       "name": "飞雪天外来天"
