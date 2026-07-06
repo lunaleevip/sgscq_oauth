@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1783348565,
+  "user_id": "bbc6040c794711f182185254001e7c00",
+  "name": "bbc6040c794711f182185254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "大佬牛批，加油加油",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607062234574998535346308",
+      "amount": 5.0
+    }
+  ]
+}
