@@ -20,6 +20,7 @@ from scripts.douyin_followers_dump import (
     merge_followers,
     next_cursor,
     page_items,
+    protected_snapshot_followers,
     read_existing_follower_object_count,
     should_continue,
     write_outputs,
@@ -198,6 +199,11 @@ class DouyinFollowersDumpTest(unittest.TestCase):
         merged = merge_followers(["3", "2", "1"], ["5", "4", "3"])
 
         self.assertEqual(["5", "4", "3", "2", "1"], merged)
+
+    def test_protected_snapshot_followers_never_drops_existing_ids(self):
+        followers = protected_snapshot_followers(["old-3", "old-2", "old-1"], ["new-1", "old-2"])
+
+        self.assertEqual(["new-1", "old-2", "old-3", "old-1"], followers)
 
     def test_fetch_followers_zero_max_pages_runs_until_no_more_pages(self):
         old_http_get_json = douyin_dump.http_get_json

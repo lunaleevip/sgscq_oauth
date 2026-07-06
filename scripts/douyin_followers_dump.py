@@ -402,6 +402,10 @@ def merge_followers(existing: list[str], recent: list[str]) -> list[str]:
     return merged
 
 
+def protected_snapshot_followers(existing: list[str], recent: list[str]) -> list[str]:
+    return merge_followers(existing, recent)
+
+
 def sort_key(value: str) -> tuple[int, Any]:
     text = str(value)
     if text.isdigit():
@@ -469,9 +473,12 @@ def main() -> None:
     existing_profiles = read_existing_profiles(out_dir)
     existing_object_count = read_existing_follower_object_count(out_dir)
     if SYNC_MODE == "full":
-        followers = fetch_followers(DOUYIN_COOKIE, DOUYIN_TARGET_ID)
+        followers = protected_snapshot_followers(
+            existing_followers,
+            fetch_followers(DOUYIN_COOKIE, DOUYIN_TARGET_ID),
+        )
     else:
-        followers = merge_followers(
+        followers = protected_snapshot_followers(
             existing_followers,
             fetch_followers(
                 DOUYIN_COOKIE,
@@ -480,12 +487,12 @@ def main() -> None:
                 stop_at_seen=set(existing_followers),
             ),
         )
-    profiles = existing_profiles if SYNC_MODE != "full" else {}
+    profiles = existing_profiles
     profiles.update(DISCOVERED_PROFILE_NAMES)
     follower_object_count = (
-        len(DISCOVERED_OBJECT_KEYS)
+        max(existing_object_count, len(DISCOVERED_OBJECT_KEYS), len(followers))
         if SYNC_MODE == "full" and DISCOVERED_OBJECT_KEYS
-        else (existing_object_count + len(DISCOVERED_OBJECT_KEYS) if SYNC_MODE != "full" else None)
+        else max(existing_object_count + len(DISCOVERED_OBJECT_KEYS), len(followers))
     )
 
     if not followers:
