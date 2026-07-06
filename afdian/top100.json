@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783350134,
+  "updated_at": 1783353747,
   "count": 100,
   "top100": [
     {
@@ -472,6 +472,15 @@
       "sponsor": true
     },
     {
+      "user_id": "2775e9ee4b7711eeaa4652540025c377",
+      "name": "你，给我感受痛苦",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "12d1a384633e11f19b595254001e7c00",
       "name": "依云",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -598,6 +607,15 @@
       "sponsor": true
     },
     {
+      "user_id": "2661dae6786911f18f715254001e7c00",
+      "name": "爱发电用户_2661d",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "4965631476de11f1bed15254001e7c00",
       "name": "爱发电用户_49656",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -685,6 +703,15 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "一步到位😁",
+      "sponsor": true
+    },
+    {
+      "user_id": "f1d45c80731911f19a3c5254001e7c00",
+      "name": "落红",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -874,33 +901,6 @@
       "amount": 110.0,
       "level": 2,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "8797aa3c469711ed833a52540025c377",
-      "name": "光明",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7927958d7a92fa4f0de2072a14199b1c_w132_h132_s2.jpeg",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "bd04ffe45cc811f19b0452540025c377",
-      "name": "司鲸",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "d398a1a464dc11f1bc0452540025c377",
-      "name": "复合吧我的爱人",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "感谢复活",
       "sponsor": true
     }
   ]
