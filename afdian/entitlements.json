@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783329006,
-  "count": 1523,
+  "updated_at": 1783332133,
+  "count": 1525,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -4721,6 +4721,20 @@
       "orders": [
         {
           "out_trade_no": "202606202308385452509919144",
+          "amount": 5.0
+        }
+      ]
+    },
+    "32a315d0791e11f1b6605254001e7c00": {
+      "name": "无敌",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607061738165651544832161",
           "amount": 5.0
         }
       ]
@@ -11148,11 +11162,15 @@
     "76855db00f6511ee8da652540025c377": {
       "name": "爱发电用户_7DHJ",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "自选方案",
+      "amount": 105.0,
+      "level": 2,
+      "plan_name": "大佬加油！",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607061750585050100132004",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607020144174999102511748",
           "amount": 5.0
@@ -13475,6 +13493,20 @@
         },
         {
           "out_trade_no": "202606231254211001001018372",
+          "amount": 5.0
+        }
+      ]
+    },
+    "9065f6a0791a11f1a06452540025c377": {
+      "name": "NstRive",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/787d9a8b3cbee990772aa3537ab332f8_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607061711549710153513520",
           "amount": 5.0
         }
       ]
@@ -23370,11 +23402,15 @@
     "f12d26126a3711f187755254001e7c00": {
       "name": "青青草原战神",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b6f089dc4590e72d38c3c9d23bf3260b_w100_h100_s4.jpeg",
-      "amount": 55.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "大更新再支持一波",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607061709095357535614097",
+          "amount": 50.0
+        },
         {
           "out_trade_no": "202607051847175356505229636",
           "amount": 20.0
