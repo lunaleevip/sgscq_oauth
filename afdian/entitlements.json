@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783342926,
+  "updated_at": 1783346446,
   "count": 1527,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -4690,11 +4690,15 @@
     "329cb3665cbd11f1bae052540025c377": {
       "name": "约格莫夫",
       "avatar": "https://pic1.afdiancdn.com/user/329cb3665cbd11f1bae052540025c377/avatar/701f7a12dc8ede675aa85fdda0379c7e_w1080_h1080_s417.jpeg",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260706210659515310057311",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202605311455055757999837517",
           "amount": 5.0
@@ -8842,13 +8846,21 @@
       ]
     },
     "5e06ef32766011f192765254001e7c00": {
-      "name": "星画冰",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b64109e236d48822ed88d446423fd5e6_w132_h132_s4.jpeg",
-      "amount": 505.0,
-      "level": 3,
+      "name": "小神",
+      "avatar": "https://pic1.afdiancdn.com/user/5e06ef32766011f192765254001e7c00/avatar/a193a02e626268ca246be7abd1898b63_w1376_h808_s1025.png",
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "加油！十年老玩家必须支持",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607062151389751529712498",
+          "amount": 195.0
+        },
+        {
+          "out_trade_no": "20260706214850505454531246",
+          "amount": 300.0
+        },
         {
           "out_trade_no": "202607042026541019897521873",
           "amount": 500.0
@@ -11850,11 +11862,15 @@
     "7dde995a782b11f18d585254001e7c00": {
       "name": "庸人自扰",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d6d46b0175fa864f041b3fa4f8050599_w100_h100_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607062110254998551032736",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "20260705174431102534858567",
           "amount": 5.0
@@ -20026,11 +20042,15 @@
     "cdb8ceb2722911f1a37c52540025c377": {
       "name": "爱发电用户_GMf5",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260706210755989710058509",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202606272114509756515411865",
           "amount": 5.0
@@ -23186,7 +23206,7 @@
       ]
     },
     "ee280d9c790a11f1bf395254001e7c00": {
-      "name": "爱发电用户_f5SG",
+      "name": "一闪过就坠落",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 5.0,
       "level": 1,
@@ -25040,6 +25060,15 @@
       "sponsor": true
     },
     {
+      "user_id": "5e06ef32766011f192765254001e7c00",
+      "name": "小神",
+      "avatar": "https://pic1.afdiancdn.com/user/5e06ef32766011f192765254001e7c00/avatar/a193a02e626268ca246be7abd1898b63_w1376_h808_s1025.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "加油！十年老玩家必须支持",
+      "sponsor": true
+    },
+    {
       "user_id": "cad9c590d2c511eda5575254001e7c00",
       "name": "我爱喝百事",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -25199,15 +25228,6 @@
       "amount": 505.0,
       "level": 3,
       "plan_name": "还望将军，使大汉幽而复明",
-      "sponsor": true
-    },
-    {
-      "user_id": "5e06ef32766011f192765254001e7c00",
-      "name": "星画冰",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b64109e236d48822ed88d446423fd5e6_w132_h132_s4.jpeg",
-      "amount": 505.0,
-      "level": 3,
-      "plan_name": "加油！十年老玩家必须支持",
       "sponsor": true
     },
     {

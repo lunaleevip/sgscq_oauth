@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783342926,
+  "updated_at": 1783346446,
   "count": 100,
   "top100": [
     {
@@ -109,6 +109,15 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "5e06ef32766011f192765254001e7c00",
+      "name": "小神",
+      "avatar": "https://pic1.afdiancdn.com/user/5e06ef32766011f192765254001e7c00/avatar/a193a02e626268ca246be7abd1898b63_w1376_h808_s1025.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "加油！十年老玩家必须支持",
       "sponsor": true
     },
     {
@@ -271,15 +280,6 @@
       "amount": 505.0,
       "level": 3,
       "plan_name": "还望将军，使大汉幽而复明",
-      "sponsor": true
-    },
-    {
-      "user_id": "5e06ef32766011f192765254001e7c00",
-      "name": "星画冰",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b64109e236d48822ed88d446423fd5e6_w132_h132_s4.jpeg",
-      "amount": 505.0,
-      "level": 3,
-      "plan_name": "加油！十年老玩家必须支持",
       "sponsor": true
     },
     {
