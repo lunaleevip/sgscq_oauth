@@ -51,6 +51,7 @@ PAGE_SIZE = int(os.environ.get("DOUYIN_PAGE_SIZE", "20"))
 PAGE_SLEEP_SEC = float(os.environ.get("DOUYIN_PAGE_SLEEP_SEC", "1.5"))
 MAX_PAGES = int(os.environ.get("DOUYIN_MAX_PAGES", "1000"))
 INCREMENTAL_MAX_PAGES = int(os.environ.get("DOUYIN_INCREMENTAL_MAX_PAGES", "5"))
+INCREMENTAL_SEEN_STOP_PAGES = int(os.environ.get("DOUYIN_INCREMENTAL_SEEN_STOP_PAGES", "2"))
 SYNC_MODE = os.environ.get("DOUYIN_SYNC_MODE", "incremental").strip().lower()
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -253,6 +254,7 @@ def fetch_followers(
     target_id: str,
     max_pages: int = MAX_PAGES,
     stop_at_seen: set[str] | None = None,
+    seen_stop_pages: int = INCREMENTAL_SEEN_STOP_PAGES,
 ) -> list[str]:
     seen: set[str] = set()
     ordered: list[str] = []
@@ -260,7 +262,9 @@ def fetch_followers(
     template = clean_url_template(DOUYIN_SIGNED_URL or DOUYIN_FOLLOWERS_URL_TEMPLATE or default_url_template())
     supports_pagination = has_pagination_placeholder(template)
 
-    for page in range(1, max_pages + 1):
+    page = 1
+    consecutive_seen_pages = 0
+    while max_pages <= 0 or page <= max_pages:
         url = build_page_url(target_id, cursor, PAGE_SIZE, offset=(page - 1) * PAGE_SIZE)
         try:
             data = http_get_json(url, cookie)
@@ -279,11 +283,11 @@ def fetch_followers(
             break
 
         new_count = 0
+        page_seen_existing = False
         for item in items:
             ids = extract_follower_ids(item)
             if stop_at_seen and any(value in stop_at_seen for value in ids):
-                print(f"[INFO] page {page}: reached existing follower, stop incremental crawl.")
-                return ordered
+                page_seen_existing = True
             object_key = extract_object_key(item)
             if object_key:
                 DISCOVERED_OBJECT_KEYS.add(object_key)
@@ -296,6 +300,17 @@ def fetch_followers(
                 new_count += 1
 
         print(f"[INFO] page {page}: +{new_count} identifiers, total seen {len(ordered)}")
+        if stop_at_seen:
+            if page_seen_existing:
+                consecutive_seen_pages += 1
+                if consecutive_seen_pages > seen_stop_pages:
+                    print(
+                        f"[INFO] page {page}: reached existing followers for "
+                        f"{consecutive_seen_pages} pages, stop incremental crawl."
+                    )
+                    break
+            else:
+                consecutive_seen_pages = 0
 
         if not supports_pagination:
             print(f"[INFO] page {page}: signed URL has no pagination placeholder, stop.")
@@ -306,6 +321,7 @@ def fetch_followers(
             print(f"[INFO] page {page}: no next page, stop.")
             break
         cursor = next_value
+        page += 1
         time.sleep(PAGE_SLEEP_SEC)
 
     return ordered

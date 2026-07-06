@@ -15,6 +15,7 @@ from scripts.douyin_followers_dump import (
     describe_http_error,
     extract_follower_ids,
     extract_profile_names,
+    fetch_followers,
     has_pagination_placeholder,
     merge_followers,
     next_cursor,
@@ -197,6 +198,63 @@ class DouyinFollowersDumpTest(unittest.TestCase):
         merged = merge_followers(["3", "2", "1"], ["5", "4", "3"])
 
         self.assertEqual(["5", "4", "3", "2", "1"], merged)
+
+    def test_fetch_followers_zero_max_pages_runs_until_no_more_pages(self):
+        old_http_get_json = douyin_dump.http_get_json
+        old_template = douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE
+        try:
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = (
+                "https://www.douyin.com/api?sec_user_id={target_id}&max_time={cursor}&count={count}"
+            )
+            responses = [
+                {"status_code": 0, "followers": [{"unique_id": "1"}], "max_time": "a", "has_more": 1},
+                {"status_code": 0, "followers": [{"unique_id": "2"}], "max_time": "b", "has_more": 1},
+                {"status_code": 0, "followers": [{"unique_id": "3"}], "max_time": "c", "has_more": 0},
+            ]
+
+            def fake_http_get_json(url, cookie):
+                return responses.pop(0)
+
+            douyin_dump.http_get_json = fake_http_get_json
+
+            self.assertEqual(["1", "2", "3"], fetch_followers("cookie", "target", max_pages=0))
+        finally:
+            douyin_dump.http_get_json = old_http_get_json
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
+
+    def test_fetch_followers_incremental_stops_after_more_than_two_seen_pages(self):
+        old_http_get_json = douyin_dump.http_get_json
+        old_template = douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE
+        try:
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = (
+                "https://www.douyin.com/api?sec_user_id={target_id}&max_time={cursor}&count={count}"
+            )
+            responses = [
+                {"status_code": 0, "followers": [{"unique_id": "new-1"}], "max_time": "a", "has_more": 1},
+                {"status_code": 0, "followers": [{"unique_id": "old-1"}], "max_time": "b", "has_more": 1},
+                {"status_code": 0, "followers": [{"unique_id": "new-2"}, {"unique_id": "old-2"}], "max_time": "c", "has_more": 1},
+                {"status_code": 0, "followers": [{"unique_id": "old-3"}], "max_time": "d", "has_more": 1},
+                {"status_code": 0, "followers": [{"unique_id": "new-after-stop"}], "max_time": "e", "has_more": 0},
+            ]
+
+            def fake_http_get_json(url, cookie):
+                return responses.pop(0)
+
+            douyin_dump.http_get_json = fake_http_get_json
+
+            followers = fetch_followers(
+                "cookie",
+                "target",
+                max_pages=0,
+                stop_at_seen={"old-1", "old-2", "old-3"},
+                seen_stop_pages=2,
+            )
+
+            self.assertEqual(["new-1", "old-1", "new-2", "old-2", "old-3"], followers)
+            self.assertEqual(1, len(responses))
+        finally:
+            douyin_dump.http_get_json = old_http_get_json
+            douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
 
     def test_read_existing_follower_object_count_prefers_snapshot_metadata(self):
         with tempfile.TemporaryDirectory() as tmp:
