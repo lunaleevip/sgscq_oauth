@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783414937,
-  "count": 1557,
+  "updated_at": 1783418572,
+  "count": 1559,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -6529,6 +6529,20 @@
       "orders": [
         {
           "out_trade_no": "202606062302495799101529458",
+          "amount": 10.0
+        }
+      ]
+    },
+    "44f8dcbe79e211f1a0c852540025c377": {
+      "name": "爱发电用户_44f8d",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607071710585057535010729",
           "amount": 10.0
         }
       ]
@@ -20885,6 +20899,20 @@
       "orders": [
         {
           "out_trade_no": "202606261306391021024812275",
+          "amount": 5.0
+        }
+      ]
+    },
+    "d2859d5a79e311f19c9252540025c377": {
+      "name": "爱发电用户_4YwS",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "感谢你让我重新玩到最喜欢的游戏",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607071717075150101419476",
           "amount": 5.0
         }
       ]
