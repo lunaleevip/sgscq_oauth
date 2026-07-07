@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783404141,
+  "updated_at": 1783407732,
   "count": 100,
   "top100": [
     {
@@ -580,6 +580,15 @@
       "sponsor": true
     },
     {
+      "user_id": "76b8d386737e11f1839252540025c377",
+      "name": "怯",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "236e45ee6e6511f1b7ed52540025c377",
       "name": "星辰",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ad327c9aff435ee6035d4838fd626983_w100_h100_s2.jpeg",
@@ -889,15 +898,6 @@
       "user_id": "31bbfd726fae11f1997d5254001e7c00",
       "name": "mzn",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "9304b262755e11f1af755254001e7c00",
-      "name": "下坠",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4a06a0e6cb6590eb6d6e3c10deef2aa4_w100_h100_s1.jpeg",
       "amount": 110.0,
       "level": 2,
       "plan_name": "自选方案",
