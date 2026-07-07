@@ -1,20 +1,24 @@
 {
   "version": 1,
-  "updated_at": 1783442712,
+  "updated_at": 1783443746,
   "user_id": "f16346387a1911f1976f5254001e7c00",
-  "name": "f16346387a1911f1976f5254001e7c00",
-  "avatar": "",
-  "amount": 40.0,
-  "level": 1,
-  "plan_name": "",
+  "name": "路灯",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
-      "out_trade_no": "202607080023124857549910383",
-      "amount": 20.0
+      "out_trade_no": "202607080058435155561024232",
+      "amount": 60.0
     },
     {
       "out_trade_no": "202607080043294951102434512",
+      "amount": 20.0
+    },
+    {
+      "out_trade_no": "202607080023124857549910383",
       "amount": 20.0
     }
   ]
