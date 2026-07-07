@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1783446611,
+  "updated_at": 1783447320,
   "user_id": "715338be7a2711f1a3225254001e7c00",
-  "name": "715338be7a2711f1a3225254001e7c00",
-  "avatar": "",
+  "name": "张伟龙",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 10.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
