@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783393327,
+  "updated_at": 1783396917,
   "count": 100,
   "top100": [
     {
@@ -189,6 +189,15 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a85ef97c218241ca75a10c30cd3cf03f_w100_h100_s3.jpeg",
       "amount": 1000.0,
       "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "ba2297745cdb11f1a1195254001e7c00",
+      "name": "1",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f705309ae4e7475a8c65f3087e4f78dd_w100_h100_s2.jpeg",
+      "amount": 600.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true
     },
@@ -889,15 +898,6 @@
       "user_id": "9304b262755e11f1af755254001e7c00",
       "name": "下坠",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4a06a0e6cb6590eb6d6e3c10deef2aa4_w100_h100_s1.jpeg",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "fa3de39a6d9311f1aa7452540025c377",
-      "name": "丶铘铭",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
       "amount": 110.0,
       "level": 2,
       "plan_name": "自选方案",
