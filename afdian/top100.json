@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783411341,
+  "updated_at": 1783413402,
   "count": 100,
   "top100": [
     {
@@ -62,6 +62,15 @@
       "name": "老贺",
       "avatar": "https://pic1.afdiancdn.com/user/8f5fe1aa564011f1bccd52540025c377/avatar/742a6ff407ef16f29f025453eb9be526_w581_h580_s86.jpeg",
       "amount": 1010.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "b0f6cd4a6d3a11f1bf965254001e7c00",
+      "name": "小 小",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9cbee47fdc2d9b43c8762c984708f6be_w100_h100_s2.jpeg",
+      "amount": 1005.1,
       "level": 4,
       "plan_name": "自选方案",
       "sponsor": true
@@ -889,15 +898,6 @@
       "user_id": "1cf1e52677ad11f1a3135254001e7c00",
       "name": "D4C Love Train",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e3437cca10f0805cdb72e8e69228c9d9_w100_h100_s2.jpeg",
-      "amount": 110.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "31bbfd726fae11f1997d5254001e7c00",
-      "name": "mzn",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
       "amount": 110.0,
       "level": 2,
       "plan_name": "自选方案",
