@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783429324,
+  "updated_at": 1783432934,
   "count": 100,
   "top100": [
     {
@@ -247,6 +247,15 @@
       "sponsor": true
     },
     {
+      "user_id": "a4718d40795011f18b075254001e7c00",
+      "name": "乐崽没烦恼",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/68cbd6833350c4377f96c85fd046cb5d_w100_h100_s2.jpeg",
+      "amount": 510.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "efc6de5671a511f1a6b252540025c377",
       "name": "流光不坠",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/163e46119603d5a5fad31b4103210fe7_w100_h100_s2.jpeg",
@@ -460,6 +469,15 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "加油啊七月",
+      "sponsor": true
+    },
+    {
+      "user_id": "b031583679dc11f1aef252540025c377",
+      "name": "v",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6040a18557309664fe962e57427d7ef7_w100_h100_s4.jpeg",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -883,24 +901,6 @@
       "amount": 120.0,
       "level": 2,
       "plan_name": "大佬牛AC",
-      "sponsor": true
-    },
-    {
-      "user_id": "b9912f366fdd11f1b39652540025c377",
-      "name": "爱发电用户_b9912",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 120.0,
-      "level": 2,
-      "plan_name": "好玩，继续！",
-      "sponsor": true
-    },
-    {
-      "user_id": "9fd0f2f85cbd11f18cf352540025c377",
-      "name": "つきよみ",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5de4575ffeefe251b34abe96cc14d492_w100_h100_s3.jpeg",
-      "amount": 115.0,
-      "level": 2,
-      "plan_name": "自选方案",
       "sponsor": true
     }
   ]
