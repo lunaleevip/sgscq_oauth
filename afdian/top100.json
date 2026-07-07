@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783432934,
+  "updated_at": 1783436558,
   "count": 100,
   "top100": [
     {
@@ -490,6 +490,15 @@
       "sponsor": true
     },
     {
+      "user_id": "d9a005cec06211ec8b3152540025c377",
+      "name": "の天妒%",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b01dc1ba08862cf2e2df7291b3b18e78_w132_h132_s5.jpeg",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "67200da0704e11f1898c52540025c377",
       "name": "ルフイ",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7e718aff12934d5bf2ebe57e2d9357ab_w100_h100_s4.jpeg",
@@ -872,15 +881,6 @@
       "name": "爱发电用户_D8Mp",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
       "amount": 180.0,
-      "level": 2,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "d9a005cec06211ec8b3152540025c377",
-      "name": "の天妒%",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b01dc1ba08862cf2e2df7291b3b18e78_w132_h132_s5.jpeg",
-      "amount": 130.0,
       "level": 2,
       "plan_name": "自选方案",
       "sponsor": true
