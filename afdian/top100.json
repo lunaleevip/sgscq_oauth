@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783524772,
+  "updated_at": 1783526546,
   "count": 100,
   "top100": [
     {
@@ -616,6 +616,15 @@
       "sponsor": true
     },
     {
+      "user_id": "6b94fbc2e56e11f0ae715254001e7c00",
+      "name": "天星行者",
+      "avatar": "https://pic1.afdiancdn.com/user/6b94fbc2e56e11f0ae715254001e7c00/avatar/3f0d657301073718211ce1ef755f219f_w1260_h1260_s858.jpeg",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "61f501f0727911f182e75254001e7c00",
       "name": "学习狗",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6823418e5ca4759f218a8ab684322cd9_w100_h100_s2.jpeg",
@@ -852,7 +861,7 @@
     {
       "user_id": "f1d45c80731911f19a3c5254001e7c00",
       "name": "落红",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "avatar": "https://pic1.afdiancdn.com/user/f1d45c80731911f19a3c5254001e7c00/avatar/17b78d3d702c9d47b68cf3a5d75dadc6_w1080_h1080_s528.jpeg",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
@@ -889,15 +898,6 @@
       "user_id": "2f720c00737311f1be045254001e7c00",
       "name": "风里晨",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/18f0b635caa5ca1687b55e70bb59b8be_w100_h100_s2.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "047e97fe713c11f1ac1352540025c377",
-      "name": "香煎咸鱼",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5417ba41861a50e9e2866ac1dbc95246_w100_h100_s3.jpeg",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
