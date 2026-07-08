@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1783515765,
+  "updated_at": 1783518316,
   "user_id": "a4718d40795011f18b075254001e7c00",
   "name": "乐崽没烦恼",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/68cbd6833350c4377f96c85fd046cb5d_w100_h100_s2.jpeg",
-  "amount": 510.0,
-  "level": 3,
+  "amount": 1010.0,
+  "level": 4,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "202607062346414953519828318",
       "amount": 10.0
+    },
+    {
+      "out_trade_no": "20260708214204994954992849",
+      "amount": 500.0
     }
   ]
 }
