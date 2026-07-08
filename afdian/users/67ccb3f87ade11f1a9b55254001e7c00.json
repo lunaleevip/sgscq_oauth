@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1783523412,
+  "user_id": "67ccb3f87ade11f1a9b55254001e7c00",
+  "name": "67ccb3f87ade11f1a9b55254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "泽清远",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607082305075152979947132",
+      "amount": 5.0
+    }
+  ]
+}
