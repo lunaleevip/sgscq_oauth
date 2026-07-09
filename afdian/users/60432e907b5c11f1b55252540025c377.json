@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1783594951,
+  "user_id": "60432e907b5c11f1b55252540025c377",
+  "name": "Exhale'",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0b96bf0a97aead66a173c0697977a9d1_w100_h100_s3.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607091857021015553925473",
+      "amount": 5.0
+    }
+  ]
+}
