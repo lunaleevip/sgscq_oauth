@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783656145,
+  "updated_at": 1783659760,
   "count": 100,
   "top100": [
     {
@@ -121,6 +121,15 @@
       "sponsor": true
     },
     {
+      "user_id": "2bcec6325a9711f189e45254001e7c00",
+      "name": "温润如玉",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1b186205056afa4c113d1588f576e4a7_w100_h100_s15.png",
+      "amount": 1000.46,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "ba2297745cdb11f1a1195254001e7c00",
       "name": "1",
       "avatar": "https://pic1.afdiancdn.com/user/ba2297745cdb11f1a1195254001e7c00/avatar/7dfced06418d356aac0847c4004d0cf3_w1167_h1167_s266.jpeg",
@@ -213,6 +222,15 @@
     {
       "user_id": "42addc0a748511f1ae3a52540025c377",
       "name": "爱发电用户_42add",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "696273f26ef311f1951252540025c377",
+      "name": "爱发电用户_69627",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 1000.0,
       "level": 4,
@@ -442,15 +460,6 @@
       "amount": 500.88,
       "level": 3,
       "plan_name": "加油 等你创造奇迹",
-      "sponsor": true
-    },
-    {
-      "user_id": "2bcec6325a9711f189e45254001e7c00",
-      "name": "温润如玉",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1b186205056afa4c113d1588f576e4a7_w100_h100_s15.png",
-      "amount": 500.46,
-      "level": 3,
-      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -892,15 +901,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "加油",
-      "sponsor": true
-    },
-    {
-      "user_id": "0fa6b586087a11ee817c52540025c377",
-      "name": "青依寒",
-      "avatar": "https://pic1.afdiancdn.com/user/0fa6b586087a11ee817c52540025c377/avatar/1a533ab77de9f44e4b994b79fb3d6ed1_w1258_h1153_s85.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "大大加油",
       "sponsor": true
     }
   ]
