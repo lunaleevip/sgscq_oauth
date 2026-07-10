@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1783724114,
+  "updated_at": 1783724514,
   "user_id": "fd4b57527cb111f1ba8c5254001e7c00",
-  "name": "fd4b57527cb111f1ba8c5254001e7c00",
-  "avatar": "",
+  "name": "林茂誉",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
