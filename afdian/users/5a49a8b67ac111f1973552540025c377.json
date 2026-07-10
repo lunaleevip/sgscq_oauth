@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1783688560,
+  "updated_at": 1783689309,
   "user_id": "5a49a8b67ac111f1973552540025c377",
   "name": "晴栀",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5bfc22bc1a613d466384aaf8e3a80ede_w100_h100_s2.jpeg",
-  "amount": 101.0,
-  "level": 2,
+  "amount": 501.0,
+  "level": 3,
   "plan_name": "加油主播",
   "sponsor": true,
   "orders": [
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "20260708195517535199548688",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607102113204857101544529",
+      "amount": 400.0
     }
   ]
 }
