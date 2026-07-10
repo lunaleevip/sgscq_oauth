@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783695778,
+  "updated_at": 1783698083,
   "count": 100,
   "top100": [
     {
@@ -193,6 +193,15 @@
       "sponsor": true
     },
     {
+      "user_id": "4cb076586d4711f1925a52540025c377",
+      "name": "彩云",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "cad9c590d2c511eda5575254001e7c00",
       "name": "我爱喝百事",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -289,15 +298,6 @@
       "amount": 530.0,
       "level": 3,
       "plan_name": "希望能注意好自己身体，别太累了",
-      "sponsor": true
-    },
-    {
-      "user_id": "4cb076586d4711f1925a52540025c377",
-      "name": "彩云",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 515.0,
-      "level": 3,
-      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -841,6 +841,15 @@
       "sponsor": true
     },
     {
+      "user_id": "6fdb713272c911f1a3435254001e7c00",
+      "name": "爱发电用户_Qcjr",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "0601183c7a2311f1a4c052540025c377",
       "name": "猪丷猪",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -892,15 +901,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "33f2747a566511f1944e52540025c377",
-      "name": "荀彧",
-      "avatar": "https://pic1.afdiancdn.com/user/33f2747a566511f1944e52540025c377/avatar/b8d650a9b95090fd95fccdad8ec71fb3_w1024_h1024_s1142.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "一步到位😁",
       "sponsor": true
     }
   ]
