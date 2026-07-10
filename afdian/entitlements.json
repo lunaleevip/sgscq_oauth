@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783699351,
+  "updated_at": 1783702932,
   "count": 1690,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -9946,11 +9946,15 @@
     "60432e907b5c11f1b55252540025c377": {
       "name": "Exhale'",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0b96bf0a97aead66a173c0697977a9d1_w100_h100_s3.jpeg",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607110011251005648525648",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202607091857021015553925473",
           "amount": 5.0
@@ -15096,11 +15100,15 @@
     "91729882781b11f19b195254001e7c00": {
       "name": "刘啊啊",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a36b658ddca431c78b988e043cbd84c7_w100_h100_s0.jpeg",
-      "amount": 5.0,
+      "amount": 15.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260711004621100505699723",
+          "amount": 10.0
+        },
         {
           "out_trade_no": "202607051938231025352416793",
           "amount": 5.0
@@ -15896,11 +15904,15 @@
     "97b45f5c404e11ea8a6b52540025c377": {
       "name": "初见",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260711004349535510211321",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202607102329445610248521612",
           "amount": 5.0
@@ -20724,11 +20736,15 @@
     "bf7d0bce6cc511f191c352540025c377": {
       "name": "时崎狂三",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260711005545495610254227",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202606260018391029997534781",
           "amount": 5.0
@@ -24532,11 +24548,15 @@
     "e16ac62e7a2e11f19a8652540025c377": {
       "name": "听枫落雨",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/874d98af64a4bcc97e94d0a3d4d1d95a_w100_h100_s1.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607110007175352555512142",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607090006275110050522645",
           "amount": 5.0
@@ -26173,7 +26193,7 @@
     },
     "f16346387a1911f1976f5254001e7c00": {
       "name": "路灯",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9d2a539ee4652b567f93cb6fb22c5328_w100_h100_s3.jpeg",
       "amount": 100.0,
       "level": 2,
       "plan_name": "自选方案",
