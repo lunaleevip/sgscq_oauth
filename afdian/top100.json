@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1783688560,
+  "updated_at": 1783692167,
   "count": 100,
   "top100": [
     {
@@ -415,6 +415,15 @@
       "amount": 505.0,
       "level": 3,
       "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "5a49a8b67ac111f1973552540025c377",
+      "name": "晴栀",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5bfc22bc1a613d466384aaf8e3a80ede_w100_h100_s2.jpeg",
+      "amount": 501.0,
+      "level": 3,
+      "plan_name": "加油主播",
       "sponsor": true
     },
     {
@@ -892,15 +901,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "一步到位😁",
-      "sponsor": true
-    },
-    {
-      "user_id": "f1d45c80731911f19a3c5254001e7c00",
-      "name": "落红",
-      "avatar": "https://pic1.afdiancdn.com/user/f1d45c80731911f19a3c5254001e7c00/avatar/17b78d3d702c9d47b68cf3a5d75dadc6_w1080_h1080_s528.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
       "sponsor": true
     }
   ]
