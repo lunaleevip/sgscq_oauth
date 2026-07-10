@@ -1,16 +1,20 @@
 {
   "version": 1,
-  "updated_at": 1783659912,
+  "updated_at": 1783662909,
   "user_id": "f7b53d74769611f1abd252540025c377",
   "name": "辻戈",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/56d0fc91dcd6386129d37fba332e12b1_w132_h132_s3.jpeg",
-  "amount": 5.0,
+  "amount": 10.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202607031224505049525338268",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607101354574949529710111",
       "amount": 5.0
     }
   ]
