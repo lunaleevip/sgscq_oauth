@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783785748,
-  "count": 1714,
+  "updated_at": 1783789372,
+  "count": 1715,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -6397,6 +6397,20 @@
         }
       ]
     },
+    "3e90983e7d4911f1a71f52540025c377": {
+      "name": "爱发电用户_3e909",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260712005612995350101009",
+          "amount": 5.0
+        }
+      ]
+    },
     "3ed811046f7111f1a60e52540025c377": {
       "name": "ᝰꫛꫀꪝ.",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8445be0a002cfe379c6c18feccacda5d_w100_h100_s3.jpeg",
@@ -11335,12 +11349,16 @@
     },
     "6b21c89476a311f0b93a52540025c377": {
       "name": "好的好的",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1d11444997cb9185dcece887a860444b_w100_h100_s3.jpeg",
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260712000544565155103911",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202607112359251005510029017",
           "amount": 5.0
@@ -24250,11 +24268,19 @@
     "dba0a7ec763511f1936a52540025c377": {
       "name": "爱发电用户_Wfvn",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 100.0,
+      "amount": 110.0,
       "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607120033181014852920279",
+          "amount": 5.0
+        },
+        {
+          "out_trade_no": "202607120032505055554919593",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202607031714189752559724982",
           "amount": 60.0
