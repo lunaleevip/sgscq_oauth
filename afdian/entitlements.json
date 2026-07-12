@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783886544,
-  "count": 1755,
+  "updated_at": 1783890122,
+  "count": 1758,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -2581,6 +2581,20 @@
         }
       ]
     },
+    "18442eb27d7a11f1a37952540025c377": {
+      "name": "⁡",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8e955ab055ed840af47d2dc978462fd4_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607130459525650525325633",
+          "amount": 5.0
+        }
+      ]
+    },
     "184c444eae2411eebf8552540025c377": {
       "name": "诺",
       "avatar": "https://pic1.afdiancdn.com/user/184c444eae2411eebf8552540025c377/avatar/b4cc36a48c1acd94abacc8533bc956d3_w1080_h1080_s98.jpeg",
@@ -4813,6 +4827,24 @@
         },
         {
           "out_trade_no": "20260615110156525749107319",
+          "amount": 5.0
+        }
+      ]
+    },
+    "2cdbdaa27e2c11f19f0052540025c377": {
+      "name": "旧诺怎践？",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4521b120f95316adc0a8a287f3fe314e_w100_h100_s4.jpeg",
+      "amount": 30.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607130447261011015111793",
+          "amount": 25.0
+        },
+        {
+          "out_trade_no": "202607130402005698100539978",
           "amount": 5.0
         }
       ]
@@ -22724,6 +22756,20 @@
         {
           "out_trade_no": "202606220259559899100533592",
           "amount": 10.0
+        }
+      ]
+    },
+    "c9a82a80735911f193505254001e7c00": {
+      "name": "少希",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e946f059b1124444465c133083a05f2a_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260713040704565798107993",
+          "amount": 5.0
         }
       ]
     },
