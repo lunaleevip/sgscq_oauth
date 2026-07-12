@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783836154,
-  "count": 1726,
+  "updated_at": 1783838766,
+  "count": 1728,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -9399,6 +9399,20 @@
         }
       ]
     },
+    "592e885a7db611f1b4c352540025c377": {
+      "name": "爱发电用户_fbaF",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607121401455753102515184",
+          "amount": 5.0
+        }
+      ]
+    },
     "59441ee4700611f1926652540025c377": {
       "name": "逗乐",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ab3d108b3f946986f35460d3005ee226_w100_h100_s2.jpeg",
@@ -13906,11 +13920,15 @@
     "832b5d907b0411f185f55254001e7c00": {
       "name": "爱发电用户_qVwp",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 110.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607121440345010010224584",
+          "amount": 390.0
+        },
         {
           "out_trade_no": "202607102028405610048917195",
           "amount": 100.0
@@ -20339,6 +20357,20 @@
         }
       ]
     },
+    "b836eaa67ce711f1a1ab52540025c377": {
+      "name": "爱发电用户_csCA",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607121403155154100546935",
+          "amount": 5.0
+        }
+      ]
+    },
     "b852f74ce5c111ee98325254001e7c00": {
       "name": "zxcvb",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -25256,11 +25288,15 @@
     "e29493ca61f311f18c0752540025c377": {
       "name": "爱发电用户_AneQ",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 10.0,
+      "amount": 20.0,
       "level": 1,
-      "plan_name": "",
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607121404301015397916360",
+          "amount": 10.0
+        },
         {
           "out_trade_no": "202606070605534953989825480",
           "amount": 10.0
