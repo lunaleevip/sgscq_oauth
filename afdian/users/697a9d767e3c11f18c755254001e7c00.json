@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1783893722,
+  "user_id": "697a9d767e3c11f18c755254001e7c00",
+  "name": "梦中风铃",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607130556484897569739106",
+      "amount": 5.0
+    }
+  ]
+}
