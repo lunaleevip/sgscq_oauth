@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783876451,
-  "count": 1750,
+  "updated_at": 1783879335,
+  "count": 1752,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -6081,6 +6081,20 @@
         }
       ]
     },
+    "39d9127c7e1a11f1ba4352540025c377": {
+      "name": "爱发电用户_39d91",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "up主要坚持做下去",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607130156185049551028053",
+          "amount": 5.0
+        }
+      ]
+    },
     "3a5301346ff311f18a0152540025c377": {
       "name": "爱发电用户_3a530",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -11616,11 +11630,23 @@
     "6b21c89476a311f0b93a52540025c377": {
       "name": "好的好的",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1d11444997cb9185dcece887a860444b_w100_h100_s3.jpeg",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 110.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607130140355198985321494",
+          "amount": 85.0
+        },
+        {
+          "out_trade_no": "202607130136129949555419983",
+          "amount": 10.0
+        },
+        {
+          "out_trade_no": "202607130135175351561022592",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "20260712000544565155103911",
           "amount": 5.0
@@ -15205,6 +15231,20 @@
         },
         {
           "out_trade_no": "202606211027569954505126527",
+          "amount": 5.0
+        }
+      ]
+    },
+    "8e52f5b87e1311f19dea5254001e7c00": {
+      "name": "醉幽",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/062dc023cc2959f5488d148501a81d2c_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260713011651511015457911",
           "amount": 5.0
         }
       ]
