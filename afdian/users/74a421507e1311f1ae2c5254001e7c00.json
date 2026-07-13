@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1783911742,
+  "user_id": "74a421507e1311f1ae2c5254001e7c00",
+  "name": "C one",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/498cdfb0e68f7492a8718c3d93f95013_w100_h100_s3.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "火速给我开通3000档",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607131056415797495643903",
+      "amount": 5.0
+    }
+  ]
+}
