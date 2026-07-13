@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1783932011,
+  "updated_at": 1783933333,
   "user_id": "01d235507e7111f1912a5254001e7c00",
-  "name": "01d235507e7111f1912a5254001e7c00",
-  "avatar": "",
+  "name": "我不能李姐",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ba6b35417c3e8e04726dc243fe591c16_w100_h100_s2.jpeg",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
