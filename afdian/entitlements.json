@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783911742,
-  "count": 1766,
+  "updated_at": 1783915057,
+  "count": 1768,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -11554,11 +11554,15 @@
     "697a9d767e3c11f18c755254001e7c00": {
       "name": "梦中风铃",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607131108225449514811644",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202607130556484897569739106",
           "amount": 5.0
@@ -15091,6 +15095,20 @@
         },
         {
           "out_trade_no": "202607102036045210250126320",
+          "amount": 5.0
+        }
+      ]
+    },
+    "8aeeb3062a6911ec9be652540025c377": {
+      "name": "爱发电用户_wWeP",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607131138115151575628872",
           "amount": 5.0
         }
       ]
@@ -20207,6 +20225,20 @@
         }
       ]
     },
+    "b3b6c29e7e6811f18a045254001e7c00": {
+      "name": "爱发电用户_b3b6c",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607131112429756499814432",
+          "amount": 5.0
+        }
+      ]
+    },
     "b3bffd9ce59b11ec997b52540025c377": {
       "name": "尛某人",
       "avatar": "https://pic1.afdiancdn.com/user/b3bffd9ce59b11ec997b52540025c377/avatar/8d0d79d87788ab853279038c7b977ec0_w1080_h1080_s91.jpeg",
@@ -23360,11 +23392,15 @@
     "cd4f2fa87c4b11f19a6252540025c377": {
       "name": "大哥",
       "avatar": "https://pic1.afdiancdn.com/user/cd4f2fa87c4b11f19a6252540025c377/avatar/f27f722419f62388d5de774a2d10147a_w534_h301_s20.jpeg",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607131133054956494821100",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202607121850135397575436219",
           "amount": 5.0
