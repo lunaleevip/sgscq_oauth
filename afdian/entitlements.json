@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1783994632,
-  "count": 1800,
+  "updated_at": 1783998138,
+  "count": 1802,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -7523,6 +7523,24 @@
         },
         {
           "out_trade_no": "20260616092015102985511661",
+          "amount": 5.0
+        }
+      ]
+    },
+    "462260747f2d11f1855352540025c377": {
+      "name": "嘉锅",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607141042305410097522132",
+          "amount": 5.0
+        },
+        {
+          "out_trade_no": "202607141040215397100919634",
           "amount": 5.0
         }
       ]
@@ -15802,6 +15820,20 @@
         {
           "out_trade_no": "202606280844471029755914852",
           "amount": 5.0
+        }
+      ]
+    },
+    "8eb6a6027f2711f1a71d52540025c377": {
+      "name": "爱发电用户_8eb6a",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607141016035150101127794",
+          "amount": 10.0
         }
       ]
     },
@@ -27796,11 +27828,15 @@
     "efe2c4e87ee011f1881952540025c377": {
       "name": "i扳TV",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/92d5edd005f6c1344b512d79d2fc8c6f_w100_h100_s3.jpeg",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 101.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260714104044999848498934",
+          "amount": 91.0
+        },
         {
           "out_trade_no": "202607140148225449994810380",
           "amount": 10.0
