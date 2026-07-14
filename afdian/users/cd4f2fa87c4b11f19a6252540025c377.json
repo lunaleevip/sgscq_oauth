@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1784030561,
+  "updated_at": 1784031313,
   "user_id": "cd4f2fa87c4b11f19a6252540025c377",
   "name": "大哥",
   "avatar": "https://pic1.afdiancdn.com/user/cd4f2fa87c4b11f19a6252540025c377/avatar/f27f722419f62388d5de774a2d10147a_w534_h301_s20.jpeg",
-  "amount": 15.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "202607121850135397575436219",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607142014105051539926190",
+      "amount": 85.0
     }
   ]
 }
