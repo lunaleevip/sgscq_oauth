@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1784128819,
+  "user_id": "21a5794a7fa811f1bdcc5254001e7c00",
+  "name": "21a5794a7fa811f1bdcc5254001e7c00",
+  "avatar": "",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "小时候最喜欢在蹲在电视前面玩这个",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260715231625575110096810",
+      "amount": 10.0
+    }
+  ]
+}
