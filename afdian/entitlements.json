@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784178155,
-  "count": 1864,
+  "updated_at": 1784181751,
+  "count": 1866,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -1555,6 +1555,20 @@
       "orders": [
         {
           "out_trade_no": "20260714082439554910156950",
+          "amount": 5.0
+        }
+      ]
+    },
+    "0e2fc21e80d711f1afe85254001e7c00": {
+      "name": "爱发电用户_3nM6",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "流火爷还是个忠厚人啊",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607161328025049551032144",
           "amount": 5.0
         }
       ]
@@ -23993,6 +24007,20 @@
         }
       ]
     },
+    "c715a1b27bfb11f1975a5254001e7c00": {
+      "name": "我脸盲",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e6d64af35b248c77536601eeecd53ce4_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607161328505050485628941",
+          "amount": 5.0
+        }
+      ]
+    },
     "c7169572713811f1a59452540025c377": {
       "name": "爱发电用户_c7169",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -30224,11 +30252,15 @@
     "f97c23ea79cd11f1965a5254001e7c00": {
       "name": "大海啊故乡",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260716135016569710158511",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607071435535799981031889",
           "amount": 5.0
