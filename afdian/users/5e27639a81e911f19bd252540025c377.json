@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1784297711,
+  "updated_at": 1784299972,
   "user_id": "5e27639a81e911f19bd252540025c377",
-  "name": "5e27639a81e911f19bd252540025c377",
-  "avatar": "",
+  "name": "dhl",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
