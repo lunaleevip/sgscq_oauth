@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784387400,
-  "count": 1942,
+  "updated_at": 1784390589,
+  "count": 1944,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -514,7 +514,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/39283817444c3d140f5886ffd70d741c_w132_h132_s2.jpeg",
       "amount": 10.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -1934,7 +1934,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -4270,7 +4270,12 @@
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "20260718230728481001006212",
+          "amount": 5.0
+        }
+      ]
     },
     "2366fb086a2e11f19f0e52540025c377": {
       "name": "爱发电用户_8fUY",
@@ -8038,6 +8043,20 @@
         }
       ]
     },
+    "44a9e432826c11f1af0352540025c377": {
+      "name": "雪雪公子",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607182328195157565215403",
+          "amount": 5.0
+        }
+      ]
+    },
     "44c2179882ab11f1914e52540025c377": {
       "name": "Æ",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5f7275c1288fa9d9d254cb374f48fab1_w100_h100_s2.jpeg",
@@ -9285,7 +9304,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -11480,6 +11499,20 @@
       "orders": [
         {
           "out_trade_no": "202607081054445210010019950",
+          "amount": 5.0
+        }
+      ]
+    },
+    "5fd21ec880fa11f19cc952540025c377": {
+      "name": "神·JQ大帝66",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7df775ace49d2e9466e52a99ea0cea8a_w132_h132_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607182312055355102434905",
           "amount": 5.0
         }
       ]
