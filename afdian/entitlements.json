@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784397733,
-  "count": 1949,
+  "updated_at": 1784401359,
+  "count": 1953,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -10759,6 +10759,20 @@
         }
       ]
     },
+    "59a7c54282d611f1962252540025c377": {
+      "name": "LIUYANG",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4125b1e64d3e72bd7be51f0eb80dcafa_w132_h132_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "加油加油加油",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607190230315548521013776",
+          "amount": 5.0
+        }
+      ]
+    },
     "59b3ba206d4911f1ae0352540025c377": {
       "name": "爱发电用户_pr7c",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -20213,6 +20227,20 @@
         }
       ]
     },
+    "a4c4eda282d111f1a83152540025c377": {
+      "name": "混的人",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/2000ac4dc60876525838741480c381d9_w100_h100_s4.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260719021730975697513870",
+          "amount": 5.0
+        }
+      ]
+    },
     "a4ebc4ca565f11f1912752540025c377": {
       "name": "只因学校有粉笔",
       "avatar": "https://pic1.afdiancdn.com/user/a4ebc4ca565f11f1912752540025c377/avatar/eb52750ccbc286cdf6e8077118aa8332_w1080_h1080_s55.jpeg",
@@ -22220,11 +22248,15 @@
     "b2e3dc363e0611ed97c852540025c377": {
       "name": "一语清寒",
       "avatar": "https://pic1.afdiancdn.com/user/b2e3dc363e0611ed97c852540025c377/avatar/6267183967bdaf1df5813eb3dd21e801_w752_h1562_s197.jpg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607190229085255495213220",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "20260717093004999756556971",
           "amount": 5.0
@@ -28883,6 +28915,20 @@
         }
       ]
     },
+    "e43af520814711f18afe52540025c377": {
+      "name": "砍刀韩.",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7d0a306f22853093610b9f9a8f263ab0_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260719021503559754544056",
+          "amount": 5.0
+        }
+      ]
+    },
     "e459879a5c6911f1a05c52540025c377": {
       "name": "雨絮纷飞",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/83b3975db4c61e771221c1124be1e037_w100_h100_s3.jpeg",
@@ -30273,6 +30319,20 @@
       "orders": [
         {
           "out_trade_no": "202607100937171005056545116",
+          "amount": 5.0
+        }
+      ]
+    },
+    "f0f43000826011f196dd5254001e7c00": {
+      "name": "赫萝",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9bbd8713ab06be25d77f6d0b2d416460_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607190219431024957113084",
           "amount": 5.0
         }
       ]
