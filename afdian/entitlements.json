@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784444571,
-  "count": 1963,
+  "updated_at": 1784448184,
+  "count": 1964,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -17614,13 +17614,17 @@
       ]
     },
     "912be410802c11eba1df52540025c377": {
-      "name": "爱发电用户_ga4f",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
-      "level": 1,
+      "name": "嫑",
+      "avatar": "https://pic1.afdiancdn.com/user/912be410802c11eba1df52540025c377/avatar/4000b87743158defc01f13ce1dca80bc_w640_h640_s19.jpeg",
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260719152204991019854457",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607062234495756569846515",
           "amount": 5.0
@@ -20839,6 +20843,20 @@
       "orders": [
         {
           "out_trade_no": "202607162328255750499813605",
+          "amount": 5.0
+        }
+      ]
+    },
+    "a96ec4487dbf11f1babb5254001e7c00": {
+      "name": "黑乌鸦",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a098f5c56e993ebbfbf8faf6e32bca09_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607191541501015650517221",
           "amount": 5.0
         }
       ]
@@ -31972,11 +31990,15 @@
     "fae16286827411f1aaa85254001e7c00": {
       "name": "麋鹿迷失在迷雾",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f522aa9990db2abc4a847dce80fd82eb_w100_h100_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607191533044855102914296",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607181506211005710114123",
           "amount": 5.0
