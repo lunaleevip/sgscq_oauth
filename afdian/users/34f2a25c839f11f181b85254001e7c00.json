@@ -1,16 +1,20 @@
 {
   "version": 1,
-  "updated_at": 1784487745,
+  "updated_at": 1784488508,
   "user_id": "34f2a25c839f11f181b85254001e7c00",
   "name": "关山月",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/91933c8e9ce7ad5137e92c78183c5231_w100_h100_s3.jpeg",
-  "amount": 5.0,
+  "amount": 10.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202607200229235199100519665",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607200311525651102937099",
       "amount": 5.0
     }
   ]
