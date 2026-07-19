@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1784422950,
+  "updated_at": 1784426533,
   "count": 1956,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -14799,6 +14799,20 @@
         }
       ]
     },
+    "7904b312830f11f1af6e5254001e7c00": {
+      "name": "微大笑",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "up人美心善，有生之年还能玩到三国杀传奇",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607190927089957485031545",
+          "amount": 5.0
+        }
+      ]
+    },
     "7910b9fa61b311f188c152540025c377": {
       "name": "风嗍",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c060ba2812bfb60acc64847c6a9cdd2b_w100_h100_s3.jpeg",
@@ -16964,20 +16978,6 @@
         {
           "out_trade_no": "202606111907185451491017061",
           "amount": 50.0
-        }
-      ]
-    },
-    "8c972a7682b611f1a8815254001e7c00": {
-      "name": "爱发电用户_8c972",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "自选方案",
-      "sponsor": true,
-      "orders": [
-        {
-          "out_trade_no": "202607182240045249485314843",
-          "amount": 5.0
         }
       ]
     },
@@ -22810,13 +22810,17 @@
     "b55e611882b611f1babf5254001e7c00": {
       "name": "爱发电用户_XFyQ",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
         {
           "out_trade_no": "202607182242199852574912024",
+          "amount": 5.0
+        },
+        {
+          "out_trade_no": "202607182240045249485314843",
           "amount": 5.0
         }
       ]
@@ -25266,11 +25270,15 @@
     "c7cb31cc6dea11f18da952540025c377": {
       "name": "爱发电用户_xvTf",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607190934585099495331322",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202606221133435599991015063",
           "amount": 5.0
