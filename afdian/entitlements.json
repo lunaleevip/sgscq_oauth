@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784527372,
-  "count": 1995,
+  "updated_at": 1784530973,
+  "count": 1999,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -6462,11 +6462,15 @@
     "34f2a25c839f11f181b85254001e7c00": {
       "name": "关山月",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/91933c8e9ce7ad5137e92c78183c5231_w100_h100_s3.jpeg",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607201424255799101531644",
+          "amount": 90.0
+        },
         {
           "out_trade_no": "202607200311525651102937099",
           "amount": 5.0
@@ -8250,11 +8254,15 @@
     "44a9e432826c11f1af0352540025c377": {
       "name": "雪雪公子",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 105.0,
+      "amount": 110.0,
       "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607201410254948495725833",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "20260719231919555048486811",
           "amount": 100.0
@@ -12423,6 +12431,20 @@
         }
       ]
     },
+    "6367d370840111f1921b52540025c377": {
+      "name": "爱发电用户_JRwy",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607201408141015410223806",
+          "amount": 5.0
+        }
+      ]
+    },
     "63850a4a6f6f11f180cb52540025c377": {
       "name": "爱发电用户_63850",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -13176,11 +13198,15 @@
     "6950e16eb86611eead265254001e7c00": {
       "name": "爱发电用户_kWrF",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607201435124897579724487",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202607192051591025749524250",
           "amount": 5.0
@@ -16159,6 +16185,20 @@
       "orders": [
         {
           "out_trade_no": "20260622085131511009859930",
+          "amount": 5.0
+        }
+      ]
+    },
+    "829eb00e840311f1a0ba52540025c377": {
+      "name": "爱发电用户_MTAh",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "加油",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607201425105453549932455",
           "amount": 5.0
         }
       ]
@@ -24785,6 +24825,20 @@
         }
       ]
     },
+    "c0a2943283ff11f1961652540025c377": {
+      "name": "爱发电用户_ERc4",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607201401331001015623303",
+          "amount": 5.0
+        }
+      ]
+    },
     "c0e41156602711f1b48c5254001e7c00": {
       "name": "爱发电用户_c0e41",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -26259,6 +26313,20 @@
       "orders": [
         {
           "out_trade_no": "202606220040131004898536695",
+          "amount": 5.0
+        }
+      ]
+    },
+    "cb6f6d0a8c9811ef9e1552540025c377": {
+      "name": "Dentuso",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607201424195150100510028",
           "amount": 5.0
         }
       ]
