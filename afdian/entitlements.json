@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784541773,
-  "count": 2003,
+  "updated_at": 1784545361,
+  "count": 2004,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -21592,11 +21592,15 @@
     "ab4a6ae6564211f1a7d552540025c377": {
       "name": "剑枕星河",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5500.0,
+      "amount": 6000.0,
       "level": 5,
-      "plan_name": "剑枕星河",
+      "plan_name": "我是剑枕星河",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607201803045652551019693",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202607092108375356495110656",
           "amount": 300.0
@@ -24211,6 +24215,20 @@
       "orders": [
         {
           "out_trade_no": "202606231914445253511048564",
+          "amount": 5.0
+        }
+      ]
+    },
+    "ba91723c842411f196785254001e7c00": {
+      "name": "x.x.x.",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3074d982e0773280ae5bfd0d131e178c_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607201825555154539726775",
           "amount": 5.0
         }
       ]
@@ -33259,9 +33277,9 @@
       "user_id": "ab4a6ae6564211f1a7d552540025c377",
       "name": "剑枕星河",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5500.0,
+      "amount": 6000.0,
       "level": 5,
-      "plan_name": "剑枕星河",
+      "plan_name": "我是剑枕星河",
       "sponsor": true
     },
     {
