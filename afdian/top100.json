@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1784565830,
+  "updated_at": 1784566980,
   "count": 100,
   "top100": [
     {
@@ -805,6 +805,15 @@
       "sponsor": true
     },
     {
+      "user_id": "3662420a817e11f1b3ec5254001e7c00",
+      "name": "小沈很馨蔚",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/34a0fdbfd611f43cbe231ca5231b4c68_w132_h132_s3.jpeg",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "9eec57686e6211f1869852540025c377",
       "name": "小离",
       "avatar": "https://pic1.afdiancdn.com/user/9eec57686e6211f1869852540025c377/avatar/5b2b5abf8e778dabef964cfd016e42df_w1600_h1600_s3938.png",
@@ -892,15 +901,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "加油加油",
-      "sponsor": true
-    },
-    {
-      "user_id": "8fae6f286d0b11f19a335254001e7c00",
-      "name": "消隐的记忆",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4bbbde1c6ccd7dee5b4814abee64486a_w100_h100_s4.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "支持！",
       "sponsor": true
     }
   ]
