@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1784559910,
+  "user_id": "0a8b8c10844c11f19a745254001e7c00",
+  "name": "0a8b8c10844c11f19a745254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "嗯，学生党一枚，之前玩过三杀 希望作者大大加油！",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607202302359898541030920",
+      "amount": 5.0
+    }
+  ]
+}
