@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1784660548,
+  "updated_at": 1784664162,
   "count": 2047,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -6854,11 +6854,15 @@
     "3662420a817e11f1b3ec5254001e7c00": {
       "name": "小沈很馨蔚",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/34a0fdbfd611f43cbe231ca5231b4c68_w132_h132_s3.jpeg",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607220304535348100528658",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202607210056525257495310336",
           "amount": 400.0
@@ -16328,11 +16332,15 @@
     "7feffda6731411efb52852540025c377": {
       "name": "爱发电用户_JfH9",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607220319005251545142437",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607201105425450565436079",
           "amount": 5.0
@@ -34243,6 +34251,15 @@
       "sponsor": true
     },
     {
+      "user_id": "3662420a817e11f1b3ec5254001e7c00",
+      "name": "小沈很馨蔚",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/34a0fdbfd611f43cbe231ca5231b4c68_w132_h132_s3.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "5e06ef32766011f192765254001e7c00",
       "name": "小神",
       "avatar": "https://pic1.afdiancdn.com/user/5e06ef32766011f192765254001e7c00/avatar/a193a02e626268ca246be7abd1898b63_w1376_h808_s1025.png",
@@ -34840,15 +34857,6 @@
       "user_id": "af56b3dc6eda11f1aa3b5254001e7c00",
       "name": "将离",
       "avatar": "https://pic1.afdiancdn.com/user/af56b3dc6eda11f1aa3b5254001e7c00/avatar/843790ba7550e0aa9a86caa6b827f764_w452_h452_s107.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "3662420a817e11f1b3ec5254001e7c00",
-      "name": "小沈很馨蔚",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/34a0fdbfd611f43cbe231ca5231b4c68_w132_h132_s3.jpeg",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
