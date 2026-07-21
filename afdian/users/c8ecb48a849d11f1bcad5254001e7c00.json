@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1784595312,
+  "updated_at": 1784595764,
   "user_id": "c8ecb48a849d11f1bcad5254001e7c00",
-  "name": "c8ecb48a849d11f1bcad5254001e7c00",
-  "avatar": "",
+  "name": "芒种",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 20.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
