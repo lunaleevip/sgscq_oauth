@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784638984,
-  "count": 2041,
+  "updated_at": 1784642567,
+  "count": 2042,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -910,11 +910,23 @@
     "08127328540311f19c6152540025c377": {
       "name": "爱发电用户_08127",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 10.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607212154254910198910948",
+          "amount": 20.0
+        },
+        {
+          "out_trade_no": "202607212154049956102516587",
+          "amount": 20.0
+        },
+        {
+          "out_trade_no": "202607212153065055102515064",
+          "amount": 50.0
+        },
         {
           "out_trade_no": "202605291814445255985222579",
           "amount": 10.0
@@ -5923,6 +5935,20 @@
       "orders": [
         {
           "out_trade_no": "202607012341374910049114701",
+          "amount": 5.0
+        }
+      ]
+    },
+    "2f3165daae5f11f0a68d52540025c377": {
+      "name": "夜雨声烦",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/983ba97976df44f8bc9c7df1e4ab8586_w132_h132_s0.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260721214911555352973987",
           "amount": 5.0
         }
       ]
@@ -14248,11 +14274,15 @@
     "6ef6de42846111f1a5545254001e7c00": {
       "name": "将就将就看看",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607212137489950991038825",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607210740365298515513420",
           "amount": 5.0
