@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1784653394,
+  "updated_at": 1784656973,
   "count": 2046,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -6650,11 +6650,15 @@
     "34f2a25c839f11f181b85254001e7c00": {
       "name": "关山月",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/91933c8e9ce7ad5137e92c78183c5231_w100_h100_s3.jpeg",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607220116055310097512012",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202607201424255799101531644",
           "amount": 90.0
@@ -15514,11 +15518,15 @@
     "7887f156ab2011efa11452540025c377": {
       "name": "（@^@）",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b47d207192dd03524c0f0d9402f1a9f8_w132_h132_s6.jpeg",
-      "amount": 30.0,
+      "amount": 80.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607220146029799979910368",
+          "amount": 50.0
+        },
         {
           "out_trade_no": "202606221806381014910245682",
           "amount": 20.0
@@ -32478,11 +32486,15 @@
     "f57980bc7e0f11f19cd652540025c377": {
       "name": "城郊牧笛声",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0dba56a9408b284357b3e228cadfe5e3_w100_h100_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 106.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260722011257574850571263",
+          "amount": 101.0
+        },
         {
           "out_trade_no": "202607130038369955555734068",
           "amount": 5.0
@@ -34712,6 +34724,15 @@
       "sponsor": true
     },
     {
+      "user_id": "34f2a25c839f11f181b85254001e7c00",
+      "name": "关山月",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/91933c8e9ce7ad5137e92c78183c5231_w100_h100_s3.jpeg",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "0d8c67106d7011f1b03a52540025c377",
       "name": "卡卡",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -34898,15 +34919,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "恭喜七月可以称帝了！",
-      "sponsor": true
-    },
-    {
-      "user_id": "b512b078647611f1bc5952540025c377",
-      "name": "泉中水",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/08d081cc113ae4a12278d9f43febda90_w100_h100_s3.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "加油加油",
       "sponsor": true
     }
   ]
