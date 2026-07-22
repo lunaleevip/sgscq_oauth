@@ -1,16 +1,20 @@
 {
   "version": 1,
-  "updated_at": 1784685745,
+  "updated_at": 1784685909,
   "user_id": "cd96e1fe856011f1958a5254001e7c00",
   "name": "无敌奥特曼",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-  "amount": 5.0,
+  "amount": 10.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202607220804235551575640404",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607221001341015457916086",
       "amount": 5.0
     }
   ]
