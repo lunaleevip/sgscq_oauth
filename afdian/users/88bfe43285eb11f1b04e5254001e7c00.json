@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1784738545,
+  "user_id": "88bfe43285eb11f1b04e5254001e7c00",
+  "name": "小叶",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "OK了",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "2026072300390355545150863",
+      "amount": 5.0
+    }
+  ]
+}
