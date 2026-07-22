@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1784727910,
+  "user_id": "9497798085b111f188d05254001e7c00",
+  "name": "9497798085b111f188d05254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油三国杀传奇",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607222140324899985429432",
+      "amount": 5.0
+    }
+  ]
+}
