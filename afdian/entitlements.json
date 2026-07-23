@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784775755,
-  "count": 2084,
+  "updated_at": 1784779392,
+  "count": 2089,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -4833,6 +4833,20 @@
       "orders": [
         {
           "out_trade_no": "20260623215508995555502940",
+          "amount": 5.0
+        }
+      ]
+    },
+    "251cb202859111f1b5af5254001e7c00": {
+      "name": "之子于归",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607231115569997985516219",
           "amount": 5.0
         }
       ]
@@ -12525,6 +12539,20 @@
         }
       ]
     },
+    "6099e1cc864711f1906a52540025c377": {
+      "name": "爱发电用户_6099e",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607231134231021001042718",
+          "amount": 5.0
+        }
+      ]
+    },
     "60d38af085be11f1aeff52540025c377": {
       "name": "爱发电用户_60d38",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -13239,6 +13267,20 @@
       "orders": [
         {
           "out_trade_no": "202607022051215799102931129",
+          "amount": 5.0
+        }
+      ]
+    },
+    "64abf31a6ed911edae2652540025c377": {
+      "name": "业火映东水",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c59558386895dbbc4d7876eafc592c4e_w132_h132_s6.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607231122455399489820041",
           "amount": 5.0
         }
       ]
@@ -17918,11 +17960,15 @@
     "8a238a5ed6fa11eb998852540025c377": {
       "name": "寂寞如雪",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607231143315157102525033",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607231020095757974916628",
           "amount": 5.0
@@ -22243,6 +22289,20 @@
       "orders": [
         {
           "out_trade_no": "202607162328255750499813605",
+          "amount": 5.0
+        }
+      ]
+    },
+    "a8b8f230864311f181b652540025c377": {
+      "name": "溯惊鸿",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/46595db6dfba44d647e783e686b86572_w132_h132_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607231121491005451514882",
           "amount": 5.0
         }
       ]
@@ -27888,11 +27948,15 @@
     "cd96e1fe856011f1958a5254001e7c00": {
       "name": "无敌奥特曼",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 10.0,
+      "amount": 20.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260723115720485554992148",
+          "amount": 10.0
+        },
         {
           "out_trade_no": "202607221001341015457916086",
           "amount": 5.0
@@ -32965,6 +33029,20 @@
       "orders": [
         {
           "out_trade_no": "20260713202748524855562826",
+          "amount": 5.0
+        }
+      ]
+    },
+    "f4da58d8864411f18ab25254001e7c00": {
+      "name": "爱发电用户_xM9y",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607231123411005749136264",
           "amount": 5.0
         }
       ]
