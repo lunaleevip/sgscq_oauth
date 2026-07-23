@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1784770209,
+  "user_id": "7a54e786863511f1a93a52540025c377",
+  "name": "7a54e786863511f1a93a52540025c377",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "感谢up，小小心意，不成敬意",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260723092607102505159517",
+      "amount": 5.0
+    }
+  ]
+}
