@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784792660,
-  "count": 2097,
+  "updated_at": 1784793799,
+  "count": 2099,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -15165,6 +15165,20 @@
         }
       ]
     },
+    "7323b184866911f1a9985254001e7c00": {
+      "name": "下半生吃遍半生瓜",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/2bdbc0532819519feb6dc26226b8e406_w100_h100_s1.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607231551495351489924025",
+          "amount": 5.0
+        }
+      ]
+    },
     "73288fd86ec711f18fed52540025c377": {
       "name": "世界",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0bf43ce59acbf27604193539ed71f7f7_w100_h100_s2.jpeg",
@@ -25519,6 +25533,20 @@
       "orders": [
         {
           "out_trade_no": "202607010058275156575214805",
+          "amount": 5.0
+        }
+      ]
+    },
+    "bb5bd19e866811f18d185254001e7c00": {
+      "name": "死守大吴疆土",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/575fbb265d1a721b3666e8a9fc06231f_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "加油做出三传",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607231554084810050549065",
           "amount": 5.0
         }
       ]
