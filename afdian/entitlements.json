@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784808156,
-  "count": 2101,
+  "updated_at": 1784810911,
+  "count": 2104,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -11320,11 +11320,15 @@
     "576b1efa838511f194fa52540025c377": {
       "name": "厌情",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/41f07fc83d8b86a79a91ba66adbf2801_w100_h100_s2.jpeg",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607232008334953495736471",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202607201159089910053412700",
           "amount": 30.0
@@ -15595,6 +15599,20 @@
         },
         {
           "out_trade_no": "202607140019495349975628176",
+          "amount": 5.0
+        }
+      ]
+    },
+    "75e2f2f69b5911ef81aa52540025c377": {
+      "name": "hhhl",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607232012471025150435195",
           "amount": 5.0
         }
       ]
@@ -21664,11 +21682,15 @@
     "a2ec999260f511f1900552540025c377": {
       "name": "一颗幻梦星",
       "avatar": "https://pic1.afdiancdn.com/user/a2ec999260f511f1900552540025c377/avatar/f035036843ec959e5edcd7046e7aabc5_w1032_h736_s828.png",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260723203835984810051814",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202607222035251009949528775",
           "amount": 50.0
@@ -23841,6 +23863,20 @@
       "orders": [
         {
           "out_trade_no": "202607082217031025497920223",
+          "amount": 5.0
+        }
+      ]
+    },
+    "b123c710869311f18ad052540025c377": {
+      "name": "ljw",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607232041415351504832119",
           "amount": 5.0
         }
       ]
@@ -30965,6 +31001,20 @@
         }
       ]
     },
+    "e27a03e2866611f182645254001e7c00": {
+      "name": "小何",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607232025135750564924238",
+          "amount": 5.0
+        }
+      ]
+    },
     "e28f5c565c9a11f1825552540025c377": {
       "name": "眠",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8a185b844badf9c07775dc479e25b8e4_w100_h100_s2.jpeg",
@@ -35576,6 +35626,15 @@
       "sponsor": true
     },
     {
+      "user_id": "a2ec999260f511f1900552540025c377",
+      "name": "一颗幻梦星",
+      "avatar": "https://pic1.afdiancdn.com/user/a2ec999260f511f1900552540025c377/avatar/f035036843ec959e5edcd7046e7aabc5_w1032_h736_s828.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "65716f3a627011f1b66352540025c377",
       "name": "何必",
       "avatar": "https://pic1.afdiancdn.com/user/65716f3a627011f1b66352540025c377/avatar/cfbe6820dc3a4dea4c2897d7200dc757_w4096_h3072_s3010.jpeg",
@@ -35618,6 +35677,15 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "支持",
+      "sponsor": true
+    },
+    {
+      "user_id": "576b1efa838511f194fa52540025c377",
+      "name": "厌情",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/41f07fc83d8b86a79a91ba66adbf2801_w100_h100_s2.jpeg",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -35771,24 +35839,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "2760a2b66a4e11f1945652540025c377",
-      "name": "暮雨",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "999df4ea58fc11f1aedc52540025c377",
-      "name": "木之本樱",
-      "avatar": "https://pic1.afdiancdn.com/user/999df4ea58fc11f1aedc52540025c377/avatar/60f8a44cc794b617486fe843860b92b8_w967_h1200_s200.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "恭喜七月可以称帝了！",
       "sponsor": true
     }
   ]

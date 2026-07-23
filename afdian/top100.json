@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1784808156,
+  "updated_at": 1784810911,
   "count": 100,
   "top100": [
     {
@@ -688,6 +688,15 @@
       "sponsor": true
     },
     {
+      "user_id": "a2ec999260f511f1900552540025c377",
+      "name": "一颗幻梦星",
+      "avatar": "https://pic1.afdiancdn.com/user/a2ec999260f511f1900552540025c377/avatar/f035036843ec959e5edcd7046e7aabc5_w1032_h736_s828.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "65716f3a627011f1b66352540025c377",
       "name": "何必",
       "avatar": "https://pic1.afdiancdn.com/user/65716f3a627011f1b66352540025c377/avatar/cfbe6820dc3a4dea4c2897d7200dc757_w4096_h3072_s3010.jpeg",
@@ -730,6 +739,15 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "支持",
+      "sponsor": true
+    },
+    {
+      "user_id": "576b1efa838511f194fa52540025c377",
+      "name": "厌情",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/41f07fc83d8b86a79a91ba66adbf2801_w100_h100_s2.jpeg",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -883,24 +901,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "2760a2b66a4e11f1945652540025c377",
-      "name": "暮雨",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "999df4ea58fc11f1aedc52540025c377",
-      "name": "木之本樱",
-      "avatar": "https://pic1.afdiancdn.com/user/999df4ea58fc11f1aedc52540025c377/avatar/60f8a44cc794b617486fe843860b92b8_w967_h1200_s200.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "恭喜七月可以称帝了！",
       "sponsor": true
     }
   ]
