@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784772153,
-  "count": 2082,
+  "updated_at": 1784775755,
+  "count": 2084,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -2642,11 +2642,15 @@
     "144b0ba885c411f185775254001e7c00": {
       "name": "爱发电用户_EdCG",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607231037065050549939176",
+          "amount": 495.0
+        },
         {
           "out_trade_no": "20260722195429534899106082",
           "amount": 5.0
@@ -2991,7 +2995,7 @@
     },
     "17542eaa819c11f1beaa5254001e7c00": {
       "name": "hello",
-      "avatar": "https://pic1.afdiancdn.com/user/17542eaa819c11f1beaa5254001e7c00/avatar/47da4dd7e833d240da471930a238e3f6_w750_h500_s27.jpeg",
+      "avatar": "https://pic1.afdiancdn.com/user/17542eaa819c11f1beaa5254001e7c00/avatar/5aa382521b0b2e5b82a5750b51814e7a_w1080_h1080_s48.jpeg",
       "amount": 5000.0,
       "level": 5,
       "plan_name": "很喜欢谢谢！希望别删档",
@@ -10220,6 +10224,20 @@
         {
           "out_trade_no": "202606202250061015297145843",
           "amount": 100.0
+        }
+      ]
+    },
+    "4f546362863b11f1b5635254001e7c00": {
+      "name": "爱发电用户_Q9ae",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260723100939511004892852",
+          "amount": 5.0
         }
       ]
     },
@@ -17893,6 +17911,20 @@
       "orders": [
         {
           "out_trade_no": "202607051826049957485614334",
+          "amount": 5.0
+        }
+      ]
+    },
+    "8a238a5ed6fa11eb998852540025c377": {
+      "name": "寂寞如雪",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607231020095757974916628",
           "amount": 5.0
         }
       ]
@@ -34610,7 +34642,7 @@
     {
       "user_id": "17542eaa819c11f1beaa5254001e7c00",
       "name": "hello",
-      "avatar": "https://pic1.afdiancdn.com/user/17542eaa819c11f1beaa5254001e7c00/avatar/47da4dd7e833d240da471930a238e3f6_w750_h500_s27.jpeg",
+      "avatar": "https://pic1.afdiancdn.com/user/17542eaa819c11f1beaa5254001e7c00/avatar/5aa382521b0b2e5b82a5750b51814e7a_w1080_h1080_s48.jpeg",
       "amount": 5000.0,
       "level": 5,
       "plan_name": "很喜欢谢谢！希望别删档",
