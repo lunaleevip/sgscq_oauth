@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1784833377,
+  "updated_at": 1784835737,
   "count": 100,
   "top100": [
     {
@@ -625,6 +625,15 @@
       "sponsor": true
     },
     {
+      "user_id": "7732cf26869b11f192f552540025c377",
+      "name": "Notinmemor",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/585137886da92620e9f11f16fdd98bb9_w100_h100_s3.jpeg",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "d1db0f9e69f211f1a3685254001e7c00",
       "name": "ron’s daydream",
       "avatar": "https://pic1.afdiancdn.com/user/d1db0f9e69f211f1a3685254001e7c00/avatar/f1f62f07712ef30884ded07362c9ec97_w1589_h1080_s633.jpeg",
@@ -889,15 +898,6 @@
       "user_id": "236e45ee6e6511f1b7ed52540025c377",
       "name": "星辰",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ad327c9aff435ee6035d4838fd626983_w100_h100_s2.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "6779281e7b1c11efa45c5254001e7c00",
-      "name": "暮色却有晴",
-      "avatar": "https://pic1.afdiancdn.com/user/6779281e7b1c11efa45c5254001e7c00/avatar/38e8d5a4a317f874d64508adcf7da5d6_w748_h748_s44.jpeg",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
