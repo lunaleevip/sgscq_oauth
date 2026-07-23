@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1784820173,
+  "updated_at": 1784822573,
   "user_id": "f379f1a668a811f1af7052540025c377",
   "name": "千逸尘",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bece2a2a55a6f31f9f1c974433475341_w100_h100_s2.jpeg",
   "amount": 100.0,
   "level": 2,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
