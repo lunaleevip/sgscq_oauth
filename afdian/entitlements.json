@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784768548,
-  "count": 2081,
+  "updated_at": 1784772153,
+  "count": 2082,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -13058,11 +13058,15 @@
     "63a700c6346911ee99955254001e7c00": {
       "name": "皮卡啾💕",
       "avatar": "https://pic1.afdiancdn.com/user/63a700c6346911ee99955254001e7c00/avatar/0f4c55fbb043ee1d11f505f987d4e11e_w959_h959_s38.jpeg",
-      "amount": 30.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607230959571009748531503",
+          "amount": 70.0
+        },
         {
           "out_trade_no": "202606081514084851101532127",
           "amount": 20.0
@@ -16005,6 +16009,20 @@
         },
         {
           "out_trade_no": "202606242042221015099129374",
+          "amount": 5.0
+        }
+      ]
+    },
+    "7a54e786863511f1a93a52540025c377": {
+      "name": "不识彼方花",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "感谢up，小小心意，不成敬意",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260723092607102505159517",
           "amount": 5.0
         }
       ]
@@ -27120,11 +27138,15 @@
     "c8ecb48a849d11f1bcad5254001e7c00": {
       "name": "芒种",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607230945469799101429587",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202607210929425451505643892",
           "amount": 30.0
