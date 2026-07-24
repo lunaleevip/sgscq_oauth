@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784923372,
-  "count": 2155,
+  "updated_at": 1784926949,
+  "count": 2156,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -547,6 +547,20 @@
       "orders": [
         {
           "out_trade_no": "202607011151035556495314700",
+          "amount": 5.0
+        }
+      ]
+    },
+    "04d689ca879c11f198525254001e7c00": {
+      "name": "爱发电用户_04d68",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260725041507985555567994",
           "amount": 5.0
         }
       ]
