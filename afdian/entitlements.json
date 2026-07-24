@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784865750,
-  "count": 2131,
+  "updated_at": 1784869393,
+  "count": 2133,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -10374,11 +10374,15 @@
     "4f546362863b11f1b5635254001e7c00": {
       "name": "爱发电用户_Q9ae",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260724120218975310013899",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "20260723100939511004892852",
           "amount": 5.0
@@ -24049,6 +24053,20 @@
         }
       ]
     },
+    "b0c0cfae82d111f19a835254001e7c00": {
+      "name": "豆子",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8d925e3591957619d4e8b184aef84c46_w132_h132_s5.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607241234105051561015691",
+          "amount": 5.0
+        }
+      ]
+    },
     "b0c98e406e5511f1a9585254001e7c00": {
       "name": "桃子不吃橘子",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -27579,6 +27597,20 @@
         },
         {
           "out_trade_no": "20260624134525535049104859",
+          "amount": 5.0
+        }
+      ]
+    },
+    "c7068ba0870911f1bf525254001e7c00": {
+      "name": "爱发电用户_c7068",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607241202165698565544231",
           "amount": 5.0
         }
       ]
