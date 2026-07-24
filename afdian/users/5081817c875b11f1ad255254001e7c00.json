@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1784896811,
+  "updated_at": 1784898182,
   "user_id": "5081817c875b11f1ad255254001e7c00",
-  "name": "5081817c875b11f1ad255254001e7c00",
-  "avatar": "",
+  "name": "野钓",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
