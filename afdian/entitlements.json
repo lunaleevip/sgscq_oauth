@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784905397,
-  "count": 2151,
+  "updated_at": 1784907901,
+  "count": 2154,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -19030,11 +19030,15 @@
     "8d88b258762a11f1afe75254001e7c00": {
       "name": "爱发电用户_x9Dy",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607242325044899534937744",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607022327444898485020954",
           "amount": 5.0
@@ -22369,6 +22373,20 @@
         }
       ]
     },
+    "a45889d6877311f1872652540025c377": {
+      "name": "爱发电用户_a4588",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "up太强了啊，本来以为充值界面是赞助，没想到有专门的渠道，想这个游戏好多年了，终于找到了，支持支持！",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260724232413100525056303",
+          "amount": 5.0
+        }
+      ]
+    },
     "a4718d40795011f18b075254001e7c00": {
       "name": "乐崽没烦恼",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/68cbd6833350c4377f96c85fd046cb5d_w100_h100_s2.jpeg",
@@ -24707,6 +24725,20 @@
         },
         {
           "out_trade_no": "202606271801309754534811914",
+          "amount": 5.0
+        }
+      ]
+    },
+    "b2dc99ea876211f180dc52540025c377": {
+      "name": "爱发电用户_EScq",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607242314295352575323779",
           "amount": 5.0
         }
       ]
@@ -32252,6 +32284,20 @@
         {
           "out_trade_no": "202606280857214956495414876",
           "amount": 648.0
+        }
+      ]
+    },
+    "e6df1782877511f19c8352540025c377": {
+      "name": "爱发电用户_xQBq",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607242341329953505314270",
+          "amount": 5.0
         }
       ]
     },
