@@ -1,16 +1,20 @@
 {
   "version": 1,
-  "updated_at": 1784960961,
+  "updated_at": 1784961011,
   "user_id": "24de5e1087e611f19efd52540025c377",
   "name": "爱发电用户_5uyt",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-  "amount": 10.0,
+  "amount": 20.0,
   "level": 1,
   "plan_name": "有小时候的味道",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202607251303294998481024872",
+      "amount": 10.0
+    },
+    {
+      "out_trade_no": "202607251428291001005111809",
       "amount": 10.0
     }
   ]
