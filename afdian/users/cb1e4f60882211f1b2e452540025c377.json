@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1784985611,
+  "user_id": "cb1e4f60882211f1b2e452540025c377",
+  "name": "cb1e4f60882211f1b2e452540025c377",
+  "avatar": "",
+  "amount": 20.0,
+  "level": 1,
+  "plan_name": "大佬加油，俺是穷学生，等开学了我兼职再继续给你充电！！",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607252117085253561013924",
+      "amount": 20.0
+    }
+  ]
+}
