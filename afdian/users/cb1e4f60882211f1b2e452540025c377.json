@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1784988231,
+  "updated_at": 1784989210,
   "user_id": "cb1e4f60882211f1b2e452540025c377",
   "name": "爱发电用户_cb1e4",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-  "amount": 20.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "大佬加油，俺是穷学生，等开学了我兼职再继续给你充电！！",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202607252117085253561013924",
       "amount": 20.0
+    },
+    {
+      "out_trade_no": "202607252218049998994828324",
+      "amount": 80.0
     }
   ]
 }
