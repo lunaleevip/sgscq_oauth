@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1784978640,
-  "count": 2178,
+  "updated_at": 1784980959,
+  "count": 2180,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -9760,11 +9760,15 @@
     "4973fb06875311f1bd195254001e7c00": {
       "name": "潘",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
+      "amount": 15.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607251948045252505716169",
+          "amount": 10.0
+        },
         {
           "out_trade_no": "202607251309565250561014631",
           "amount": 5.0
@@ -12064,8 +12068,8 @@
       ]
     },
     "59b4847a881811f1946852540025c377": {
-      "name": "爱发电用户_K8SJ",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "name": "Mr.submission",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8bd23768ac5bd69a9499b6e4e56c3e9a_w100_h100_s4.jpeg",
       "amount": 5.0,
       "level": 1,
       "plan_name": "自选方案",
@@ -26358,8 +26362,8 @@
       ]
     },
     "ba2297745cdb11f1a1195254001e7c00": {
-      "name": "1",
-      "avatar": "https://pic1.afdiancdn.com/user/ba2297745cdb11f1a1195254001e7c00/avatar/7dfced06418d356aac0847c4004d0cf3_w1167_h1167_s266.jpeg",
+      "name": "玉儿呦呦呦",
+      "avatar": "https://pic1.afdiancdn.com/user/ba2297745cdb11f1a1195254001e7c00/avatar/2ff356319ec8456099ede92698f323a8_w1080_h1080_s58.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
@@ -28951,6 +28955,24 @@
         },
         {
           "out_trade_no": "202607031322465499555025889",
+          "amount": 5.0
+        }
+      ]
+    },
+    "cbf197d6881c11f1900b5254001e7c00": {
+      "name": "爱发电用户_cbf19",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260725195013535653553092",
+          "amount": 95.0
+        },
+        {
+          "out_trade_no": "20260725193921575254525246",
           "amount": 5.0
         }
       ]
@@ -35983,6 +36005,20 @@
         }
       ]
     },
+    "fe87fd1c881b11f1a1e352540025c377": {
+      "name": "爱发电用户_hmRd",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607251930564856101539398",
+          "amount": 5.0
+        }
+      ]
+    },
     "fe8a3eec73e411f1bba052540025c377": {
       "name": "爱发电用户_QykT",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -36290,15 +36326,6 @@
       "sponsor": true
     },
     {
-      "user_id": "ba2297745cdb11f1a1195254001e7c00",
-      "name": "1",
-      "avatar": "https://pic1.afdiancdn.com/user/ba2297745cdb11f1a1195254001e7c00/avatar/7dfced06418d356aac0847c4004d0cf3_w1167_h1167_s266.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
       "user_id": "2b337d7ed12211ec951252540025c377",
       "name": "JJaden",
       "avatar": "https://pic1.afdiancdn.com/user/2b337d7ed12211ec951252540025c377/avatar/6bbb1d828561674f30e5a3cd5985e3cf_w2400_h1080_s1461.jpeg",
@@ -36437,6 +36464,15 @@
       "user_id": "e6bc6dee728b11f191425254001e7c00",
       "name": "爱发电用户_e6bc6",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "ba2297745cdb11f1a1195254001e7c00",
+      "name": "玉儿呦呦呦",
+      "avatar": "https://pic1.afdiancdn.com/user/ba2297745cdb11f1a1195254001e7c00/avatar/2ff356319ec8456099ede92698f323a8_w1080_h1080_s58.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
