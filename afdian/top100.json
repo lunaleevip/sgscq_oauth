@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785079092,
+  "updated_at": 1785081788,
   "count": 100,
   "top100": [
     {
@@ -168,7 +168,7 @@
     {
       "user_id": "ab56dff276c111f1b3a45254001e7c00",
       "name": "Gemini",
-      "avatar": "https://pic1.afdiancdn.com/user/ab56dff276c111f1b3a45254001e7c00/avatar/33171a16b9b690fd0089746a87034b30_w1259_h1929_s782.jpeg",
+      "avatar": "https://pic1.afdiancdn.com/user/ab56dff276c111f1b3a45254001e7c00/avatar/c971ea8fa143b5732f075bad99837f09_w1259_h1259_s470.jpeg",
       "amount": 1000.1,
       "level": 4,
       "plan_name": "up加油",
@@ -576,7 +576,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a55c427798974e8c22b232d8d13f8067_w100_h100_s2.jpeg",
       "amount": 505.0,
       "level": 3,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true
     },
     {
@@ -665,6 +665,15 @@
       "name": "落",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/82ea6f34930d6c409fe39e6f5d17a6c3_w100_h100_s2.jpeg",
       "amount": 505.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "e19436606c5711f1804a5254001e7c00",
+      "name": "平稳气场",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/af7725c3b869f884ff97a5e506e29b5e_w100_h100_s3.jpeg",
+      "amount": 501.0,
       "level": 3,
       "plan_name": "自选方案",
       "sponsor": true
@@ -892,15 +901,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "95824e1af77611ec998352540025c377",
-      "name": "兴",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "加油",
       "sponsor": true
     }
   ]
