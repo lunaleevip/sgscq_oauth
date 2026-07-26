@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785060326,
+  "updated_at": 1785063782,
   "count": 2222,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -2798,11 +2798,15 @@
     "146a40eaa14011f0b3cb52540025c377": {
       "name": "爱发电用户_jQhu",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 10.0,
+      "amount": 50.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607261836075510150513803",
+          "amount": 40.0
+        },
         {
           "out_trade_no": "202607151114005648575522320",
           "amount": 10.0
@@ -18228,11 +18232,15 @@
     "829eb00e840311f1a0ba52540025c377": {
       "name": "爱发电用户_MTAh",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607261803005253559938939",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607201425105453549932455",
           "amount": 5.0
@@ -29948,7 +29956,7 @@
       ]
     },
     "cdb8ceb2722911f1a37c52540025c377": {
-      "name": "油炸",
+      "name": "请删游戏重下",
       "avatar": "https://pic1.afdiancdn.com/user/cdb8ceb2722911f1a37c52540025c377/avatar/97806a5e51ab370ee61149b31fb0591c_w2712_h1220_s1105.jpeg",
       "amount": 105.0,
       "level": 2,
@@ -29968,11 +29976,15 @@
     "cdcefba481ee11f1b7035254001e7c00": {
       "name": "徐老师",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 100.0,
+      "amount": 200.0,
       "level": 2,
       "plan_name": "厉害的IT男",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607261840291009956519736",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607182118465451102542229",
           "amount": 95.0
