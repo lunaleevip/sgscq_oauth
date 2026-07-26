@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785067399,
+  "updated_at": 1785070511,
   "user_id": "c8ecb48a849d11f1bcad5254001e7c00",
   "name": "芒种",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-  "amount": 500.0,
-  "level": 3,
+  "amount": 1000.0,
+  "level": 4,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -24,6 +24,10 @@
     {
       "out_trade_no": "202607210850325648545511269",
       "amount": 20.0
+    },
+    {
+      "out_trade_no": "202607262054209910151918159",
+      "amount": 500.0
     }
   ]
 }
