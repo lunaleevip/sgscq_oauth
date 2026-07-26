@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785034974,
-  "count": 2209,
+  "updated_at": 1785037867,
+  "count": 2210,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -17002,11 +17002,15 @@
     "78a7118a85b211f1a72552540025c377": {
       "name": "爱发电用户_ENcR",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607261141435553515423257",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "20260722174821539810159294",
           "amount": 5.0
@@ -17529,6 +17533,20 @@
       "orders": [
         {
           "out_trade_no": "202606211331431029756531922",
+          "amount": 5.0
+        }
+      ]
+    },
+    "7cd6c1047ce011f1b68b5254001e7c00": {
+      "name": "爱发电用户_qFN3",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607261142231025748922108",
           "amount": 5.0
         }
       ]
@@ -24026,11 +24044,15 @@
     "ab4a6ae6564211f1a7d552540025c377": {
       "name": "剑枕星河",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 6000.0,
+      "amount": 7000.0,
       "level": 5,
       "plan_name": "我是剑枕星河",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260726111002975098101485",
+          "amount": 1000.0
+        },
         {
           "out_trade_no": "202607201803045652551019693",
           "amount": 500.0
@@ -26974,11 +26996,15 @@
     "bb81abb286a911f18cf75254001e7c00": {
       "name": "爱发电用户_bb81a",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607261139549710057917449",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607232319145010052119114",
           "amount": 5.0
@@ -36691,7 +36717,7 @@
       "user_id": "ab4a6ae6564211f1a7d552540025c377",
       "name": "剑枕星河",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 6000.0,
+      "amount": 7000.0,
       "level": 5,
       "plan_name": "我是剑枕星河",
       "sponsor": true
