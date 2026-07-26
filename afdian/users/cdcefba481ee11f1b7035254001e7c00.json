@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1785060326,
+  "updated_at": 1785062711,
   "user_id": "cdcefba481ee11f1b7035254001e7c00",
   "name": "徐老师",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-  "amount": 100.0,
+  "amount": 200.0,
   "level": 2,
   "plan_name": "厉害的IT男",
   "sponsor": true,
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "202607172307091001019813572",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607261840291009956519736",
+      "amount": 100.0
     }
   ]
 }
