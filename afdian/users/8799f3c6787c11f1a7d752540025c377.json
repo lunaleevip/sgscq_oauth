@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785070976,
+  "updated_at": 1785071709,
   "user_id": "8799f3c6787c11f1a7d752540025c377",
   "name": "Tgkh",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-  "amount": 500.0,
-  "level": 3,
+  "amount": 1000.0,
+  "level": 4,
   "plan_name": "加油啊七月",
   "sponsor": true,
   "orders": [
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "2026070523115910297495480",
       "amount": 100.0
+    },
+    {
+      "out_trade_no": "2026072621094697101514812",
+      "amount": 500.0
     }
   ]
 }
