@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785100259,
+  "updated_at": 1785103366,
   "count": 100,
   "top100": [
     {
@@ -805,6 +805,15 @@
       "sponsor": true
     },
     {
+      "user_id": "7431f70e728a11f1939e52540025c377",
+      "name": "n",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "bc099c44838311f1b53a52540025c377",
       "name": "PerL1ca",
       "avatar": "https://pic1.afdiancdn.com/user/bc099c44838311f1b53a52540025c377/avatar/fff87e7651bfc589fe56c7dd3ad1c752_w180_h180_s4.jpeg",
@@ -889,15 +898,6 @@
       "user_id": "2775e9ee4b7711eeaa4652540025c377",
       "name": "你，给我感受痛苦",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "12d1a384633e11f19b595254001e7c00",
-      "name": "依云",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
