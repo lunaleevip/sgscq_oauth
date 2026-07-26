@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785067399,
+  "updated_at": 1785069010,
   "user_id": "b5a35e02630411f1ab6052540025c377",
   "name": "shadow",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-  "amount": 500.88,
-  "level": 3,
+  "amount": 1000.88,
+  "level": 4,
   "plan_name": "加油 等你创造奇迹",
   "sponsor": true,
   "orders": [
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "202606081438509756102522579",
       "amount": 8.88
+    },
+    {
+      "out_trade_no": "20260726202652994950989454",
+      "amount": 500.0
     }
   ]
 }

@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1785067399,
+  "updated_at": 1785069010,
   "user_id": "5e358fd4738d11f1acb752540025c377",
   "name": "缘★星辰之光",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 101.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "20260703144445100515517669",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607262026315550101545989",
+      "amount": 96.0
     }
   ]
 }
