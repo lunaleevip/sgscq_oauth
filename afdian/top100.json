@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785074613,
+  "updated_at": 1785078219,
   "count": 100,
   "top100": [
     {
@@ -220,6 +220,15 @@
       "sponsor": true
     },
     {
+      "user_id": "a2ec999260f511f1900552540025c377",
+      "name": "一颗幻梦星",
+      "avatar": "https://pic1.afdiancdn.com/user/a2ec999260f511f1900552540025c377/avatar/f035036843ec959e5edcd7046e7aabc5_w1032_h736_s828.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "0a96194a6dff11f1bf6952540025c377",
       "name": "入梦",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9ca1efedca0c5d7d83aca7e576fe214a_w100_h100_s3.jpeg",
@@ -391,6 +400,15 @@
       "sponsor": true
     },
     {
+      "user_id": "0601183c7a2311f1a4c052540025c377",
+      "name": "猪丷猪",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "ba2297745cdb11f1a1195254001e7c00",
       "name": "玉儿呦呦呦",
       "avatar": "https://pic1.afdiancdn.com/user/ba2297745cdb11f1a1195254001e7c00/avatar/2ff356319ec8456099ede92698f323a8_w1080_h1080_s58.jpeg",
@@ -478,6 +496,15 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "大大加油",
+      "sponsor": true
+    },
+    {
+      "user_id": "047e97fe713c11f1ac1352540025c377",
+      "name": "香煎咸鱼",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5417ba41861a50e9e2866ac1dbc95246_w100_h100_s3.jpeg",
+      "amount": 700.0,
+      "level": 3,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -661,6 +688,15 @@
       "sponsor": true
     },
     {
+      "user_id": "04d689ca879c11f198525254001e7c00",
+      "name": "爱发电用户_04d68",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 501.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "62ab6a28686811f1861952540025c377",
       "name": "爱发电用户_4Rk5",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -814,9 +850,9 @@
       "sponsor": true
     },
     {
-      "user_id": "a2ec999260f511f1900552540025c377",
-      "name": "一颗幻梦星",
-      "avatar": "https://pic1.afdiancdn.com/user/a2ec999260f511f1900552540025c377/avatar/f035036843ec959e5edcd7046e7aabc5_w1032_h736_s828.png",
+      "user_id": "c39c424ce51711ea982c52540025c377",
+      "name": "乃乃香",
+      "avatar": "https://pic1.afdiancdn.com/user/c39c424ce51711ea982c52540025c377/avatar/b422af3d9dd8976a798200d8925c2dd7_w1200_h1200_s165.jpeg",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
@@ -859,48 +895,12 @@
       "sponsor": true
     },
     {
-      "user_id": "a9ece548016811eebc955254001e7c00",
-      "name": "博",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e2306e57ac785bdd43f2b095d12ab2db_w132_h132_s7.jpeg",
+      "user_id": "95824e1af77611ec998352540025c377",
+      "name": "兴",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 500.0,
       "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "576b1efa838511f194fa52540025c377",
-      "name": "厌情",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/41f07fc83d8b86a79a91ba66adbf2801_w100_h100_s2.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "0e4eb69e781511f19e435254001e7c00",
-      "name": "含光",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/61aefe3b2543c39e4891af4e451f02fa_w100_h100_s2.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "加油大大",
-      "sponsor": true
-    },
-    {
-      "user_id": "6a2066b0691111f1b56c52540025c377",
-      "name": "哈哈大侠TvT",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "cd6f50847ac611f1868852540025c377",
-      "name": "哎哟",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
+      "plan_name": "加油",
       "sponsor": true
     }
   ]
