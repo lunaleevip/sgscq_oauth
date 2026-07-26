@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1785070976,
+  "updated_at": 1785072009,
   "user_id": "a3b9b97480e711f1a3315254001e7c00",
   "name": "纺织厂阿玺",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-  "amount": 105.0,
+  "amount": 110.0,
   "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
@@ -15,6 +15,10 @@
     },
     {
       "out_trade_no": "202607170753374948102113295",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "20260726211734101515115831",
       "amount": 5.0
     }
   ]
