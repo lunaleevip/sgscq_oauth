@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785067399,
+  "updated_at": 1785068712,
   "user_id": "21a5794a7fa811f1bdcc5254001e7c00",
   "name": "爱发电用户_21a57",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-  "amount": 100.0,
-  "level": 2,
+  "amount": 500.0,
+  "level": 3,
   "plan_name": "小时候最喜欢在蹲在电视前面玩这个",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "20260715231625575110096810",
       "amount": 10.0
+    },
+    {
+      "out_trade_no": "202607262021011005048547581",
+      "amount": 400.0
     }
   ]
 }
