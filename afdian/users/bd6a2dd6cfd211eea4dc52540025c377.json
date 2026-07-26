@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785071110,
+  "updated_at": 1785074613,
   "user_id": "bd6a2dd6cfd211eea4dc52540025c377",
-  "name": "bd6a2dd6cfd211eea4dc52540025c377",
-  "avatar": "",
+  "name": "得来速",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3c98efcf43c172bfb9a01abd474d69af_w132_h132_s6.jpeg",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
