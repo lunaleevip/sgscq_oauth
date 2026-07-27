@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785138437,
-  "count": 2330,
+  "updated_at": 1785139415,
+  "count": 2331,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -8808,11 +8808,15 @@
     "3ca25994890c11f18e975254001e7c00": {
       "name": "江厌离",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607271554425053489824155",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "20260727001414545049107213",
           "amount": 5.0
@@ -13378,11 +13382,15 @@
     "5ca9d57c898011f1a4265254001e7c00": {
       "name": "逆天而行",
       "avatar": "https://pic1.afdiancdn.com/user/5ca9d57c898011f1a4265254001e7c00/avatar/9609bd1d6ec3d92091c998eae329ce07_w960_h961_s81.jpeg",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "不同设备如何登录，必须要重新玩吗？",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607271547581019999514175",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "20260727141321495054511579",
           "amount": 100.0
@@ -24931,6 +24939,20 @@
       "orders": [
         {
           "out_trade_no": "202606271823035599525011917",
+          "amount": 5.0
+        }
+      ]
+    },
+    "a67ae43c898711f1a41852540025c377": {
+      "name": "爱发电用户_4fSD",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607271557285653985029496",
           "amount": 5.0
         }
       ]
