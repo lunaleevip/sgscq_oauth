@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785139415,
-  "count": 2331,
+  "updated_at": 1785143015,
+  "count": 2333,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -3040,6 +3040,20 @@
         {
           "out_trade_no": "202607151114005648575522320",
           "amount": 10.0
+        }
+      ]
+    },
+    "14820f4e08ad11f0ba175254001e7c00": {
+      "name": "爱发电用户_mYxg",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607271602509751102133028",
+          "amount": 5.0
         }
       ]
     },
@@ -9554,11 +9568,15 @@
     "42a2fb520ee911f19abc52540025c377": {
       "name": "爱发电用户_Xq9a",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607271601135754984930569",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202607240908269755551013018",
           "amount": 5.0
@@ -13382,11 +13400,15 @@
     "5ca9d57c898011f1a4265254001e7c00": {
       "name": "逆天而行",
       "avatar": "https://pic1.afdiancdn.com/user/5ca9d57c898011f1a4265254001e7c00/avatar/9609bd1d6ec3d92091c998eae329ce07_w960_h961_s81.jpeg",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "不同设备如何登录，必须要重新玩吗？",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607271638369910051510855",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202607271547581019999514175",
           "amount": 400.0
@@ -13516,6 +13538,24 @@
         {
           "out_trade_no": "202607011839111025150111734",
           "amount": 20.0
+        }
+      ]
+    },
+    "5d087098899211f1ac6e52540025c377": {
+      "name": "简单",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/39ddef038414333bd766236b80b41ed8_w100_h100_s2.jpeg",
+      "amount": 55.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607271650305498995119707",
+          "amount": 50.0
+        },
+        {
+          "out_trade_no": "202607271617385048555146745",
+          "amount": 5.0
         }
       ]
     },
@@ -39674,6 +39714,15 @@
       "sponsor": true
     },
     {
+      "user_id": "5ca9d57c898011f1a4265254001e7c00",
+      "name": "逆天而行",
+      "avatar": "https://pic1.afdiancdn.com/user/5ca9d57c898011f1a4265254001e7c00/avatar/9609bd1d6ec3d92091c998eae329ce07_w960_h961_s81.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "不同设备如何登录，必须要重新玩吗？",
+      "sponsor": true
+    },
+    {
       "user_id": "aba8248871e511f180a152540025c377",
       "name": "雨雨控",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a85ef97c218241ca75a10c30cd3cf03f_w100_h100_s3.jpeg",
@@ -40073,15 +40122,6 @@
       "user_id": "638fcc5a769a11f183115254001e7c00",
       "name": "一只老汪八",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "c39c424ce51711ea982c52540025c377",
-      "name": "乃乃香",
-      "avatar": "https://pic1.afdiancdn.com/user/c39c424ce51711ea982c52540025c377/avatar/b422af3d9dd8976a798200d8925c2dd7_w1200_h1200_s165.jpeg",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",

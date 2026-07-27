@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785139415,
+  "updated_at": 1785143015,
   "count": 100,
   "top100": [
     {
@@ -490,6 +490,15 @@
       "sponsor": true
     },
     {
+      "user_id": "5ca9d57c898011f1a4265254001e7c00",
+      "name": "逆天而行",
+      "avatar": "https://pic1.afdiancdn.com/user/5ca9d57c898011f1a4265254001e7c00/avatar/9609bd1d6ec3d92091c998eae329ce07_w960_h961_s81.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "不同设备如何登录，必须要重新玩吗？",
+      "sponsor": true
+    },
+    {
       "user_id": "aba8248871e511f180a152540025c377",
       "name": "雨雨控",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a85ef97c218241ca75a10c30cd3cf03f_w100_h100_s3.jpeg",
@@ -889,15 +898,6 @@
       "user_id": "638fcc5a769a11f183115254001e7c00",
       "name": "一只老汪八",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "c39c424ce51711ea982c52540025c377",
-      "name": "乃乃香",
-      "avatar": "https://pic1.afdiancdn.com/user/c39c424ce51711ea982c52540025c377/avatar/b422af3d9dd8976a798200d8925c2dd7_w1200_h1200_s165.jpeg",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
