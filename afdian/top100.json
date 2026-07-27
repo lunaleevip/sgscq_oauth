@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785161020,
+  "updated_at": 1785164603,
   "count": 100,
   "top100": [
     {
@@ -349,6 +349,15 @@
       "user_id": "dcd09b50739111f195325254001e7c00",
       "name": "晨曦",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5c1ccdf5d39ccdfca1421931ecc88cda_w100_h100_s2.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "04d689ca879c11f198525254001e7c00",
+      "name": "爱发电用户_04d68",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
@@ -733,15 +742,6 @@
       "sponsor": true
     },
     {
-      "user_id": "04d689ca879c11f198525254001e7c00",
-      "name": "爱发电用户_04d68",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 501.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
       "user_id": "62ab6a28686811f1861952540025c377",
       "name": "爱发电用户_4Rk5",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -802,6 +802,15 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "f9447794626511f1918a52540025c377",
+      "name": "500",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "群主加油❤️❤️❤️❤️",
       "sponsor": true
     },
     {
@@ -889,15 +898,6 @@
       "user_id": "195646167ee011f198c052540025c377",
       "name": "Tit",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b8df0551e75fd676c9187dc1ebd773e7_w132_h132_s3.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "d9a005cec06211ec8b3152540025c377",
-      "name": "の天妒%",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b01dc1ba08862cf2e2df7291b3b18e78_w132_h132_s5.jpeg",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
