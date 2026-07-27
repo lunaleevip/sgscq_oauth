@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785135817,
-  "count": 2328,
+  "updated_at": 1785138437,
+  "count": 2330,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -110,6 +110,20 @@
         {
           "out_trade_no": "202607041638529949565310162",
           "amount": 10.0
+        }
+      ]
+    },
+    "00dd52f42fbb11eeb04752540025c377": {
+      "name": "爱发电用户_t9PA",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "b站UID:3493287895763167\n抖音：51397482930\n都关注了",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260727152513574857526230",
+          "amount": 100.0
         }
       ]
     },
@@ -15453,6 +15467,20 @@
       "orders": [
         {
           "out_trade_no": "202606212314155510250538909",
+          "amount": 5.0
+        }
+      ]
+    },
+    "682915c2898811f181a05254001e7c00": {
+      "name": "对方正在输入",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ea5020de03baf522f9de52b11309d6d6_w100_h100_s1.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260727153031559850109081",
           "amount": 5.0
         }
       ]
