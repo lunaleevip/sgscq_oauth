@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785110587,
+  "updated_at": 1785114168,
   "count": 100,
   "top100": [
     {
@@ -769,6 +769,15 @@
       "sponsor": true
     },
     {
+      "user_id": "9bfd0086784611edb1ae52540025c377",
+      "name": "1241234啊23",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "8e4acddc6d1211f1839252540025c377",
       "name": "Chen",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9c98615930fc904c5e081aded7f30779_w100_h100_s2.jpeg",
@@ -892,15 +901,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "加油啊，做三国杀传奇的大哥哥",
-      "sponsor": true
-    },
-    {
-      "user_id": "2775e9ee4b7711eeaa4652540025c377",
-      "name": "你，给我感受痛苦",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
       "sponsor": true
     }
   ]
