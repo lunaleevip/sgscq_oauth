@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785153840,
+  "user_id": "55fdefd4a1a911eb900d52540025c377",
+  "name": "魄菲科特",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607271956405653575713905",
+      "amount": 5.0
+    }
+  ]
+}
