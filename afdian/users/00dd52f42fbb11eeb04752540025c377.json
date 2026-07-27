@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785137412,
+  "user_id": "00dd52f42fbb11eeb04752540025c377",
+  "name": "00dd52f42fbb11eeb04752540025c377",
+  "avatar": "",
+  "amount": 100.0,
+  "level": 2,
+  "plan_name": "b站UID:3493287895763167\n抖音：51397482930\n都关注了",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260727152513574857526230",
+      "amount": 100.0
+    }
+  ]
+}
