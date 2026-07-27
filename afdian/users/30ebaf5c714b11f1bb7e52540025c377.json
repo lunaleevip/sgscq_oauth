@@ -1,14 +1,18 @@
 {
   "version": 1,
-  "updated_at": 1785143015,
+  "updated_at": 1785146650,
   "user_id": "30ebaf5c714b11f1bb7e52540025c377",
   "name": "小楼下",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/796729fad5e69ce0e43e60abaabd1b6d_w100_h100_s0.jpeg",
-  "amount": 10.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
+    {
+      "out_trade_no": "20260727173030541015655950",
+      "amount": 90.0
+    },
     {
       "out_trade_no": "20260727101652525010214331",
       "amount": 5.0
