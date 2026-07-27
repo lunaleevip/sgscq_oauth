@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1785128578,
+  "updated_at": 1785129311,
   "user_id": "758da7b87aed11f1bce752540025c377",
   "name": "爱发电用户_758da",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "男朋友介绍给我的好好玩好好玩他的童年回忆",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202607090052525256519732258",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "20260727131256561015651007",
+      "amount": 95.0
     }
   ]
 }
