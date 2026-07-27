@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785157399,
+  "updated_at": 1785161020,
   "count": 100,
   "top100": [
     {
@@ -17,6 +17,15 @@
       "name": "老贺",
       "avatar": "https://pic1.afdiancdn.com/user/8f5fe1aa564011f1bccd52540025c377/avatar/742a6ff407ef16f29f025453eb9be526_w581_h580_s86.jpeg",
       "amount": 5010.0,
+      "level": 5,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "0601183c7a2311f1a4c052540025c377",
+      "name": "猪丷猪",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7de303f196cf66ba98015c29d0c1f193_w100_h100_s2.jpeg",
+      "amount": 5001.0,
       "level": 5,
       "plan_name": "自选方案",
       "sponsor": true
@@ -409,9 +418,9 @@
       "sponsor": true
     },
     {
-      "user_id": "0601183c7a2311f1a4c052540025c377",
-      "name": "猪丷猪",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7de303f196cf66ba98015c29d0c1f193_w100_h100_s2.jpeg",
+      "user_id": "e7ff345a78eb11f1908b52540025c377",
+      "name": "爱发电用户_KCsV",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
@@ -892,15 +901,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "67200da0704e11f1898c52540025c377",
-      "name": "ルフイ",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7e718aff12934d5bf2ebe57e2d9357ab_w100_h100_s4.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "加油",
       "sponsor": true
     }
   ]
