@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785148512,
+  "user_id": "fe153b2a89a511f1a60c52540025c377",
+  "name": "fe153b2a89a511f1a60c52540025c377",
+  "avatar": "",
+  "amount": 20.0,
+  "level": 1,
+  "plan_name": "三传牛逼",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607271831055757571046887",
+      "amount": 20.0
+    }
+  ]
+}
