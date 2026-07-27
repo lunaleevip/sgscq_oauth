@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1785138437,
+  "updated_at": 1785138912,
   "user_id": "3ca25994890c11f18e975254001e7c00",
   "name": "江厌离",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "20260727001414545049107213",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607271554425053489824155",
+      "amount": 95.0
     }
   ]
 }
