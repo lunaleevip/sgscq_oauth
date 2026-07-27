@@ -1,14 +1,18 @@
 {
   "version": 1,
-  "updated_at": 1785175304,
+  "updated_at": 1785175918,
   "user_id": "770c0c384fb811edae9b52540025c377",
   "name": "あさがみ环",
   "avatar": "https://pic1.afdiancdn.com/user/770c0c384fb811edae9b52540025c377/avatar/e19a3458a0dbb3610c4cbe80e0d2140d_w1600_h900_s1704.png",
-  "amount": 105.0,
-  "level": 2,
+  "amount": 500.0,
+  "level": 3,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
+    {
+      "out_trade_no": "20260728015802975655495084",
+      "amount": 395.0
+    },
     {
       "out_trade_no": "202607262057159854100917214",
       "amount": 100.0
