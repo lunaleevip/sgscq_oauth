@@ -1,14 +1,18 @@
 {
   "version": 1,
-  "updated_at": 1785146650,
+  "updated_at": 1785150224,
   "user_id": "a249c12e896611f1b3d55254001e7c00",
   "name": "后海大鲨鱼",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-  "amount": 10.0,
+  "amount": 20.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
+    {
+      "out_trade_no": "202607271859284853485215168",
+      "amount": 10.0
+    },
     {
       "out_trade_no": "202607271102285255100934382",
       "amount": 10.0
