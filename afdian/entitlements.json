@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785132179,
-  "count": 2325,
+  "updated_at": 1785135817,
+  "count": 2328,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -9587,6 +9587,20 @@
         }
       ]
     },
+    "42bd2574851b11f194be52540025c377": {
+      "name": "。。。。。。",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f5674cfce217296a3f5a6c217f01506d_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607271439505452509923003",
+          "amount": 5.0
+        }
+      ]
+    },
     "42da2908838611f1b3705254001e7c00": {
       "name": "清秋",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d6942efaa580ee0832bdd9f377d14027_w100_h100_s2.jpeg",
@@ -13347,6 +13361,20 @@
         }
       ]
     },
+    "5ca9d57c898011f1a4265254001e7c00": {
+      "name": "逆天而行",
+      "avatar": "https://pic1.afdiancdn.com/user/5ca9d57c898011f1a4265254001e7c00/avatar/9609bd1d6ec3d92091c998eae329ce07_w960_h961_s81.jpeg",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "不同设备如何登录，必须要重新玩吗？",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260727141321495054511579",
+          "amount": 100.0
+        }
+      ]
+    },
     "5cb489ea6f5411f193a952540025c377": {
       "name": "逢魔-阴阳",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -14871,6 +14899,20 @@
       "orders": [
         {
           "out_trade_no": "202607082146315510099938032",
+          "amount": 5.0
+        }
+      ]
+    },
+    "64948db0153f11ebb19652540025c377": {
+      "name": "何畏恐",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607271458404850521023858",
           "amount": 5.0
         }
       ]
@@ -16430,11 +16472,15 @@
     "6ef6de42846111f1a5545254001e7c00": {
       "name": "将就将就看看",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 105.0,
-      "level": 2,
+      "amount": 505.0,
+      "level": 3,
       "plan_name": "加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607271405385052514929225",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202607212137489950991038825",
           "amount": 100.0
@@ -39668,6 +39714,15 @@
       "sponsor": true
     },
     {
+      "user_id": "6ef6de42846111f1a5545254001e7c00",
+      "name": "将就将就看看",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 505.0,
+      "level": 3,
+      "plan_name": "加油",
+      "sponsor": true
+    },
+    {
       "user_id": "1a9e00006d8211f1bc9e52540025c377",
       "name": "屿仟",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a55c427798974e8c22b232d8d13f8067_w100_h100_s2.jpeg",
@@ -39980,15 +40035,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "65716f3a627011f1b66352540025c377",
-      "name": "何必",
-      "avatar": "https://pic1.afdiancdn.com/user/65716f3a627011f1b66352540025c377/avatar/cfbe6820dc3a4dea4c2897d7200dc757_w4096_h3072_s3010.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "加油啊，做三国杀传奇的大哥哥",
       "sponsor": true
     }
   ]

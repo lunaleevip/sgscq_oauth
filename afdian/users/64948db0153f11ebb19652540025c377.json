@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785135817,
+  "user_id": "64948db0153f11ebb19652540025c377",
+  "name": "何畏恐",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607271458404850521023858",
+      "amount": 5.0
+    }
+  ]
+}
