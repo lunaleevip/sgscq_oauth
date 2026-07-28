@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785220773,
+  "updated_at": 1785222224,
   "count": 2379,
   "users": {
     "00398154706a11f18cf252540025c377": {
@@ -23212,11 +23212,15 @@
     "97dd200c89a511f1b4a152540025c377": {
       "name": "爱发电用户_hGwc",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "加油加油。童年的回忆！",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607281437405251514925591",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607271826135399495429203",
           "amount": 5.0
@@ -30428,11 +30432,15 @@
     "c2142b7e824611f184ba52540025c377": {
       "name": "川",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/aff1b4eb79d9a5e16f795aabd9edb664_w100_h100_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607281441489955555324561",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607180927495349545018488",
           "amount": 5.0
