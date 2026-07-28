@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "updated_at": 1785235820,
+  "updated_at": 1785236637,
   "user_id": "b92172868a6d11f191ca52540025c377",
-  "name": "b92172868a6d11f191ca52540025c377",
-  "avatar": "",
+  "name": "🤫",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4215309a4818aea164f520bc74eda585_w100_h100_s2.jpeg",
   "amount": 100.0,
   "level": 2,
-  "plan_name": "太帅了哥们。",
+  "plan_name": "加油。",
   "sponsor": true,
   "orders": [
     {
-      "out_trade_no": "202607281829115553535523357",
-      "amount": 5.0
+      "out_trade_no": "2026072818473555481024856",
+      "amount": 45.0
     },
     {
       "out_trade_no": "202607281842425052495428120",
       "amount": 50.0
     },
     {
-      "out_trade_no": "2026072818473555481024856",
-      "amount": 45.0
+      "out_trade_no": "202607281829115553535523357",
+      "amount": 5.0
     }
   ]
 }

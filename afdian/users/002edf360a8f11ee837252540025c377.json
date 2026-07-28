@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785236637,
+  "user_id": "002edf360a8f11ee837252540025c377",
+  "name": "白开水",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260728185724524910159301",
+      "amount": 5.0
+    }
+  ]
+}
