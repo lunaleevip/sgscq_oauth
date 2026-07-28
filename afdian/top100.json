@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785247437,
+  "updated_at": 1785249371,
   "count": 100,
   "top100": [
     {
@@ -10,6 +10,15 @@
       "amount": 7000.0,
       "level": 5,
       "plan_name": "我是剑枕星河",
+      "sponsor": true
+    },
+    {
+      "user_id": "a4718d40795011f18b075254001e7c00",
+      "name": "乐崽没烦恼",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/68cbd6833350c4377f96c85fd046cb5d_w100_h100_s2.jpeg",
+      "amount": 5010.0,
+      "level": 5,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -79,15 +88,6 @@
       "user_id": "c64a045c712f11f195b752540025c377",
       "name": "158李善熙",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/79610332d25b1f9eefb825d56af501d7_w100_h100_s18.png",
-      "amount": 1010.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "a4718d40795011f18b075254001e7c00",
-      "name": "乐崽没烦恼",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/68cbd6833350c4377f96c85fd046cb5d_w100_h100_s2.jpeg",
       "amount": 1010.0,
       "level": 4,
       "plan_name": "自选方案",
@@ -352,6 +352,15 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "加油！十年老玩家必须支持",
+      "sponsor": true
+    },
+    {
+      "user_id": "725549a25fe011f18c2952540025c377",
+      "name": "开心面对世界",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/41763f42fd3709aeb5923ff72434046e_w100_h100_s3.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "群主加油",
       "sponsor": true
     },
     {
@@ -892,15 +901,6 @@
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "f9447794626511f1918a52540025c377",
-      "name": "500",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "群主加油❤️❤️❤️❤️",
       "sponsor": true
     }
   ]
