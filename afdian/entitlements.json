@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785272580,
-  "count": 2409,
+  "updated_at": 1785276168,
+  "count": 2412,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -6841,6 +6841,20 @@
         }
       ]
     },
+    "2c7faf0e8ac811f1953b52540025c377": {
+      "name": "迷途.",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/67502d04d56c02788705799d3aa951f5_w100_h100_s2.jpeg",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607290520131001015220907",
+          "amount": 100.0
+        }
+      ]
+    },
     "2c8bb488763d11f1a6f75254001e7c00": {
       "name": "爱发电用户_2c8bb",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -10421,6 +10435,20 @@
         },
         {
           "out_trade_no": "202607031607195553485121599",
+          "amount": 5.0
+        }
+      ]
+    },
+    "45fc451e8acd11f1855b5254001e7c00": {
+      "name": "爱发电用户_eMKD",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "老大加油，圆我童年梦",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607290542475555505033828",
           "amount": 5.0
         }
       ]
@@ -20196,11 +20224,15 @@
     "8234ba4e8abd11f1a81652540025c377": {
       "name": "海的尽头是什么",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bf2cc00bd8a93cd66c6dd9d45e8eb8d7_w100_h100_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260729050909535355533253",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607290408535356505523511",
           "amount": 5.0
@@ -22830,6 +22862,20 @@
         {
           "out_trade_no": "202607262122049949509743797",
           "amount": 100.0
+        }
+      ]
+    },
+    "94245c528ebe11efb1e85254001e7c00": {
+      "name": "别忘记从前",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607290524215353489717858",
+          "amount": 5.0
         }
       ]
     },
