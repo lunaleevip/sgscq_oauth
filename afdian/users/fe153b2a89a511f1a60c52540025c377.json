@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785243311,
+  "updated_at": 1785243834,
   "user_id": "fe153b2a89a511f1a60c52540025c377",
   "name": "崎崎",
   "avatar": "https://pic1.afdiancdn.com/user/fe153b2a89a511f1a60c52540025c377/avatar/be4a1716f56ffd5beb94cabe1e142db0_w1175_h1375_s604.png",
@@ -9,10 +9,6 @@
   "plan_name": "三传牛逼",
   "sponsor": true,
   "orders": [
-    {
-      "out_trade_no": "202607271831055757571046887",
-      "amount": 20.0
-    },
     {
       "out_trade_no": "202607282052225451575234827",
       "amount": 10.0
@@ -24,6 +20,10 @@
     {
       "out_trade_no": "2026072820512510052494963",
       "amount": 50.0
+    },
+    {
+      "out_trade_no": "202607271831055757571046887",
+      "amount": 20.0
     }
   ]
 }

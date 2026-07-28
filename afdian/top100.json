@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785240226,
+  "updated_at": 1785243834,
   "count": 100,
   "top100": [
     {
@@ -418,6 +418,15 @@
       "sponsor": true
     },
     {
+      "user_id": "160f6fac0bca11ecaf2952540025c377",
+      "name": "爱发电用户_5BMj",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "696273f26ef311f1951252540025c377",
       "name": "爱发电用户_69627",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -592,6 +601,15 @@
       "user_id": "047e97fe713c11f1ac1352540025c377",
       "name": "香煎咸鱼",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5417ba41861a50e9e2866ac1dbc95246_w100_h100_s3.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "5edae92e886511f194155254001e7c00",
+      "name": "鱿鱼",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
@@ -880,24 +898,6 @@
       "user_id": "8e4acddc6d1211f1839252540025c377",
       "name": "Chen",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9c98615930fc904c5e081aded7f30779_w100_h100_s2.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "553a5c02127911ee936552540025c377",
-      "name": "CH–香莹",
-      "avatar": "https://pic1.afdiancdn.com/user/553a5c02127911ee936552540025c377/avatar/2d30d6cb264ade9eb759520fc6e583b4_w1080_h1080_s97.jpeg",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "作者大大加油！",
-      "sponsor": true
-    },
-    {
-      "user_id": "641469347cca11f1827952540025c377",
-      "name": "Coco",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
       "amount": 500.0,
       "level": 3,
       "plan_name": "自选方案",
