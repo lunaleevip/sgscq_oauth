@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785200619,
-  "count": 2362,
+  "updated_at": 1785204205,
+  "count": 2364,
   "users": {
     "00398154706a11f18cf252540025c377": {
       "name": "爱发电用户_5Cy7",
@@ -5009,6 +5009,20 @@
       "orders": [
         {
           "out_trade_no": "202606172000279898101127540",
+          "amount": 5.0
+        }
+      ]
+    },
+    "218b2c648a2711f1a9345254001e7c00": {
+      "name": ".",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a8eb40951935375195a6f619e69c3f70_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "谢谢你",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607280955251001015028428",
           "amount": 5.0
         }
       ]
@@ -21436,11 +21450,15 @@
     "8f1e0fbc566a11f189cd5254001e7c00": {
       "name": "aimer233",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/68debf49b1d576c98bfa00406b46d930_w100_h100_s1.jpeg",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
-      "plan_name": "",
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607280948439898102510789",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202606252211335348495714138",
           "amount": 5.0
@@ -24320,11 +24338,15 @@
     "a096d046f72c11f0823552540025c377": {
       "name": "SHICHENG",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607280904395552981035804",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607161531444854525329933",
           "amount": 5.0
@@ -32759,6 +32781,20 @@
       "orders": [
         {
           "out_trade_no": "202607141342509750501038113",
+          "amount": 5.0
+        }
+      ]
+    },
+    "d11996888a2311f18d3552540025c377": {
+      "name": "山枝桠",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4e55358ec200e6c071d1a92b2c22e713_w132_h132_s6.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "加油",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607280933285657994942923",
           "amount": 5.0
         }
       ]
