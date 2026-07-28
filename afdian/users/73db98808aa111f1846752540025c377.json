@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785256516,
+  "updated_at": 1785257480,
   "user_id": "73db98808aa111f1846752540025c377",
-  "name": "73db98808aa111f1846752540025c377",
-  "avatar": "",
+  "name": "zsh",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
