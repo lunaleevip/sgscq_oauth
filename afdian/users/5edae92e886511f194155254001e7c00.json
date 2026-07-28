@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785240226,
+  "updated_at": 1785240918,
   "user_id": "5edae92e886511f194155254001e7c00",
   "name": "鱿鱼",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-  "amount": 500.0,
-  "level": 3,
+  "amount": 1000.0,
+  "level": 4,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "202607260425435556495713574",
       "amount": 20.0
+    },
+    {
+      "out_trade_no": "20260728201240565554529215",
+      "amount": 500.0
     }
   ]
 }
