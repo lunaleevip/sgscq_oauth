@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785235510,
+  "updated_at": 1785235820,
   "user_id": "b92172868a6d11f191ca52540025c377",
   "name": "b92172868a6d11f191ca52540025c377",
   "avatar": "",
-  "amount": 55.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "太帅了哥们。",
   "sponsor": true,
   "orders": [
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "202607281842425052495428120",
       "amount": 50.0
+    },
+    {
+      "out_trade_no": "2026072818473555481024856",
+      "amount": 45.0
     }
   ]
 }
