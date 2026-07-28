@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785247437,
+  "updated_at": 1785249015,
   "user_id": "725549a25fe011f18c2952540025c377",
   "name": "开心面对世界",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/41763f42fd3709aeb5923ff72434046e_w100_h100_s3.jpeg",
-  "amount": 500.0,
-  "level": 3,
+  "amount": 1000.0,
+  "level": 4,
   "plan_name": "群主加油",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "202606050004385454545542188",
       "amount": 10.0
+    },
+    {
+      "out_trade_no": "202607282227069754514815830",
+      "amount": 500.0
     }
   ]
 }
