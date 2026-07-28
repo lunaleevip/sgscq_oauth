@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785225845,
+  "updated_at": 1785229407,
   "count": 100,
   "top100": [
     {
@@ -181,6 +181,15 @@
       "amount": 1000.1,
       "level": 4,
       "plan_name": "up加油",
+      "sponsor": true
+    },
+    {
+      "user_id": "d4e6ff3c732e11f1b2115254001e7c00",
+      "name": "nwn",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.01,
+      "level": 4,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -583,7 +592,7 @@
       "user_id": "047e97fe713c11f1ac1352540025c377",
       "name": "香煎咸鱼",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5417ba41861a50e9e2866ac1dbc95246_w100_h100_s3.jpeg",
-      "amount": 700.0,
+      "amount": 800.0,
       "level": 3,
       "plan_name": "自选方案",
       "sponsor": true
@@ -845,15 +854,6 @@
       "name": "皮皮燕",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
       "amount": 501.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "d4e6ff3c732e11f1b2115254001e7c00",
-      "name": "nwn",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 500.01,
       "level": 3,
       "plan_name": "自选方案",
       "sponsor": true
