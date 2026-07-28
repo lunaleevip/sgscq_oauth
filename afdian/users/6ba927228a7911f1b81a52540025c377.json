@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1785243834,
+  "updated_at": 1785245420,
   "user_id": "6ba927228a7911f1b81a52540025c377",
   "name": "穿越火线挑战",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a34f324bb989e13c5ecf4759fc321ae9_w100_h100_s2.jpeg",
-  "amount": 10.0,
+  "amount": 30.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "202607281943249955509837058",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607282128589753514819031",
+      "amount": 20.0
     }
   ]
 }
