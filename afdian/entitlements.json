@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785268993,
-  "count": 2408,
+  "updated_at": 1785270299,
+  "count": 2409,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -20189,6 +20189,20 @@
       "orders": [
         {
           "out_trade_no": "20260729005808485248573044",
+          "amount": 5.0
+        }
+      ]
+    },
+    "8234ba4e8abd11f1a81652540025c377": {
+      "name": "海的尽头是什么",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bf2cc00bd8a93cd66c6dd9d45e8eb8d7_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607290408535356505523511",
           "amount": 5.0
         }
       ]
