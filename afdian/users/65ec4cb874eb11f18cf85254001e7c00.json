@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785342019,
+  "updated_at": 1785342321,
   "user_id": "65ec4cb874eb11f18cf85254001e7c00",
   "name": "爱发电用户_efgk",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-  "amount": 80.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "加油，把觉醒系统以及后面的新角色搞出来大大有赏",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "202607300019305050569927264",
       "amount": 50.0
+    },
+    {
+      "out_trade_no": "202607300020215349539931109",
+      "amount": 20.0
     }
   ]
 }
