@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785348195,
-  "count": 2443,
+  "updated_at": 1785351805,
+  "count": 2445,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -12542,8 +12542,8 @@
       ]
     },
     "52b8544a87b311f1bd6a5254001e7c00": {
-      "name": "爱发电用户_Qx6K",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "name": "孙笑川258",
+      "avatar": "https://pic1.afdiancdn.com/user/52b8544a87b311f1bd6a5254001e7c00/avatar/3c0773ecd35ae2a9b7e2c57fb93ec677_w400_h401_s120.jpeg",
       "amount": 105.0,
       "level": 2,
       "plan_name": "自选方案",
@@ -26369,6 +26369,20 @@
         }
       ]
     },
+    "a5f885e88b7911f195de5254001e7c00": {
+      "name": "事",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607300216525257499714188",
+          "amount": 5.0
+        }
+      ]
+    },
     "a6154eea6cba11f18f6b52540025c377": {
       "name": "孙笑川",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8430764b8c3153645b1350b0703f9646_w100_h100_s4.jpeg",
@@ -33924,6 +33938,20 @@
         {
           "out_trade_no": "20260626120018505710193449",
           "amount": 10.0
+        }
+      ]
+    },
+    "d03407b68b7811f18f1d5254001e7c00": {
+      "name": "神",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607300212205249569811661",
+          "amount": 5.0
         }
       ]
     },
