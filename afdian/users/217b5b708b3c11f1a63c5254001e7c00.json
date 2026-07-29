@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785323025,
+  "user_id": "217b5b708b3c11f1a63c5254001e7c00",
+  "name": "一宮樹稟",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/184f7c59e9fdc9ff6831f9c6b6010354_w100_h100_s2.jpeg",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607291857319948481014728",
+      "amount": 5.0
+    }
+  ]
+}
