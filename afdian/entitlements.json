@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785346045,
+  "updated_at": 1785348195,
   "count": 2443,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -16130,11 +16130,15 @@
     "67200da0704e11f1898c52540025c377": {
       "name": "ルフイ",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7e718aff12934d5bf2ebe57e2d9357ab_w100_h100_s4.jpeg",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607300131045610053130990",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202606270410029751529927954",
           "amount": 390.0
@@ -34546,8 +34550,8 @@
       ]
     },
     "d42855369b7711ef87ac5254001e7c00": {
-      "name": "爱发电用户_TH9p",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "name": "风过流水",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1499e3e8026a6d3a157ea42d2646da39_w100_h100_s2.jpeg",
       "amount": 105.0,
       "level": 2,
       "plan_name": "",
@@ -41708,6 +41712,15 @@
       "sponsor": true
     },
     {
+      "user_id": "67200da0704e11f1898c52540025c377",
+      "name": "ルフイ",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7e718aff12934d5bf2ebe57e2d9357ab_w100_h100_s4.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "加油",
+      "sponsor": true
+    },
+    {
       "user_id": "a2ec999260f511f1900552540025c377",
       "name": "一颗幻梦星",
       "avatar": "https://pic1.afdiancdn.com/user/a2ec999260f511f1900552540025c377/avatar/f035036843ec959e5edcd7046e7aabc5_w1032_h736_s828.png",
@@ -42341,15 +42354,6 @@
       "user_id": "b17b7ac086b411f1bea45254001e7c00",
       "name": "棠木北村",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 501.0,
-      "level": 3,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "62ab6a28686811f1861952540025c377",
-      "name": "爱发电用户_4Rk5",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 501.0,
       "level": 3,
       "plan_name": "自选方案",
