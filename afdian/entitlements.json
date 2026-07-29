@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785283753,
+  "updated_at": 1785287028,
   "count": 2414,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -39032,11 +39032,15 @@
     "f57e0cf284b511f1b5945254001e7c00": {
       "name": "苏家慕雪",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4714b669e4122ae34a4a0024b0da8103_w100_h100_s4.jpeg",
-      "amount": 50.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "加油！",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607290831111021005019398",
+          "amount": 50.0
+        },
         {
           "out_trade_no": "20260729080427984856992322",
           "amount": 5.0
