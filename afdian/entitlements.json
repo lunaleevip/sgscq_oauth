@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785402223,
-  "count": 2470,
+  "updated_at": 1785404400,
+  "count": 2471,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -28783,6 +28783,20 @@
       "orders": [
         {
           "out_trade_no": "202607082217031025497920223",
+          "amount": 5.0
+        }
+      ]
+    },
+    "b116a8428bd311f182cc52540025c377": {
+      "name": "静夜思秋",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f926b5a9c8cec70649c95b4fec794b6a_w100_h100_s4.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607301725331005554517172",
           "amount": 5.0
         }
       ]
