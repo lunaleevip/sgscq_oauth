@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785423836,
+  "updated_at": 1785427461,
   "user_id": "41295cb072d711f1813d5254001e7c00",
   "name": "劳大吃外卖",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
   "amount": 101.0,
   "level": 2,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

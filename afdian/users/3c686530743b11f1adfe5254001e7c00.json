@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785423836,
+  "updated_at": 1785427461,
   "user_id": "3c686530743b11f1adfe5254001e7c00",
   "name": "寒浅",
   "avatar": "https://pic1.afdiancdn.com/user/3c686530743b11f1adfe5254001e7c00/avatar/b19320d253730f0001c47feccdd3a019_w2000_h2000_s369.jpeg",
   "amount": 101.0,
   "level": 2,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
