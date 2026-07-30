@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785380591,
-  "count": 2456,
+  "updated_at": 1785381742,
+  "count": 2457,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -37715,6 +37715,20 @@
         }
       ]
     },
+    "e6f9c2c48bc311f1a2065254001e7c00": {
+      "name": "愛する",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d706fc266112059825a58e2ddd47e8e3_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607301110445297975219625",
+          "amount": 5.0
+        }
+      ]
+    },
     "e7017a14e22611ec8eba52540025c377": {
       "name": "爱发电用户_6NRg",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -41674,11 +41688,15 @@
     "ffc1ba846b0f11f1bf2252540025c377": {
       "name": "十に堪えない",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5fb2837863180e237e6ab9d95d46577c_w100_h100_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "一点微薄之力",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607301112065448979920847",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202606182019485298495336197",
           "amount": 5.0
