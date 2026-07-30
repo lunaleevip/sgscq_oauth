@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785381742,
+  "updated_at": 1785384204,
   "count": 100,
   "top100": [
     {
@@ -109,6 +109,15 @@
       "amount": 1010.0,
       "level": 4,
       "plan_name": "希望可以能活吧！",
+      "sponsor": true
+    },
+    {
+      "user_id": "5d8eee24721911f19a8752540025c377",
+      "name": "爱发电用户_5d8ee",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 1006.0,
+      "level": 4,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -892,15 +901,6 @@
       "amount": 501.0,
       "level": 3,
       "plan_name": "加油主播",
-      "sponsor": true
-    },
-    {
-      "user_id": "b17b7ac086b411f1bea45254001e7c00",
-      "name": "棠木北村",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 501.0,
-      "level": 3,
-      "plan_name": "自选方案",
       "sponsor": true
     }
   ]
