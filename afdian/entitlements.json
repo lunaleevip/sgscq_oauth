@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785409399,
-  "count": 2475,
+  "updated_at": 1785413027,
+  "count": 2478,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -25414,11 +25414,15 @@
     "9fa7766e742111f1be385254001e7c00": {
       "name": "一座小房子",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 100.0,
+      "amount": 200.0,
       "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607301918071025151923591",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "20260715204915985555525864",
           "amount": 95.0
@@ -34293,6 +34297,20 @@
         }
       ]
     },
+    "cfed455c8b9f11f1848d5254001e7c00": {
+      "name": "11",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "充值额度能不能给我调高点",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607301947155155554815756",
+          "amount": 5.0
+        }
+      ]
+    },
     "d013d92e85be11f1864b5254001e7c00": {
       "name": "豆撅子",
       "avatar": "https://pic1.afdiancdn.com/user/d013d92e85be11f1864b5254001e7c00/avatar/c81f6ea81df2fd7201b68209eb4d3229_w800_h800_s144.jpeg",
@@ -35318,11 +35336,15 @@
     "d5eb09028ba511f1a3e052540025c377": {
       "name": "keke",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4bb40b2e8670321b5fa515c643cca8a7_w100_h100_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607301934485651545412769",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "20260730074715514910258352",
           "amount": 5.0
@@ -38179,6 +38201,20 @@
         }
       ]
     },
+    "e8fe0c308be411f19e565254001e7c00": {
+      "name": "ㅤ",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/523b12b8e835eed6d1f4a793dd1505be_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607301952269749995122200",
+          "amount": 5.0
+        }
+      ]
+    },
     "e920e66070be11f1848e52540025c377": {
       "name": "WAY",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/aba5b32029592c869eb0aec499f8d955_w132_h132_s6.jpeg",
@@ -39929,6 +39965,20 @@
       "orders": [
         {
           "out_trade_no": "202607051007005255565228418",
+          "amount": 5.0
+        }
+      ]
+    },
+    "f46c50f48c0711f1a9f252540025c377": {
+      "name": "大好河山",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607301925159854101547969",
           "amount": 5.0
         }
       ]

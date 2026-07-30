@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785411012,
+  "updated_at": 1785413027,
   "user_id": "f46c50f48c0711f1a9f252540025c377",
-  "name": "f46c50f48c0711f1a9f252540025c377",
-  "avatar": "",
+  "name": "大好河山",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
