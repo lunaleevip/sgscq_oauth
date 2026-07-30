@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785384204,
-  "count": 2458,
+  "updated_at": 1785387808,
+  "count": 2463,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -9427,6 +9427,20 @@
         }
       ]
     },
+    "3d5897345cd111f18b8752540025c377": {
+      "name": "Axiora",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607301243185457555324576",
+          "amount": 5.0
+        }
+      ]
+    },
     "3d7eb676830a11f1a1d95254001e7c00": {
       "name": "爱发电用户_St6c",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -12915,6 +12929,20 @@
         }
       ]
     },
+    "545d67c88bd111f1b50e52540025c377": {
+      "name": "爱发电用户_78P4",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260730124933100575753624",
+          "amount": 5.0
+        }
+      ]
+    },
     "547fb394630111f1852752540025c377": {
       "name": "睡个好觉比啥都重要",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bee9c59643d91a48f7cca0a349b9ec8c_w100_h100_s4.jpeg",
@@ -15906,11 +15934,15 @@
     "64ef87346d3a11f1877b52540025c377": {
       "name": "爱发电用户_64ef8",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 510.0,
-      "level": 3,
+      "amount": 1010.0,
+      "level": 4,
       "plan_name": "作者快点出过关斩将吧没钱强化了",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607301224405651505415883",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202606291129435557535111888",
           "amount": 400.0
@@ -29327,6 +29359,20 @@
         }
       ]
     },
+    "b475455a8bcb11f1998c5254001e7c00": {
+      "name": "爱发电用户_spHE",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260730120404521011025953",
+          "amount": 5.0
+        }
+      ]
+    },
     "b4822f787f0911f197a352540025c377": {
       "name": "爱发电用户_b4822",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -36272,11 +36318,15 @@
     "ddd60fbc7d3c11f197a25254001e7c00": {
       "name": "归期",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260730121006101534857682",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "20260715232508521009753757",
           "amount": 75.0
@@ -37783,6 +37833,20 @@
         },
         {
           "out_trade_no": "202607141255145048489818306",
+          "amount": 5.0
+        }
+      ]
+    },
+    "e75696168b5511f1985552540025c377": {
+      "name": "q",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/08e848ceb6cb3d979d626c800728cbcd_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607301257235156575644474",
           "amount": 5.0
         }
       ]
@@ -40133,6 +40197,20 @@
         }
       ]
     },
+    "f69963b48bce11f187ce52540025c377": {
+      "name": "꧁༺独༒行༻꧂",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9c8337d3923a93976167fc5010ad1ae4_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607301231571005410225827",
+          "amount": 5.0
+        }
+      ]
+    },
     "f6a5b96888f211f18d3152540025c377": {
       "name": "爱发电用户_qQYX",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -41836,6 +41914,15 @@
       "sponsor": true
     },
     {
+      "user_id": "64ef87346d3a11f1877b52540025c377",
+      "name": "爱发电用户_64ef8",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 1010.0,
+      "level": 4,
+      "plan_name": "作者快点出过关斩将吧没钱强化了",
+      "sponsor": true
+    },
+    {
       "user_id": "838f384827cc11efa5dc52540025c377",
       "name": "爱发电用户_NqYR",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -42445,15 +42532,6 @@
       "amount": 510.0,
       "level": 3,
       "plan_name": "爱你😘",
-      "sponsor": true
-    },
-    {
-      "user_id": "64ef87346d3a11f1877b52540025c377",
-      "name": "爱发电用户_64ef8",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 510.0,
-      "level": 3,
-      "plan_name": "作者快点出过关斩将吧没钱强化了",
       "sponsor": true
     },
     {

@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785386715,
+  "updated_at": 1785387808,
   "user_id": "3d5897345cd111f18b8752540025c377",
-  "name": "3d5897345cd111f18b8752540025c377",
-  "avatar": "",
+  "name": "Axiora",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {

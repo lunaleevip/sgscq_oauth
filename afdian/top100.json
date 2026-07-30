@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785384204,
+  "updated_at": 1785387808,
   "count": 100,
   "top100": [
     {
@@ -91,6 +91,15 @@
       "amount": 1010.0,
       "level": 4,
       "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "64ef87346d3a11f1877b52540025c377",
+      "name": "爱发电用户_64ef8",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 1010.0,
+      "level": 4,
+      "plan_name": "作者快点出过关斩将吧没钱强化了",
       "sponsor": true
     },
     {
@@ -703,15 +712,6 @@
       "amount": 510.0,
       "level": 3,
       "plan_name": "爱你😘",
-      "sponsor": true
-    },
-    {
-      "user_id": "64ef87346d3a11f1877b52540025c377",
-      "name": "爱发电用户_64ef8",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 510.0,
-      "level": 3,
-      "plan_name": "作者快点出过关斩将吧没钱强化了",
       "sponsor": true
     },
     {
