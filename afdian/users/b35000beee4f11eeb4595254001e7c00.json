@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785397810,
+  "user_id": "b35000beee4f11eeb4595254001e7c00",
+  "name": "b35000beee4f11eeb4595254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "b站，抖音都关注了哦",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607301547421014954521523",
+      "amount": 5.0
+    }
+  ]
+}
