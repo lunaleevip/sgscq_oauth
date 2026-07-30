@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785395016,
-  "count": 2467,
+  "updated_at": 1785398663,
+  "count": 2470,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -4219,6 +4219,20 @@
       "orders": [
         {
           "out_trade_no": "202606290619399854101514698",
+          "amount": 5.0
+        }
+      ]
+    },
+    "1ae1ea7e890511f1bc9652540025c377": {
+      "name": "空白",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7dc2f27c68fa2b9aed5c3d93aeb376c7_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607301501595548495031432",
           "amount": 5.0
         }
       ]
@@ -9552,9 +9566,14 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e5f657bbc08c6dacfafae571a48172b9_w132_h132_s3.jpeg",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "加油！",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "202607301500484899984924734",
+          "amount": 5.0
+        }
+      ]
     },
     "3e1a430c7d3811f1b3805254001e7c00": {
       "name": "苏格拉胯",
@@ -14727,11 +14746,15 @@
     "5ec55b7673e911f18c515254001e7c00": {
       "name": "折镜",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607301502495799501020824",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202606300236334956495614886",
           "amount": 5.0
@@ -18693,7 +18716,7 @@
       ]
     },
     "7589ba5689e111f1b0df52540025c377": {
-      "name": "爱发电用户_aQjD",
+      "name": "摸鱼ing",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 100.0,
       "level": 2,
@@ -29170,6 +29193,20 @@
         }
       ]
     },
+    "b35000beee4f11eeb4595254001e7c00": {
+      "name": "爱发电用户_6FXY",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "b站，抖音都关注了哦",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607301547421014954521523",
+          "amount": 5.0
+        }
+      ]
+    },
     "b36b32fc6ba811f1bcac5254001e7c00": {
       "name": "星辰",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -37264,6 +37301,20 @@
       "orders": [
         {
           "out_trade_no": "2026062014412048991021463",
+          "amount": 5.0
+        }
+      ]
+    },
+    "e2cc0c0689d011f1bc835254001e7c00": {
+      "name": "爱发电用户_4rFk",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260730154402501011009057",
           "amount": 5.0
         }
       ]
