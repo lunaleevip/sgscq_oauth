@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785427461,
-  "count": 2490,
+  "updated_at": 1785430048,
+  "count": 2491,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -828,6 +828,20 @@
         {
           "out_trade_no": "202605262136205299524820363",
           "amount": 101.0
+        }
+      ]
+    },
+    "059c1aa8836111f1b75752540025c377": {
+      "name": "季灾",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202607310026254951991028060",
+          "amount": 100.0
         }
       ]
     },
@@ -22984,11 +22998,15 @@
     "8ff14cce8c2011f1adc552540025c377": {
       "name": "y",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6dfd9af69ae659b71ac9698dfe2db8bd_w132_h132_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607310019249910149529349",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607302209275555985421443",
           "amount": 5.0
@@ -23852,8 +23870,8 @@
       ]
     },
     "9509bc5e693511f195d85254001e7c00": {
-      "name": "爱发电用户_8TN3",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "name": "高桥落雨",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e6a8e3f530bdbe1fbdd6e893f1f17031_w100_h100_s2.jpeg",
       "amount": 5.0,
       "level": 1,
       "plan_name": "",
