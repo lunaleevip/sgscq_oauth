@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1785466989,
+  "updated_at": 1785469814,
   "user_id": "217b5b708b3c11f1a63c5254001e7c00",
   "name": "一宮樹稟",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/184f7c59e9fdc9ff6831f9c6b6010354_w100_h100_s2.jpeg",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 101.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202607291857319948481014728",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202607311145511021005128430",
+      "amount": 96.0
     }
   ]
 }
