@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785499440,
+  "updated_at": 1785503040,
   "count": 2524,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -20940,11 +20940,15 @@
     "7fb26a60718011f1962a52540025c377": {
       "name": "哎",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f5df5ff68d75c9c097d013b2a69e12f8_w100_h100_s2.jpeg",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
-      "plan_name": "",
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607312007005210150915720",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202606270112525251101512058",
           "amount": 5.0
@@ -34520,11 +34524,15 @@
     "cc90ea228a6d11f1b32d52540025c377": {
       "name": "落樱簌簌",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f13e17640434f9aa5e6ae4538d327576_w132_h132_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260731204735554855512108",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607281942551025456531423",
           "amount": 5.0
@@ -42798,11 +42806,15 @@
     "fe94f2086bae11f1b90152540025c377": {
       "name": "故旧",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d7ad2c65c970bba7266d5da7bb556fa9_w100_h100_s3.jpeg",
-      "amount": 505.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "还望将军，使大汉幽而复明",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202607312032004851481030379",
+          "amount": 495.0
+        },
         {
           "out_trade_no": "202606272205204898515514723",
           "amount": 5.0
@@ -43421,6 +43433,15 @@
       "sponsor": true
     },
     {
+      "user_id": "fe94f2086bae11f1b90152540025c377",
+      "name": "故旧",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d7ad2c65c970bba7266d5da7bb556fa9_w100_h100_s3.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "还望将军，使大汉幽而复明",
+      "sponsor": true
+    },
+    {
       "user_id": "33e7688a6e0411f1be915254001e7c00",
       "name": "早晨从中午开始",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -43796,15 +43817,6 @@
       "amount": 505.0,
       "level": 3,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "fe94f2086bae11f1b90152540025c377",
-      "name": "故旧",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d7ad2c65c970bba7266d5da7bb556fa9_w100_h100_s3.jpeg",
-      "amount": 505.0,
-      "level": 3,
-      "plan_name": "还望将军，使大汉幽而复明",
       "sponsor": true
     },
     {
