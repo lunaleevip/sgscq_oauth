@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785511840,
+  "updated_at": 1785513855,
   "user_id": "ab53dd32738511f1a5555254001e7c00",
   "name": "時肆",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/765c6998500047c2f4e5ebe2668f1f31_w100_h100_s1.jpeg",
   "amount": 105.0,
   "level": 2,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

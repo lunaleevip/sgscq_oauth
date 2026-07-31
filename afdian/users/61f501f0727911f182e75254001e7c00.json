@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785511840,
+  "updated_at": 1785513855,
   "user_id": "61f501f0727911f182e75254001e7c00",
   "name": "学习狗",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6823418e5ca4759f218a8ab684322cd9_w100_h100_s2.jpeg",
   "amount": 500.0,
   "level": 3,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

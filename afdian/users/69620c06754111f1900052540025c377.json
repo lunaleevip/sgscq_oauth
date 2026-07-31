@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785511840,
+  "updated_at": 1785513855,
   "user_id": "69620c06754111f1900052540025c377",
   "name": "云渡",
   "avatar": "https://pic1.afdiancdn.com/user/69620c06754111f1900052540025c377/avatar/360bc7a3094e80e9ca44e4b3b7f7331b_w965_h1279_s96.jpeg",
   "amount": 105.0,
   "level": 2,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

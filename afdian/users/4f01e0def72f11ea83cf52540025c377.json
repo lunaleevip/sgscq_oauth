@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785511840,
+  "updated_at": 1785513855,
   "user_id": "4f01e0def72f11ea83cf52540025c377",
   "name": "白鱼入舟",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
   "amount": 101.0,
   "level": 2,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
