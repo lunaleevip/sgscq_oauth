@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785481811,
+  "user_id": "7eec4a8a8cae11f1a37152540025c377",
+  "name": "7eec4a8a8cae11f1a37152540025c377",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油干啊兄弟，我的童年就靠你了",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607311507411009853522006",
+      "amount": 5.0
+    }
+  ]
+}
