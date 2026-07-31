@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785479410,
+  "user_id": "56a6c5868ca511f1badf5254001e7c00",
+  "name": "56a6c5868ca511f1badf5254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "大佬牛逼，圆了我小时候的梦",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202607311425341019710113111",
+      "amount": 5.0
+    }
+  ]
+}
