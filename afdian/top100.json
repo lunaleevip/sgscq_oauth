@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785495813,
+  "updated_at": 1785499440,
   "count": 100,
   "top100": [
     {
@@ -661,6 +661,15 @@
       "sponsor": true
     },
     {
+      "user_id": "d157d5fe720611f1b2385254001e7c00",
+      "name": "轻轨",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "5ca9d57c898011f1a4265254001e7c00",
       "name": "逆天而行",
       "avatar": "https://pic1.afdiancdn.com/user/5ca9d57c898011f1a4265254001e7c00/avatar/9609bd1d6ec3d92091c998eae329ce07_w960_h961_s81.jpeg",
@@ -892,15 +901,6 @@
       "amount": 505.0,
       "level": 3,
       "plan_name": "老大加油！",
-      "sponsor": true
-    },
-    {
-      "user_id": "0b302be4808711f1920352540025c377",
-      "name": "爱发电用户_XKAc",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 505.0,
-      "level": 3,
-      "plan_name": "爆赞",
       "sponsor": true
     }
   ]
