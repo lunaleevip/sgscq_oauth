@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785463408,
+  "updated_at": 1785465614,
   "user_id": "b17b7ac086b411f1bea45254001e7c00",
   "name": "棠木北村",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-  "amount": 501.0,
-  "level": 3,
+  "amount": 1001.0,
+  "level": 4,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "2026072400395710055991440",
       "amount": 101.0
+    },
+    {
+      "out_trade_no": "202607311037341015455537056",
+      "amount": 500.0
     }
   ]
 }
