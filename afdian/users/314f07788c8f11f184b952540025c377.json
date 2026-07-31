@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785468308,
+  "updated_at": 1785470594,
   "user_id": "314f07788c8f11f184b952540025c377",
-  "name": "314f07788c8f11f184b952540025c377",
-  "avatar": "",
+  "name": "蔡徐坤",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
