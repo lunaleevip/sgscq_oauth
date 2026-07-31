@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785532792,
-  "count": 2530,
+  "updated_at": 1785535388,
+  "count": 2531,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -32070,6 +32070,20 @@
         {
           "out_trade_no": "202606020910145410048916852",
           "amount": 50.0
+        }
+      ]
+    },
+    "bca811c614aa11eebe1452540025c377": {
+      "name": "NIni",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8506f82710e330d74706cf86b18a1874_w132_h132_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "2026080105471450575457852",
+          "amount": 5.0
         }
       ]
     },
