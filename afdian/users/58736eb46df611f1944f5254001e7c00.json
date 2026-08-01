@@ -1,14 +1,18 @@
 {
   "version": 1,
-  "updated_at": 1785582210,
+  "updated_at": 1785583995,
   "user_id": "58736eb46df611f1944f5254001e7c00",
-  "name": "爱发电用户_58736",
-  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-  "amount": 5.0,
+  "name": "果子甲",
+  "avatar": "https://pic1.afdiancdn.com/user/58736eb46df611f1944f5254001e7c00/avatar/52757daf16b3bf2d44ff64349210c867_w1060_h976_s103.jpeg",
+  "amount": 10.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
+    {
+      "out_trade_no": "202608011925491009957524778",
+      "amount": 5.0
+    },
     {
       "out_trade_no": "202606221255079898575014703",
       "amount": 5.0
