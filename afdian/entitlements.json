@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785546183,
-  "count": 2532,
+  "updated_at": 1785549791,
+  "count": 2534,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -4037,6 +4037,20 @@
         }
       ]
     },
+    "19657d3c8d4711f1a5ab52540025c377": {
+      "name": "爱发电用户_19657",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608010925085249535621353",
+          "amount": 5.0
+        }
+      ]
+    },
     "19879cf2b2b911ee8e6352540025c377": {
       "name": "爱发电用户_vumf",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -4598,11 +4612,15 @@
     "1c6c9c52803811f188fd5254001e7c00": {
       "name": "爱发电用户_1c6c9",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 130.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608010934135351979912178",
+          "amount": 370.0
+        },
         {
           "out_trade_no": "202607272129435556575628509",
           "amount": 10.0
@@ -24655,6 +24673,20 @@
         }
       ]
     },
+    "966581c289a211f183435254001e7c00": {
+      "name": "Matis",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "感谢！！！",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608010919525610251948641",
+          "amount": 5.0
+        }
+      ]
+    },
     "9669ab0e73a811f19f9f5254001e7c00": {
       "name": "湫",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/20ed07071361abdf85fce4544ba13ba5_w100_h100_s3.jpeg",
@@ -26480,11 +26512,15 @@
     "a0d82a2a62d711f1ba855254001e7c00": {
       "name": "浮沉",
       "avatar": "https://pic1.afdiancdn.com/user/a0d82a2a62d711f1ba855254001e7c00/avatar/f0f85dda233f56daba34e617b20734d6_w1080_h1080_s62.jpeg",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 105.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608010917565298975716356",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202606080921009950521022549",
           "amount": 5.0
