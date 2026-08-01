@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785571459,
-  "count": 2547,
+  "updated_at": 1785575038,
+  "count": 2549,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -7166,11 +7166,15 @@
     "2bcec6325a9711f189e45254001e7c00": {
       "name": "温润如玉",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1b186205056afa4c113d1588f576e4a7_w100_h100_s15.png",
-      "amount": 1000.46,
-      "level": 4,
+      "amount": 5000.06,
+      "level": 5,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608011610221015097126978",
+          "amount": 3999.6
+        },
         {
           "out_trade_no": "202607101230015710010229951",
           "amount": 500.0
@@ -17861,6 +17865,20 @@
       "orders": [
         {
           "out_trade_no": "202607061134574950515625195",
+          "amount": 5.0
+        }
+      ]
+    },
+    "6d22a1628d3c11f1abd65254001e7c00": {
+      "name": "爱发电用户_kdbP",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608011610061014950541510",
           "amount": 5.0
         }
       ]
@@ -35319,6 +35337,20 @@
         }
       ]
     },
+    "ce3bb8ac8d6f11f1958f5254001e7c00": {
+      "name": "凉断尘",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608011659284851984924972",
+          "amount": 5.0
+        }
+      ]
+    },
     "ce6dc4bc81b911f187455254001e7c00": {
       "name": "ssy369ssy",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/96366669a41ca5370104745791cba0d2_w100_h100_s2.jpeg",
@@ -37828,11 +37860,15 @@
     "de6b11f88bbe11f1b0a55254001e7c00": {
       "name": "小狒狒大王",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/46053ea36d7f046b560dd3592a4c601a_w100_h100_s5.jpeg",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608011653405253529920613",
+          "amount": 90.0
+        },
         {
           "out_trade_no": "202607312105054910051918942",
           "amount": 5.0
@@ -43404,11 +43440,15 @@
     "ffa922a01e9211f09a0f52540025c377": {
       "name": "暗夜影随",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/02477329d0a718995c70ca6a88323a65_w132_h132_s4.jpeg",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608011611134951539728710",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202606270154349749999942310",
           "amount": 5.0
@@ -43508,6 +43548,15 @@
       "name": "行舟不系",
       "avatar": "https://pic1.afdiancdn.com/user/bab4a0a4297c11eab1ce52540025c377/avatar/f15feb394248bddca0de6d9920873cf9_w960_h825_s65.jpeg",
       "amount": 5005.0,
+      "level": 5,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "2bcec6325a9711f189e45254001e7c00",
+      "name": "温润如玉",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1b186205056afa4c113d1588f576e4a7_w100_h100_s15.png",
+      "amount": 5000.06,
       "level": 5,
       "plan_name": "自选方案",
       "sponsor": true
@@ -43708,15 +43757,6 @@
       "amount": 1000.88,
       "level": 4,
       "plan_name": "加油 等你创造奇迹",
-      "sponsor": true
-    },
-    {
-      "user_id": "2bcec6325a9711f189e45254001e7c00",
-      "name": "温润如玉",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1b186205056afa4c113d1588f576e4a7_w100_h100_s15.png",
-      "amount": 1000.46,
-      "level": 4,
-      "plan_name": "自选方案",
       "sponsor": true
     },
     {
