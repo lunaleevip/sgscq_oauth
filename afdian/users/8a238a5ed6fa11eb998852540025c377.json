@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785542594,
+  "updated_at": 1785544211,
   "user_id": "8a238a5ed6fa11eb998852540025c377",
   "name": "寂寞如雪",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-  "amount": 500.0,
-  "level": 3,
+  "amount": 1000.0,
+  "level": 4,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "202607231020095757974916628",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608010826495754541019189",
+      "amount": 500.0
     }
   ]
 }
