@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785549791,
+  "updated_at": 1785553388,
   "count": 100,
   "top100": [
     {
@@ -70,6 +70,24 @@
       "user_id": "3662420a817e11f1b3ec5254001e7c00",
       "name": "小沈很馨蔚",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/34a0fdbfd611f43cbe231ca5231b4c68_w132_h132_s3.jpeg",
+      "amount": 5000.0,
+      "level": 5,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "476c8fb66dc811f192c052540025c377",
+      "name": "战山为王",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b03eee33c99bb2026096d033b85e3c4e_w100_h100_s2.jpeg",
+      "amount": 5000.0,
+      "level": 5,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "d157d5fe720611f1b2385254001e7c00",
+      "name": "轻轨",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 5000.0,
       "level": 5,
       "plan_name": "自选方案",
@@ -481,15 +499,6 @@
       "sponsor": true
     },
     {
-      "user_id": "476c8fb66dc811f192c052540025c377",
-      "name": "战山为王",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b03eee33c99bb2026096d033b85e3c4e_w100_h100_s2.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
       "user_id": "fe94f2086bae11f1b90152540025c377",
       "name": "故旧",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d7ad2c65c970bba7266d5da7bb556fa9_w100_h100_s3.jpeg",
@@ -685,15 +694,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "",
-      "sponsor": true
-    },
-    {
-      "user_id": "d157d5fe720611f1b2385254001e7c00",
-      "name": "轻轨",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
       "sponsor": true
     },
     {
