@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785560604,
-  "count": 2540,
+  "updated_at": 1785564261,
+  "count": 2542,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -5829,6 +5829,20 @@
         },
         {
           "out_trade_no": "20260715214518101574953382",
+          "amount": 5.0
+        }
+      ]
+    },
+    "245b9f748d6e11f1bc7e52540025c377": {
+      "name": "爱发电用户_PJrS",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "博主加油",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608011359229755101924491",
           "amount": 5.0
         }
       ]
@@ -18242,11 +18256,15 @@
     "6fb193e07b4c11f19aa75254001e7c00": {
       "name": "CCCC",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 1005.0,
-      "level": 4,
+      "amount": 5000.0,
+      "level": 5,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260801132007555310149407",
+          "amount": 3995.0
+        },
         {
           "out_trade_no": "202607091313331001024929791",
           "amount": 1000.0
@@ -18960,11 +18978,15 @@
     "73d717fa8b4711f19f7252540025c377": {
       "name": "爱发电用户_3wyX",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260801131905575656105886",
+          "amount": 90.0
+        },
         {
           "out_trade_no": "202607292020055354535310105",
           "amount": 10.0
@@ -27592,11 +27614,15 @@
     "a63daad67ff011f1adbf5254001e7c00": {
       "name": "向阳而生",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/22b0c562182c1f191ee35095d287ba2c_w100_h100_s1.jpeg",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "加油，挺你！",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "up主，加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260801132617575550109827",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "20260715095818975754973470",
           "amount": 5.0
@@ -40571,6 +40597,20 @@
         }
       ]
     },
+    "f0cac26c8d6211f19cc55254001e7c00": {
+      "name": "蝶梦庄周",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/58c1bf18d550fe8ea02987bec8c616c2_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608011355454910098523153",
+          "amount": 5.0
+        }
+      ]
+    },
     "f0cddee27b8e11f1afb85254001e7c00": {
       "name": "小号",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e08bc8096836ad3ae1585c25f76c0da2_w100_h100_s25.png",
@@ -43387,6 +43427,15 @@
       "sponsor": true
     },
     {
+      "user_id": "6fb193e07b4c11f19aa75254001e7c00",
+      "name": "CCCC",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5000.0,
+      "level": 5,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "17542eaa819c11f1beaa5254001e7c00",
       "name": "hello",
       "avatar": "https://pic1.afdiancdn.com/user/17542eaa819c11f1beaa5254001e7c00/avatar/5aa382521b0b2e5b82a5750b51814e7a_w1080_h1080_s48.jpeg",
@@ -43508,15 +43557,6 @@
       "name": "小 小",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9cbee47fdc2d9b43c8762c984708f6be_w100_h100_s2.jpeg",
       "amount": 1005.1,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "6fb193e07b4c11f19aa75254001e7c00",
-      "name": "CCCC",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 1005.0,
       "level": 4,
       "plan_name": "自选方案",
       "sponsor": true
