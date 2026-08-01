@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785593063,
-  "count": 2558,
+  "updated_at": 1785596630,
+  "count": 2559,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -10838,11 +10838,35 @@
     "44a9e432826c11f1af0352540025c377": {
       "name": "雪雪公子",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 110.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608012239175310153914504",
+          "amount": 20.0
+        },
+        {
+          "out_trade_no": "202608012239035598575112293",
+          "amount": 20.0
+        },
+        {
+          "out_trade_no": "202608012238495753565619186",
+          "amount": 50.0
+        },
+        {
+          "out_trade_no": "202608012238335749102130207",
+          "amount": 100.0
+        },
+        {
+          "out_trade_no": "202608012238155557499729480",
+          "amount": 100.0
+        },
+        {
+          "out_trade_no": "202608012237415399515412995",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607201410254948495725833",
           "amount": 5.0
@@ -21070,11 +21094,15 @@
     "7e275b6e8d1511f187105254001e7c00": {
       "name": "爱发电用户_EQud",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608012255271025349134804",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202608010359239857505432596",
           "amount": 5.0
@@ -28166,8 +28194,8 @@
       ]
     },
     "a81301986ab111f1b9515254001e7c00": {
-      "name": "爱发电用户_37aN",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "name": "二阶堂♡真白",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7606fcec3f4ef6ee63b0d47f703baefa_w100_h100_s3.jpeg",
       "amount": 20.0,
       "level": 1,
       "plan_name": "加油，争取早日做好（和停服前那样就行，要是单机版可以自己创公会让小号进入打打公会战奖励啥的就更好了）",
@@ -36964,6 +36992,20 @@
         {
           "out_trade_no": "202607281400365255565037040",
           "amount": 5.0
+        }
+      ]
+    },
+    "d6976af2dd0e11ecb58b52540025c377": {
+      "name": "爱发电用户_4kVK",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608012228355150521025523",
+          "amount": 100.0
         }
       ]
     },
