@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785614598,
-  "count": 2567,
+  "updated_at": 1785618279,
+  "count": 2568,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -2491,6 +2491,20 @@
         },
         {
           "out_trade_no": "202606140802455350501044599",
+          "amount": 5.0
+        }
+      ]
+    },
+    "0f94d3f08d6211f1ac775254001e7c00": {
+      "name": "雨",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608020431165251101110585",
           "amount": 5.0
         }
       ]
@@ -21174,11 +21188,15 @@
     "7e275b6e8d1511f187105254001e7c00": {
       "name": "爱发电用户_EQud",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 101.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260802041428525050971201",
+          "amount": 91.0
+        },
         {
           "out_trade_no": "202608012255271025349134804",
           "amount": 5.0
@@ -29992,11 +30010,15 @@
     "b0c04c9087e611f1921b5254001e7c00": {
       "name": "ـﮩﮩ٨ـ♡ﮩ٨ـﮩﮩ",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4a50831b800eec1791387df39cdc2509_w100_h100_s1.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608020406071029955431166",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607251311195598100427376",
           "amount": 5.0
@@ -41798,11 +41820,15 @@
     "f4aee8c6f7d011ec943852540025c377": {
       "name": "江月时文",
       "avatar": "https://pic1.afdiancdn.com/user/f4aee8c6f7d011ec943852540025c377/avatar/0e95aa3a59f82572c836f09f8b86abb8_w1440_h1442_s81.jpeg",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 101.0,
+      "level": 2,
       "plan_name": "加油加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608020455465054491016664",
+          "amount": 91.0
+        },
         {
           "out_trade_no": "202608020204415798555425642",
           "amount": 10.0
