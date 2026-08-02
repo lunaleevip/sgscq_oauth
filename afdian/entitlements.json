@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785654250,
-  "count": 2590,
+  "updated_at": 1785657855,
+  "count": 2594,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -842,11 +842,15 @@
     "054f31128db511f183a55254001e7c00": {
       "name": "进击的提百万",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608021513491009956526817",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202608021053445699999929793",
           "amount": 5.0
@@ -1752,11 +1756,15 @@
     "0b1ed236761911f1b48e52540025c377": {
       "name": "大英警察进小学",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6d1b96bcc478ce8c12761de9708f3646_w100_h100_s3.jpeg",
-      "amount": 1030.0,
-      "level": 4,
+      "amount": 5030.0,
+      "level": 5,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608021526209998569830253",
+          "amount": 4000.0
+        },
         {
           "out_trade_no": "20260712193345579849105193",
           "amount": 520.0
@@ -4902,8 +4910,8 @@
       ]
     },
     "1d738f1c8c9e11f185f052540025c377": {
-      "name": "爱发电用户_1d738",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "name": "三函",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 5.0,
       "level": 1,
       "plan_name": "自选方案",
@@ -11605,6 +11613,20 @@
         }
       ]
     },
+    "481a9e5a8e4611f1a56652540025c377": {
+      "name": "九十九",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260802154856565397534471",
+          "amount": 5.0
+        }
+      ]
+    },
     "484912606f0811f1a53052540025c377": {
       "name": "爱发电用户_48491",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -18155,6 +18177,20 @@
         }
       ]
     },
+    "6c4a9274482711ea941152540025c377": {
+      "name": "爱发电用户_6c4a9",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608021527249953102924133",
+          "amount": 5.0
+        }
+      ]
+    },
     "6c762c8a873211f185385254001e7c00": {
       "name": "爱发电用户_CgDm",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -23021,6 +23057,20 @@
       "orders": [
         {
           "out_trade_no": "202606242211205650101543621",
+          "amount": 5.0
+        }
+      ]
+    },
+    "885ebdce8e4711f18dc552540025c377": {
+      "name": "禾木",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/86f7c01fc4b280d22cd670761e437cb4_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260802155647102495196193",
           "amount": 5.0
         }
       ]
@@ -36465,6 +36515,20 @@
         }
       ]
     },
+    "d10475f48e4311f1965752540025c377": {
+      "name": "爱发电用户_r5s3",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608021531399851995534696",
+          "amount": 5.0
+        }
+      ]
+    },
     "d11996888a2311f18d3552540025c377": {
       "name": "山枝桠",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4e55358ec200e6c071d1a92b2c22e713_w132_h132_s6.jpeg",
@@ -44389,6 +44453,15 @@
       "sponsor": true
     },
     {
+      "user_id": "0b1ed236761911f1b48e52540025c377",
+      "name": "大英警察进小学",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6d1b96bcc478ce8c12761de9708f3646_w100_h100_s3.jpeg",
+      "amount": 5030.0,
+      "level": 5,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "a4718d40795011f18b075254001e7c00",
       "name": "乐崽没烦恼",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/68cbd6833350c4377f96c85fd046cb5d_w100_h100_s2.jpeg",
@@ -44503,15 +44576,6 @@
       "amount": 1100.0,
       "level": 4,
       "plan_name": "希望可以能活吧！",
-      "sponsor": true
-    },
-    {
-      "user_id": "0b1ed236761911f1b48e52540025c377",
-      "name": "大英警察进小学",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6d1b96bcc478ce8c12761de9708f3646_w100_h100_s3.jpeg",
-      "amount": 1030.0,
-      "level": 4,
-      "plan_name": "自选方案",
       "sponsor": true
     },
     {
