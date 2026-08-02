@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1785690239,
+  "updated_at": 1785690316,
   "user_id": "6b94fbc2e56e11f0ae715254001e7c00",
   "name": "天星行者",
   "avatar": "https://pic1.afdiancdn.com/user/6b94fbc2e56e11f0ae715254001e7c00/avatar/3f0d657301073718211ce1ef755f219f_w1260_h1260_s858.jpeg",
-  "amount": 500.0,
-  "level": 3,
+  "amount": 1000.0,
+  "level": 4,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -28,6 +28,10 @@
     {
       "out_trade_no": "20260615221441495151991787",
       "amount": 10.0
+    },
+    {
+      "out_trade_no": "202608030100471029955533397",
+      "amount": 500.0
     }
   ]
 }
