@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785642724,
+  "updated_at": 1785643425,
   "count": 2580,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -144,11 +144,15 @@
     "00dd52f42fbb11eeb04752540025c377": {
       "name": "爱发电用户_t9PA",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "b站UID:3493287895763167\n抖音：51397482930\n都关注了",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608021152205210152124076",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202607281130435199559919155",
           "amount": 400.0
@@ -44858,6 +44862,15 @@
       "sponsor": true
     },
     {
+      "user_id": "00dd52f42fbb11eeb04752540025c377",
+      "name": "爱发电用户_t9PA",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "b站UID:3493287895763167\n抖音：51397482930\n都关注了",
+      "sponsor": true
+    },
+    {
       "user_id": "c30561f46cb311f184b352540025c377",
       "name": "爱发电用户_UEtC",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -45062,15 +45075,6 @@
       "amount": 600.0,
       "level": 3,
       "plan_name": "",
-      "sponsor": true
-    },
-    {
-      "user_id": "64c24db6eddb11f0b1fa52540025c377",
-      "name": "话唠唠死者",
-      "avatar": "https://pic1.afdiancdn.com/user/64c24db6eddb11f0b1fa52540025c377/avatar/b42bb04a083415e5f4a674421bf9b199_w722_h722_s58.jpeg",
-      "amount": 530.0,
-      "level": 3,
-      "plan_name": "希望能注意好自己身体，别太累了",
       "sponsor": true
     }
   ]
