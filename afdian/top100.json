@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785639886,
+  "updated_at": 1785642724,
   "count": 100,
   "top100": [
     {
@@ -292,6 +292,15 @@
       "sponsor": true
     },
     {
+      "user_id": "537a8d706cbb11f183c252540025c377",
+      "name": "gg",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3bff7aa711fd714820534ad08d9fc081_w100_h100_s5.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "2b337d7ed12211ec951252540025c377",
       "name": "JJaden",
       "avatar": "https://pic1.afdiancdn.com/user/2b337d7ed12211ec951252540025c377/avatar/6bbb1d828561674f30e5a3cd5985e3cf_w2400_h1080_s1461.jpeg",
@@ -562,6 +571,15 @@
       "sponsor": true
     },
     {
+      "user_id": "e7ff345a78eb11f1908b52540025c377",
+      "name": "林枫过客",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "8fae6f286d0b11f19a335254001e7c00",
       "name": "消隐的记忆",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4bbbde1c6ccd7dee5b4814abee64486a_w100_h100_s4.jpeg",
@@ -667,15 +685,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "",
-      "sponsor": true
-    },
-    {
-      "user_id": "e7ff345a78eb11f1908b52540025c377",
-      "name": "爱发电用户_KCsV",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -892,15 +901,6 @@
       "amount": 530.0,
       "level": 3,
       "plan_name": "希望能注意好自己身体，别太累了",
-      "sponsor": true
-    },
-    {
-      "user_id": "efc6de5671a511f1a6b252540025c377",
-      "name": "流光不坠",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/163e46119603d5a5fad31b4103210fe7_w100_h100_s2.jpeg",
-      "amount": 510.0,
-      "level": 3,
-      "plan_name": "爱你😘",
       "sponsor": true
     }
   ]
