@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785686682,
-  "count": 2611,
+  "updated_at": 1785690239,
+  "count": 2614,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -3608,6 +3608,20 @@
         {
           "out_trade_no": "202606100021489953102136660",
           "amount": 10.0
+        }
+      ]
+    },
+    "159e53d08e9211f1aecc5254001e7c00": {
+      "name": "爱发电用户_rhmF",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608030052255754505226556",
+          "amount": 5.0
         }
       ]
     },
@@ -9596,11 +9610,15 @@
     "3aacb7bc724e11f1ad8452540025c377": {
       "name": "铜雀锁二乔",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 105.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608030010254910099524214",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202606280135101015454514864",
           "amount": 5.0
@@ -15024,11 +15042,15 @@
     "5b52d43878f711f1a78c5254001e7c00": {
       "name": "loveyourself",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9e8723fa82dec88077305af12f4fb24f_w100_h100_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 101.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260803002414101519854574",
+          "amount": 96.0
+        },
         {
           "out_trade_no": "202607081018381011014848928",
           "amount": 5.0
@@ -18389,6 +18411,20 @@
       "orders": [
         {
           "out_trade_no": "202607061134574950515625195",
+          "amount": 5.0
+        }
+      ]
+    },
+    "6d1b6ea88e8911f1829d52540025c377": {
+      "name": "hhh",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608030023079848564945369",
           "amount": 5.0
         }
       ]
@@ -24594,11 +24630,15 @@
     "9065f6a0791a11f1a06452540025c377": {
       "name": "NstRive",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/787d9a8b3cbee990772aa3537ab332f8_w100_h100_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260803004439554810255750",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607061711549710153513520",
           "amount": 5.0
@@ -30481,6 +30521,20 @@
       "orders": [
         {
           "out_trade_no": "202607032335005257971012648",
+          "amount": 5.0
+        }
+      ]
+    },
+    "b06444f28e8c11f1bd2b52540025c377": {
+      "name": "白明",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3bff7aa711fd714820534ad08d9fc081_w100_h100_s5.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608030012095749485319464",
           "amount": 5.0
         }
       ]
