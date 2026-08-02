@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785683080,
+  "updated_at": 1785683779,
   "count": 2609,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -37330,7 +37330,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1499e3e8026a6d3a157ea42d2646da39_w100_h100_s2.jpeg",
       "amount": 105.0,
       "level": 2,
-      "plan_name": "",
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
         {
