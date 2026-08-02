@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785661450,
+  "user_id": "da2245388e4f11f1872c52540025c377",
+  "name": "边牧",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260802165549531019759525",
+      "amount": 5.0
+    }
+  ]
+}
