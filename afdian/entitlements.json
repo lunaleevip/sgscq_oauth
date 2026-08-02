@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785647128,
-  "count": 2586,
+  "updated_at": 1785650626,
+  "count": 2588,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -9691,6 +9691,20 @@
         }
       ]
     },
+    "3bd97d0a82b611f1886f5254001e7c00": {
+      "name": "爱发电用户_jqGu",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608021336355151575648266",
+          "amount": 5.0
+        }
+      ]
+    },
     "3be198c6722311f1828952540025c377": {
       "name": "Treat",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e61e8c3215abaf862b0c4848d938e1f4_w100_h100_s2.jpeg",
@@ -19299,6 +19313,20 @@
         }
       ]
     },
+    "72ddad68cecb11eeb1d452540025c377": {
+      "name": "wugi桑",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608021347091001004828585",
+          "amount": 5.0
+        }
+      ]
+    },
     "72e0d3546aef11f1a97252540025c377": {
       "name": "小唐蛋",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/46c88db872a5263df0daec399d4e863a_w100_h100_s3.jpeg",
@@ -22524,11 +22552,15 @@
     "858e8e728afe11f1ba7e5254001e7c00": {
       "name": "许吉吉",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608021309491005649510675",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202608010233435553515223629",
           "amount": 5.0
@@ -34444,11 +34476,15 @@
     "c591faba56a911f1bcbd52540025c377": {
       "name": "精华",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/50a47466907e08c2aa70b2dfd0114d9f_w100_h100_s3.jpeg",
-      "amount": 1010.0,
+      "amount": 1100.0,
       "level": 4,
       "plan_name": "希望可以能活吧！",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608021342285253545012621",
+          "amount": 90.0
+        },
         {
           "out_trade_no": "202607061506285257545031089",
           "amount": 10.0
@@ -44409,6 +44445,15 @@
       "sponsor": true
     },
     {
+      "user_id": "c591faba56a911f1bcbd52540025c377",
+      "name": "精华",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/50a47466907e08c2aa70b2dfd0114d9f_w100_h100_s3.jpeg",
+      "amount": 1100.0,
+      "level": 4,
+      "plan_name": "希望可以能活吧！",
+      "sponsor": true
+    },
+    {
       "user_id": "0b1ed236761911f1b48e52540025c377",
       "name": "大英警察进小学",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6d1b96bcc478ce8c12761de9708f3646_w100_h100_s3.jpeg",
@@ -44442,15 +44487,6 @@
       "amount": 1010.0,
       "level": 4,
       "plan_name": "",
-      "sponsor": true
-    },
-    {
-      "user_id": "c591faba56a911f1bcbd52540025c377",
-      "name": "精华",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/50a47466907e08c2aa70b2dfd0114d9f_w100_h100_s3.jpeg",
-      "amount": 1010.0,
-      "level": 4,
-      "plan_name": "希望可以能活吧！",
       "sponsor": true
     },
     {
