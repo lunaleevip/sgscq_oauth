@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785708634,
+  "updated_at": 1785711813,
   "count": 100,
   "top100": [
     {
@@ -121,6 +121,15 @@
       "sponsor": true
     },
     {
+      "user_id": "c591faba56a911f1bcbd52540025c377",
+      "name": "精华",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/50a47466907e08c2aa70b2dfd0114d9f_w100_h100_s3.jpeg",
+      "amount": 5000.0,
+      "level": 5,
+      "plan_name": "希望可以能活吧！",
+      "sponsor": true
+    },
+    {
       "user_id": "d157d5fe720611f1b2385254001e7c00",
       "name": "轻轨",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -145,15 +154,6 @@
       "amount": 1120.0,
       "level": 4,
       "plan_name": "来杯咖啡",
-      "sponsor": true
-    },
-    {
-      "user_id": "c591faba56a911f1bcbd52540025c377",
-      "name": "精华",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/50a47466907e08c2aa70b2dfd0114d9f_w100_h100_s3.jpeg",
-      "amount": 1100.0,
-      "level": 4,
-      "plan_name": "希望可以能活吧！",
       "sponsor": true
     },
     {
