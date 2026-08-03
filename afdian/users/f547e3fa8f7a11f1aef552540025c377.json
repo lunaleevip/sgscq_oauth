@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785789610,
+  "updated_at": 1785791014,
   "user_id": "f547e3fa8f7a11f1aef552540025c377",
-  "name": "f547e3fa8f7a11f1aef552540025c377",
-  "avatar": "",
+  "name": "要瓶矿泉水",
+  "avatar": "https://pic1.afdiancdn.com/user/f547e3fa8f7a11f1aef552540025c377/avatar/1c5b090436d1f94bebed6ec2a73deea2_w1080_h1080_s323.jpeg",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
