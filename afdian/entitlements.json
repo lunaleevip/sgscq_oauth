@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785746617,
+  "updated_at": 1785747857,
   "count": 2633,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -35010,7 +35010,12 @@
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "202608031639571009856919099",
+          "amount": 5.0
+        }
+      ]
     },
     "c506522689cb11f19a3a52540025c377": {
       "name": "幻影旋转大师",
