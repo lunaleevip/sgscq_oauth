@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785774913,
+  "user_id": "5ad5f5e4a8f611efbecc5254001e7c00",
+  "name": "5ad5f5e4a8f611efbecc5254001e7c00",
+  "avatar": "",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "这游戏完全是我的童年回忆，小时候就幻想能pj就好了，结果大佬真搞出来了，牛逼大佬，一定要坚持下去哦！",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608040033385048525117513",
+      "amount": 10.0
+    }
+  ]
+}
