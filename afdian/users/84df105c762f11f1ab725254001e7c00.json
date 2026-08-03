@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785777617,
+  "updated_at": 1785780196,
   "user_id": "84df105c762f11f1ab725254001e7c00",
   "name": "太帅罚我6块",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/52195d44f559b4e923ff315b7d00f514_w100_h100_s2.jpeg",
@@ -9,14 +9,6 @@
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
-    {
-      "out_trade_no": "20260714203859519855545262",
-      "amount": 5.0
-    },
-    {
-      "out_trade_no": "202608040112291005010147853",
-      "amount": 5.0
-    },
     {
       "out_trade_no": "202608040117115510055416043",
       "amount": 20.0
@@ -28,6 +20,14 @@
     {
       "out_trade_no": "202608040116245697565222329",
       "amount": 50.0
+    },
+    {
+      "out_trade_no": "202608040112291005010147853",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "20260714203859519855545262",
+      "amount": 5.0
     }
   ]
 }
