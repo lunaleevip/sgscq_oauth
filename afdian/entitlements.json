@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785740653,
-  "count": 2631,
+  "updated_at": 1785744284,
+  "count": 2632,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -13080,11 +13080,15 @@
     "4f319932733e11f1ac165254001e7c00": {
       "name": "9.",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/762707b5a4ac45b573d81e539ce1100e_w132_h132_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 105.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260803151155981005596961",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202606301914325649555214862",
           "amount": 5.0
@@ -13106,6 +13110,20 @@
         {
           "out_trade_no": "202606202250061015297145843",
           "amount": 100.0
+        }
+      ]
+    },
+    "4f456e5c8f0f11f18c0c52540025c377": {
+      "name": "商参",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e4e9c4cb72c18cabe66054928314e702_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608031553309755531036890",
+          "amount": 5.0
         }
       ]
     },
