@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785719009,
+  "updated_at": 1785722618,
   "count": 100,
   "top100": [
     {
@@ -598,6 +598,15 @@
       "sponsor": true
     },
     {
+      "user_id": "b8b3075a779f11f1a6c152540025c377",
+      "name": "江宁",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e4aecacefc586bcc08c038212c8009d7_w132_h132_s3.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "8234ba4e8abd11f1a81652540025c377",
       "name": "海的尽头是什么",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bf2cc00bd8a93cd66c6dd9d45e8eb8d7_w100_h100_s3.jpeg",
@@ -892,15 +901,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "325288806a1511f1bdc952540025c377",
-      "name": "高木桑桑同学ᅠ⁧~喵⁧",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7c18b38401c5120f743160ad49c2d5be_w100_h100_s3.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "加油",
       "sponsor": true
     }
   ]

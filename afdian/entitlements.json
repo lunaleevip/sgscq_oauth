@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785719009,
-  "count": 2618,
+  "updated_at": 1785722618,
+  "count": 2619,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -24347,6 +24347,20 @@
         }
       ]
     },
+    "8f52c52ef29011ebbe5452540025c377": {
+      "name": "224战机",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608030946231024810026246",
+          "amount": 5.0
+        }
+      ]
+    },
     "8f578c72710111f1af1e52540025c377": {
       "name": "揭阳卢馆大王",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/44e1c4b38d4bab676d8805486eb2aaff_w100_h100_s3.jpeg",
@@ -32496,11 +32510,15 @@
     "b8b3075a779f11f1a6c152540025c377": {
       "name": "江宁",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e4aecacefc586bcc08c038212c8009d7_w132_h132_s3.jpeg",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260803095644991001007654",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "20260726201518541015591931",
           "amount": 400.0
@@ -45508,6 +45526,15 @@
       "sponsor": true
     },
     {
+      "user_id": "b8b3075a779f11f1a6c152540025c377",
+      "name": "江宁",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e4aecacefc586bcc08c038212c8009d7_w132_h132_s3.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "8234ba4e8abd11f1a81652540025c377",
       "name": "海的尽头是什么",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bf2cc00bd8a93cd66c6dd9d45e8eb8d7_w100_h100_s3.jpeg",
@@ -45802,15 +45829,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "325288806a1511f1bdc952540025c377",
-      "name": "高木桑桑同学ᅠ⁧~喵⁧",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7c18b38401c5120f743160ad49c2d5be_w100_h100_s3.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "加油",
       "sponsor": true
     }
   ]
