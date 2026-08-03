@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785769553,
-  "count": 2647,
+  "updated_at": 1785772441,
+  "count": 2651,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -15702,7 +15702,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "",
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
         {
@@ -23220,11 +23220,20 @@
     "864a736c8f4a11f19b5952540025c377": {
       "name": "煜苳",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/de185deab7fc890a35381fa7f47f391f_w100_h100_s4.jpeg",
-      "amount": 40.0,
+      "amount": 60.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "加油呀，这是我小时候最喜欢的电视游戏了我玩哭了😭",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "202608032338445299495731163",
+          "amount": 20.0
+        },
+        {
+          "out_trade_no": "20260803230042971009753410",
+          "amount": 40.0
+        }
+      ]
     },
     "866207b8730f11f185185254001e7c00": {
       "name": "絮雨",
@@ -24455,11 +24464,15 @@
     "8e39b8388bff11f1a9ef5254001e7c00": {
       "name": "宝兔",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608032303411005048913242",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "20260730215459515650515847",
           "amount": 95.0
@@ -28370,6 +28383,20 @@
         },
         {
           "out_trade_no": "202606162145524810053111507",
+          "amount": 5.0
+        }
+      ]
+    },
+    "a2dce7e2b2c211eeb90e52540025c377": {
+      "name": "king",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/30a41e073f59f25a0c93874c9bfb6ee3_w132_h132_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260803231112484957997508",
           "amount": 5.0
         }
       ]
@@ -35672,6 +35699,20 @@
         }
       ]
     },
+    "c76452dc8da611f192a95254001e7c00": {
+      "name": "July？",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3273a98adb5b5d9f63426cda934c0e4a_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608032303569910197548680",
+          "amount": 5.0
+        }
+      ]
+    },
     "c78c05e246d611f09fad5254001e7c00": {
       "name": "♔",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -39510,6 +39551,20 @@
         }
       ]
     },
+    "dd74439a8f4d11f18f6a52540025c377": {
+      "name": "白给",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608032315165251975410764",
+          "amount": 5.0
+        }
+      ]
+    },
     "ddb3a02270f211f1b56452540025c377": {
       "name": "桃泽落幕",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -40429,6 +40484,20 @@
         {
           "out_trade_no": "202607280139421011005728961",
           "amount": 5.0
+        }
+      ]
+    },
+    "e24012e68e9411f19f7b52540025c377": {
+      "name": "熙攘",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608032341125699569926801",
+          "amount": 10.0
         }
       ]
     },
