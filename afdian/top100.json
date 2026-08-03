@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785722618,
+  "updated_at": 1785726282,
   "count": 100,
   "top100": [
     {
@@ -634,6 +634,15 @@
       "sponsor": true
     },
     {
+      "user_id": "1496c9b8721811f1b47f52540025c377",
+      "name": "爱发电用户_1496c",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "283e3744838411f19fea52540025c377",
       "name": "爱发电用户_283e3",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
@@ -889,15 +898,6 @@
       "user_id": "2f720c00737311f1be045254001e7c00",
       "name": "风里晨",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/18f0b635caa5ca1687b55e70bb59b8be_w100_h100_s2.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "047e97fe713c11f1ac1352540025c377",
-      "name": "香煎咸鱼",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5417ba41861a50e9e2866ac1dbc95246_w100_h100_s3.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
