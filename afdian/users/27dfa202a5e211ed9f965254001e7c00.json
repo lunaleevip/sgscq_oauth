@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785736211,
+  "user_id": "27dfa202a5e211ed9f965254001e7c00",
+  "name": "27dfa202a5e211ed9f965254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "哥我是穷小子，只好请你吃个早饭了",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608031346005610049546973",
+      "amount": 5.0
+    }
+  ]
+}
