@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785737012,
+  "updated_at": 1785740653,
   "count": 100,
   "top100": [
     {
@@ -206,6 +206,15 @@
       "name": "小 小",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9cbee47fdc2d9b43c8762c984708f6be_w100_h100_s2.jpeg",
       "amount": 1005.1,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "a9840b0861ec11f1a3d952540025c377",
+      "name": "星海",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 1005.0,
       "level": 4,
       "plan_name": "自选方案",
       "sponsor": true
@@ -814,6 +823,15 @@
       "sponsor": true
     },
     {
+      "user_id": "a3b9b97480e711f1a3315254001e7c00",
+      "name": "纺织厂阿玺",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "c8ecb48a849d11f1bcad5254001e7c00",
       "name": "芒种",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -883,24 +901,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "",
-      "sponsor": true
-    },
-    {
-      "user_id": "0fa6b586087a11ee817c52540025c377",
-      "name": "青依寒",
-      "avatar": "https://pic1.afdiancdn.com/user/0fa6b586087a11ee817c52540025c377/avatar/1a533ab77de9f44e4b994b79fb3d6ed1_w1258_h1153_s85.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "大大加油",
-      "sponsor": true
-    },
-    {
-      "user_id": "05eb2b9c897a11f1bb0352540025c377",
-      "name": "青天",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/fece265bc41229effbe637db53b67253_w100_h100_s3.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "加油up，谢谢你给了我小时候圆梦",
       "sponsor": true
     }
   ]
