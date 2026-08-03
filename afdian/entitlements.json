@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785744284,
-  "count": 2632,
+  "updated_at": 1785746617,
+  "count": 2633,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -31525,7 +31525,7 @@
     },
     "b32dff3873e911f18a835254001e7c00": {
       "name": "🈚",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/b5e82ad711113caaf17535db4955a55a_w100_h100_s2.jpeg",
       "amount": 5.0,
       "level": 1,
       "plan_name": "",
@@ -35002,6 +35002,15 @@
           "amount": 5.0
         }
       ]
+    },
+    "c4f08e8c8f1611f18a1852540025c377": {
+      "name": "enrose",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": []
     },
     "c506522689cb11f19a3a52540025c377": {
       "name": "幻影旋转大师",
