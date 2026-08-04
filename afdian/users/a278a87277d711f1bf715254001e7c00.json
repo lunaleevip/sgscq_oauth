@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785857750,
+  "updated_at": 1785859475,
   "user_id": "a278a87277d711f1bf715254001e7c00",
   "name": "爱发电用户_g8WM",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
