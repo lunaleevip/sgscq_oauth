@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1785809014,
+  "updated_at": 1785810910,
   "user_id": "fd4b57527cb111f1ba8c5254001e7c00",
   "name": "林茂誉",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-  "amount": 25.0,
+  "amount": 30.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
@@ -23,6 +23,10 @@
     },
     {
       "out_trade_no": "202607110653105449985141325",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608041034305455539727912",
       "amount": 5.0
     }
   ]
