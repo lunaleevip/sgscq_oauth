@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785814438,
-  "count": 2668,
+  "updated_at": 1785816230,
+  "count": 2669,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -426,11 +426,15 @@
     "03300da47f1211f1936a52540025c377": {
       "name": "v",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608041156174948555512024",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "20260802112703555157971335",
           "amount": 80.0
@@ -12356,11 +12360,15 @@
     "4abcd72c88ce11f19b075254001e7c00": {
       "name": "哎呀",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/66bdc71d2f1a59393a5d427a9a83c7d7_w100_h100_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260804114526541015057952",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607261648334999515527172",
           "amount": 5.0
@@ -21191,6 +21199,20 @@
         }
       ]
     },
+    "789e6f608fb411f1887e52540025c377": {
+      "name": "爱发电用户_KCNE",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260804113548525149563649",
+          "amount": 5.0
+        }
+      ]
+    },
     "78a7118a85b211f1a72552540025c377": {
       "name": "爱发电用户_ENcR",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -29546,11 +29568,15 @@
     "a7f4c0a261bf11f183995254001e7c00": {
       "name": "蛋蛋",
       "avatar": "https://pic1.afdiancdn.com/user/a7f4c0a261bf11f183995254001e7c00/avatar/39266281435690069104c88efb9fdfc5_w538_h460_s193.png",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "加油，注意身体",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260804114215555254106774",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "20260731090013100101536603",
           "amount": 400.0
