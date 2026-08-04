@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785841444,
+  "updated_at": 1785845035,
   "count": 100,
   "top100": [
     {
@@ -376,6 +376,15 @@
       "user_id": "aa474e3662d911f197075254001e7c00",
       "name": "zz",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/14a4a17240be082c08b5c01a7331202b_w100_h100_s2.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "f83309008b1511f193845254001e7c00",
+      "name": "⩙惜風~",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/21dbd47f5c07f073cfc56f6fe630d528_w100_h100_s2.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
@@ -889,15 +898,6 @@
       "user_id": "c8ecb48a849d11f1bcad5254001e7c00",
       "name": "芒种",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "67cfa59670ab11f1abd05254001e7c00",
-      "name": "萌萌哒煎饼卷",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/79e0834813049e211e488797ec6a3eab_w100_h100_s2.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
