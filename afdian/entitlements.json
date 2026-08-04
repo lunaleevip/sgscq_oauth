@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785805410,
-  "count": 2664,
+  "updated_at": 1785809014,
+  "count": 2666,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -4306,11 +4306,15 @@
     "19bb6570751011f18b5352540025c377": {
       "name": "爱发电用户_19bb6",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608040901364850101517843",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607011346445257499711870",
           "amount": 5.0
@@ -13322,11 +13326,15 @@
     "4fade5dc751911f19ac452540025c377": {
       "name": "新",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "加油！楼主大大，三国是我最初游戏的起点想玩这游戏很久了，谢谢楼主大大成全",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608040902315551102512653",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202607011550221014853514802",
           "amount": 5.0
@@ -37299,6 +37307,20 @@
         }
       ]
     },
+    "cf6586368fa411f183105254001e7c00": {
+      "name": "爱发电用户_cf658",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608040940109752545445947",
+          "amount": 5.0
+        }
+      ]
+    },
     "cf7afe0067ed11f1a69e52540025c377": {
       "name": "H.",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ff6740254e225647bf5ff13a22c37f27_w100_h100_s4.jpeg",
@@ -42675,6 +42697,20 @@
         },
         {
           "out_trade_no": "202606272351091005699514758",
+          "amount": 5.0
+        }
+      ]
+    },
+    "efd5f5c68f5511f19f9c52540025c377": {
+      "name": "清茶与酒",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9aba34f2589d73a3c6f281fff8e76954_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "大佬加油",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608040909295710049911150",
           "amount": 5.0
         }
       ]
