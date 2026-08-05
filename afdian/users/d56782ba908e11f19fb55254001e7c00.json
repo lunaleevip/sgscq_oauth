@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1785908109,
+  "user_id": "d56782ba908e11f19fb55254001e7c00",
+  "name": "d56782ba908e11f19fb55254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油！！！！！",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608051332174954485622325",
+      "amount": 5.0
+    }
+  ]
+}
