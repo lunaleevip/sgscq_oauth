@@ -1,12 +1,17 @@
 {
   "version": 1,
-  "updated_at": 1785943687,
+  "updated_at": 1785943701,
   "user_id": "88c071c690e111f1868a5254001e7c00",
   "name": "米小",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/68a4bc22212bf106256da0a13e1df196_w100_h100_s3.jpeg",
-  "amount": 5.0,
+  "amount": 10.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
-  "orders": []
+  "orders": [
+    {
+      "out_trade_no": "202608052323465052985231067",
+      "amount": 5.0
+    }
+  ]
 }
