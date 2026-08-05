@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1785959552,
+  "updated_at": 1785960225,
   "count": 2737,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -28012,11 +28012,15 @@
     "9b37f442efaa11f0a9cf52540025c377": {
       "name": "UI",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 85.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608060355505451515525258",
+          "amount": 20.0
+        },
         {
           "out_trade_no": "202608060325479810049114462",
           "amount": 60.0
