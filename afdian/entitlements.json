@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785902643,
-  "count": 2711,
+  "updated_at": 1785906281,
+  "count": 2713,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -8910,11 +8910,15 @@
     "34358a306e2f11f1919152540025c377": {
       "name": "辣椒蟹🦀",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a3257b86f384fbcb522fa35bb8e60d3d_w100_h100_s2.jpeg",
-      "amount": 101.0,
-      "level": 2,
-      "plan_name": "",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608051226391029952915806",
+          "amount": 399.0
+        },
         {
           "out_trade_no": "202606241134369997531018408",
           "amount": 96.0
@@ -21351,6 +21355,20 @@
         }
       ]
     },
+    "7703579c8f1e11f1bd925254001e7c00": {
+      "name": "爱发电用户_7YuX",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608051248164899545631395",
+          "amount": 5.0
+        }
+      ]
+    },
     "770c0c384fb811edae9b52540025c377": {
       "name": "あさがみ环",
       "avatar": "https://pic1.afdiancdn.com/user/770c0c384fb811edae9b52540025c377/avatar/e19a3458a0dbb3610c4cbe80e0d2140d_w1600_h900_s1704.png",
@@ -31610,6 +31628,20 @@
         {
           "out_trade_no": "202607251508494951495530933",
           "amount": 5.0
+        }
+      ]
+    },
+    "af2364e4908311f198dc52540025c377": {
+      "name": "爱发电用户_af236",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608051211134950975027716",
+          "amount": 10.0
         }
       ]
     },
@@ -42719,7 +42751,7 @@
     },
     "ead9ed906cb711f18a3852540025c377": {
       "name": "好",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/cf6080bcdd8245882790a28d2dae911a_w100_h100_s3.jpeg",
       "amount": 100.0,
       "level": 2,
       "plan_name": "自选方案",
