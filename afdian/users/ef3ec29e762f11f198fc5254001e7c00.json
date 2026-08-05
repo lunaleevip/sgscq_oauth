@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785943687,
+  "updated_at": 1785949472,
   "user_id": "ef3ec29e762f11f198fc5254001e7c00",
   "name": "爱发电用户_WFPK",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
   "amount": 105.0,
   "level": 2,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785943687,
+  "updated_at": 1785949472,
   "user_id": "32a315d0791e11f1b6605254001e7c00",
   "name": "无敌",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
