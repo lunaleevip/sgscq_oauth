@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785974591,
-  "count": 2739,
+  "updated_at": 1785978339,
+  "count": 2740,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -27752,11 +27752,15 @@
     "999df4ea58fc11f1aedc52540025c377": {
       "name": "木之本樱",
       "avatar": "https://pic1.afdiancdn.com/user/999df4ea58fc11f1aedc52540025c377/avatar/60f8a44cc794b617486fe843860b92b8_w967_h1200_s200.jpeg",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "恭喜七月可以称帝了！",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608060821115557999723897",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202606280231069749571011884",
           "amount": 250.0
@@ -32128,11 +32132,15 @@
     "b033d7828dc811f1952b52540025c377": {
       "name": "真理",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608060814425054102522760",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202608020048055352549924319",
           "amount": 100.0
@@ -36956,11 +36964,15 @@
     "c79180ca079411f0b3e352540025c377": {
       "name": "爱发电用户_r8Hw",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
+      "amount": 10.0,
       "level": 1,
-      "plan_name": "",
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260806083800565299993670",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "202606212008225456995410241",
           "amount": 5.0
@@ -39937,6 +39949,20 @@
       "orders": [
         {
           "out_trade_no": "202607051317489999974925543",
+          "amount": 5.0
+        }
+      ]
+    },
+    "d73de5de90cf11f1b7ce52540025c377": {
+      "name": "孤",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/79e2e822bc302fdde935d33a5333e4b5_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608060830335752511041242",
           "amount": 5.0
         }
       ]
@@ -47740,6 +47766,15 @@
       "sponsor": true
     },
     {
+      "user_id": "999df4ea58fc11f1aedc52540025c377",
+      "name": "木之本樱",
+      "avatar": "https://pic1.afdiancdn.com/user/999df4ea58fc11f1aedc52540025c377/avatar/60f8a44cc794b617486fe843860b92b8_w967_h1200_s200.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "恭喜七月可以称帝了！",
+      "sponsor": true
+    },
+    {
       "user_id": "e7ff345a78eb11f1908b52540025c377",
       "name": "林枫过客",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -48013,15 +48048,6 @@
       "user_id": "a3b9b97480e711f1a3315254001e7c00",
       "name": "纺织厂阿玺",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "c8ecb48a849d11f1bcad5254001e7c00",
-      "name": "芒种",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
