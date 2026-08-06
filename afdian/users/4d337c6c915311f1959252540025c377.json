@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1785992710,
+  "updated_at": 1785996266,
   "user_id": "4d337c6c915311f1959252540025c377",
-  "name": "4d337c6c915311f1959252540025c377",
-  "avatar": "",
+  "name": "花亦开",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {

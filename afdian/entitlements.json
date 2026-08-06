@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1785992629,
-  "count": 2753,
+  "updated_at": 1785996266,
+  "count": 2755,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -13237,6 +13237,20 @@
       "orders": [
         {
           "out_trade_no": "202606190946165655559713682",
+          "amount": 5.0
+        }
+      ]
+    },
+    "4d337c6c915311f1959252540025c377": {
+      "name": "花亦开",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608061304255710110113645",
           "amount": 5.0
         }
       ]
@@ -30816,11 +30830,15 @@
     "a90554c609e611ef9b445254001e7c00": {
       "name": "爱发电用户_a9055",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 70.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608061326145451505410231",
+          "amount": 30.0
+        },
         {
           "out_trade_no": "202608061245214956544919161",
           "amount": 50.0
@@ -41392,7 +41410,7 @@
       ]
     },
     "df2e217c913e11f197c552540025c377": {
-      "name": "爱发电用户_VPgD",
+      "name": "星期日",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 5.0,
       "level": 1,
@@ -43766,6 +43784,20 @@
         {
           "out_trade_no": "202607252110595156101124264",
           "amount": 6.0
+        }
+      ]
+    },
+    "ec75b2c2915811f19b0c52540025c377": {
+      "name": "cc",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608061340129952505426720",
+          "amount": 5.0
         }
       ]
     },
