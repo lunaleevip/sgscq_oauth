@@ -36,8 +36,9 @@ runs use the same incremental mode by default; set `full_sync=true` to rebuild
 the full snapshot and ranking files.
 
 GitHub's own `schedule` trigger can be delayed or skipped. For reliable
-five-minute polling, run `tools/oauth_sync_dispatch_cron.php` from an external
-cron-capable host every five minutes. It sends these repository dispatch events:
+five-minute polling, run `tools/oauth_sync_dispatch.sh` from an external
+cron-capable host every five minutes. It sends these repository dispatch events
+and only advances the hourly full-sync state after GitHub accepts the dispatch:
 
 - `afdian_incremental`: run recent Afdian order sync.
 - `afdian_full`: run full Afdian order and sponsor snapshot sync once per hour.
