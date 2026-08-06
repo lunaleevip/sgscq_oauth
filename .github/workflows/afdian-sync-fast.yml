@@ -24,17 +24,19 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout OAuth static repo
-        uses: actions/checkout@v4
-
-      - name: Use latest target branch
+      - name: Checkout OAuth static repo without external action
         shell: bash
+        env:
+          GH_REPO_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           target_branch="${GITHUB_REF_NAME:-master}"
-          git fetch origin "${target_branch}"
-          git checkout "${target_branch}"
-          git reset --hard "origin/${target_branch}"
+          auth_header="$(printf 'x-access-token:%s' "${GH_REPO_TOKEN}" | base64 | tr -d '\n')"
+          git init .
+          git config http.https://github.com/.extraheader "AUTHORIZATION: basic ${auth_header}"
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=2 origin "${target_branch}"
+          git checkout -B "${target_branch}" FETCH_HEAD
 
       - name: Merge Afdian webhook user cache
         if: github.event.action == 'afdian_order'

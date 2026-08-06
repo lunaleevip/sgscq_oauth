@@ -3,6 +3,15 @@ from pathlib import Path
 
 
 class AfdianWorkflowTest(unittest.TestCase):
+    def test_afdian_checkout_does_not_depend_on_external_actions(self):
+        workflow = Path(".github/workflows/afdian-sync-fast.yml").read_text(encoding="utf-8")
+
+        self.assertNotIn("uses: actions/checkout", workflow)
+        self.assertIn("GH_REPO_TOKEN: ${{ github.token }}", workflow)
+        self.assertIn("git init .", workflow)
+        self.assertIn("git fetch --depth=2 origin", workflow)
+        self.assertIn("git checkout -B \"${target_branch}\" FETCH_HEAD", workflow)
+
     def test_snapshot_commit_step_rebases_before_commit_and_retries_push(self):
         workflow = Path(".github/workflows/afdian-sync-fast.yml").read_text(encoding="utf-8")
 
