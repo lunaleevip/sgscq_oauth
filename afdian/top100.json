@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786028654,
+  "updated_at": 1786059524,
   "count": 100,
   "top100": [
     {
@@ -216,7 +216,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9cbee47fdc2d9b43c8762c984708f6be_w100_h100_s2.jpeg",
       "amount": 1005.1,
       "level": 4,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true
     },
     {
@@ -729,7 +729,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 1000.0,
       "level": 4,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true
     },
     {
