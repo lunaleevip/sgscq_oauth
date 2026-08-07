@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786115416,
+  "user_id": "cfd8e6e2927111f1aa855254001e7c00",
+  "name": "cfd8e6e2927111f1aa855254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "谢谢你，我真的特别想念这个游戏",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608072309135798575728157",
+      "amount": 5.0
+    }
+  ]
+}
