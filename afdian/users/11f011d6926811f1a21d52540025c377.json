@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786111511,
+  "user_id": "11f011d6926811f1a21d52540025c377",
+  "name": "11f011d6926811f1a21d52540025c377",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "谢谢大佬制作游戏",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260807220413100991011171",
+      "amount": 5.0
+    }
+  ]
+}
