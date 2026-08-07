@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786079090,
-  "count": 2797,
+  "updated_at": 1786081910,
+  "count": 2800,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -4263,6 +4263,20 @@
       "orders": [
         {
           "out_trade_no": "202607011309555197555611731",
+          "amount": 5.0
+        }
+      ]
+    },
+    "1782443e8fb011ed90e752540025c377": {
+      "name": "魂淡",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/efe819d1565e14637f0b8ad095bf7745_w132_h132_s7.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260807133723515210157228",
           "amount": 5.0
         }
       ]
@@ -24177,6 +24191,20 @@
         }
       ]
     },
+    "83d50ff2921f11f1b5b752540025c377": {
+      "name": "lushasha",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "支持",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260807134535102505754109",
+          "amount": 10.0
+        }
+      ]
+    },
     "84023998715211f1a8a952540025c377": {
       "name": "人间花关索",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0c3009d9488714743ac04577e5f4a99b_w100_h100_s3.jpeg",
@@ -35306,6 +35334,20 @@
         {
           "out_trade_no": "202608050649191025348919423",
           "amount": 5.0
+        }
+      ]
+    },
+    "ba5f8d24921d11f1ad7352540025c377": {
+      "name": "爱发电用户_ek64",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608071309555155514916782",
+          "amount": 10.0
         }
       ]
     },

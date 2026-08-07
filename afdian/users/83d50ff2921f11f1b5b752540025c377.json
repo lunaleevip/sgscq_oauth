@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786081910,
+  "user_id": "83d50ff2921f11f1b5b752540025c377",
+  "name": "lushasha",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+  "amount": 10.0,
+  "level": 1,
+  "plan_name": "支持",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260807134535102505754109",
+      "amount": 10.0
+    }
+  ]
+}
