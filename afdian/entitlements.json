@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786104233,
-  "count": 2807,
+  "updated_at": 1786107859,
+  "count": 2808,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -8189,6 +8189,20 @@
       "orders": [
         {
           "out_trade_no": "202606281753319899489814764",
+          "amount": 5.0
+        }
+      ]
+    },
+    "2df77bb0925b11f1a8bc5254001e7c00": {
+      "name": "cheems",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/46fbcbf232a93005933e0ab45bc4114f_w132_h132_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608072028375349975014815",
           "amount": 5.0
         }
       ]
@@ -34536,11 +34550,15 @@
     "b6a9b8588f5711f1aee552540025c377": {
       "name": "爱发电用户_bwtT",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260807202404529710295308",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "20260807002200564855992506",
           "amount": 400.0
@@ -42954,11 +42972,15 @@
     "e24012e68e9411f19f7b52540025c377": {
       "name": "熙攘",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260807200155519849511671",
+          "amount": 90.0
+        },
         {
           "out_trade_no": "202608032341125699569926801",
           "amount": 10.0
@@ -49169,6 +49191,15 @@
       "sponsor": true
     },
     {
+      "user_id": "b6a9b8588f5711f1aee552540025c377",
+      "name": "爱发电用户_bwtT",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "285d9a64797311f1a2325254001e7c00",
       "name": "爱发电用户_CYRx",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -49253,15 +49284,6 @@
       "user_id": "ba2297745cdb11f1a1195254001e7c00",
       "name": "玉儿呦呦呦",
       "avatar": "https://pic1.afdiancdn.com/user/ba2297745cdb11f1a1195254001e7c00/avatar/2ff356319ec8456099ede92698f323a8_w1080_h1080_s58.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "b0e60ab8761911f1919e5254001e7c00",
-      "name": "玩偶姐姐",
-      "avatar": "https://pic1.afdiancdn.com/user/b0e60ab8761911f1919e5254001e7c00/avatar/c96ecf1479f90d68aa6fd728636ff2c8_w750_h422_s36.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
