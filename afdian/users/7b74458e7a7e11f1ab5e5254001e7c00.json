@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786115341,
+  "updated_at": 1786118648,
   "user_id": "7b74458e7a7e11f1ab5e5254001e7c00",
   "name": "立花泷",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

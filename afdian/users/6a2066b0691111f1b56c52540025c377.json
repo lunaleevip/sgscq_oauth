@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786115341,
+  "updated_at": 1786118648,
   "user_id": "6a2066b0691111f1b56c52540025c377",
   "name": "哈哈大侠TvT",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
   "amount": 500.0,
   "level": 3,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
