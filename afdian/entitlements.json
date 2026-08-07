@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786093477,
-  "count": 2802,
+  "updated_at": 1786094203,
+  "count": 2803,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -29511,6 +29511,20 @@
         },
         {
           "out_trade_no": "202607012005054956995614751",
+          "amount": 5.0
+        }
+      ]
+    },
+    "9fa96b5a923e11f1bae152540025c377": {
+      "name": "爱发电用户_4H8X",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260807170547989751567955",
           "amount": 5.0
         }
       ]
