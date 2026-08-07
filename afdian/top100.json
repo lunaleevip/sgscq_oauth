@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786111449,
+  "updated_at": 1786115046,
   "count": 100,
   "top100": [
     {
@@ -580,6 +580,15 @@
       "sponsor": true
     },
     {
+      "user_id": "1ae31cbc6fe411f1978752540025c377",
+      "name": "小椿",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "5e06ef32766011f192765254001e7c00",
       "name": "小神",
       "avatar": "https://pic1.afdiancdn.com/user/5e06ef32766011f192765254001e7c00/avatar/a193a02e626268ca246be7abd1898b63_w1376_h808_s1025.png",
@@ -610,6 +619,15 @@
       "user_id": "4cb076586d4711f1925a52540025c377",
       "name": "彩云",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "76b8d386737e11f1839252540025c377",
+      "name": "怯",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
@@ -883,24 +901,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "b站UID:3493287895763167\n抖音：51397482930\n都关注了",
-      "sponsor": true
-    },
-    {
-      "user_id": "c30561f46cb311f184b352540025c377",
-      "name": "爱发电用户_UEtC",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "老大加油！",
-      "sponsor": true
-    },
-    {
-      "user_id": "ba2297745cdb11f1a1195254001e7c00",
-      "name": "玉儿呦呦呦",
-      "avatar": "https://pic1.afdiancdn.com/user/ba2297745cdb11f1a1195254001e7c00/avatar/2ff356319ec8456099ede92698f323a8_w1080_h1080_s58.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
       "sponsor": true
     }
   ]
