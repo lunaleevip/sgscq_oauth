@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786068236,
-  "count": 2787,
+  "updated_at": 1786071805,
+  "count": 2791,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -173,6 +173,20 @@
       "orders": [
         {
           "out_trade_no": "202607140002425010110125090",
+          "amount": 5.0
+        }
+      ]
+    },
+    "00f56bea920b11f1844152540025c377": {
+      "name": "爱发电用户_00f56",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608071053405210148536672",
           "amount": 5.0
         }
       ]
@@ -18467,6 +18481,20 @@
         }
       ]
     },
+    "65ac2ade920511f1be625254001e7c00": {
+      "name": "爱发电用户_9tJY",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608071012109757541018997",
+          "amount": 5.0
+        }
+      ]
+    },
     "65ec4cb874eb11f18cf85254001e7c00": {
       "name": "爱发电用户_efgk",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -28204,11 +28232,15 @@
     "9941ca3e743211f1883052540025c377": {
       "name": ".",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e28e053a58d219cbd09ac5dcb861d3f4_w100_h100_s2.jpeg",
-      "amount": 10.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 110.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608071055284854535246524",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202606302103284852985314703",
           "amount": 5.0
@@ -45199,6 +45231,20 @@
         }
       ]
     },
+    "f1646440920711f18c3952540025c377": {
+      "name": "花生桂圆",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1f2dca451860a2a8792e2d9d41f6c591_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260807103356521001021609",
+          "amount": 5.0
+        }
+      ]
+    },
     "f19bd1b278e611f1bacc52540025c377": {
       "name": "戏",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0393064bf3b41bd2fc3bc78c1c5b2101_w100_h100_s3.jpeg",
@@ -47951,6 +47997,20 @@
         },
         {
           "out_trade_no": "20260619233531515298567171",
+          "amount": 5.0
+        }
+      ]
+    },
+    "ff35459c920411f1b8535254001e7c00": {
+      "name": "云起雨落",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/dbeffc5b1aa5f063e34cae52d0d91bfa_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "加油！",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608071017295748509915443",
           "amount": 5.0
         }
       ]
