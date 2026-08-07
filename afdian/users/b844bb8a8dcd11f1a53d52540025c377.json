@@ -1,12 +1,17 @@
 {
   "version": 1,
-  "updated_at": 1786115341,
+  "updated_at": 1786115352,
   "user_id": "b844bb8a8dcd11f1a53d52540025c377",
   "name": "我偏要勉强",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/06ce25c6bc06d841a032b2d05bb3b5f0_w100_h100_s3.jpeg",
-  "amount": 5.0,
+  "amount": 10.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
-  "orders": []
+  "orders": [
+    {
+      "out_trade_no": "202608072305009948481030662",
+      "amount": 5.0
+    }
+  ]
 }
