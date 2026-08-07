@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786115046,
-  "count": 2812,
+  "updated_at": 1786115341,
+  "count": 2813,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -34966,6 +34966,15 @@
           "amount": 5.0
         }
       ]
+    },
+    "b844bb8a8dcd11f1a53d52540025c377": {
+      "name": "我偏要勉强",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/06ce25c6bc06d841a032b2d05bb3b5f0_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": []
     },
     "b852f74ce5c111ee98325254001e7c00": {
       "name": "zxcvb",
