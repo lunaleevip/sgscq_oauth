@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786064611,
-  "count": 2785,
+  "updated_at": 1786068236,
+  "count": 2787,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -6558,6 +6558,20 @@
         {
           "out_trade_no": "202607251303294998481024872",
           "amount": 10.0
+        }
+      ]
+    },
+    "24e1ddd691b611f188ca5254001e7c00": {
+      "name": "爱发电用户_24e1d",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608070956535352975340320",
+          "amount": 5.0
         }
       ]
     },
@@ -44785,6 +44799,20 @@
         }
       ]
     },
+    "efb5a75091b511f18a8552540025c377": {
+      "name": "额",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/80aa3805981948605d2ad72fb0a975b3_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608070911365649981020132",
+          "amount": 5.0
+        }
+      ]
+    },
     "efc6de5671a511f1a6b252540025c377": {
       "name": "流光不坠",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/163e46119603d5a5fad31b4103210fe7_w100_h100_s2.jpeg",
@@ -46284,11 +46312,27 @@
     "f7098d668ee611eeb6cb52540025c377": {
       "name": "moriyuan",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 20.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608070906315510150516530",
+          "amount": 5.0
+        },
+        {
+          "out_trade_no": "20260807090611515454529495",
+          "amount": 10.0
+        },
+        {
+          "out_trade_no": "202608070905469754561019906",
+          "amount": 20.0
+        },
+        {
+          "out_trade_no": "202608070905115598561022877",
+          "amount": 50.0
+        },
         {
           "out_trade_no": "202608061510564856555223026",
           "amount": 20.0
