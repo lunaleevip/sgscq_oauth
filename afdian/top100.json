@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786082661,
+  "updated_at": 1786086246,
   "count": 100,
   "top100": [
     {
@@ -256,15 +256,6 @@
       "sponsor": true
     },
     {
-      "user_id": "1a2c6bca568a11f1b46f52540025c377",
-      "name": "枕江听风",
-      "avatar": "https://pic1.afdiancdn.com/user/1a2c6bca568a11f1b46f52540025c377/avatar/e08878c92b4733c54ba59f78c7408521_w1080_h1092_s53.jpeg",
-      "amount": 1001.0,
-      "level": 4,
-      "plan_name": "感谢老大",
-      "sponsor": true
-    },
-    {
       "user_id": "a061b6b8728811f1a39c5254001e7c00",
       "name": "桃枝",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -289,6 +280,15 @@
       "amount": 1001.0,
       "level": 4,
       "plan_name": "加油啊",
+      "sponsor": true
+    },
+    {
+      "user_id": "1a2c6bca568a11f1b46f52540025c377",
+      "name": "遥远的她",
+      "avatar": "https://pic1.afdiancdn.com/user/1a2c6bca568a11f1b46f52540025c377/avatar/215a7b4a0f222e810b9eaf19627c8fbe_w690_h689_s162.jpeg",
+      "amount": 1001.0,
+      "level": 4,
+      "plan_name": "感谢老大",
       "sponsor": true
     },
     {
