@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1786162873,
+  "updated_at": 1786164615,
   "user_id": "91cb54bad2d211ec938452540025c377",
   "name": "爱辽鸭",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-  "amount": 20.0,
+  "amount": 50.0,
   "level": 1,
   "plan_name": "",
   "sponsor": true,
@@ -12,6 +12,10 @@
     {
       "out_trade_no": "202606082012014951535526767",
       "amount": 20.0
+    },
+    {
+      "out_trade_no": "202608081248225448539937763",
+      "amount": 30.0
     }
   ]
 }
