@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786146382,
-  "count": 2819,
+  "updated_at": 1786147428,
+  "count": 2821,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -427,6 +427,20 @@
       "orders": [
         {
           "out_trade_no": "202607101809374910010020594",
+          "amount": 5.0
+        }
+      ]
+    },
+    "03091068b2b611ed9c135254001e7c00": {
+      "name": "风雨",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608080751571005552514371",
           "amount": 5.0
         }
       ]
@@ -5172,7 +5186,7 @@
       ]
     },
     "1cb8e2427c2d11f1852752540025c377": {
-      "name": "ㅤ",
+      "name": "大白菜",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4828b8188f3d2894fdb5a99bed4d738a_w100_h100_s2.jpeg",
       "amount": 500.0,
       "level": 3,
@@ -25543,6 +25557,24 @@
       "orders": [
         {
           "out_trade_no": "202606161227069797505722093",
+          "amount": 5.0
+        }
+      ]
+    },
+    "8a6d12a692ba11f192515254001e7c00": {
+      "name": "乾纱寿叶",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/430d80c6943d21b106d58d141bc765e2_w100_h100_s4.jpeg",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608080758425010010135866",
+          "amount": 95.0
+        },
+        {
+          "out_trade_no": "202608080748545457995320498",
           "amount": 5.0
         }
       ]
