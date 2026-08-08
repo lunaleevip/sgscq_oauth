@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786212206,
-  "count": 2849,
+  "updated_at": 1786215358,
+  "count": 2850,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -23403,6 +23403,20 @@
       "orders": [
         {
           "out_trade_no": "202607080429044899985411002",
+          "amount": 5.0
+        }
+      ]
+    },
+    "7c56865a90cd11f1970b52540025c377": {
+      "name": "奇犽Killua",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/040156b76137f1131f6ae0e641f9070c_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260809020338975149569168",
           "amount": 5.0
         }
       ]
