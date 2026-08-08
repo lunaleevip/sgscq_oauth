@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786165454,
-  "count": 2828,
+  "updated_at": 1786168567,
+  "count": 2830,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -6735,6 +6735,20 @@
         }
       ]
     },
+    "2517583c92ea11f1bc3152540025c377": {
+      "name": "一只凡星",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5dd236d1bad64be63a3252a4e6ad30e4_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260808133536561005554160",
+          "amount": 5.0
+        }
+      ]
+    },
     "251cb202859111f1b5af5254001e7c00": {
       "name": "之子于归",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -7589,6 +7603,20 @@
         },
         {
           "out_trade_no": "202607211636324851565510236",
+          "amount": 5.0
+        }
+      ]
+    },
+    "29bb857e92eb11f19b285254001e7c00": {
+      "name": "芜茗",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608081345135710148514598",
           "amount": 5.0
         }
       ]
@@ -24931,7 +24959,7 @@
     },
     "86d7b9526a2911f18bf752540025c377": {
       "name": "Tiian-lin",
-      "avatar": "https://pic1.afdiancdn.com/user/86d7b9526a2911f18bf752540025c377/avatar/565fc0c68fbe46d7404785cd92515729_w640_h640_s132.jpeg",
+      "avatar": "https://pic1.afdiancdn.com/user/86d7b9526a2911f18bf752540025c377/avatar/c05accaeabb05bc866b0c3e9edb879d4_w904_h904_s266.jpeg",
       "amount": 5.0,
       "level": 1,
       "plan_name": "",
