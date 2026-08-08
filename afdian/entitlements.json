@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786179471,
+  "updated_at": 1786179836,
   "count": 2836,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -34966,11 +34966,15 @@
     "b6d04740924811f1a8b152540025c377": {
       "name": "ydd",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 15.0,
-      "level": 1,
+      "amount": 101.0,
+      "level": 2,
       "plan_name": "财力有限，先生大义",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260808165918541001008774",
+          "amount": 86.0
+        },
         {
           "out_trade_no": "202608081514414952101535034",
           "amount": 10.0
