@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1786205040,
+  "updated_at": 1786206907,
   "user_id": "ac590316c72311ef9fed52540025c377",
   "name": "牛头人大王",
   "avatar": "https://pic1.afdiancdn.com/user/ac590316c72311ef9fed52540025c377/avatar/4462376d868946ad1c1abc80079774d3_w1260_h2800_s833.jpeg",
-  "amount": 100.0,
-  "level": 2,
+  "amount": 500.0,
+  "level": 3,
   "plan_name": "",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "202605281125105498521017949",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608090032324850481021189",
+      "amount": 400.0
     }
   ]
 }
