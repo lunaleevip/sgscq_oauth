@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786201435,
-  "count": 2845,
+  "updated_at": 1786203776,
+  "count": 2846,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -17136,11 +17136,15 @@
     "5ebe00728fde11f18bf25254001e7c00": {
       "name": "晚风不及你",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d1ad7751f6caa28eac4d037727395b0c_w100_h100_s4.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608082312141011015110458",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "20260804163839102102518928",
           "amount": 5.0
@@ -20707,6 +20711,20 @@
         }
       ]
     },
+    "7024d99e0e3b11ee919f52540025c377": {
+      "name": "掀翻xmy的头盖骨",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c6bca7f2b4b22b10e258eb42b2386a5f_w132_h132_s5.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608082337385098100926337",
+          "amount": 5.0
+        }
+      ]
+    },
     "7029a35a788411f1a4cf5254001e7c00": {
       "name": "か",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/da56477a7f919a0b843ff94b092984c2_w100_h100_s2.jpeg",
@@ -22570,11 +22588,15 @@
     "78643d0a933211f196a452540025c377": {
       "name": "青锋",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 30.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608082324164851575543343",
+          "amount": 70.0
+        },
         {
           "out_trade_no": "202608082245415354564910756",
           "amount": 20.0
@@ -30982,11 +31004,15 @@
     "a44aa42e92fe11f1bf9452540025c377": {
       "name": "爱发电用户_KJBc",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "加油！",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608082303505410250526994",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202608081556205252991022576",
           "amount": 5.0
