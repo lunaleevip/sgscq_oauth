@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786187026,
+  "updated_at": 1786189316,
   "count": 2838,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -3264,11 +3264,15 @@
     "11f011d6926811f1a21d52540025c377": {
       "name": "金豆子",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 200.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "谢谢大佬制作游戏",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608081924301011025020368",
+          "amount": 300.0
+        },
         {
           "out_trade_no": "202608081838435151524833114",
           "amount": 100.0
@@ -42880,11 +42884,15 @@
     "e05776a2901c11f1bcfd52540025c377": {
       "name": "爱发电用户_weyp",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "。",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608081935399850994926956",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "20260805085552569999557833",
           "amount": 5.0
