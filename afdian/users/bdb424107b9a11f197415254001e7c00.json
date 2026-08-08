@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786203776,
+  "updated_at": 1786205040,
   "user_id": "bdb424107b9a11f197415254001e7c00",
   "name": "落花情",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
