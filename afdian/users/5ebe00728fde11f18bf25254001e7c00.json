@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1786201435,
+  "updated_at": 1786202108,
   "user_id": "5ebe00728fde11f18bf25254001e7c00",
   "name": "晚风不及你",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d1ad7751f6caa28eac4d037727395b0c_w100_h100_s4.jpeg",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "20260804163839102102518928",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608082312141011015110458",
+      "amount": 95.0
     }
   ]
 }
