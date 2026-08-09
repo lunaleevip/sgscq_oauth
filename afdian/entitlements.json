@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786281289,
+  "updated_at": 1786284287,
   "count": 2887,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -1340,7 +1340,7 @@
       ]
     },
     "0747f8ee694a11f196e752540025c377": {
-      "name": "请删游戏重下2",
+      "name": "已注销",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
       "amount": 5.0,
       "level": 1,
@@ -14780,11 +14780,15 @@
     "50db471e768711f18eb45254001e7c00": {
       "name": "8848",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260809213312565210256136",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "20260703103219515499509351",
           "amount": 5.0
@@ -16544,11 +16548,15 @@
     "5a6f8dcaed6111ec82a352540025c377": {
       "name": "🥶",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1f2d896dd8a6b23c6dc3697aedf7d5cb_w132_h132_s6.jpeg",
-      "amount": 105.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608092147239853544820255",
+          "amount": 395.0
+        },
         {
           "out_trade_no": "202608091314445257100525076",
           "amount": 100.0
