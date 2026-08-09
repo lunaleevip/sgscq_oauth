@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786248609,
+  "updated_at": 1786249764,
   "user_id": "a19a632c938a11f1b9835254001e7c00",
-  "name": "a19a632c938a11f1b9835254001e7c00",
-  "avatar": "",
+  "name": "小尘沉",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
   "amount": 10.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
