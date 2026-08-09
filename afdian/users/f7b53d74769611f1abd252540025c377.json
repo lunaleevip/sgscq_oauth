@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786290307,
+  "updated_at": 1786291481,
   "user_id": "f7b53d74769611f1abd252540025c377",
   "name": "辻戈",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/56d0fc91dcd6386129d37fba332e12b1_w132_h132_s3.jpeg",
   "amount": 10.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

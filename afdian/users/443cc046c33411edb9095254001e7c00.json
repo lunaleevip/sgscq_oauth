@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786290307,
+  "updated_at": 1786291481,
   "user_id": "443cc046c33411edb9095254001e7c00",
   "name": "夜无眠",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f12fcb09a6517d9533bad18dd45f163b_w132_h132_s4.jpeg",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

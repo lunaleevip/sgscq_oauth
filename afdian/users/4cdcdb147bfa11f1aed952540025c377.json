@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786290307,
+  "updated_at": 1786291481,
   "user_id": "4cdcdb147bfa11f1aed952540025c377",
   "name": "七梦夜",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

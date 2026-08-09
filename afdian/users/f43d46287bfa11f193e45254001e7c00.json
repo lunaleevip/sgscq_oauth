@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786290307,
+  "updated_at": 1786291481,
   "user_id": "f43d46287bfa11f193e45254001e7c00",
   "name": "笑傲江湖",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/230eaf3ef4607d9bf3f5464dc837c974_w100_h100_s2.jpeg",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
