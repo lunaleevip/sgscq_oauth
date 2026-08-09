@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786266250,
-  "count": 2878,
+  "updated_at": 1786269328,
+  "count": 2880,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -11314,11 +11314,15 @@
     "3e7ea69493cc11f1810a52540025c377": {
       "name": "爱发电用户_BmMY",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 20.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608091700269750485438671",
+          "amount": 80.0
+        },
         {
           "out_trade_no": "202608091628055310051517105",
           "amount": 20.0
@@ -12228,7 +12232,7 @@
       ]
     },
     "4381a9908f5611f1ae9c5254001e7c00": {
-      "name": "acmfht",
+      "name": "一颗大大的石头",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/2d812952a7ca900d269882d5c5bc75ef_w100_h100_s4.jpeg",
       "amount": 5.01,
       "level": 1,
@@ -27889,6 +27893,20 @@
         }
       ]
     },
+    "9411473293d211f1ae0f5254001e7c00": {
+      "name": "雪白七七子",
+      "avatar": "https://pic1.afdiancdn.com/user/9411473293d211f1ae0f5254001e7c00/avatar/238e506171183c7520b4f4bb1e0199a4_w1080_h1080_s137.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260809171326545356995005",
+          "amount": 5.0
+        }
+      ]
+    },
     "941b6a2887cf11f19f1052540025c377": {
       "name": "阿叶和阿齐",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -34723,6 +34741,20 @@
         },
         {
           "out_trade_no": "202607301547421014954521523",
+          "amount": 5.0
+        }
+      ]
+    },
+    "b350316093d411f1ab5d5254001e7c00": {
+      "name": "uuu",
+      "avatar": "https://pic1.afdiancdn.com/user/b350316093d411f1ab5d5254001e7c00/avatar/07a17635bf66c9efa4dce04221cd7cd6_w1080_h2344_s934.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608091732215353555214524",
           "amount": 5.0
         }
       ]
@@ -44677,7 +44709,7 @@
     },
     "e610646c89a211f1819e52540025c377": {
       "name": "东方不败",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e24bd3f95d420ebac15b49d572729540_w100_h100_s4.jpeg",
       "amount": 105.0,
       "level": 2,
       "plan_name": "自选方案",
@@ -45414,11 +45446,15 @@
     "ea666f82752711f1a43b52540025c377": {
       "name": "020422",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 500.0,
-      "level": 3,
-      "plan_name": "",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608091734275150575719916",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202607051725075148101547309",
           "amount": 400.0
@@ -50020,6 +50056,15 @@
       "sponsor": true
     },
     {
+      "user_id": "ea666f82752711f1a43b52540025c377",
+      "name": "020422",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "9bfd0086784611edb1ae52540025c377",
       "name": "1241234啊23",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -50566,15 +50611,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "e6bc6dee728b11f191425254001e7c00",
-      "name": "爱发电用户_e6bc6",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "",
       "sponsor": true
     }
   ]
