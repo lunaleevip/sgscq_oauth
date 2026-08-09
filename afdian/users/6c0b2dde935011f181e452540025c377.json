@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1786287879,
+  "updated_at": 1786288508,
   "user_id": "6c0b2dde935011f181e452540025c377",
   "name": "swtjizhe",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202608090143045697101541108",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "20260809231449574949536081",
+      "amount": 95.0
     }
   ]
 }
