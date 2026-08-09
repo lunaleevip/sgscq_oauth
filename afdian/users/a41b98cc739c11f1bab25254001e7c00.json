@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1786280644,
+  "updated_at": 1786280956,
   "user_id": "a41b98cc739c11f1bab25254001e7c00",
   "name": "退堂鼓",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f21de23f2f79b655ef48fb37d8abf93a_w100_h100_s2.jpeg",
-  "amount": 110.0,
-  "level": 2,
+  "amount": 500.0,
+  "level": 3,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "202607070111591024950411791",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608092108235556101113515",
+      "amount": 390.0
     }
   ]
 }
