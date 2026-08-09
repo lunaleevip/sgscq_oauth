@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786280107,
+  "updated_at": 1786280644,
   "user_id": "136b0750f52b11ee8fd352540025c377",
-  "name": "136b0750f52b11ee8fd352540025c377",
-  "avatar": "",
+  "name": "Eren Jaeger",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/16aa66b359c7e208c353bd04f0a80c98_w132_h132_s3.jpeg",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {

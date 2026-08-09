@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786280644,
+  "user_id": "32a9e4be932c11f1a6de52540025c377",
+  "name": "老番茄",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+  "amount": 6.66,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608092058541015299421529",
+      "amount": 6.66
+    }
+  ]
+}
