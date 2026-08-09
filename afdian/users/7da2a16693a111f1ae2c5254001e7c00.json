@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786246210,
+  "updated_at": 1786248217,
   "user_id": "7da2a16693a111f1ae2c5254001e7c00",
-  "name": "7da2a16693a111f1ae2c5254001e7c00",
-  "avatar": "",
+  "name": "李寻欢",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
