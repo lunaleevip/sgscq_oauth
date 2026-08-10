@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786329130,
-  "count": 2901,
+  "updated_at": 1786331048,
+  "count": 2902,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -4572,7 +4572,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/76cabc622f9f6be001d6500837b15a88_w132_h132_s2.jpeg",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "",
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
         {
@@ -10139,6 +10139,20 @@
         },
         {
           "out_trade_no": "202607232354049910251514693",
+          "amount": 100.0
+        }
+      ]
+    },
+    "37a4bd76946311f1aa705254001e7c00": {
+      "name": "夜不眠丶小淡淡",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260810103533539951102638",
           "amount": 100.0
         }
       ]
