@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786320225,
+  "updated_at": 1786323835,
   "count": 100,
   "top100": [
     {
@@ -91,6 +91,15 @@
       "amount": 5000.0,
       "level": 5,
       "plan_name": "1678541375 加我进测试群谢谢 群主大大加油",
+      "sponsor": true
+    },
+    {
+      "user_id": "7732cf26869b11f192f552540025c377",
+      "name": "Notinmemor",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/585137886da92620e9f11f16fdd98bb9_w100_h100_s3.jpeg",
+      "amount": 5000.0,
+      "level": 5,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -394,15 +403,6 @@
       "user_id": "e3157b54713211f1b65252540025c377",
       "name": "JJ",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "7732cf26869b11f192f552540025c377",
-      "name": "Notinmemor",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/585137886da92620e9f11f16fdd98bb9_w100_h100_s3.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
