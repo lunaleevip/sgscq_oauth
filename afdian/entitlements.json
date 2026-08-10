@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786334626,
-  "count": 2904,
+  "updated_at": 1786337512,
+  "count": 2905,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -1116,8 +1116,8 @@
       ]
     },
     "05f5b7106ef911f1b67552540025c377": {
-      "name": "牢大",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0af1fd2bf4b6bdf27239bfe3654ee8a1_w100_h100_s2.jpeg",
+      "name": "牢大（没开）",
+      "avatar": "https://pic1.afdiancdn.com/user/05f5b7106ef911f1b67552540025c377/avatar/072e34ec347a8b30d4bf4593fd1777fc_w1080_h1080_s94.jpeg",
       "amount": 100.0,
       "level": 2,
       "plan_name": "",
@@ -5687,6 +5687,24 @@
         }
       ]
     },
+    "1e48cd6a947011f181e952540025c377": {
+      "name": "帅哥",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3bff7aa711fd714820534ad08d9fc081_w100_h100_s5.png",
+      "amount": 105.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608101232525252985128424",
+          "amount": 100.0
+        },
+        {
+          "out_trade_no": "20260810120949100974851515",
+          "amount": 5.0
+        }
+      ]
+    },
     "1e8602367eb611f19d975254001e7c00": {
       "name": "随便",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -8546,11 +8564,15 @@
     "2ed3491c627f11f1a40552540025c377": {
       "name": "鑫",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e8a72402bfeb29e0d39c4536feaabcd1_w100_h100_s2.jpeg",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "加油，希望早日可以玩到完整版",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260810122450509797523586",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202607022014244810053511770",
           "amount": 20.0
@@ -8586,11 +8608,15 @@
     "2efed17e871011ee905852540025c377": {
       "name": "gus",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608101208255757555023374",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202608091227165257535142188",
           "amount": 5.0
