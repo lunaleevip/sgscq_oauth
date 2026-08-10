@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786374948,
+  "updated_at": 1786377899,
   "count": 100,
   "top100": [
     {
@@ -115,6 +115,15 @@
       "user_id": "0a96194a6dff11f1bf6952540025c377",
       "name": "入梦",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9ca1efedca0c5d7d83aca7e576fe214a_w100_h100_s3.jpeg",
+      "amount": 5000.0,
+      "level": 5,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "7e57200c6fcd11f18c7152540025c377",
+      "name": "天元",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/938a7b855d5740f548c0f155d5b16782_w100_h100_s3.jpeg",
       "amount": 5000.0,
       "level": 5,
       "plan_name": "自选方案",
@@ -613,15 +622,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "",
-      "sponsor": true
-    },
-    {
-      "user_id": "7e57200c6fcd11f18c7152540025c377",
-      "name": "天元",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/938a7b855d5740f548c0f155d5b16782_w100_h100_s3.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
       "sponsor": true
     },
     {
