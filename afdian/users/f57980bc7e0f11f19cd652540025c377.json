@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1786395835,
+  "updated_at": 1786395908,
   "user_id": "f57980bc7e0f11f19cd652540025c377",
   "name": "城郊牧笛声",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0dba56a9408b284357b3e228cadfe5e3_w100_h100_s2.jpeg",
-  "amount": 500.0,
-  "level": 3,
+  "amount": 1000.0,
+  "level": 4,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "202607130038369955555734068",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "20260811050344485152491881",
+      "amount": 500.0
     }
   ]
 }
