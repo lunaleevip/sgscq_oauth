@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786352640,
+  "updated_at": 1786356263,
   "count": 100,
   "top100": [
     {
@@ -280,6 +280,15 @@
       "amount": 1005.0,
       "level": 4,
       "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "b6d04740924811f1a8b152540025c377",
+      "name": "ydd",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 1001.0,
+      "level": 4,
+      "plan_name": "财力有限，先生大义",
       "sponsor": true
     },
     {
@@ -889,15 +898,6 @@
       "user_id": "72aa8ec888e711f18cc652540025c377",
       "name": "爱发电用户_9vDX",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "a90554c609e611ef9b445254001e7c00",
-      "name": "爱发电用户_a9055",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
