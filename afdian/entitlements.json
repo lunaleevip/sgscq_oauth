@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786431894,
-  "count": 2958,
+  "updated_at": 1786433208,
+  "count": 2959,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -48636,6 +48636,15 @@
           "amount": 5.0
         }
       ]
+    },
+    "f463de7094e911f1834a5254001e7c00": {
+      "name": "申鹤",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": []
     },
     "f46c50f48c0711f1a9f252540025c377": {
       "name": "大好河山",
