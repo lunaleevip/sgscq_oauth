@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786453443,
-  "count": 2972,
+  "updated_at": 1786455555,
+  "count": 2973,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -1012,11 +1012,15 @@
     "054f31128db511f183a55254001e7c00": {
       "name": "进击的提百万",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608112113555152534819727",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202608032149085255504932388",
           "amount": 400.0
@@ -7951,6 +7955,20 @@
         },
         {
           "out_trade_no": "202607211636324851565510236",
+          "amount": 5.0
+        }
+      ]
+    },
+    "29b85426958411f186fe5254001e7c00": {
+      "name": "光",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260811210325100499814776",
           "amount": 5.0
         }
       ]

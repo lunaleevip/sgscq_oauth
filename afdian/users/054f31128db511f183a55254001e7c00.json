@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786454109,
+  "updated_at": 1786455555,
   "user_id": "054f31128db511f183a55254001e7c00",
   "name": "进击的提百万",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -9,6 +9,10 @@
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
+    {
+      "out_trade_no": "202608112113555152534819727",
+      "amount": 500.0
+    },
     {
       "out_trade_no": "202608032149085255504932388",
       "amount": 400.0
@@ -20,10 +24,6 @@
     {
       "out_trade_no": "202608021053445699999929793",
       "amount": 5.0
-    },
-    {
-      "out_trade_no": "202608112113555152534819727",
-      "amount": 500.0
     }
   ]
 }
