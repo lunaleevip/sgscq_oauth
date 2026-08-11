@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1786461326,
+  "updated_at": 1786461610,
   "user_id": "70dae206920f11f1908552540025c377",
   "name": "凌厉风行",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-  "amount": 500.0,
-  "level": 3,
+  "amount": 1000.0,
+  "level": 4,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "202608071126414910110020334",
       "amount": 100.0
+    },
+    {
+      "out_trade_no": "202608112318125250565317626",
+      "amount": 500.0
     }
   ]
 }
