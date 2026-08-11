@@ -1,16 +1,24 @@
 {
   "version": 1,
-  "updated_at": 1786406639,
+  "updated_at": 1786408516,
   "user_id": "bee15a1e942d11f1923b52540025c377",
   "name": "青萝卜",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/7588ab91a06131681b113aa0556ccb8e_w100_h100_s2.jpeg",
-  "amount": 5.0,
+  "amount": 20.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202608110356195152541022039",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "20260811083420995710044252",
+      "amount": 10.0
+    },
+    {
+      "out_trade_no": "202608110832065410099540429",
       "amount": 5.0
     }
   ]
