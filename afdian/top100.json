@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786428553,
+  "updated_at": 1786431894,
   "count": 100,
   "top100": [
     {
@@ -661,6 +661,15 @@
       "sponsor": true
     },
     {
+      "user_id": "61f501f0727911f182e75254001e7c00",
+      "name": "学习狗",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6823418e5ca4759f218a8ab684322cd9_w100_h100_s2.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "6dbfa624812f11f1920f52540025c377",
       "name": "安惘",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8a387c5b3e094852385e711b50350dba_w100_h100_s1.jpeg",
@@ -892,15 +901,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "42addc0a748511f1ae3a52540025c377",
-      "name": "爱发电用户_42add",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "",
       "sponsor": true
     }
   ]

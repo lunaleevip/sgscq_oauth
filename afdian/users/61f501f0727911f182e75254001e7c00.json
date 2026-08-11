@@ -1,14 +1,18 @@
 {
   "version": 1,
-  "updated_at": 1786429209,
+  "updated_at": 1786431894,
   "user_id": "61f501f0727911f182e75254001e7c00",
   "name": "学习狗",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/6823418e5ca4759f218a8ab684322cd9_w100_h100_s2.jpeg",
   "amount": 1000.0,
   "level": 4,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
+    {
+      "out_trade_no": "202608111415505453494930540",
+      "amount": 500.0
+    },
     {
       "out_trade_no": "202607010858254957555711730",
       "amount": 100.0
@@ -44,10 +48,6 @@
     {
       "out_trade_no": "202606280646145449515414812",
       "amount": 5.0
-    },
-    {
-      "out_trade_no": "202608111415505453494930540",
-      "amount": 500.0
     }
   ]
 }
