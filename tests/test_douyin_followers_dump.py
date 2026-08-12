@@ -30,6 +30,20 @@ from scripts import douyin_followers_dump as douyin_dump
 
 
 class DouyinFollowersDumpTest(unittest.TestCase):
+    def test_resolve_output_dir_prefers_explicit_runtime_mount(self):
+        self.assertTrue(hasattr(douyin_dump, "resolve_output_dir"))
+        self.assertEqual(
+            Path("/work/out"),
+            douyin_dump.resolve_output_dir(Path("/repo"), "/work/out"),
+        )
+
+    def test_resolve_output_dir_uses_repo_douyin_for_workflow(self):
+        self.assertTrue(hasattr(douyin_dump, "resolve_output_dir"))
+        self.assertEqual(
+            Path("/repo/douyin"),
+            douyin_dump.resolve_output_dir(Path("/repo"), ""),
+        )
+
     def test_extract_follower_ids_keeps_only_douyin_account_ids(self):
         item = {
             "uid": "uid-1",

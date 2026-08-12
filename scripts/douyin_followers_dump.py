@@ -55,6 +55,7 @@ DOUYIN_NAME_FIELDS = [
 
 _default_repo = Path(__file__).resolve().parent.parent
 OAUTH_REPO_PATH = Path(os.environ.get("OAUTH_REPO_PATH", str(_default_repo)))
+DOUYIN_OUTPUT_DIR = os.environ.get("DOUYIN_OUTPUT_DIR", "").strip()
 
 PAGE_SIZE = int(os.environ.get("DOUYIN_PAGE_SIZE", "20"))
 PAGE_SLEEP_SEC = float(os.environ.get("DOUYIN_PAGE_SLEEP_SEC", "1.5"))
@@ -421,6 +422,10 @@ def read_existing_followers(out_dir: Path) -> list[str]:
     return []
 
 
+def resolve_output_dir(repo_path: Path, explicit_output_dir: str) -> Path:
+    return Path(explicit_output_dir) if explicit_output_dir else repo_path / "douyin"
+
+
 def read_existing_profiles(out_dir: Path) -> dict[str, str]:
     json_path = out_dir / "followers.json"
     if not json_path.exists():
@@ -550,7 +555,7 @@ def main() -> None:
         print(f"[ERROR] OAUTH_REPO_PATH does not exist: {OAUTH_REPO_PATH}")
         sys.exit(1)
 
-    out_dir = OAUTH_REPO_PATH / "douyin"
+    out_dir = resolve_output_dir(OAUTH_REPO_PATH, DOUYIN_OUTPUT_DIR)
     print(f"[INFO] dumping Douyin followers of target={DOUYIN_TARGET_ID} -> {out_dir}")
 
     existing_followers = read_existing_followers(out_dir)
