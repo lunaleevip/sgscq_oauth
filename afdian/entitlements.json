@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786547056,
-  "count": 3003,
+  "updated_at": 1786547559,
+  "count": 3004,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -5786,6 +5786,15 @@
         }
       ]
     },
+    "1e740c64889f11f1af4d5254001e7c00": {
+      "name": "幻灵",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8e454c612e8fd4a15bd8a7a1095dc3db_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": []
+    },
     "1e8602367eb611f19d975254001e7c00": {
       "name": "随便",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -7535,11 +7544,15 @@
     "2717491e61ec11f190455254001e7c00": {
       "name": "爱发电用户_4RHp",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 101.0,
+      "level": 2,
       "plan_name": "三传永生，老大加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608122302414954994823660",
+          "amount": 96.0
+        },
         {
           "out_trade_no": "202606070510325653989942537",
           "amount": 5.0
