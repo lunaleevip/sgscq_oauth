@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786526999,
-  "count": 3172,
-  "follower_object_count": 3172,
-  "identifier_count": 3172,
+  "generated_at": 1786529232,
+  "count": 3173,
+  "follower_object_count": 3232,
+  "identifier_count": 3173,
   "followers": [
     "9366638",
     "28532421",
@@ -523,6 +523,7 @@
     "22748667367",
     "22768952165",
     "22824019407",
+    "22826122969",
     "22870869701",
     "22883965077",
     "22904937139",
@@ -4725,6 +4726,9 @@
     },
     "22824019407": {
       "name": "w0o0nder"
+    },
+    "22826122969": {
+      "name": "用户2828693655252"
     },
     "22870869701": {
       "name": "吸管"
