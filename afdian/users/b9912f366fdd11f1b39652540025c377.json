@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1786532700,
+  "updated_at": 1786534809,
   "user_id": "b9912f366fdd11f1b39652540025c377",
   "name": "爱发",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-  "amount": 120.0,
-  "level": 2,
+  "amount": 500.0,
+  "level": 3,
   "plan_name": "好玩，继续！",
   "sponsor": true,
   "orders": [
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "202606242306475598545341726",
       "amount": 20.0
+    },
+    {
+      "out_trade_no": "20260812193854101569856903",
+      "amount": 380.0
     }
   ]
 }
