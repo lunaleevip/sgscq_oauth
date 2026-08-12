@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786547559,
+  "updated_at": 1786550686,
   "user_id": "1cb8e2427c2d11f1852752540025c377",
   "name": "大白菜",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4828b8188f3d2894fdb5a99bed4d738a_w100_h100_s2.jpeg",
   "amount": 500.0,
   "level": 3,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
