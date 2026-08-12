@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786521872,
+  "updated_at": 1786524007,
   "count": 2999,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -7883,11 +7883,15 @@
     "28fe117afa2c11ed919d52540025c377": {
       "name": "iwhdf",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 10.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "加油加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260812163417575053519124",
+          "amount": 90.0
+        },
         {
           "out_trade_no": "202608111920405653534840055",
           "amount": 10.0
@@ -15521,11 +15525,15 @@
     "52b9e3e6955511f1a36c5254001e7c00": {
       "name": "道成绝恋",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1458a0d829c15346918bb2b3afab2ddc_w100_h100_s15.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608121603535754102131205",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "20260812000201575397506353",
           "amount": 5.0
@@ -31909,11 +31917,15 @@
     "a0964828ed7411ef85c352540025c377": {
       "name": "爱发电用户_D74B",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 40.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260812161543102535511778",
+          "amount": 60.0
+        },
         {
           "out_trade_no": "202608102214125257579711929",
           "amount": 20.0
@@ -32097,11 +32109,15 @@
     "a1446ffe8fbf11f1a1775254001e7c00": {
       "name": "。。。。",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f44a9bc06bbb21091e17b8da046be484_w100_h100_s2.jpeg",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608121631335398515028554",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202608061240311025757517402",
           "amount": 400.0
@@ -50135,11 +50151,15 @@
     "f7b51f98952b11f189055254001e7c00": {
       "name": "lyl666666",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608121625575348515525441",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202608111058475597545737045",
           "amount": 5.0
@@ -52437,6 +52457,15 @@
       "sponsor": true
     },
     {
+      "user_id": "a1446ffe8fbf11f1a1775254001e7c00",
+      "name": "。。。。",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f44a9bc06bbb21091e17b8da046be484_w100_h100_s2.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "770c0c384fb811edae9b52540025c377",
       "name": "あさがみ环",
       "avatar": "https://pic1.afdiancdn.com/user/770c0c384fb811edae9b52540025c377/avatar/e19a3458a0dbb3610c4cbe80e0d2140d_w1600_h900_s1704.png",
@@ -52803,15 +52832,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "支持！",
-      "sponsor": true
-    },
-    {
-      "user_id": "1fdd9e0a7fab11f1a9ee52540025c377",
-      "name": "淋雨",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/68e3db9049be2622e6f83022534891b5_w100_h100_s3.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
       "sponsor": true
     }
   ]
