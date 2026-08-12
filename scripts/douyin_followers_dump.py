@@ -19,6 +19,13 @@ from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError
 
+try:
+    from f2_abogus import ABogus as F2ABogus
+    from f2_abogus import BrowserFingerprintGenerator as F2BrowserFingerprintGenerator
+except Exception:
+    F2ABogus = None
+    F2BrowserFingerprintGenerator = None
+
 
 DOUYIN_COOKIE = os.environ.get("DOUYIN_COOKIE", "").strip()
 DOUYIN_TARGET_ID = os.environ.get("DOUYIN_TARGET_ID", "").strip()
@@ -27,6 +34,8 @@ DOUYIN_REFERER_URL = os.environ.get("DOUYIN_REFERER_URL", "").strip()
 DOUYIN_FOLLOWERS_URL_TEMPLATE = os.environ.get("DOUYIN_FOLLOWERS_URL_TEMPLATE", "").strip()
 DOUYIN_SIGNED_URL = os.environ.get("DOUYIN_SIGNED_URL", "").strip()
 DOUYIN_EXTRA_HEADERS = os.environ.get("DOUYIN_EXTRA_HEADERS", "").strip()
+USE_F2_ABOGUS = os.environ.get("DOUYIN_USE_F2_ABOGUS", "false").strip().lower() == "true"
+DOUYIN_SOURCE_TYPE = os.environ.get("DOUYIN_SOURCE_TYPE", "1").strip() or "1"
 DOUYIN_ID_FIELDS = [
     field.strip()
     for field in os.environ.get(
@@ -60,9 +69,10 @@ FULL_HTTP_RETRIES = int(os.environ.get("DOUYIN_FULL_HTTP_RETRIES", "6"))
 FULL_RETRY_SLEEP_SEC = float(os.environ.get("DOUYIN_FULL_RETRY_SLEEP_SEC", "20"))
 FULL_EMPTY_PAGE_RETRIES = int(os.environ.get("DOUYIN_FULL_EMPTY_PAGE_RETRIES", "2"))
 FULL_MIN_RATIO = float(os.environ.get("DOUYIN_FULL_MIN_RATIO", "0.8"))
-USER_AGENT = (
+USER_AGENT = os.environ.get(
+    "DOUYIN_USER_AGENT",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    "(KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
 )
 DISCOVERED_PROFILE_NAMES: dict[str, str] = {}
 DISCOVERED_OBJECT_KEYS: set[str] = set()
@@ -90,7 +100,29 @@ def has_pagination_placeholder(template: str) -> bool:
 
 def build_page_url(target_id: str, cursor: str, count: int, offset: int = 0) -> str:
     if DOUYIN_SIGNED_URL:
-        return clean_url_template(DOUYIN_SIGNED_URL)
+        signed_url = clean_url_template(DOUYIN_SIGNED_URL)
+        if not USE_F2_ABOGUS:
+            return signed_url
+        if F2ABogus is None or F2BrowserFingerprintGenerator is None:
+            raise RuntimeError("F2 ABogus is unavailable; install gmssl and mount f2_abogus.py")
+        parsed = urllib.parse.urlparse(signed_url)
+        params = dict(urllib.parse.parse_qsl(parsed.query, keep_blank_values=True))
+        params.pop("a_bogus", None)
+        params["sec_user_id"] = target_id
+        params["offset"] = str(offset)
+        params["min_time"] = "0"
+        params["max_time"] = str(cursor or "0")
+        params["count"] = str(count)
+        params["source_type"] = DOUYIN_SOURCE_TYPE
+        query = urllib.parse.urlencode(params)
+        fingerprint = F2BrowserFingerprintGenerator.generate_fingerprint("Edge")
+        _, signature, _, _ = F2ABogus(
+            fp=fingerprint,
+            user_agent=USER_AGENT,
+        ).generate_abogus(query, "")
+        return urllib.parse.urlunparse(
+            parsed._replace(query=query + "&" + urllib.parse.urlencode({"a_bogus": signature}))
+        )
     template = clean_url_template(DOUYIN_FOLLOWERS_URL_TEMPLATE or default_url_template())
     quoted_target = urllib.parse.quote(target_id, safe="")
     return template.format(
@@ -295,12 +327,13 @@ def fetch_followers(
     ordered: list[str] = []
     cursor = os.environ.get("DOUYIN_INITIAL_CURSOR", "0")
     template = clean_url_template(DOUYIN_SIGNED_URL or DOUYIN_FOLLOWERS_URL_TEMPLATE or default_url_template())
-    supports_pagination = has_pagination_placeholder(template)
+    supports_pagination = USE_F2_ABOGUS or has_pagination_placeholder(template)
 
     page = 1
     consecutive_seen_pages = 0
     while max_pages <= 0 or page <= max_pages:
-        url = build_page_url(target_id, cursor, PAGE_SIZE, offset=(page - 1) * PAGE_SIZE)
+        offset = 0 if USE_F2_ABOGUS and DOUYIN_SIGNED_URL else (page - 1) * PAGE_SIZE
+        url = build_page_url(target_id, cursor, PAGE_SIZE, offset=offset)
         empty_attempt = 0
         while True:
             data = fetch_page_json(

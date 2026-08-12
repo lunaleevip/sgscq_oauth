@@ -129,7 +129,9 @@ class DouyinFollowersDumpTest(unittest.TestCase):
 
     def test_build_page_url_prefers_signed_url_without_formatting(self):
         old_signed_url = douyin_dump.DOUYIN_SIGNED_URL
+        old_use_f2 = getattr(douyin_dump, "USE_F2_ABOGUS", None)
         try:
+            douyin_dump.USE_F2_ABOGUS = False
             douyin_dump.DOUYIN_SIGNED_URL = (
                 "https://www.douyin.com/api?offset=13^&msToken=abc^%^3D^&a_bogus=signed"
             )
@@ -142,6 +144,71 @@ class DouyinFollowersDumpTest(unittest.TestCase):
             )
         finally:
             douyin_dump.DOUYIN_SIGNED_URL = old_signed_url
+            if old_use_f2 is None:
+                del douyin_dump.USE_F2_ABOGUS
+            else:
+                douyin_dump.USE_F2_ABOGUS = old_use_f2
+
+    def test_build_page_url_regenerates_f2_signature_for_each_cursor(self):
+        old_signed_url = douyin_dump.DOUYIN_SIGNED_URL
+        old_use_f2 = getattr(douyin_dump, "USE_F2_ABOGUS", None)
+        old_source_type = getattr(douyin_dump, "DOUYIN_SOURCE_TYPE", None)
+        old_abogus = getattr(douyin_dump, "F2ABogus", None)
+        old_fingerprint = getattr(douyin_dump, "F2BrowserFingerprintGenerator", None)
+        signed_queries = []
+        test_case = self
+
+        class FakeFingerprintGenerator:
+            @staticmethod
+            def generate_fingerprint(browser_name):
+                test_case.assertEqual("Edge", browser_name)
+                return "test-fingerprint"
+
+        class FakeABogus:
+            def __init__(self, fp, user_agent):
+                test_case.assertEqual("test-fingerprint", fp)
+                test_case.assertIn("Mozilla/5.0", user_agent)
+
+            def generate_abogus(self, query, body):
+                signed_queries.append(query)
+                return ("ignored", f"signature-{len(signed_queries)}", "ignored", "ignored")
+
+        try:
+            douyin_dump.DOUYIN_SIGNED_URL = (
+                "https://www.douyin.com/aweme/v1/web/user/follower/list/?"
+                "sec_user_id=stale&offset=0&max_time=1590331351&count=20"
+                "&source_type=1&msToken=keep&a_bogus=expired"
+            )
+            douyin_dump.USE_F2_ABOGUS = True
+            douyin_dump.DOUYIN_SOURCE_TYPE = "4"
+            douyin_dump.F2ABogus = FakeABogus
+            douyin_dump.F2BrowserFingerprintGenerator = FakeFingerprintGenerator
+
+            first = build_page_url("target", "0", 20, offset=0)
+            second = build_page_url("target", "123", 20, offset=20)
+
+            self.assertIn("sec_user_id=target", first)
+            self.assertIn("max_time=0", first)
+            self.assertIn("offset=0", first)
+            self.assertIn("source_type=4", first)
+            self.assertIn("a_bogus=signature-1", first)
+            self.assertIn("max_time=123", second)
+            self.assertIn("offset=20", second)
+            self.assertIn("a_bogus=signature-2", second)
+            self.assertNotIn("a_bogus=expired", first + second)
+            self.assertEqual(2, len(signed_queries))
+        finally:
+            douyin_dump.DOUYIN_SIGNED_URL = old_signed_url
+            for name, old_value in (
+                ("USE_F2_ABOGUS", old_use_f2),
+                ("DOUYIN_SOURCE_TYPE", old_source_type),
+                ("F2ABogus", old_abogus),
+                ("F2BrowserFingerprintGenerator", old_fingerprint),
+            ):
+                if old_value is None:
+                    delattr(douyin_dump, name)
+                else:
+                    setattr(douyin_dump, name, old_value)
 
     def test_has_pagination_placeholder_detects_signed_single_page_template(self):
         self.assertFalse(has_pagination_placeholder("https://www.douyin.com/api?offset=13&max_time=123"))
@@ -304,6 +371,77 @@ class DouyinFollowersDumpTest(unittest.TestCase):
         finally:
             douyin_dump.http_get_json = old_http_get_json
             douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE = old_template
+
+    def test_fetch_followers_f2_signed_url_uses_response_cursor_for_next_page(self):
+        old_http_get_json = douyin_dump.http_get_json
+        old_signed_url = douyin_dump.DOUYIN_SIGNED_URL
+        old_use_f2 = getattr(douyin_dump, "USE_F2_ABOGUS", None)
+        old_abogus = getattr(douyin_dump, "F2ABogus", None)
+        old_fingerprint = getattr(douyin_dump, "F2BrowserFingerprintGenerator", None)
+        old_sleep = douyin_dump.time.sleep
+        calls = []
+        test_case = self
+
+        class FakeFingerprintGenerator:
+            @staticmethod
+            def generate_fingerprint(browser_name):
+                return "test-fingerprint"
+
+        class FakeABogus:
+            def __init__(self, fp, user_agent):
+                pass
+
+            def generate_abogus(self, query, body):
+                return ("ignored", "fresh-signature", "ignored", "ignored")
+
+        try:
+            douyin_dump.DOUYIN_SIGNED_URL = (
+                "https://www.douyin.com/aweme/v1/web/user/follower/list/?"
+                "sec_user_id=stale&offset=0&max_time=old&count=20&a_bogus=expired"
+            )
+            douyin_dump.USE_F2_ABOGUS = True
+            douyin_dump.F2ABogus = FakeABogus
+            douyin_dump.F2BrowserFingerprintGenerator = FakeFingerprintGenerator
+            douyin_dump.time.sleep = lambda seconds: None
+
+            def fake_http_get_json(url, cookie):
+                calls.append(url)
+                if len(calls) == 1:
+                    return {
+                        "status_code": 0,
+                        "followers": [{"unique_id": "new-1"}],
+                        "max_time": "cursor-2",
+                        "has_more": 1,
+                    }
+                return {
+                    "status_code": 0,
+                    "followers": [{"unique_id": "new-2"}],
+                    "max_time": "cursor-3",
+                    "has_more": 0,
+                }
+
+            douyin_dump.http_get_json = fake_http_get_json
+
+            followers = fetch_followers("cookie", "target", max_pages=0)
+
+            self.assertEqual(["new-1", "new-2"], followers)
+            self.assertEqual(2, len(calls))
+            self.assertIn("max_time=0", calls[0])
+            self.assertIn("max_time=cursor-2", calls[1])
+            self.assertNotIn("a_bogus=expired", "".join(calls))
+        finally:
+            douyin_dump.http_get_json = old_http_get_json
+            douyin_dump.DOUYIN_SIGNED_URL = old_signed_url
+            douyin_dump.time.sleep = old_sleep
+            for name, old_value in (
+                ("USE_F2_ABOGUS", old_use_f2),
+                ("F2ABogus", old_abogus),
+                ("F2BrowserFingerprintGenerator", old_fingerprint),
+            ):
+                if old_value is None:
+                    delattr(douyin_dump, name)
+                else:
+                    setattr(douyin_dump, name, old_value)
 
     def test_fetch_followers_incremental_stops_after_more_than_two_seen_pages(self):
         old_http_get_json = douyin_dump.http_get_json
