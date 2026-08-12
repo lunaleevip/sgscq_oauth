@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786568496,
+  "updated_at": 1786571992,
   "count": 3014,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -5083,11 +5083,15 @@
     "1adee594733f11f1b12d5254001e7c00": {
       "name": "sonnet",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/714ca77c2d8225bf49dc0d03742226c0_w100_h100_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 101.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608130537214949485712758",
+          "amount": 96.0
+        },
         {
           "out_trade_no": "202606290619399854101514698",
           "amount": 5.0
