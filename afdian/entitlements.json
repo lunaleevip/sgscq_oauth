@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786502499,
-  "count": 2993,
+  "updated_at": 1786503879,
+  "count": 2994,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -7704,11 +7704,15 @@
     "2805f874958c11f1802b52540025c377": {
       "name": "秋刀鱼会过期",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/93b6a49f157ba84a344ad4b34dc0ab1a_w100_h100_s3.jpeg",
-      "amount": 5.0,
+      "amount": 25.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608121051389748101421681",
+          "amount": 20.0
+        },
         {
           "out_trade_no": "202608121027271021005012293",
           "amount": 5.0
@@ -46690,6 +46694,20 @@
         {
           "out_trade_no": "202606260111271024997942417",
           "amount": 5.0
+        }
+      ]
+    },
+    "e6909b4a95f611f1b2ea52540025c377": {
+      "name": "紫云散",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 50.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608121047111025298522447",
+          "amount": 50.0
         }
       ]
     },
