@@ -1,29 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786516055,
+  "updated_at": 1786518282,
   "user_id": "11f011d6926811f1a21d52540025c377",
   "name": "金豆子",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-  "amount": 500.0,
-  "level": 3,
-  "plan_name": "谢谢大佬制作游戏",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
   "sponsor": true,
-  "orders": [
-    {
-      "out_trade_no": "202608081924301011025020368",
-      "amount": 300.0
-    },
-    {
-      "out_trade_no": "202608081838435151524833114",
-      "amount": 100.0
-    },
-    {
-      "out_trade_no": "202608072254199848985616495",
-      "amount": 95.0
-    },
-    {
-      "out_trade_no": "20260807220413100991011171",
-      "amount": 5.0
-    }
-  ]
+  "orders": []
 }
