@@ -75,6 +75,12 @@ class DouyinFollowersDumpTest(unittest.TestCase):
         self.assertEqual(True, should_continue({"data": {"has_more": 1}}))
         self.assertEqual(False, should_continue({"has_more": 0}))
 
+    def test_next_cursor_prefers_min_time_for_douyin_follower_pagination(self):
+        self.assertEqual(
+            "older-page-cursor",
+            next_cursor({"max_time": "newest-item-time", "min_time": "older-page-cursor"}),
+        )
+
     def test_build_page_url_removes_whitespace_from_secret_template(self):
         old_template = douyin_dump.DOUYIN_FOLLOWERS_URL_TEMPLATE
         try:

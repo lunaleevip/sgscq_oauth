@@ -300,7 +300,7 @@ def first_cursor(data: dict[str, Any], *keys: str) -> str:
 
 
 def next_cursor(data: dict[str, Any]) -> str:
-    return first_cursor(data, "max_time", "max_cursor", "min_time", "cursor", "next_cursor")
+    return first_cursor(data, "min_time", "max_time", "max_cursor", "cursor", "next_cursor")
 
 
 def should_continue(data: dict[str, Any]) -> bool:
