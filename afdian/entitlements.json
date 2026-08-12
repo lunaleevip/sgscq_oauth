@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786532700,
-  "count": 3000,
+  "updated_at": 1786535932,
+  "count": 3001,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -12589,6 +12589,20 @@
         {
           "out_trade_no": "202607271439505452509923003",
           "amount": 5.0
+        }
+      ]
+    },
+    "42c1f2a0963e11f1b5f152540025c377": {
+      "name": "第三人稱",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bdccfece8212e19ac31ed140273606d7_w100_h100_s4.jpeg",
+      "amount": 5.5,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260812192109531009752959",
+          "amount": 5.5
         }
       ]
     },
@@ -37787,11 +37801,15 @@
     "b9912f366fdd11f1b39652540025c377": {
       "name": "爱发",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 120.0,
-      "level": 2,
-      "plan_name": "好玩，继续！",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "加油，真的很棒，不要放弃啊",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260812193854101569856903",
+          "amount": 380.0
+        },
         {
           "out_trade_no": "202606271750509748100511862",
           "amount": 100.0
