@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786500212,
-  "count": 2990,
+  "updated_at": 1786502499,
+  "count": 2993,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -1743,6 +1743,20 @@
         },
         {
           "out_trade_no": "202607041643005253561010679",
+          "amount": 5.0
+        }
+      ]
+    },
+    "09f1d41461c711f193dc52540025c377": {
+      "name": "爱发电用户_YDGb",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608121012565650569922834",
           "amount": 5.0
         }
       ]
@@ -7683,6 +7697,20 @@
         },
         {
           "out_trade_no": "202608031346005610049546973",
+          "amount": 5.0
+        }
+      ]
+    },
+    "2805f874958c11f1802b52540025c377": {
+      "name": "秋刀鱼会过期",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/93b6a49f157ba84a344ad4b34dc0ab1a_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608121027271021005012293",
           "amount": 5.0
         }
       ]
@@ -41915,6 +41943,20 @@
       "orders": [
         {
           "out_trade_no": "20260717163540991024996562",
+          "amount": 5.0
+        }
+      ]
+    },
+    "ce7d125895f211f1bb4c52540025c377": {
+      "name": "爱发电用户_ce7d1",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608121009469750515115222",
           "amount": 5.0
         }
       ]
