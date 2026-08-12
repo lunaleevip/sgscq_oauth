@@ -1,14 +1,18 @@
 {
   "version": 1,
-  "updated_at": 1786554308,
+  "updated_at": 1786554686,
   "user_id": "ad8f4c087de911f1ab465254001e7c00",
   "name": "雨落凉山",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/cad2441ea4464b72c381ce7c71da9d2b_w100_h100_s3.jpeg",
   "amount": 1000.0,
   "level": 4,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
+    {
+      "out_trade_no": "202608130104215353994823418",
+      "amount": 900.0
+    },
     {
       "out_trade_no": "20260713203054101971002031",
       "amount": 95.0
@@ -16,10 +20,6 @@
     {
       "out_trade_no": "20260712203951555050564783",
       "amount": 5.0
-    },
-    {
-      "out_trade_no": "202608130104215353994823418",
-      "amount": 900.0
     }
   ]
 }

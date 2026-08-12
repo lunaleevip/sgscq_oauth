@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786554257,
+  "updated_at": 1786554686,
   "count": 100,
   "top100": [
     {
@@ -361,6 +361,15 @@
       "amount": 1001.0,
       "level": 4,
       "plan_name": "感谢老大",
+      "sponsor": true
+    },
+    {
+      "user_id": "9411473293d211f1ae0f5254001e7c00",
+      "name": "雪白七七子",
+      "avatar": "https://pic1.afdiancdn.com/user/9411473293d211f1ae0f5254001e7c00/avatar/238e506171183c7520b4f4bb1e0199a4_w1080_h1080_s137.jpeg",
+      "amount": 1001.0,
+      "level": 4,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
@@ -892,15 +901,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "8fae6f286d0b11f19a335254001e7c00",
-      "name": "消隐的记忆",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4bbbde1c6ccd7dee5b4814abee64486a_w100_h100_s4.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "支持！",
       "sponsor": true
     }
   ]
