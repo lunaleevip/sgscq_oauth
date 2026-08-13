@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786596010,
+  "updated_at": 1786597446,
   "user_id": "59513fdc96cd11f1b1e652540025c377",
-  "name": "59513fdc96cd11f1b1e652540025c377",
-  "avatar": "",
+  "name": "sky",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a24adf7e6a9d688354f6ec64a0b347aa_w100_h100_s17.png",
   "amount": 20.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {

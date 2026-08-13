@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786593842,
-  "count": 3023,
+  "updated_at": 1786597446,
+  "count": 3028,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -9908,6 +9908,20 @@
         }
       ]
     },
+    "335c0f2c967911f1843b52540025c377": {
+      "name": "司",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608131257595597985331273",
+          "amount": 10.0
+        }
+      ]
+    },
     "3365f29076bb11f1b38152540025c377": {
       "name": "doro",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -10445,11 +10459,15 @@
     "36d37914875c11f1bdc352540025c377": {
       "name": "爱发电用户_36d37",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 15.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608131250115199989931078",
+          "amount": 85.0
+        },
         {
           "out_trade_no": "202607250011229750511032649",
           "amount": 10.0
@@ -13525,11 +13543,15 @@
     "477beb28760611f194835254001e7c00": {
       "name": "落羽",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a91e5f4bd258dde9c5c557438c02b61c_w100_h100_s0.jpeg",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "2026081312504553575756719",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202607021910519850491014835",
           "amount": 5.0
@@ -17078,6 +17100,20 @@
         },
         {
           "out_trade_no": "202606250354325654101445138",
+          "amount": 20.0
+        }
+      ]
+    },
+    "59513fdc96cd11f1b1e652540025c377": {
+      "name": "sky",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a24adf7e6a9d688354f6ec64a0b347aa_w100_h100_s17.png",
+      "amount": 20.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608131235205657555146534",
           "amount": 20.0
         }
       ]
@@ -20659,6 +20695,20 @@
         {
           "out_trade_no": "20260624102157535110114003",
           "amount": 50.0
+        }
+      ]
+    },
+    "69bcbfa696d011f1b84c52540025c377": {
+      "name": "爱发电用户_G6xC",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608131235315198579947232",
+          "amount": 10.0
         }
       ]
     },
@@ -29931,6 +29981,20 @@
         {
           "out_trade_no": "202606222314231021009836815",
           "amount": 5.0
+        }
+      ]
+    },
+    "9649c5d896ca11f199a752540025c377": {
+      "name": "爱发电用户_9649c",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "ovo，大佬加油",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608131210509752991010989",
+          "amount": 10.0
         }
       ]
     },
@@ -46580,6 +46644,20 @@
       "orders": [
         {
           "out_trade_no": "2026062014412048991021463",
+          "amount": 5.0
+        }
+      ]
+    },
+    "e29dfb3c96cc11f1a92d52540025c377": {
+      "name": "爱发电用户_QMbS",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260813121014549798108716",
           "amount": 5.0
         }
       ]
