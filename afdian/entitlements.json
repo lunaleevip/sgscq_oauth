@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786641072,
-  "count": 3063,
+  "updated_at": 1786644219,
+  "count": 3064,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -7439,11 +7439,15 @@
     "25de4514926d11f1bcfe52540025c377": {
       "name": "123",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3c9cbe593a820dff29e4799ff17f84c4_w100_h100_s3.jpeg",
-      "amount": 30.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608140108565652539846190",
+          "amount": 70.0
+        },
         {
           "out_trade_no": "20260814001209575399105054",
           "amount": 20.0
@@ -24958,6 +24962,20 @@
       "orders": [
         {
           "out_trade_no": "202606092233255399561031678",
+          "amount": 5.0
+        }
+      ]
+    },
+    "7b47fc32973d11f19e0a5254001e7c00": {
+      "name": "彭于晏",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/18da7ef6f20aec39ca86dee6d6073d74_w100_h100_s0.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608140137545053495514443",
           "amount": 5.0
         }
       ]
@@ -52119,11 +52137,15 @@
     "fa381d488ddc11f19ab152540025c377": {
       "name": "德鲁大叔",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e7f86905ae83501091fa840c0c5b240e_w100_h100_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608140144025056555215146",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202608020312451009897115182",
           "amount": 5.0
