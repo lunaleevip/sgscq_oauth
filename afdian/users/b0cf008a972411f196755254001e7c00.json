@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786632430,
+  "user_id": "b0cf008a972411f196755254001e7c00",
+  "name": "b0cf008a972411f196755254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "谢谢七月流火创作！",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608132245275554559821169",
+      "amount": 5.0
+    }
+  ]
+}
