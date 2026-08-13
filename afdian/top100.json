@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786579409,
+  "updated_at": 1786583029,
   "count": 100,
   "top100": [
     {
@@ -517,6 +517,15 @@
       "sponsor": true
     },
     {
+      "user_id": "f7b67590964411f1bd5352540025c377",
+      "name": "YE",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "c1806c848a7211f186b752540025c377",
       "name": "zhhhh",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -889,15 +898,6 @@
       "user_id": "b8b3075a779f11f1a6c152540025c377",
       "name": "江宁",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e4aecacefc586bcc08c038212c8009d7_w132_h132_s3.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "8234ba4e8abd11f1a81652540025c377",
-      "name": "海的尽头是什么",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bf2cc00bd8a93cd66c6dd9d45e8eb8d7_w100_h100_s3.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
