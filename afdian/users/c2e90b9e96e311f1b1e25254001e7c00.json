@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1786605010,
+  "updated_at": 1786606508,
   "user_id": "c2e90b9e96e311f1b1e25254001e7c00",
   "name": "一介肥恐龙",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/57bc46af53e8186b57c76f623ad3fa77_w100_h100_s3.jpeg",
-  "amount": 120.0,
+  "amount": 220.0,
   "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
@@ -19,6 +19,10 @@
     },
     {
       "out_trade_no": "202608131505115556571046454",
+      "amount": 100.0
+    },
+    {
+      "out_trade_no": "202608131532035156545326924",
       "amount": 100.0
     }
   ]
