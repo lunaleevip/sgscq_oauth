@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786641072,
+  "user_id": "66fd9ee2973511f1a48c5254001e7c00",
+  "name": "巴德是",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "自选方案",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608140105204853545046131",
+      "amount": 5.0
+    }
+  ]
+}
