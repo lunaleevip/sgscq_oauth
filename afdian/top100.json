@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786604697,
+  "updated_at": 1786608262,
   "count": 100,
   "top100": [
     {
@@ -598,6 +598,15 @@
       "sponsor": true
     },
     {
+      "user_id": "c2e90b9e96e311f1b1e25254001e7c00",
+      "name": "一介肥恐龙",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/57bc46af53e8186b57c76f623ad3fa77_w100_h100_s3.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "a2ec999260f511f1900552540025c377",
       "name": "一颗幻梦星",
       "avatar": "https://pic1.afdiancdn.com/user/a2ec999260f511f1900552540025c377/avatar/f035036843ec959e5edcd7046e7aabc5_w1032_h736_s828.png",
@@ -889,15 +898,6 @@
       "user_id": "37998fce86a211f1b1d45254001e7c00",
       "name": "李",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "e7ff345a78eb11f1908b52540025c377",
-      "name": "林枫过客",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
