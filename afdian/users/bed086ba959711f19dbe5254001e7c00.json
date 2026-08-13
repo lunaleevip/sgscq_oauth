@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786613410,
+  "updated_at": 1786615440,
   "user_id": "bed086ba959711f19dbe5254001e7c00",
-  "name": "bed086ba959711f19dbe5254001e7c00",
-  "avatar": "",
+  "name": "啤酒BBQ",
+  "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/9702139732378efc38a6bbe364edec15_w100_h100_s2.jpeg",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
