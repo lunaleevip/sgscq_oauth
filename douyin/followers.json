@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786644436,
-  "count": 3242,
-  "follower_object_count": 4192,
-  "identifier_count": 3242,
+  "generated_at": 1786651636,
+  "count": 3243,
+  "follower_object_count": 4252,
+  "identifier_count": 3243,
   "followers": [
     "9366638",
     "28532421",
@@ -856,6 +856,7 @@
     "37028539519",
     "37039956760",
     "37079564736",
+    "37082530270",
     "37202712459",
     "37202827682",
     "37251266635",
@@ -5791,6 +5792,9 @@
     },
     "37079564736": {
       "name": "等"
+    },
+    "37082530270": {
+      "name": "喜欢情绪稳定"
     },
     "37202712459": {
       "name": "小猪"
