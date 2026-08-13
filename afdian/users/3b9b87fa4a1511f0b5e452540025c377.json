@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786624817,
+  "updated_at": 1786626258,
   "user_id": "3b9b87fa4a1511f0b5e452540025c377",
-  "name": "3b9b87fa4a1511f0b5e452540025c377",
-  "avatar": "",
+  "name": "孜然茗",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
