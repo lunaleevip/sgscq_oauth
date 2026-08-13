@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786634037,
+  "updated_at": 1786637073,
   "user_id": "d441ec127d4811f18bb952540025c377",
   "name": "蓝天下的守望",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/51457466e67d6bff2a62e810643eae9a_w100_h100_s1.jpeg",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
