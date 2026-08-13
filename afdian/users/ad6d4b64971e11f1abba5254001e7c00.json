@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786630208,
+  "updated_at": 1786633497,
   "user_id": "ad6d4b64971e11f1abba5254001e7c00",
-  "name": "ad6d4b64971e11f1abba5254001e7c00",
-  "avatar": "",
+  "name": "小星星",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
