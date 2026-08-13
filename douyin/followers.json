@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786572434,
-  "count": 3188,
-  "follower_object_count": 3592,
-  "identifier_count": 3188,
+  "generated_at": 1786579639,
+  "count": 3190,
+  "follower_object_count": 3652,
+  "identifier_count": 3190,
   "followers": [
     "9366638",
     "28532421",
@@ -1136,6 +1136,7 @@
     "50310558969",
     "50338049927",
     "50354462444",
+    "50356564994",
     "50391610312",
     "50501476506",
     "50561862996",
@@ -2902,6 +2903,7 @@
     "r50537",
     "RAGPAJX",
     "Rain0852963",
+    "ranchen44195",
     "renkuner9007",
     "renlei79319",
     "ricksanchez8",
@@ -6577,6 +6579,9 @@
     },
     "50354462444": {
       "name": "布鲁布鲁"
+    },
+    "50356564994": {
+      "name": "哦哦"
     },
     "50391610312": {
       "name": "喝晕了"
@@ -11866,6 +11871,9 @@
     },
     "Rain0852963": {
       "name": "雨‍       ‍  ‍"
+    },
+    "ranchen44195": {
+      "name": "染尘"
     },
     "renkuner9007": {
       "name": "天份的崇拜者"
