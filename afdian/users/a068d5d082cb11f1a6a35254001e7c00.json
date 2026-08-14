@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1786723510,
+  "updated_at": 1786724109,
   "user_id": "a068d5d082cb11f1a6a35254001e7c00",
   "name": "a068d5d082cb11f1a6a35254001e7c00",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bc5032c58576c06a3a0cdc5e77497407_w132_h132_s2.jpeg",
-  "amount": 10.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "加油加油加油加油加油加油",
   "sponsor": true,
   "orders": [
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "20260719011349100101529914",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608150013009957571024984",
+      "amount": 90.0
     }
   ]
 }
