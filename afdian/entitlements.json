@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786673041,
+  "updated_at": 1786675329,
   "count": 3073,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -37911,7 +37911,12 @@
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "20260814100102101481008854",
+          "amount": 5.0
+        }
+      ]
     },
     "b6862c6c80a711f1927d52540025c377": {
       "name": "爱发电用户_b6862",
