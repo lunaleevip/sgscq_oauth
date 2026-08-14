@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786734221,
+  "user_id": "825b2b42981011f1b8a45254001e7c00",
+  "name": "爱发电用户_825b2",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "加油爱播",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608150259559857102523992",
+      "amount": 5.0
+    }
+  ]
+}
