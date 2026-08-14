@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786685108,
+  "updated_at": 1786687448,
   "user_id": "391efacef62211ec9df652540025c377",
-  "name": "391efacef62211ec9df652540025c377",
-  "avatar": "",
+  "name": "鶡洛克",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
