@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786680437,
-  "count": 3251,
-  "follower_object_count": 4492,
-  "identifier_count": 3251,
+  "generated_at": 1786687635,
+  "count": 3252,
+  "follower_object_count": 4552,
+  "identifier_count": 3252,
   "followers": [
     "9366638",
     "28532421",
@@ -1405,6 +1405,7 @@
     "60888173192",
     "60925050529",
     "60981372857",
+    "61004731162",
     "61029080833",
     "61044721579",
     "61108548714",
@@ -7447,6 +7448,9 @@
     },
     "60981372857": {
       "name": "🦌"
+    },
+    "61004731162": {
+      "name": "m0NESY"
     },
     "61029080833": {
       "name": "小邓肯"
