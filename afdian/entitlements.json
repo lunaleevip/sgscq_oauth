@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786696060,
-  "count": 3080,
+  "updated_at": 1786698258,
+  "count": 3083,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -14087,11 +14087,15 @@
     "491475945f3211f1b85e5254001e7c00": {
       "name": "爱发电用户_Hfue",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 20.0,
-      "level": 1,
-      "plan_name": "",
+      "amount": 120.0,
+      "level": 2,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608141652505098102524852",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202606031755431025150130129",
           "amount": 20.0
@@ -41590,6 +41594,20 @@
         }
       ]
     },
+    "c5c29e3297b711f1a47a5254001e7c00": {
+      "name": "陌下桑",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e38e9d5e1c783f5e22364e82c1afc410_w100_h100_s4.jpeg",
+      "amount": 20.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608141631454955539946968",
+          "amount": 20.0
+        }
+      ]
+    },
     "c5cfcc4c887611f197d95254001e7c00": {
       "name": "man17",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -47606,6 +47624,15 @@
         }
       ]
     },
+    "e2f4b6ce97bd11f183b55254001e7c00": {
+      "name": "123",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": []
+    },
     "e2ffa33e6f6f11f1a9dc52540025c377": {
       "name": "晚安",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3bff7aa711fd714820534ad08d9fc081_w100_h100_s5.png",
@@ -52671,6 +52698,20 @@
         {
           "out_trade_no": "202606260031111029854437440",
           "amount": 20.0
+        }
+      ]
+    },
+    "fbfb250a925311f1895e5254001e7c00": {
+      "name": "kk",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "2026081416571054521001317",
+          "amount": 100.0
         }
       ]
     },
