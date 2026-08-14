@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786676700,
-  "count": 3073,
+  "updated_at": 1786680229,
+  "count": 3074,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -3486,6 +3486,20 @@
       "sponsor": true,
       "orders": []
     },
+    "1211f51c971d11f1939e5254001e7c00": {
+      "name": "爱发电用户_1211f",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260814114404521011024681",
+          "amount": 5.0
+        }
+      ]
+    },
     "121cd2ec3cab11f1a28e52540025c377": {
       "name": "爱发电用户_F5sK",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -4249,8 +4263,8 @@
       ]
     },
     "160f6fac0bca11ecaf2952540025c377": {
-      "name": "爱发电用户_5BMj",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "name": "椎名真白",
+      "avatar": "https://pic1.afdiancdn.com/user/160f6fac0bca11ecaf2952540025c377/avatar/100209d63f867f090952b7ebef201a81_w1099_h938_s79.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
@@ -31707,11 +31721,15 @@
     "9b8da4b8932a11f1823e52540025c377": {
       "name": "爱发电用户_4bEB",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608141108185057545419653",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "20260809124321575448545275",
           "amount": 400.0
@@ -48079,11 +48097,15 @@
     "e6909b4a95f611f1b2ea52540025c377": {
       "name": "紫云散",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608141145044810148147789",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202608131047251005699531083",
           "amount": 400.0
