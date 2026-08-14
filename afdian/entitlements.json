@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786665807,
-  "count": 3070,
+  "updated_at": 1786669422,
+  "count": 3071,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -10262,6 +10262,20 @@
         },
         {
           "out_trade_no": "202607200229235199100519665",
+          "amount": 5.0
+        }
+      ]
+    },
+    "354b3e14973411f1a5d752540025c377": {
+      "name": "19979570228",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260814082235989955531766",
           "amount": 5.0
         }
       ]
@@ -45737,11 +45751,15 @@
     "daf9038295ec11efa10952540025c377": {
       "name": "爱发电用户_JfKb",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 501.0,
-      "level": 3,
-      "plan_name": "",
+      "amount": 1001.0,
+      "level": 4,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608140820129953545725530",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202606282230061011005411887",
           "amount": 400.0
@@ -53668,6 +53686,15 @@
       "sponsor": true
     },
     {
+      "user_id": "daf9038295ec11efa10952540025c377",
+      "name": "爱发电用户_JfKb",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 1001.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "1a2c6bca568a11f1b46f52540025c377",
       "name": "遥远的她",
       "avatar": "https://pic1.afdiancdn.com/user/1a2c6bca568a11f1b46f52540025c377/avatar/215a7b4a0f222e810b9eaf19627c8fbe_w690_h689_s162.jpeg",
@@ -54169,15 +54196,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "",
-      "sponsor": true
-    },
-    {
-      "user_id": "999df4ea58fc11f1aedc52540025c377",
-      "name": "木之本樱",
-      "avatar": "https://pic1.afdiancdn.com/user/999df4ea58fc11f1aedc52540025c377/avatar/60f8a44cc794b617486fe843860b92b8_w967_h1200_s200.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "恭喜七月可以称帝了！",
       "sponsor": true
     }
   ]
