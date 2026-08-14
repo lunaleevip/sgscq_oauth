@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786716609,
+  "updated_at": 1786719872,
   "user_id": "42af890c96a811f1ad855254001e7c00",
-  "name": "42af890c96a811f1ad855254001e7c00",
-  "avatar": "",
+  "name": "赦罪师",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
