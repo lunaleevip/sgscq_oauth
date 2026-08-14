@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786723635,
-  "count": 3279,
-  "follower_object_count": 4852,
-  "identifier_count": 3279,
+  "generated_at": 1786730834,
+  "count": 3280,
+  "follower_object_count": 4912,
+  "identifier_count": 3280,
   "followers": [
     "9366638",
     "28532421",
@@ -1164,6 +1164,7 @@
     "50305748885",
     "50310558969",
     "50338049927",
+    "50348557732",
     "50354462444",
     "50356564994",
     "50391610312",
@@ -6752,6 +6753,9 @@
     },
     "50338049927": {
       "name": "柳一狙"
+    },
+    "50348557732": {
+      "name": "谁谁谁"
     },
     "50354462444": {
       "name": "布鲁布鲁"
