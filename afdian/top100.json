@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786701868,
+  "updated_at": 1786702614,
   "count": 100,
   "top100": [
     {
@@ -481,6 +481,15 @@
       "sponsor": true
     },
     {
+      "user_id": "f9447794626511f1918a52540025c377",
+      "name": "500",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "群主加油❤️❤️❤️❤️",
+      "sponsor": true
+    },
+    {
       "user_id": "f83309008b1511f193845254001e7c00",
       "name": "^07",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/21dbd47f5c07f073cfc56f6fe630d528_w100_h100_s2.jpeg",
@@ -892,15 +901,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "还望将军，使大汉幽而复明",
-      "sponsor": true
-    },
-    {
-      "user_id": "33e7688a6e0411f1be915254001e7c00",
-      "name": "早晨从中午开始",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
       "sponsor": true
     }
   ]
