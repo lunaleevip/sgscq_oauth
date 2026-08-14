@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786698258,
+  "updated_at": 1786701868,
   "count": 3083,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -41281,11 +41281,15 @@
     "c4e3002e966311f1874752540025c377": {
       "name": "爱发电用户_ySuC",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260814174831102995444916",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202608132049075156544822527",
           "amount": 95.0
@@ -41597,11 +41601,15 @@
     "c5c29e3297b711f1a47a5254001e7c00": {
       "name": "陌下桑",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e38e9d5e1c783f5e22364e82c1afc410_w100_h100_s4.jpeg",
-      "amount": 20.0,
+      "amount": 50.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260814175138975149981109",
+          "amount": 30.0
+        },
         {
           "out_trade_no": "202608141631454955539946968",
           "amount": 20.0
@@ -45403,11 +45411,15 @@
     "d7ed2e5c764b11f1bead52540025c377": {
       "name": "0011",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/4a1566badae31e477f4f4b745ca4c802_w100_h100_s2.jpeg",
-      "amount": 100.0,
-      "level": 2,
-      "plan_name": "",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608141740461015650443664",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202607122303305051545225422",
           "amount": 95.0
@@ -47631,7 +47643,12 @@
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "20260814170129575650991921",
+          "amount": 5.0
+        }
+      ]
     },
     "e2ffa33e6f6f11f1a9dc52540025c377": {
       "name": "晚安",
