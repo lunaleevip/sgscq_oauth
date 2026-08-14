@@ -1,14 +1,18 @@
 {
   "version": 1,
-  "updated_at": 1786691078,
+  "updated_at": 1786694677,
   "user_id": "3b9b87fa4a1511f0b5e452540025c377",
   "name": "孜然茗",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
+    {
+      "out_trade_no": "202608141557245210197528599",
+      "amount": 95.0
+    },
     {
       "out_trade_no": "202608132038275110156542901",
       "amount": 5.0
