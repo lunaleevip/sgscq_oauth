@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786808088,
+  "updated_at": 1786809861,
   "user_id": "030a81147dba11f1954a52540025c377",
   "name": "一场浮华",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0515a46df1a7bb18d43a3335baaad6a5_w100_h100_s9.jpg.gif",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

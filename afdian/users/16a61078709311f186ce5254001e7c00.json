@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1786808088,
+  "updated_at": 1786809861,
   "user_id": "16a61078709311f186ce5254001e7c00",
   "name": "苏荷包",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/85e411ad9e89b2ae938295ecf902adcf_w100_h100_s2.jpeg",
   "amount": 105.0,
   "level": 2,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
