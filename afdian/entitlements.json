@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786758563,
+  "updated_at": 1786759437,
   "count": 3111,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -33773,8 +33773,8 @@
       ]
     },
     "a28548be90e811f1ba0f5254001e7c00": {
-      "name": "爱发电用户_a2854",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "name": "星辰",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
       "amount": 5.0,
       "level": 1,
       "plan_name": "自选方案",
