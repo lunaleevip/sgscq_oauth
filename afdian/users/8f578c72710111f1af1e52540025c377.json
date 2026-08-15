@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1786759437,
+  "updated_at": 1786759810,
   "user_id": "8f578c72710111f1af1e52540025c377",
   "name": "揭阳卢馆大王",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/44e1c4b38d4bab676d8805486eb2aaff_w100_h100_s3.jpeg",
-  "amount": 100.0,
-  "level": 2,
+  "amount": 500.0,
+  "level": 3,
   "plan_name": "",
   "sponsor": true,
   "orders": [
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "202606260955569950505224662",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608151005545097991025365",
+      "amount": 400.0
     }
   ]
 }
