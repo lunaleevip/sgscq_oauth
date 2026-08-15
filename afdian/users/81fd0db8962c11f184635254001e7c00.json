@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1786759437,
+  "updated_at": 1786762558,
   "user_id": "81fd0db8962c11f184635254001e7c00",
   "name": "迪拜国王",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bd43a56024e1db877c51e159d7acf026_w100_h100_s4.jpeg",
-  "amount": 25.0,
+  "amount": 50.0,
   "level": 1,
   "plan_name": "自选方案",
   "sponsor": true,
@@ -16,6 +16,10 @@
     {
       "out_trade_no": "202608121706209956101545574",
       "amount": 20.0
+    },
+    {
+      "out_trade_no": "202608151055134997564913928",
+      "amount": 25.0
     }
   ]
 }
