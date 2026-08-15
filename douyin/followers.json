@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786745235,
-  "count": 3286,
-  "follower_object_count": 5032,
-  "identifier_count": 3286,
+  "generated_at": 1786752436,
+  "count": 3289,
+  "follower_object_count": 5092,
+  "identifier_count": 3289,
   "followers": [
     "9366638",
     "28532421",
@@ -465,6 +465,7 @@
     "2171201583",
     "2173261894",
     "2178854883",
+    "2185007424",
     "2188524198",
     "2191348037",
     "2192279821",
@@ -1239,6 +1240,7 @@
     "53442540742",
     "53448752187",
     "53480880721",
+    "53483057786",
     "53531355579",
     "53583129665",
     "53594945635",
@@ -2747,6 +2749,7 @@
     "huang41500",
     "huangjinpipi35",
     "huanjian3667",
+    "huayuansaiga",
     "huihong1234",
     "huluoboxiaot37",
     "hunfenqiqizi",
@@ -4665,6 +4668,9 @@
     },
     "2178854883": {
       "name": "青天会下雨嘛"
+    },
+    "2185007424": {
+      "name": "羊公"
     },
     "2188524198": {
       "name": "子豪的豪"
@@ -6984,6 +6990,9 @@
     },
     "53480880721": {
       "name": "abill"
+    },
+    "53483057786": {
+      "name": "沐之"
     },
     "53531355579": {
       "name": "穿上苏菲大显神威"
@@ -11502,6 +11511,9 @@
     },
     "huanjian3667": {
       "name": "幻剑"
+    },
+    "huayuansaiga": {
+      "name": "花园赛高"
     },
     "huihong1234": {
       "name": "伤心蛋蛋蛋🥦"
