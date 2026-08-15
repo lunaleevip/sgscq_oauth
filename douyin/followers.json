@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786817234,
-  "count": 3333,
-  "follower_object_count": 5632,
-  "identifier_count": 3333,
+  "generated_at": 1786824441,
+  "count": 3334,
+  "follower_object_count": 5692,
+  "identifier_count": 3334,
   "followers": [
     "9366638",
     "28532421",
@@ -2249,6 +2249,7 @@
     "98224315161",
     "98232212420",
     "98269566092",
+    "98347331658",
     "98367829769",
     "98402277316",
     "98403175940",
@@ -10061,6 +10062,9 @@
     },
     "98269566092": {
       "name": "紫阳花"
+    },
+    "98347331658": {
+      "name": "用户4628373027979"
     },
     "98367829769": {
       "name": "羽"
