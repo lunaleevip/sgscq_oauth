@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786804654,
-  "count": 3140,
+  "updated_at": 1786806301,
+  "count": 3142,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -52,11 +52,15 @@
     "005fb912c20211f0bdd452540025c377": {
       "name": "胡杨",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 6.66,
+      "amount": 15.0,
       "level": 1,
       "plan_name": "感谢大佬能把这么古老的游戏找出来😂",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608152239411009953915414",
+          "amount": 8.34
+        },
         {
           "out_trade_no": "202608151723495398569714490",
           "amount": 6.66
@@ -21069,11 +21073,15 @@
     "66fd9ee2973511f1a48c5254001e7c00": {
       "name": "巴德是",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608152257489910156532465",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202608140105204853545046131",
           "amount": 5.0
@@ -25214,6 +25222,20 @@
         },
         {
           "out_trade_no": "20260722174821539810159294",
+          "amount": 5.0
+        }
+      ]
+    },
+    "78e6766898ae11f1bf1852540025c377": {
+      "name": "惜庆",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/cbadc1b79d9b2f02e16ef23d0c69a74e_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608152241255354995215714",
           "amount": 5.0
         }
       ]
@@ -49080,6 +49102,20 @@
       "orders": [
         {
           "out_trade_no": "20260804205213100575559088",
+          "amount": 5.0
+        }
+      ]
+    },
+    "e5676d58986111f197f65254001e7c00": {
+      "name": "爱发电用户_e5676",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "1",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608152247535748985415571",
           "amount": 5.0
         }
       ]
