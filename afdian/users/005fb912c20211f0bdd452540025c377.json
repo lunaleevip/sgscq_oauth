@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786785908,
+  "user_id": "005fb912c20211f0bdd452540025c377",
+  "name": "005fb912c20211f0bdd452540025c377",
+  "avatar": "",
+  "amount": 6.66,
+  "level": 1,
+  "plan_name": "感谢大佬能把这么古老的游戏找出来😂",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608151723495398569714490",
+      "amount": 6.66
+    }
+  ]
+}
