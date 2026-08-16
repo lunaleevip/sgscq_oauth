@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786846035,
-  "count": 3340,
-  "follower_object_count": 5872,
-  "identifier_count": 3340,
+  "generated_at": 1786853235,
+  "count": 3342,
+  "follower_object_count": 5932,
+  "identifier_count": 3342,
   "followers": [
     "9366638",
     "28532421",
@@ -2065,6 +2065,7 @@
     "90865886640",
     "90960181418",
     "90996323821",
+    "91074971586",
     "91116776079",
     "91249316186",
     "91269894253",
@@ -3106,6 +3107,7 @@
     "tianyou1723161",
     "tianyu.l",
     "tieren134679",
+    "tiexuebailan",
     "tinglei2005",
     "tmy041226",
     "TongXiangHeng",
@@ -9517,6 +9519,9 @@
     "90996323821": {
       "name": "ywx"
     },
+    "91074971586": {
+      "name": "凛冬"
+    },
     "91116776079": {
       "name": "沐殇"
     },
@@ -12630,6 +12635,9 @@
     },
     "tieren134679": {
       "name": "猎人夏侯成"
+    },
+    "tiexuebailan": {
+      "name": "kriswu_1106"
     },
     "tinglei2005": {
       "name": "普瑞赛斯"
