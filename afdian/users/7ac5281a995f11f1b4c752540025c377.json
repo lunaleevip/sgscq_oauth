@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786877410,
+  "user_id": "7ac5281a995f11f1b4c752540025c377",
+  "name": "7ac5281a995f11f1b4c752540025c377",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "没想到竟然还能玩，小时候就拿着遥控器坐在电视前玩。后面有手机了又停服了，爱你佬大",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608161845565249515047500",
+      "amount": 5.0
+    }
+  ]
+}
