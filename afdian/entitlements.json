@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786849947,
-  "count": 3157,
+  "updated_at": 1786853056,
+  "count": 3158,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -15039,6 +15039,20 @@
         {
           "out_trade_no": "202608052314135310251448625",
           "amount": 5.0
+        }
+      ]
+    },
+    "4b89638a991011f1a0835254001e7c00": {
+      "name": "雪瑾飞",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "加油！",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260816111728561005751470",
+          "amount": 10.0
         }
       ]
     },
