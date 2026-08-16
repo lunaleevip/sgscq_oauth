@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786831635,
-  "count": 3334,
-  "follower_object_count": 5752,
-  "identifier_count": 3334,
+  "generated_at": 1786838834,
+  "count": 3335,
+  "follower_object_count": 5812,
+  "identifier_count": 3335,
   "followers": [
     "9366638",
     "28532421",
@@ -1732,6 +1732,7 @@
     "75839237426",
     "75883533352",
     "75970919552",
+    "76025215681",
     "76029291726",
     "76055331798",
     "76107449501",
@@ -8511,6 +8512,9 @@
     },
     "75970919552": {
       "name": "青柠不酸只甜"
+    },
+    "76025215681": {
+      "name": "暮雨は月に帰る"
     },
     "76029291726": {
       "name": "天意"
