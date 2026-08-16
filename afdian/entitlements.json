@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786869942,
+  "updated_at": 1786871077,
   "count": 3162,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -10381,7 +10381,12 @@
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "20260816164149100991025928",
+          "amount": 5.0
+        }
+      ]
     },
     "333639da71e011ed8c2252540025c377": {
       "name": "On you.",
