@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786873243,
-  "count": 3163,
+  "updated_at": 1786874651,
+  "count": 3164,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -18541,8 +18541,8 @@
       ]
     },
     "5adff0ea954311f1ac5a52540025c377": {
-      "name": "爱发电用户_eAjV",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "name": "苏曦",
+      "avatar": "https://pic1.afdiancdn.com/user/5adff0ea954311f1ac5a52540025c377/avatar/105212ef37662fe7f541a565a9471503_w720_h1160_s279.jpeg",
       "amount": 5000.0,
       "level": 5,
       "plan_name": "自选方案",
@@ -37344,6 +37344,20 @@
         }
       ]
     },
+    "aef6e908993b11f1870252540025c377": {
+      "name": "知遇",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "2026081617424351101544657",
+          "amount": 5.0
+        }
+      ]
+    },
     "aef91048ce1811ee888052540025c377": {
       "name": "爱发电用户_8qkg",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -45686,7 +45700,7 @@
     },
     "d2ac5ab85e4e11f18c6a52540025c377": {
       "name": "zzj",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3bff7aa711fd714820534ad08d9fc081_w100_h100_s5.png",
       "amount": 100.0,
       "level": 2,
       "plan_name": "自选方案",
@@ -55350,15 +55364,6 @@
       "sponsor": true
     },
     {
-      "user_id": "5adff0ea954311f1ac5a52540025c377",
-      "name": "爱发电用户_eAjV",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5000.0,
-      "level": 5,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
       "user_id": "ba2297745cdb11f1a1195254001e7c00",
       "name": "玉儿呦呦呦",
       "avatar": "https://pic1.afdiancdn.com/user/ba2297745cdb11f1a1195254001e7c00/avatar/2ff356319ec8456099ede92698f323a8_w1080_h1080_s58.jpeg",
@@ -55374,6 +55379,15 @@
       "amount": 5000.0,
       "level": 5,
       "plan_name": "希望可以能活吧！",
+      "sponsor": true
+    },
+    {
+      "user_id": "5adff0ea954311f1ac5a52540025c377",
+      "name": "苏曦",
+      "avatar": "https://pic1.afdiancdn.com/user/5adff0ea954311f1ac5a52540025c377/avatar/105212ef37662fe7f541a565a9471503_w720_h1160_s279.jpeg",
+      "amount": 5000.0,
+      "level": 5,
+      "plan_name": "自选方案",
       "sponsor": true
     },
     {
