@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786919760,
+  "updated_at": 1786921416,
   "count": 3184,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -28445,7 +28445,12 @@
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "202608170633435598564910853",
+          "amount": 5.0
+        }
+      ]
     },
     "86d7b9526a2911f18bf752540025c377": {
       "name": "Tiian-lin",
