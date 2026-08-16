@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786881864,
-  "count": 3167,
+  "updated_at": 1786885216,
+  "count": 3168,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -2372,11 +2372,15 @@
     "0c1f3a4e791111ed9bde52540025c377": {
       "name": "爱发电用户_Twry",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260816200731515755973754",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202608132003571005354129357",
           "amount": 70.0
@@ -4178,6 +4182,20 @@
       "orders": [
         {
           "out_trade_no": "202608090021181011005215454",
+          "amount": 5.0
+        }
+      ]
+    },
+    "14671ece996a11f1860e52540025c377": {
+      "name": "Οo邡飛懜葙оΟ",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e81697b0dff553d04567e56400e40e1d_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608162003215754100548923",
           "amount": 5.0
         }
       ]
@@ -16449,11 +16467,15 @@
     "5184257a945311f192a05254001e7c00": {
       "name": "到得听你",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/ef68caf86dce62301d98c62a9393994d_w132_h132_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260816200812991015298772",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "2026081008360654984954339",
           "amount": 5.0
@@ -28217,11 +28239,15 @@
     "867bfd3e817011f1821e52540025c377": {
       "name": "爱发电用户_867bf",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 115.0,
+      "amount": 165.0,
       "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608162014425053579817946",
+          "amount": 50.0
+        },
         {
           "out_trade_no": "202607311027525651524822656",
           "amount": 20.0
