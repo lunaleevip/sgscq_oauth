@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786968296,
-  "count": 3204,
+  "updated_at": 1786971887,
+  "count": 3206,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -4036,6 +4036,20 @@
       "orders": [
         {
           "out_trade_no": "202608092050209998101515407",
+          "amount": 5.0
+        }
+      ]
+    },
+    "136e14489a3a11f19d5c5254001e7c00": {
+      "name": "爱发电用户_aFPg",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608172049255350100420883",
           "amount": 5.0
         }
       ]
@@ -29828,6 +29842,24 @@
         }
       ]
     },
+    "8b96262899f811f18cf152540025c377": {
+      "name": "Sojourner🤳🌆",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c0cce4d76c412bbec7c50f7f0c279dde_w132_h132_s2.jpeg",
+      "amount": 105.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608172044185099495018988",
+          "amount": 100.0
+        },
+        {
+          "out_trade_no": "20260817202304564950557583",
+          "amount": 5.0
+        }
+      ]
+    },
     "8bdcde327ec411f184535254001e7c00": {
       "name": ".",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/993833ebec71d80f980f7d3a58174535_w100_h100_s2.jpeg",
@@ -43779,11 +43811,15 @@
     "c76452dc8da611f192a95254001e7c00": {
       "name": "July？",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3273a98adb5b5d9f63426cda934c0e4a_w100_h100_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260817201115515151544505",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202608032303569910197548680",
           "amount": 5.0
@@ -49615,11 +49651,15 @@
     "e244a504912311f1a0c452540025c377": {
       "name": "初瞑",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/beca07d4ea8e1c30519eeadbc81feae2_w100_h100_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608172038244853535411620",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202608061228334956979918474",
           "amount": 5.0
