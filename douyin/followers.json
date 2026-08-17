@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786918035,
-  "count": 3377,
-  "follower_object_count": 6472,
-  "identifier_count": 3377,
+  "generated_at": 1786925235,
+  "count": 3381,
+  "follower_object_count": 6532,
+  "identifier_count": 3381,
   "followers": [
     "9366638",
     "28532421",
@@ -673,6 +673,7 @@
     "27859060965",
     "27893941300",
     "27922819297",
+    "27972023530",
     "28071753821",
     "28087455038",
     "28110304739",
@@ -2127,6 +2128,7 @@
     "92662832486",
     "92731895650",
     "92785313145",
+    "92799287556",
     "92933685063",
     "92948109755",
     "92993135643",
@@ -2457,6 +2459,7 @@
     "bi72858",
     "biaobai1122",
     "biedongwodew75",
+    "biezaifanche",
     "bonnefortune0325",
     "BRBJMTSONG",
     "breakthedate",
@@ -3331,6 +3334,7 @@
     "YY337845818u",
     "yyds20030903",
     "yyhf66666.",
+    "yyorn",
     "yyypretty1st",
     "yyyqian416",
     "yz2415169850",
@@ -5377,6 +5381,9 @@
     },
     "27922819297": {
       "name": "《算了》"
+    },
+    "27972023530": {
+      "name": "安仔."
     },
     "28071753821": {
       "name": "寒冰n"
@@ -9740,6 +9747,9 @@
     "92785313145": {
       "name": "宵晖"
     },
+    "92799287556": {
+      "name": "林屿"
+    },
     "92933685063": {
       "name": "。。。。。。。"
     },
@@ -10729,6 +10739,9 @@
     },
     "biedongwodew75": {
       "name": "阿玉"
+    },
+    "biezaifanche": {
+      "name": "一介肥恐龙"
     },
     "bonnefortune0325": {
       "name": "星予"
@@ -13342,6 +13355,9 @@
     },
     "yyhf66666.": {
       "name": "一叶寒枫"
+    },
+    "yyorn": {
+      "name": "夜夜霖雨"
     },
     "yyypretty1st": {
       "name": "xxxxxx"
