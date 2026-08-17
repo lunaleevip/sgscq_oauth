@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786950254,
-  "count": 3199,
+  "updated_at": 1786950971,
+  "count": 3200,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -10563,13 +10563,25 @@
       ]
     },
     "332c9e0e994e11f1b2445254001e7c00": {
-      "name": "爱发电用户_aGVm",
+      "name": "哒哒哒辣条",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 25.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608171501275553985131843",
+          "amount": 5.0
+        },
+        {
+          "out_trade_no": "20260817150105499898981837",
+          "amount": 20.0
+        },
+        {
+          "out_trade_no": "202608171500311025554539805",
+          "amount": 50.0
+        },
         {
           "out_trade_no": "202608170707015310010211639",
           "amount": 20.0
@@ -19268,6 +19280,20 @@
       "orders": [
         {
           "out_trade_no": "202607262103175357579727641",
+          "amount": 5.0
+        }
+      ]
+    },
+    "5d4bec889a0911f1bf7352540025c377": {
+      "name": "凌峰山阶",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/2d5458a9a8c3319b69ebd0decbdb06f8_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260817150726101495656726",
           "amount": 5.0
         }
       ]
