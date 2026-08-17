@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1786997236,
-  "count": 3421,
-  "follower_object_count": 7132,
-  "identifier_count": 3421,
+  "generated_at": 1787004436,
+  "count": 3423,
+  "follower_object_count": 7192,
+  "identifier_count": 3423,
   "followers": [
     "9366638",
     "28532421",
@@ -1254,6 +1254,7 @@
     "52005275171",
     "52062055704",
     "52134654292",
+    "52246948830",
     "52278717036",
     "52301531951",
     "52342683827",
@@ -3247,6 +3248,7 @@
     "xc19191441691",
     "XCD970423",
     "XCKK0716",
+    "XCL_xcl200585",
     "xeehh0502",
     "xh1372",
     "xh2939201243",
@@ -7167,6 +7169,9 @@
     },
     "52134654292": {
       "name": "搁浅"
+    },
+    "52246948830": {
+      "name": "希冯"
     },
     "52278717036": {
       "name": "早已不年少"
@@ -13137,6 +13142,9 @@
     },
     "XCKK0716": {
       "name": "风是你吧"
+    },
+    "XCL_xcl200585": {
+      "name": "小熊想睡觉"
     },
     "xeehh0502": {
       "name": "Sutin"
