@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786988497,
+  "user_id": "319d6c669a6211f1bd285254001e7c00",
+  "name": "319d6c669a6211f1bd285254001e7c00",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608180141204851535221211",
+      "amount": 5.0
+    }
+  ]
+}
