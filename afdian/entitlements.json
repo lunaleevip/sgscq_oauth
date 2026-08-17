@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786950971,
-  "count": 3200,
+  "updated_at": 1786953870,
+  "count": 3201,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -18903,11 +18903,15 @@
     "5ba1879c992511f183a95254001e7c00": {
       "name": "爱发电用户_5ba18",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260817153353495655483409",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202608161428269755541016223",
           "amount": 5.0
@@ -23970,6 +23974,20 @@
       "orders": [
         {
           "out_trade_no": "202606202312235598555422934",
+          "amount": 5.0
+        }
+      ]
+    },
+    "71ae82309a0e11f1940e52540025c377": {
+      "name": "理智.",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3bc8296bb5c1765264d04b3ff58532b6_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608171538551025610113001",
           "amount": 5.0
         }
       ]
@@ -46081,11 +46099,15 @@
     "d1db0f9e69f211f1a3685254001e7c00": {
       "name": "ron’s daydream",
       "avatar": "https://pic1.afdiancdn.com/user/d1db0f9e69f211f1a3685254001e7c00/avatar/f1f62f07712ef30884ded07362c9ec97_w1589_h1080_s633.jpeg",
-      "amount": 500.0,
-      "level": 3,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608171516405610010215371",
+          "amount": 500.0
+        },
         {
           "out_trade_no": "202607152013295757574819197",
           "amount": 250.0
@@ -56395,6 +56417,15 @@
       "sponsor": true
     },
     {
+      "user_id": "d1db0f9e69f211f1a3685254001e7c00",
+      "name": "ron’s daydream",
+      "avatar": "https://pic1.afdiancdn.com/user/d1db0f9e69f211f1a3685254001e7c00/avatar/f1f62f07712ef30884ded07362c9ec97_w1589_h1080_s633.jpeg",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "加油",
+      "sponsor": true
+    },
+    {
       "user_id": "8799f3c6787c11f1a7d752540025c377",
       "name": "Tgkh",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -56725,15 +56756,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "加油！十年老玩家必须支持",
-      "sponsor": true
-    },
-    {
-      "user_id": "49add0747d1711f1a8225254001e7c00",
-      "name": "小颜",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
       "sponsor": true
     }
   ]
