@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786943073,
-  "count": 3196,
+  "updated_at": 1786945740,
+  "count": 3197,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -116,11 +116,15 @@
     "00b23668762c11f18a695254001e7c00": {
       "name": "夕",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/63a079b4e5f99302733fbcd01f904450_w100_h100_s3.jpeg",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260817130701535498537678",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202607262033021015298416499",
           "amount": 95.0
@@ -4203,11 +4207,27 @@
     "14671ece996a11f1860e52540025c377": {
       "name": "Οo邡飛懜葙оΟ",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e81697b0dff553d04567e56400e40e1d_w100_h100_s3.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260817131038101519951158",
+          "amount": 5.0
+        },
+        {
+          "out_trade_no": "20260817131026505157553315",
+          "amount": 20.0
+        },
+        {
+          "out_trade_no": "20260817131014549897495821",
+          "amount": 20.0
+        },
+        {
+          "out_trade_no": "20260817131003989910256074",
+          "amount": 50.0
+        },
         {
           "out_trade_no": "202608162003215754100548923",
           "amount": 5.0
@@ -35679,6 +35699,20 @@
         {
           "out_trade_no": "202606271823035599525011917",
           "amount": 5.0
+        }
+      ]
+    },
+    "a6766a3899f911f1b62252540025c377": {
+      "name": "爱发电用户_a6766",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 50.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608171311055755101512286",
+          "amount": 50.0
         }
       ]
     },
