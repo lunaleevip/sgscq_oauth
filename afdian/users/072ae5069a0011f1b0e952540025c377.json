@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1786946110,
+  "user_id": "072ae5069a0011f1b0e952540025c377",
+  "name": "072ae5069a0011f1b0e952540025c377",
+  "avatar": "",
+  "amount": 30.0,
+  "level": 1,
+  "plan_name": "希望奖励资源可以多一点，想体验更多角色",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608171353534999505529754",
+      "amount": 30.0
+    }
+  ]
+}
