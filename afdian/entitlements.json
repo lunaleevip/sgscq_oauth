@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1786945740,
-  "count": 3197,
+  "updated_at": 1786946669,
+  "count": 3198,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -1494,6 +1494,20 @@
         {
           "out_trade_no": "202607052147045610248515448",
           "amount": 5.0
+        }
+      ]
+    },
+    "072ae5069a0011f1b0e952540025c377": {
+      "name": "爱发电用户_RurB",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 30.0,
+      "level": 1,
+      "plan_name": "希望奖励资源可以多一点，想体验更多角色",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608171353534999505529754",
+          "amount": 30.0
         }
       ]
     },
