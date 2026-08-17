@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1786981165,
+  "updated_at": 1786982665,
   "count": 100,
   "top100": [
     {
@@ -312,6 +312,15 @@
     {
       "user_id": "77a705527ae411f1b32d52540025c377",
       "name": "爱发电用户_fdDe",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 1005.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
+      "user_id": "7f97adce788d11f1985352540025c377",
+      "name": "爱发电用户_nKj7",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
       "amount": 1005.0,
       "level": 4,
@@ -892,15 +901,6 @@
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "5e06ef32766011f192765254001e7c00",
-      "name": "小神",
-      "avatar": "https://pic1.afdiancdn.com/user/5e06ef32766011f192765254001e7c00/avatar/a193a02e626268ca246be7abd1898b63_w1376_h808_s1025.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "加油！十年老玩家必须支持",
       "sponsor": true
     }
   ]
