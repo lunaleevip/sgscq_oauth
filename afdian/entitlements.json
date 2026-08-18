@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1787061929,
+  "updated_at": 1787064616,
   "count": 3253,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -15595,11 +15595,15 @@
     "4b8b9ba696ee11f1b6ea5254001e7c00": {
       "name": "嘲灾戏梦",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 12.0,
+      "amount": 18.0,
       "level": 1,
       "plan_name": "谢谢你",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608182232279810149432073",
+          "amount": 6.0
+        },
         {
           "out_trade_no": "202608151316311021024830382",
           "amount": 6.0
