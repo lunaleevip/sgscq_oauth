@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787025469,
-  "count": 3239,
+  "updated_at": 1787025866,
+  "count": 3240,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -24980,6 +24980,20 @@
       "orders": [
         {
           "out_trade_no": "202606062316245649995634440",
+          "amount": 5.0
+        }
+      ]
+    },
+    "74d412749a5711f19ffc5254001e7c00": {
+      "name": "牢底不会捏蓝",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a43fb0f1e2de4d3a5cca2dbe4c006ef9_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608181158369951564916793",
           "amount": 5.0
         }
       ]
