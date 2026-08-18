@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1787036634,
+  "updated_at": 1787036935,
   "count": 3246,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -56583,7 +56583,12 @@
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "202608181457555151565630037",
+          "amount": 5.0
+        }
+      ]
     },
     "ffa922a01e9211f09a0f52540025c377": {
       "name": "暗夜影随",
