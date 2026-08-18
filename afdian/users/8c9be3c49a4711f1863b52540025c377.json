@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1787011811,
+  "updated_at": 1787015045,
   "user_id": "8c9be3c49a4711f1863b52540025c377",
-  "name": "8c9be3c49a4711f1863b52540025c377",
-  "avatar": "",
+  "name": "玩三传",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
