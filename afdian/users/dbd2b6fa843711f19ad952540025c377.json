@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": 1787018635,
+  "updated_at": 1787020210,
   "user_id": "dbd2b6fa843711f19ad952540025c377",
   "name": "爱发电用户_BbCu",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-  "amount": 110.0,
+  "amount": 210.0,
   "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "20260720203826504848975243",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608181025159852535333209",
+      "amount": 100.0
     }
   ]
 }
