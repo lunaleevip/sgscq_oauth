@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787018635,
-  "count": 3236,
+  "updated_at": 1787022232,
+  "count": 3238,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -9162,6 +9162,20 @@
       "orders": [
         {
           "out_trade_no": "2026070404105850555497876",
+          "amount": 5.0
+        }
+      ]
+    },
+    "2b6a626e9a4d11f1ad915254001e7c00": {
+      "name": "爱发电用户_45J3",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "加油",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608181045479849519913368",
           "amount": 5.0
         }
       ]
@@ -36410,6 +36424,20 @@
         }
       ]
     },
+    "a70a1e3c9a7011f1942c52540025c377": {
+      "name": "liu",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608181018285210049439288",
+          "amount": 5.0
+        }
+      ]
+    },
     "a7597a5671ce11f1bd7e5254001e7c00": {
       "name": "盛夏寒雪",
       "avatar": "https://pic1.afdiancdn.com/user/a7597a5671ce11f1bd7e5254001e7c00/avatar/fe46ac67f1c7134ebc841b3edc7f0ae6_w1079_h601_s470.jpeg",
@@ -48659,13 +48687,21 @@
       ]
     },
     "dbd2b6fa843711f19ad952540025c377": {
-      "name": "爱发电用户_BbCu",
+      "name": "林",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 110.0,
-      "level": 2,
+      "amount": 510.0,
+      "level": 3,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608181041245250985414263",
+          "amount": 300.0
+        },
+        {
+          "out_trade_no": "202608181025159852535333209",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "20260726145419985351485238",
           "amount": 100.0
