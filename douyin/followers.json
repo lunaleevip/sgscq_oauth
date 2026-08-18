@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787018836,
-  "count": 3430,
-  "follower_object_count": 7312,
-  "identifier_count": 3430,
+  "generated_at": 1787026037,
+  "count": 3433,
+  "follower_object_count": 7372,
+  "identifier_count": 3433,
   "followers": [
     "9366638",
     "28532421",
@@ -1610,6 +1610,7 @@
     "67677262357",
     "67715131942",
     "67751944857",
+    "67842206490",
     "67920469171",
     "67920480655",
     "67938523839",
@@ -2338,6 +2339,7 @@
     "051228T",
     "0791.7916",
     "0791_7916",
+    "080120.lx",
     "09201129CC",
     "10567859ibanTV",
     "105910cqjg",
@@ -3432,6 +3434,7 @@
     "zqc_0909",
     "zqs526361",
     "zuihoudexiwa25",
+    "ZXT908875",
     "zyk2025zyk",
     "ZYNZDWMJHYGS",
     "zzc38",
@@ -8245,6 +8248,9 @@
     "67751944857": {
       "name": "蓝蝴蝶"
     },
+    "67842206490": {
+      "name": "运气王"
+    },
     "67920469171": {
       "name": "月"
     },
@@ -10428,6 +10434,9 @@
     },
     "0791_7916": {
       "name": "吃完饭再吃水果"
+    },
+    "080120.lx": {
+      "name": "gun"
     },
     "09201129CC": {
       "name": "顾飞"
@@ -13373,7 +13382,7 @@
       "name": "伊伐布雷定"
     },
     "xzc109052005": {
-      "name": "用户X"
+      "name": "戏志才"
     },
     "xzsAWH": {
       "name": "望安vov"
@@ -13701,6 +13710,9 @@
     },
     "zuihoudexiwa25": {
       "name": "有理凑［神驹佑将］"
+    },
+    "ZXT908875": {
+      "name": "殘蒛記憶"
     },
     "zyk2025zyk": {
       "name": "恺bro"
