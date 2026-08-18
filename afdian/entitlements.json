@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1787071683,
+  "updated_at": 1787072676,
   "count": 3257,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -12817,11 +12817,15 @@
     "3d0138be775611f196a45254001e7c00": {
       "name": "3d0138be775611f196a45254001e7c00",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c7edea90e3450954ff421cecd1d2966c_w100_h100_s3.jpeg",
-      "amount": 15.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "谢谢老大拯救三传",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608190044289953985140420",
+          "amount": 85.0
+        },
         {
           "out_trade_no": "20260718002746505757485628",
           "amount": 10.0
@@ -35521,7 +35525,12 @@
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "202608190043335354505433764",
+          "amount": 5.0
+        }
+      ]
     },
     "a28548be90e811f1ba0f5254001e7c00": {
       "name": "星辰",
@@ -39698,11 +39707,15 @@
     "b350e9c49a4211f1b75952540025c377": {
       "name": "丸子",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/e10d09b946ea7f96f53b6ff7fed91faa_w100_h100_s3.jpeg",
-      "amount": 5.0,
+      "amount": 15.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608190054125252102122999",
+          "amount": 10.0
+        },
         {
           "out_trade_no": "20260819000826979910215759",
           "amount": 5.0
@@ -44812,11 +44825,15 @@
     "c8d96bc699f811f1b41c52540025c377": {
       "name": "爱发电用户_PdXv",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 50.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "加油",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608190051165248531042488",
+          "amount": 50.0
+        },
         {
           "out_trade_no": "202608190038315549525411227",
           "amount": 45.0
