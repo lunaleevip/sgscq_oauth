@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1787067907,
+  "updated_at": 1787069091,
   "user_id": "b2e3dc363e0611ed97c852540025c377",
   "name": "一语清寒",
   "avatar": "https://pic1.afdiancdn.com/user/b2e3dc363e0611ed97c852540025c377/avatar/6267183967bdaf1df5813eb3dd21e801_w752_h1562_s197.jpg",
   "amount": 105.0,
   "level": 2,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
