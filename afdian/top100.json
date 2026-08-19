@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1787137468,
+  "updated_at": 1787139532,
   "count": 100,
   "top100": [
     {
@@ -769,6 +769,15 @@
       "sponsor": true
     },
     {
+      "user_id": "23ddfb748bd811f1b48a5254001e7c00",
+      "name": "千年之殇",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "d2f370ea745811f1a1765254001e7c00",
       "name": "南琴梨",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -889,15 +898,6 @@
       "user_id": "6dbfa624812f11f1920f52540025c377",
       "name": "安惘",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/8a387c5b3e094852385e711b50350dba_w100_h100_s1.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "8a238a5ed6fa11eb998852540025c377",
-      "name": "寂寞的死神",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
