@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1787136229,
+  "updated_at": 1787137468,
   "count": 3277,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -1564,11 +1564,15 @@
     "072ae5069a0011f1b0e952540025c377": {
       "name": "白夜",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 30.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "希望奖励资源可以多一点，想体验更多角色",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608191845044856995234884",
+          "amount": 70.0
+        },
         {
           "out_trade_no": "202608171353534999505529754",
           "amount": 30.0
