@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787139532,
-  "count": 3278,
+  "updated_at": 1787141075,
+  "count": 3279,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -8229,6 +8229,20 @@
         {
           "out_trade_no": "20260531170840565556514481",
           "amount": 10.0
+        }
+      ]
+    },
+    "2638b5369bc211f1ab6b52540025c377": {
+      "name": "雪豹",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608191937225148494912625",
+          "amount": 100.0
         }
       ]
     },
@@ -17353,11 +17367,15 @@
     "52b9e3e6955511f1a36c5254001e7c00": {
       "name": "道成绝恋",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/1458a0d829c15346918bb2b3afab2ddc_w100_h100_s15.png",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 1000.0,
+      "level": 4,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608191944095751574816020",
+          "amount": 900.0
+        },
         {
           "out_trade_no": "202608121603535754102131205",
           "amount": 95.0
