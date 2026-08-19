@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1787155522,
+  "updated_at": 1787157981,
   "count": 3297,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -11332,20 +11332,6 @@
         }
       ]
     },
-    "35abe5629b2f11f1b4205254001e7c00": {
-      "name": "一",
-      "avatar": "",
-      "amount": 5.0,
-      "level": 1,
-      "plan_name": "",
-      "sponsor": true,
-      "orders": [
-        {
-          "out_trade_no": "202608190205135754555619567",
-          "amount": 5.0
-        }
-      ]
-    },
     "35ad2dcc60f211f1b04152540025c377": {
       "name": "社长111",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -13721,11 +13707,15 @@
     "41295cb072d711f1813d5254001e7c00": {
       "name": "劳大吃外卖",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-      "amount": 101.0,
-      "level": 2,
-      "plan_name": "",
+      "amount": 500.0,
+      "level": 3,
+      "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608200007465051102143113",
+          "amount": 399.0
+        },
         {
           "out_trade_no": "202606301044095710151514875",
           "amount": 96.0
@@ -24577,11 +24567,15 @@
     "70f19b8c93b211f182aa5254001e7c00": {
       "name": "爱发电用户_64xb",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
+      "amount": 15.0,
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608200033341011004813849",
+          "amount": 10.0
+        },
         {
           "out_trade_no": "202608091323515553100533549",
           "amount": 5.0
@@ -43515,7 +43509,12 @@
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "202608190205135754555619567",
+          "amount": 5.0
+        }
+      ]
     },
     "c1806c848a7211f186b752540025c377": {
       "name": "zhhhh",
@@ -50838,6 +50837,20 @@
         {
           "out_trade_no": "202607090006275110050522645",
           "amount": 5.0
+        }
+      ]
+    },
+    "e173308498c411f180c852540025c377": {
+      "name": "辞勤",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c975cf2b8bfc3cc4a937c02cef171696_w100_h100_s2.jpeg",
+      "amount": 20.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608200035335356535518193",
+          "amount": 20.0
         }
       ]
     },
