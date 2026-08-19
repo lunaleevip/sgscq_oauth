@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787119636,
-  "count": 3471,
-  "follower_object_count": 8152,
-  "identifier_count": 3471,
+  "generated_at": 1787126836,
+  "count": 3473,
+  "follower_object_count": 8212,
+  "identifier_count": 3473,
   "followers": [
     "9366638",
     "28532421",
@@ -194,6 +194,7 @@
     "889572090",
     "892677276",
     "893270367",
+    "899565200",
     "901825439",
     "903187362",
     "912753206",
@@ -2717,6 +2718,7 @@
     "dyhtl6qme0o6",
     "dyi9zhhh8o1z",
     "dyi9zo4v88sm",
+    "dyimko98q799",
     "dyiuky80p5v4",
     "dyixjmgln6fo",
     "dyj017vdd51v",
@@ -4037,6 +4039,9 @@
     },
     "893270367": {
       "name": "羊村扛把子"
+    },
+    "899565200": {
+      "name": "不会忘记"
     },
     "901825439": {
       "name": "总是"
@@ -11600,6 +11605,9 @@
     },
     "dyi9zo4v88sm": {
       "name": "用户8359343529452"
+    },
+    "dyimko98q799": {
+      "name": "风止云梢"
     },
     "dyiuky80p5v4": {
       "name": "dmly"
