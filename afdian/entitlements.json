@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787148305,
-  "count": 3290,
+  "updated_at": 1787151045,
+  "count": 3293,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -7595,6 +7595,20 @@
         {
           "out_trade_no": "202607301347205655515619293",
           "amount": 100.0
+        }
+      ]
+    },
+    "23f82a4e9bd211f1bff552540025c377": {
+      "name": "芙蓉王つ♡⊂",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d3111b83b8ccaefbd71409071f4ef327_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608192202414910049938931",
+          "amount": 5.0
         }
       ]
     },
@@ -35588,6 +35602,20 @@
         }
       ]
     },
+    "a131306e9bd211f1989852540025c377": {
+      "name": "绅士",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/988b2e7628c86dbead264ea1a8f4d01f_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260819221645100544814016",
+          "amount": 5.0
+        }
+      ]
+    },
     "a1446ffe8fbf11f1a1775254001e7c00": {
       "name": "。。。。",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/f44a9bc06bbb21091e17b8da046be484_w100_h100_s2.jpeg",
@@ -46081,6 +46109,20 @@
         {
           "out_trade_no": "202607010041445655100514710",
           "amount": 5.0
+        }
+      ]
+    },
+    "cc5ec6b09bbf11f1a9d25254001e7c00": {
+      "name": "🔧人",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/07c80101b5d5b7ca1fcfba259a535b98_w100_h100_s3.jpeg",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608192244301015651510762",
+          "amount": 10.0
         }
       ]
     },
