@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1787116210,
+  "user_id": "7fafcfac9b6b11f19d1952540025c377",
+  "name": "7fafcfac9b6b11f19d1952540025c377",
+  "avatar": "",
+  "amount": 30.0,
+  "level": 1,
+  "plan_name": "奥利给",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608191307111025457125514",
+      "amount": 30.0
+    }
+  ]
+}
