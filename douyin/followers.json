@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787098037,
-  "count": 3462,
-  "follower_object_count": 7972,
-  "identifier_count": 3462,
+  "generated_at": 1787105236,
+  "count": 3464,
+  "follower_object_count": 8032,
+  "identifier_count": 3464,
   "followers": [
     "9366638",
     "28532421",
@@ -1556,6 +1556,7 @@
     "63806860029",
     "63834447319",
     "63995478100",
+    "64044414093",
     "64136118561",
     "64212098033",
     "64242031634",
@@ -2920,6 +2921,7 @@
     "jhf150",
     "ji57995",
     "jiangbiancha39",
+    "jiangminghan67",
     "jiangqingwan15",
     "jiangxiangdo21",
     "jiangzihao0502",
@@ -8115,6 +8117,9 @@
     "63995478100": {
       "name": "NAZA"
     },
+    "64044414093": {
+      "name": "薄a"
+    },
     "64136118561": {
       "name": "得楠妲呦"
     },
@@ -12200,6 +12205,9 @@
     },
     "jiangbiancha39": {
       "name": "鲨杀傻鲨"
+    },
+    "jiangminghan67": {
+      "name": "清小航"
     },
     "jiangqingwan15": {
       "name": "苦楝"
