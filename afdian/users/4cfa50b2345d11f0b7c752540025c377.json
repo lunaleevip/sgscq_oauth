@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1787235609,
+  "user_id": "4cfa50b2345d11f0b7c752540025c377",
+  "name": "4cfa50b2345d11f0b7c752540025c377",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "灼华",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "202608202216324854551013283",
+      "amount": 5.0
+    }
+  ]
+}
