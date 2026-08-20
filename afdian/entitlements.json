@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787204684,
-  "count": 3309,
+  "updated_at": 1787205862,
+  "count": 3310,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -20268,6 +20268,20 @@
         }
       ]
     },
+    "5e05d7be9c5811f18b2d5254001e7c00": {
+      "name": "koi",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a20708d99c61031d9c70a9b9358c9fc4_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260820134900991004851109",
+          "amount": 5.0
+        }
+      ]
+    },
     "5e06ef32766011f192765254001e7c00": {
       "name": "小神",
       "avatar": "https://pic1.afdiancdn.com/user/5e06ef32766011f192765254001e7c00/avatar/a193a02e626268ca246be7abd1898b63_w1376_h808_s1025.png",
@@ -28249,11 +28263,15 @@
     "7fafcfac9b6b11f19d1952540025c377": {
       "name": "游龙",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/5ab73c8ed91a29e7419b56aa4eb6e551_w100_h100_s5.jpeg",
-      "amount": 30.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "奥利给",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608201342465449995522124",
+          "amount": 70.0
+        },
         {
           "out_trade_no": "202608191307111025457125514",
           "amount": 30.0
