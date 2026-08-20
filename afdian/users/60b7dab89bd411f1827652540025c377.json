@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1787240958,
+  "updated_at": 1787241310,
   "user_id": "60b7dab89bd411f1827652540025c377",
   "name": "极光星",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3dc06050750d33106a221d7100ed8df9_w100_h100_s2.jpeg",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 1000.0,
+  "level": 4,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202608192326051009951914996",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608202353171009710120897",
+      "amount": 995.0
     }
   ]
 }
