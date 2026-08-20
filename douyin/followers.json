@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787206036,
-  "count": 3516,
-  "follower_object_count": 8872,
-  "identifier_count": 3516,
+  "generated_at": 1787213236,
+  "count": 3517,
+  "follower_object_count": 8932,
+  "identifier_count": 3517,
   "followers": [
     "9366638",
     "28532421",
@@ -820,6 +820,7 @@
     "32813750997",
     "32856051378",
     "32914975502",
+    "33036477975",
     "33050619474",
     "33144622150",
     "33177349161",
@@ -5960,6 +5961,9 @@
     },
     "32914975502": {
       "name": "忘忧草"
+    },
+    "33036477975": {
+      "name": "*"
     },
     "33050619474": {
       "name": "新之助"
