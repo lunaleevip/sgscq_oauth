@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787213236,
-  "count": 3517,
-  "follower_object_count": 8932,
-  "identifier_count": 3517,
+  "generated_at": 1787220437,
+  "count": 3519,
+  "follower_object_count": 8992,
+  "identifier_count": 3519,
   "followers": [
     "9366638",
     "28532421",
@@ -1902,6 +1902,7 @@
     "79642269570",
     "79727084643",
     "79733666922",
+    "79800111232",
     "79828790553",
     "79864004342",
     "79880996846",
@@ -2568,6 +2569,7 @@
     "breakthedate",
     "brl1224",
     "bububu54673",
+    "buguobumangv",
     "C_0419LoveA_1003",
     "c_372",
     "C_Yan0817_ZYB",
@@ -9208,6 +9210,9 @@
     "79733666922": {
       "name": "雪落"
     },
+    "79800111232": {
+      "name": "无尘"
+    },
     "79828790553": {
       "name": "[   ]"
     },
@@ -11205,6 +11210,9 @@
     },
     "bububu54673": {
       "name": "冬季"
+    },
+    "buguobumangv": {
+      "name": "不过不忙v"
     },
     "C_0419LoveA_1003": {
       "name": "小橙晓尘"
