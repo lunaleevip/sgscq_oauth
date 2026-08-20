@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1787240958,
+  "updated_at": 1787241919,
   "user_id": "33c86f56825f11f1b82152540025c377",
   "name": "词不达意",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
   "amount": 500.0,
   "level": 3,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {

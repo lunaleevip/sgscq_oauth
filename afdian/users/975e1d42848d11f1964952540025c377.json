@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1787240958,
+  "updated_at": 1787241919,
   "user_id": "975e1d42848d11f1964952540025c377",
   "name": "159753",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "自选方案",
+  "plan_name": "",
   "sponsor": true,
   "orders": [
     {
