@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787238308,
-  "count": 3322,
+  "updated_at": 1787240958,
+  "count": 3325,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -16360,6 +16360,20 @@
       "orders": [
         {
           "out_trade_no": "202606142316439853521020075",
+          "amount": 5.0
+        }
+      ]
+    },
+    "4cc0a9ba9ca411f1a14652540025c377": {
+      "name": "逝梦幻梦",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/14edfe97caebe46abf805513a7bc0732_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608202304334950555745856",
           "amount": 5.0
         }
       ]
@@ -45302,6 +45316,20 @@
         }
       ]
     },
+    "c5c37b16d67611eba3c552540025c377": {
+      "name": "gb",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "加油",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608202303035554989727407",
+          "amount": 5.0
+        }
+      ]
+    },
     "c5cfcc4c887611f197d95254001e7c00": {
       "name": "man17",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
@@ -56606,6 +56634,20 @@
         },
         {
           "out_trade_no": "202607101537044856984929374",
+          "amount": 5.0
+        }
+      ]
+    },
+    "f90e4576754211f1b8ae5254001e7c00": {
+      "name": "星月",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/a35e13546a2d6b70f3d8f47461d349de_w132_h132_s4.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608202319005298515615376",
           "amount": 5.0
         }
       ]
