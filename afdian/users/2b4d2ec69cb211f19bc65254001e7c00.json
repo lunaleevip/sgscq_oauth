@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1787325309,
+  "updated_at": 1787327295,
   "user_id": "2b4d2ec69cb211f19bc65254001e7c00",
-  "name": "2b4d2ec69cb211f19bc65254001e7c00",
-  "avatar": "",
+  "name": "逆命羽",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787324714,
-  "count": 3344,
+  "updated_at": 1787327295,
+  "count": 3345,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -9514,6 +9514,20 @@
       "orders": [
         {
           "out_trade_no": "20260622210914975549984537",
+          "amount": 5.0
+        }
+      ]
+    },
+    "2b4d2ec69cb211f19bc65254001e7c00": {
+      "name": "逆命羽",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608212314015749101411951",
           "amount": 5.0
         }
       ]
