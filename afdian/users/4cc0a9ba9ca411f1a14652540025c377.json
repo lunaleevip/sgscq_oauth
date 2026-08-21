@@ -1,17 +1,21 @@
 {
   "version": 1,
-  "updated_at": 1787292264,
+  "updated_at": 1787292908,
   "user_id": "4cc0a9ba9ca411f1a14652540025c377",
   "name": "逝梦幻梦",
   "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/14edfe97caebe46abf805513a7bc0732_w100_h100_s2.jpeg",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 100.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "202608202304334950555745856",
       "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608211410541015198520275",
+      "amount": 95.0
     }
   ]
 }
