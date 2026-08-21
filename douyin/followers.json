@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787292437,
-  "count": 3546,
-  "follower_object_count": 9592,
-  "identifier_count": 3546,
+  "generated_at": 1787299636,
+  "count": 3547,
+  "follower_object_count": 9652,
+  "identifier_count": 3547,
   "followers": [
     "9366638",
     "28532421",
@@ -948,6 +948,7 @@
     "37251266635",
     "37285046141",
     "37309841973",
+    "37391449927",
     "37428414135",
     "37445152080",
     "37554514084",
@@ -6374,6 +6375,9 @@
     },
     "37309841973": {
       "name": "用户8080463353835"
+    },
+    "37391449927": {
+      "name": "帅哥"
     },
     "37428414135": {
       "name": "我爱喝可乐🥤"
