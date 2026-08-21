@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787314037,
-  "count": 3554,
-  "follower_object_count": 9772,
-  "identifier_count": 3554,
+  "generated_at": 1787321236,
+  "count": 3558,
+  "follower_object_count": 9832,
+  "identifier_count": 3558,
   "followers": [
     "9366638",
     "28532421",
@@ -983,6 +983,7 @@
     "38731154573",
     "38733896308",
     "38770789106",
+    "38873239292",
     "38881190179",
     "38963793015",
     "38974562015",
@@ -1419,6 +1420,7 @@
     "56058605379",
     "56060475470",
     "56088405124",
+    "56107689327",
     "56151889405",
     "56200527890",
     "56205256779",
@@ -3110,6 +3112,7 @@
     "luckkily.9",
     "lucky0427my",
     "luoboxiao357",
+    "luoli625469.",
     "luoqiu17808",
     "luoying36680",
     "luoyususu",
@@ -3280,6 +3283,7 @@
     "sufeng91386",
     "suibian54456",
     "suibianqude286",
+    "Sunchenyi815",
     "Sunyy01.",
     "sunyz0348_",
     "suoai59073",
@@ -6488,6 +6492,9 @@
     "38770789106": {
       "name": "Aurora 3"
     },
+    "38873239292": {
+      "name": "6"
+    },
     "38881190179": {
       "name": "清和序"
     },
@@ -7795,6 +7802,9 @@
     },
     "56088405124": {
       "name": "非酋"
+    },
+    "56107689327": {
+      "name": "薛定谔的猫"
     },
     "56151889405": {
       "name": "663"
@@ -12860,6 +12870,9 @@
     "luoboxiao357": {
       "name": "我爱喝百事"
     },
+    "luoli625469.": {
+      "name": "Mainue."
+    },
     "luoqiu17808": {
       "name": "落秋"
     },
@@ -13369,6 +13382,9 @@
     },
     "suibianqude286": {
       "name": "随便取得"
+    },
+    "Sunchenyi815": {
+      "name": "厌世ᵐ🌾"
     },
     "Sunyy01.": {
       "name": "橘柚.."
