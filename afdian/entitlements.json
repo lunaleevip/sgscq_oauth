@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1787327295,
+  "updated_at": 1787328281,
   "count": 3345,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -1746,7 +1746,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/22b5ac0b9b2a42e21fc05794ae458615_w132_h132_s4.jpeg",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -3168,7 +3168,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -10677,7 +10677,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -11445,7 +11445,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/91933c8e9ce7ad5137e92c78183c5231_w100_h100_s3.jpeg",
       "amount": 500.0,
       "level": 3,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -11989,7 +11989,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 10.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -12517,7 +12517,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -13115,7 +13115,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
       "amount": 105.0,
       "level": 2,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -13559,7 +13559,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0e1bdcee3439347de29a53e7a4ebbcf7_w100_h100_s4.jpeg",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -14463,7 +14463,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d6942efaa580ee0832bdd9f377d14027_w100_h100_s2.jpeg",
       "amount": 100.0,
       "level": 2,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -20069,7 +20069,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -25037,11 +25037,15 @@
     "70bc6e969a5e11f1b96e52540025c377": {
       "name": "迷宕",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 101.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608212356245652565725572",
+          "amount": 96.0
+        },
         {
           "out_trade_no": "20260818010943555710052601",
           "amount": 5.0
@@ -28743,7 +28747,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
       "amount": 105.0,
       "level": 2,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -31161,11 +31165,15 @@
     "8acf5f008a7711ed916e52540025c377": {
       "name": "爱发电用户_e79t",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608212356555556101525389",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "20260816011903554899485481",
           "amount": 5.0
@@ -31259,7 +31267,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -35573,7 +35581,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/19d233781fa62832786243d1e9aed75f_w100_h100_s2.jpeg",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -42413,7 +42421,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -51217,7 +51225,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/cab28f14ac0c070a3585f3c886e3b9d5_w100_h100_s3.jpeg",
       "amount": 105.0,
       "level": 2,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -51941,7 +51949,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c011e1014e924521298e71f70a2426ba_w132_h132_s9.jpeg",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -53515,7 +53523,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -56083,7 +56091,7 @@
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
@@ -58297,7 +58305,7 @@
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0c6930b7a63d12b68b61b9747ba3c3be_w100_h100_s2.jpeg",
       "amount": 5.0,
       "level": 1,
-      "plan_name": "自选方案",
+      "plan_name": "",
       "sponsor": true,
       "orders": [
         {
