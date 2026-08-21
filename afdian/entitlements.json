@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787292264,
-  "count": 3331,
+  "updated_at": 1787295895,
+  "count": 3332,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -11984,6 +11984,20 @@
         }
       ]
     },
+    "37911d489d2d11f1b1ba52540025c377": {
+      "name": "迎光盛大逃亡",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+      "amount": 10.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260821145455102100568551",
+          "amount": 10.0
+        }
+      ]
+    },
     "37998fce86a211f1b1d45254001e7c00": {
       "name": "李",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
@@ -16381,11 +16395,15 @@
     "4cc0a9ba9ca411f1a14652540025c377": {
       "name": "逝梦幻梦",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/14edfe97caebe46abf805513a7bc0732_w100_h100_s2.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608211410541015198520275",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202608202304334950555745856",
           "amount": 5.0
