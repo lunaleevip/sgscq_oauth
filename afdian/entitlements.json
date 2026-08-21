@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1787312419,
+  "updated_at": 1787313923,
   "count": 3336,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -20761,7 +20761,12 @@
       "level": 4,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "202608211936109750991020499",
+          "amount": 1000.0
+        }
+      ]
     },
     "5f6313e27b4711f1a8865254001e7c00": {
       "name": "柚屿",
@@ -23658,7 +23663,12 @@
       "level": 1,
       "plan_name": "自选方案",
       "sponsor": true,
-      "orders": []
+      "orders": [
+        {
+          "out_trade_no": "202608211936334910153424699",
+          "amount": 5.0
+        }
+      ]
     },
     "6bbb05a8739711f18fae52540025c377": {
       "name": "爱发电用户_49AK",
@@ -28959,11 +28969,15 @@
     "81fd0db8962c11f184635254001e7c00": {
       "name": "迪拜国王",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/bd43a56024e1db877c51e159d7acf026_w100_h100_s4.jpeg",
-      "amount": 50.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608211939025454575425411",
+          "amount": 50.0
+        },
         {
           "out_trade_no": "202608151055134997564913928",
           "amount": 25.0
