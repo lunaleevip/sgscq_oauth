@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787342837,
-  "count": 3572,
-  "follower_object_count": 10012,
-  "identifier_count": 3572,
+  "generated_at": 1787350036,
+  "count": 3573,
+  "follower_object_count": 10072,
+  "identifier_count": 3573,
   "followers": [
     "9366638",
     "28532421",
@@ -367,6 +367,7 @@
     "1297415347",
     "1298046154",
     "1304146309",
+    "1305249625",
     "1307715851",
     "1308708628",
     "1325332359",
@@ -4657,6 +4658,9 @@
     },
     "1304146309": {
       "name": "无名之人"
+    },
+    "1305249625": {
+      "name": "风马"
     },
     "1307715851": {
       "name": "UpQ"
