@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787321122,
-  "count": 3342,
+  "updated_at": 1787323950,
+  "count": 3344,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -6807,6 +6807,20 @@
         {
           "out_trade_no": "202607200915079856100424637",
           "amount": 5.0
+        }
+      ]
+    },
+    "1f30a8f49d5011f1b7ca52540025c377": {
+      "name": "老衲用飘柔",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608211936109750991020499",
+          "amount": 1000.0
         }
       ]
     },
@@ -20790,20 +20804,6 @@
         }
       ]
     },
-    "5f48618a9d5411f1ae4952540025c377": {
-      "name": "爱发电用户_5f486",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true,
-      "orders": [
-        {
-          "out_trade_no": "202608211936109750991020499",
-          "amount": 1000.0
-        }
-      ]
-    },
     "5f6313e27b4711f1a8865254001e7c00": {
       "name": "柚屿",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0e93566499f73d7fabfd5e6305e7ba88_w100_h100_s2.jpeg",
@@ -21164,6 +21164,20 @@
         },
         {
           "out_trade_no": "202608192326051009951914996",
+          "amount": 5.0
+        }
+      ]
+    },
+    "60bad8d09d6911f1be855254001e7c00": {
+      "name": "洛 璃.",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/71192898b0692bde2c7a21b557270996_w100_h100_s3.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "加油加油",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260821220534101984953693",
           "amount": 5.0
         }
       ]
@@ -22323,6 +22337,20 @@
         {
           "out_trade_no": "202606082236119853541013849",
           "amount": 20.0
+        }
+      ]
+    },
+    "64e15cb29c4311f1816f5254001e7c00": {
+      "name": "致命圣诞",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/16b86415a713a893268904c3cb81d791_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608212234381015349512794",
+          "amount": 5.0
         }
       ]
     },
