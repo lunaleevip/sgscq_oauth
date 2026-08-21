@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787278036,
-  "count": 3542,
-  "follower_object_count": 9472,
-  "identifier_count": 3542,
+  "generated_at": 1787285236,
+  "count": 3544,
+  "follower_object_count": 9532,
+  "identifier_count": 3544,
   "followers": [
     "9366638",
     "28532421",
@@ -2974,6 +2974,7 @@
     "hzlhjr11180218",
     "IAN1183",
     "ibicunobb",
+    "ID1044581398",
     "iiyaaa11",
     "Ijndjhznwajjzjsh",
     "infantility8",
@@ -3051,6 +3052,7 @@
     "LeLeHappyevery",
     "lfy050218",
     "lh0210zjy",
+    "lh_00719",
     "LHCZYR24.1120",
     "Lian.Ton0106",
     "lianhongbinshish",
@@ -12443,6 +12445,9 @@
     "ibicunobb": {
       "name": "沉影逸思"
     },
+    "ID1044581398": {
+      "name": "长宁."
+    },
     "iiyaaa11": {
       "name": "芽."
     },
@@ -12670,6 +12675,9 @@
     },
     "lh0210zjy": {
       "name": "柒"
+    },
+    "lh_00719": {
+      "name": "刘大龙"
     },
     "LHCZYR24.1120": {
       "name": "我蒜什么"
