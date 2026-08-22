@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": 1787403957,
+  "updated_at": 1787405108,
   "user_id": "e1d367828e0711f1a5a05254001e7c00",
   "name": "刘青砚",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
-  "amount": 500.0,
-  "level": 3,
+  "amount": 1000.0,
+  "level": 4,
   "plan_name": "感谢大佬",
   "sponsor": true,
   "orders": [
@@ -20,6 +20,10 @@
     {
       "out_trade_no": "202608020841575349555516529",
       "amount": 10.0
+    },
+    {
+      "out_trade_no": "202608222121565257525047687",
+      "amount": 500.0
     }
   ]
 }
