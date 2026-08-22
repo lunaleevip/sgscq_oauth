@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": 1787423108,
+  "user_id": "b58941be9c4a11f1997e52540025c377",
+  "name": "b58941be9c4a11f1997e52540025c377",
+  "avatar": "",
+  "amount": 5.0,
+  "level": 1,
+  "plan_name": "童年的回忆复活了，为你点赞",
+  "sponsor": true,
+  "orders": [
+    {
+      "out_trade_no": "20260823022318544956577337",
+      "amount": 5.0
+    }
+  ]
+}
