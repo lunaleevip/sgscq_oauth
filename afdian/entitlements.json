@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787368252,
-  "count": 3360,
+  "updated_at": 1787371042,
+  "count": 3361,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -26145,11 +26145,15 @@
     "7508fcd89bcd11f18fb952540025c377": {
       "name": "显卡猫毛绒绒",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 20.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "加油大佬",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608221141545057515511500",
+          "amount": 80.0
+        },
         {
           "out_trade_no": "202608192056589757555121167",
           "amount": 20.0
@@ -52928,6 +52932,20 @@
       "orders": [
         {
           "out_trade_no": "20260817223549539952502429",
+          "amount": 5.0
+        }
+      ]
+    },
+    "e606292e9f3611ee9c2852540025c377": {
+      "name": "暑假社会",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "20260822112551102559954805",
           "amount": 5.0
         }
       ]

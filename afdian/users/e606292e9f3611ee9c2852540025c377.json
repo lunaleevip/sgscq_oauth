@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1787369410,
+  "updated_at": 1787371042,
   "user_id": "e606292e9f3611ee9c2852540025c377",
-  "name": "e606292e9f3611ee9c2852540025c377",
-  "avatar": "",
+  "name": "暑假社会",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
   "amount": 5.0,
   "level": 1,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
