@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1787407478,
+  "updated_at": 1787409425,
   "count": 3381,
   "users": {
     "002edf360a8f11ee837252540025c377": {
@@ -13203,11 +13203,15 @@
     "3c4a88ce9c9211f1b3575254001e7c00": {
       "name": "人间琢玉郎",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/04f18bc9b1588315459ee958a264f186_w132_h132_s4.jpeg",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 100.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "20260822220447102555391424",
+          "amount": 95.0
+        },
         {
           "out_trade_no": "202608202026209910049510913",
           "amount": 5.0
@@ -15103,11 +15107,15 @@
     "456c6bd686c411f1ba4452540025c377": {
       "name": "寸竹",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/df47f2f32ee07ce1387c074385482217_w100_h100_s5.jpeg",
-      "amount": 1000.0,
-      "level": 4,
+      "amount": 5000.0,
+      "level": 5,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608222215145050985038728",
+          "amount": 4000.0
+        },
         {
           "out_trade_no": "202607302323175357100431441",
           "amount": 500.0
@@ -59384,6 +59392,15 @@
       "sponsor": true
     },
     {
+      "user_id": "456c6bd686c411f1ba4452540025c377",
+      "name": "寸竹",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/df47f2f32ee07ce1387c074385482217_w100_h100_s5.jpeg",
+      "amount": 5000.0,
+      "level": 5,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "3662420a817e11f1b3ec5254001e7c00",
       "name": "小沈很馨蔚",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/34a0fdbfd611f43cbe231ca5231b4c68_w132_h132_s3.jpeg",
@@ -60116,15 +60133,6 @@
       "user_id": "37a4bd76946311f1aa705254001e7c00",
       "name": "夜不眠丶小淡淡",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "60b7dab89bd411f1827652540025c377",
-      "name": "夜幕降临",
-      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/3dc06050750d33106a221d7100ed8df9_w100_h100_s2.jpeg",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
