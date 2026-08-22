@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1787409425,
+  "updated_at": 1787411077,
   "count": 100,
   "top100": [
     {
@@ -805,6 +805,15 @@
       "sponsor": true
     },
     {
+      "user_id": "df5f8350939811f181a752540025c377",
+      "name": "刚子",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 1000.0,
+      "level": 4,
+      "plan_name": "自选方案",
+      "sponsor": true
+    },
+    {
       "user_id": "94245c528ebe11efb1e85254001e7c00",
       "name": "别忘记从前",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
@@ -889,15 +898,6 @@
       "user_id": "f57980bc7e0f11f19cd652540025c377",
       "name": "城郊牧笛声",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/0dba56a9408b284357b3e228cadfe5e3_w100_h100_s2.jpeg",
-      "amount": 1000.0,
-      "level": 4,
-      "plan_name": "自选方案",
-      "sponsor": true
-    },
-    {
-      "user_id": "37a4bd76946311f1aa705254001e7c00",
-      "name": "夜不眠丶小淡淡",
-      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
       "amount": 1000.0,
       "level": 4,
       "plan_name": "自选方案",
