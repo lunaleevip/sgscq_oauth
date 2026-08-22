@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787363357,
-  "count": 3359,
+  "updated_at": 1787364274,
+  "count": 3360,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -4128,6 +4128,20 @@
         },
         {
           "out_trade_no": "202606270210015754495116992",
+          "amount": 5.0
+        }
+      ]
+    },
+    "12e03bb09dcc11f1b3a952540025c377": {
+      "name": "123455",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608220956235553975735068",
           "amount": 5.0
         }
       ]
@@ -17031,13 +17045,17 @@
       ]
     },
     "4ef05ede9dc011f1811252540025c377": {
-      "name": "爱发电用户_g4nS",
+      "name": "你好",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 105.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608220955249953999916035",
+          "amount": 100.0
+        },
         {
           "out_trade_no": "202608220829285651485429542",
           "amount": 5.0
