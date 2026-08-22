@@ -1,16 +1,24 @@
 {
   "version": 1,
-  "updated_at": 1787375087,
+  "updated_at": 1787375109,
   "user_id": "e606292e9f3611ee9c2852540025c377",
   "name": "暑假社会",
   "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-  "amount": 5.0,
-  "level": 1,
+  "amount": 110.0,
+  "level": 2,
   "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
       "out_trade_no": "20260822112551102559954805",
+      "amount": 5.0
+    },
+    {
+      "out_trade_no": "202608221304291005210123158",
+      "amount": 100.0
+    },
+    {
+      "out_trade_no": "202608221302005697571026734",
       "amount": 5.0
     }
   ]
