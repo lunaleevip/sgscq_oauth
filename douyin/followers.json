@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787407639,
-  "count": 3600,
-  "follower_object_count": 10552,
-  "identifier_count": 3600,
+  "generated_at": 1787414836,
+  "count": 3602,
+  "follower_object_count": 10612,
+  "identifier_count": 3602,
   "followers": [
     "9366638",
     "28532421",
@@ -456,6 +456,7 @@
     "1840385626",
     "1841976077",
     "1861165489",
+    "1872456376",
     "1878614533",
     "1880427138",
     "1881948864",
@@ -3333,6 +3334,7 @@
     "Tan310316163",
     "tangmubeicun",
     "tbl202432",
+    "TD10010",
     "TheAnonymity",
     "TheGoat83589",
     "TheH31297",
@@ -4952,6 +4954,9 @@
     },
     "1861165489": {
       "name": "风中的林"
+    },
+    "1872456376": {
+      "name": "大东"
     },
     "1878614533": {
       "name": "小小煜子"
@@ -13574,6 +13579,9 @@
     },
     "tbl202432": {
       "name": "hassen"
+    },
+    "TD10010": {
+      "name": "连山归藏"
     },
     "TheAnonymity": {
       "name": "蒲公英"
