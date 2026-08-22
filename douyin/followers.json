@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787378837,
-  "count": 3589,
-  "follower_object_count": 10312,
-  "identifier_count": 3589,
+  "generated_at": 1787386037,
+  "count": 3590,
+  "follower_object_count": 10372,
+  "identifier_count": 3590,
   "followers": [
     "9366638",
     "28532421",
@@ -453,6 +453,7 @@
     "1840385626",
     "1841976077",
     "1861165489",
+    "1878614533",
     "1880427138",
     "1881948864",
     "1883018913",
@@ -4932,6 +4933,9 @@
     },
     "1861165489": {
       "name": "风中的林"
+    },
+    "1878614533": {
+      "name": "小小煜子"
     },
     "1880427138": {
       "name": "あ浅夏ㄅ"
