@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787389494,
-  "count": 3375,
+  "updated_at": 1787391616,
+  "count": 3376,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -10012,6 +10012,20 @@
         }
       ]
     },
+    "2dd33c829e0911f1868052540025c377": {
+      "name": "书天下",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 100.0,
+      "level": 2,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608221711375710198930916",
+          "amount": 100.0
+        }
+      ]
+    },
     "2dddb8dc72fc11eeade752540025c377": {
       "name": "T",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/c5d8c69f1f256f2cda8427c2289fe03c_w132_h132_s7.jpeg",
@@ -12893,11 +12907,15 @@
     "3b62216405f211ed937a52540025c377": {
       "name": "STILLCC",
       "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/d0b0b768807e76f038d696b61c1a23b5_w132_h132_s3.jpeg",
-      "amount": 100.0,
-      "level": 2,
+      "amount": 500.0,
+      "level": 3,
       "plan_name": "加油老大 你是最棒的",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608221728195110051424037",
+          "amount": 400.0
+        },
         {
           "out_trade_no": "202607270056215357565528345",
           "amount": 80.0

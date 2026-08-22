@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": 1787390111,
+  "updated_at": 1787391616,
   "user_id": "2dd33c829e0911f1868052540025c377",
-  "name": "2dd33c829e0911f1868052540025c377",
-  "avatar": "",
+  "name": "书天下",
+  "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
   "amount": 100.0,
   "level": 2,
-  "plan_name": "",
+  "plan_name": "自选方案",
   "sponsor": true,
   "orders": [
     {
