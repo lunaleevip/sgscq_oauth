@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787371637,
-  "count": 3587,
-  "follower_object_count": 10252,
-  "identifier_count": 3587,
+  "generated_at": 1787378837,
+  "count": 3589,
+  "follower_object_count": 10312,
+  "identifier_count": 3589,
   "followers": [
     "9366638",
     "28532421",
@@ -1951,6 +1951,7 @@
     "80045983571",
     "80059745233",
     "80086574896",
+    "80235859526",
     "80238359577",
     "80260973947",
     "80330011265",
@@ -2979,6 +2980,7 @@
     "HonRonYyi",
     "houdounialigaduo",
     "houmochenlei",
+    "Hovs0523",
     "hsgyjj327",
     "HSZ302338",
     "hua15070567884",
@@ -9425,6 +9427,9 @@
     "80086574896": {
       "name": "乌东"
     },
+    "80235859526": {
+      "name": "66"
+    },
     "80238359577": {
       "name": "jm娘来了"
     },
@@ -12502,6 +12507,9 @@
     },
     "houmochenlei": {
       "name": "侯莫陈雷"
+    },
+    "Hovs0523": {
+      "name": "11"
     },
     "hsgyjj327": {
       "name": "及時雨"
