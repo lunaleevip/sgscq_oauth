@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787386037,
-  "count": 3590,
-  "follower_object_count": 10372,
-  "identifier_count": 3590,
+  "generated_at": 1787393237,
+  "count": 3593,
+  "follower_object_count": 10432,
+  "identifier_count": 3593,
   "followers": [
     "9366638",
     "28532421",
@@ -137,6 +137,7 @@
     "618367527",
     "619690521",
     "627157086",
+    "628874228",
     "631513790",
     "658298644",
     "659094080",
@@ -345,6 +346,7 @@
     "1223503912",
     "1225656442",
     "1230168542",
+    "1230967779",
     "1231606121",
     "1232389212",
     "1236610228",
@@ -2897,6 +2899,7 @@
     "dyyx6zn1l9sl",
     "dyz0msk46qcp",
     "dyz4s1hbd64x",
+    "dyz56mah56vg",
     "dyzn8nr0thop",
     "dyzzvoei4otu",
     "Easylove6109",
@@ -3986,6 +3989,9 @@
     "627157086": {
       "name": "秋水仙碱"
     },
+    "628874228": {
+      "name": "啊对对对对对"
+    },
     "631513790": {
       "name": "花葱吃不"
     },
@@ -4609,6 +4615,9 @@
     },
     "1230168542": {
       "name": "惊飞云"
+    },
+    "1230967779": {
+      "name": "莫相识"
     },
     "1231606121": {
       "name": "景知"
@@ -12259,6 +12268,9 @@
     },
     "dyz4s1hbd64x": {
       "name": "呱呱呱"
+    },
+    "dyz56mah56vg": {
+      "name": "LCX"
     },
     "dyzn8nr0thop": {
       "name": "ffqqq"
