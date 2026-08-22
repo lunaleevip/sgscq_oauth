@@ -2,10 +2,10 @@
   "version": 1,
   "platform": "douyin",
   "target_id": "MS4wLjABAAAA-TXptUA8uZONQJpjl8c_l6seYJUw7Az1_GZ74zENB7w",
-  "generated_at": 1787350036,
-  "count": 3573,
-  "follower_object_count": 10072,
-  "identifier_count": 3573,
+  "generated_at": 1787357236,
+  "count": 3575,
+  "follower_object_count": 10132,
+  "identifier_count": 3575,
   "followers": [
     "9366638",
     "28532421",
@@ -1759,6 +1759,7 @@
     "71278461642",
     "71296513435",
     "71303191620",
+    "71318204182",
     "71340018642",
     "71384866465",
     "71391129782",
@@ -3374,6 +3375,7 @@
     "wwbjzgn",
     "wwshzgbq",
     "wxbyyds159063",
+    "wxmtbc",
     "wxy2356789",
     "wza.080407",
     "wzy20030308",
@@ -8835,6 +8837,9 @@
     "71303191620": {
       "name": ".........."
     },
+    "71318204182": {
+      "name": "惩意亭♣"
+    },
     "71340018642": {
       "name": "听江汐"
     },
@@ -13670,6 +13675,9 @@
     },
     "wxbyyds159063": {
       "name": "小王🛏"
+    },
+    "wxmtbc": {
+      "name": "鲁迪乌斯"
     },
     "wxy2356789": {
       "name": "保持平稳气场"
