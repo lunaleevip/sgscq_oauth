@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": 1787375087,
-  "count": 3364,
+  "updated_at": 1787377299,
+  "count": 3367,
   "users": {
     "002edf360a8f11ee837252540025c377": {
       "name": "白开水",
@@ -13170,6 +13170,20 @@
         },
         {
           "out_trade_no": "202607141941065097981012855",
+          "amount": 5.0
+        }
+      ]
+    },
+    "3c57ff229cd311f199ac5254001e7c00": {
+      "name": "崔畅说",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "2026082213220510048535617",
           "amount": 5.0
         }
       ]
@@ -50082,6 +50096,20 @@
         }
       ]
     },
+    "d81468d29da611f1a8b55254001e7c00": {
+      "name": "爱发电用户_d8146",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608221305425497555021671",
+          "amount": 5.0
+        }
+      ]
+    },
     "d81a4e2882a311f1908352540025c377": {
       "name": "爱发电用户_W3uG",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
@@ -50423,6 +50451,20 @@
         {
           "out_trade_no": "202606242025105453100511812",
           "amount": 20.0
+        }
+      ]
+    },
+    "d9aad9c69dc211f1801a5254001e7c00": {
+      "name": "天华",
+      "avatar": "https://pic1.afdiancdn.com/user/user_upload_osl/08c7123f18e01e03105c522deceb8149_w100_h100_s2.jpeg",
+      "amount": 5.0,
+      "level": 1,
+      "plan_name": "自选方案",
+      "sponsor": true,
+      "orders": [
+        {
+          "out_trade_no": "202608221323124850971037984",
+          "amount": 5.0
         }
       ]
     },
@@ -53001,11 +53043,19 @@
     "e606292e9f3611ee9c2852540025c377": {
       "name": "暑假社会",
       "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
-      "amount": 5.0,
-      "level": 1,
+      "amount": 110.0,
+      "level": 2,
       "plan_name": "自选方案",
       "sponsor": true,
       "orders": [
+        {
+          "out_trade_no": "202608221304291005210123158",
+          "amount": 100.0
+        },
+        {
+          "out_trade_no": "202608221302005697571026734",
+          "amount": 5.0
+        },
         {
           "out_trade_no": "20260822112551102559954805",
           "amount": 5.0
